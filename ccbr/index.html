@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="title" content="Controllable and Content-Based Recommendations">
+  <meta name="description" content="CCBR introduces controllability to collaborative filtering via text-based user profiles derived from multimodal item content (images, audio, video).">
+  <meta name="keywords" content="recommendation system, controllable recommendation, content-based filtering, collaborative filtering, multimodal, LLM, NeurIPS 2026">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="language" content="English">
+
+  <title>Controllable and Content-Based Recommendations | NeurIPS 2026</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+
+  <!-- Critical CSS -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <!-- Non-critical CSS -->
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+
+  <style>
+    .contribution-item {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      margin-bottom: 1.2rem;
+    }
+    .contribution-number {
+      min-width: 2rem;
+      height: 2rem;
+      background: #485fc7;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+      margin-top: 0.1rem;
+    }
+    .contribution-text {
+      margin: 0;
+      line-height: 1.6;
+    }
+.tag-badge {
+      display: inline-block;
+      background: #485fc7;
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .under-review-badge {
+      display: inline-block;
+      background: #f5a623;
+      color: white;
+      padding: 0.2rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+
+  <!-- Hero / Title Section -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+
+            <div class="tag-badge">NeurIPS 2026</div>
+
+            <h1 class="title is-1 publication-title">
+              Controllable and Content-Based Recommendations
+            </h1>
+
+            <div class="is-size-5 publication-authors" style="margin-top: 0.8rem;">
+              <span class="author-block">Anonymous Author(s)</span>
+            </div>
+
+            <div class="is-size-6 publication-authors" style="margin-top: 0.4rem; color: #777;">
+              <span class="author-block">Anonymous Affiliation &nbsp;·&nbsp; Anonymous Address</span>
+            </div>
+
+            <!-- Demo Video -->
+            <div style="margin: 1.5rem auto 1rem auto; max-width: 100%;">
+              <video
+                controls
+                preload="metadata"
+                playsinline
+                style="width: 70%; height: auto; border-radius: 8px; border: 1px solid #e0e0e0; display: block; margin: 0 auto;">
+                <source src="Demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            <div style="margin-top: 0.6rem;">
+                  <a href="demo.html"
+                     class="external-link button is-large is-rounded is-dark"
+                     style="font-size: 2.1875rem; padding: 1.875rem 3.125rem;">
+                    <span class="icon"><i class="fas fa-play-circle"></i></span>
+                    <span>CCBR Intervention Demo</span>
+                  </a>
+            </div>
+
+            <div class="column has-text-centered" style="margin-top: 0.5rem;">
+              <div class="publication-links">
+
+                <span class="link-block">
+                  <a href="ContentBasedRecSys__NIPS2026_.pdf" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="main_arch_CCBR.pdf" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-project-diagram"></i></span>
+                    <span>Architecture</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="https://anonymous.4open.science/r/CCBR-NeurIPS-2026-444C/"
+                     target="_blank" rel="noopener noreferrer"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Traditional recommendation systems rely on latent (dense) representations, making them difficult to interpret and control. We propose the <strong>Controllable Content-Based Recommendations (CCBR)</strong> framework, which builds its recommendations from textual user profile representations. CCBR plugs into collaborative filtering models and introduces controllability via text bottlenecks. We show that CCBR enables text-based and multimodal interventions, allowing users to steer the model towards the directions they prefer. Different from existing controllable recommendation systems, CCBR infers the text summaries directly from item contents (images, audio or videos). Across image-, audio-, and video-based datasets, we demonstrate that the proposed framework obtains competitive model performance with standard (latent-representation) models while providing controllable model summaries via text. The model also outperforms a controllable recommendation system baseline. Through systematic interventions, we also demonstrate the efficacy of the user steering mechanism.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Architecture -->
+  <section class="section">
+    <div class="container is-max-widescreen">
+      <h2 class="title is-3 has-text-centered">Method Overview</h2>
+
+      <img src="static/images/main_arch_CCBR.png" alt="CCBR pipeline overview" style="width: 100%; border-radius: 8px; border: 1px solid #e0e0e0;">
+
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <p>
+              <strong>Overview of the CCBR pipeline.</strong>
+              Item-level content (images, audio, or video) is first verbalized into natural-language descriptions by a multimodal language model (Large Multimodal Language Model), and a text-only LLM then aggregates each user's interacted items into a textual preference profile <strong>(Stage 1: Content-Based Profile Construction)</strong>. The profile is encoded by a trainable language embedder (BGE-M3) and a linear projection head, and trained with a tag-alignment objective <strong>(Stage 2: Profile-Tag Alignment)</strong>. This text-side representation is aligned with the user latent from a frozen collaborative filtering backbone via an InfoNCE objective, and the CF decoder is reused to score candidate items <strong>(Stage 3: Collaborative Filtering Alignment)</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contributions -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Contributions</h2>
+          <div class="content" style="text-align: left; margin-top: 1rem;">
+
+            <div class="contribution-item">
+              <div class="contribution-number">1</div>
+              <p class="contribution-text">
+                We propose <strong>CCBR</strong>, a framework that introduces controllability to a given collaborative filtering model in a content-driven, multimodal way through a text-based, editable user summary. Unlike prior controllable systems, CCBR derives user profiles directly from raw item content (images, audio, video) without relying on predefined concepts or metadata.
+              </p>
+            </div>
+
+            <div class="contribution-item">
+              <div class="contribution-number">2</div>
+              <p class="contribution-text">
+                We demonstrate that, despite adding controllability, CCBR does <strong>not significantly deteriorate recommendation performance</strong> across several popular collaborative filtering backbones (EASE, EDLAE, DAE, Multi-DAE, Multi-VAE, MacridVAE), and outperforms a controllable recommendation system baseline.
+              </p>
+            </div>
+
+            <div class="contribution-item">
+              <div class="contribution-number">3</div>
+              <p class="contribution-text">
+                We show that CCBR can <strong>steer recommendations</strong> by incorporating previously unseen multimodal inputs, enabling users to actively guide the system toward their current preferences through systematic text-based or multimodal interventions.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BibTeX -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{anonymous2026ccbr,
+  title     = {Controllable and Content-Based Recommendations},
+  author    = {Anonymous Author(s)},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2026},
+  note      = {Under review. Do not distribute.}
+}</code></pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </main>
+
+</body>
+</html>

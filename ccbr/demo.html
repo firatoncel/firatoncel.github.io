@@ -1,0 +1,4326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="title" content="CCBR Intervention Demo">
+  <meta name="description" content="Interactive walk-through of the Controllable Content-Based Recommendation pipeline: image to description, item set to summary, summary to predictions, and steered interventions.">
+  <meta name="robots" content="noindex, nofollow">
+
+  <title>Intervention Demo | Controllable and Content-Based Recommendations</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="static/css/fontawesome.all.min.css"></noscript>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/diff-match-patch@1.0.5/index.min.js"></script>
+
+  <style>
+    /* ============================================================
+       Demo page custom styles
+       ============================================================ */
+    .demo-tabs {
+      display: flex;
+      gap: 0.5rem;
+      border-bottom: 2px solid #e2e8f0;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    .demo-tab {
+      padding: 0.9rem 1.5rem;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      border-bottom: 3px solid transparent;
+      color: #64748b;
+      font-weight: 600;
+      font-size: 0.95rem;
+      font-family: inherit;
+      transition: all 0.2s ease;
+      margin-bottom: -2px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .demo-tab:hover {
+      color: #2563eb;
+      background: rgba(37, 99, 235, 0.04);
+    }
+    .demo-tab.active {
+      color: #2563eb;
+      border-bottom-color: #2563eb;
+    }
+    .demo-tab .stage-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.5rem;
+      height: 1.5rem;
+      background: #e2e8f0;
+      color: #475569;
+      border-radius: 50%;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+    .demo-tab.active .stage-num {
+      background: #2563eb;
+      color: white;
+    }
+
+    .demo-panel {
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+    .demo-panel.active {
+      display: block;
+    }
+    /* Intervention panels are always visible for the active dataset
+       (they live at the top of the page, outside the tab system). */
+    #interventions-root .demo-panel { display: none; }
+    body[data-dataset="hm"]    #interventions-root .demo-panel[data-ds="hm"],
+    body[data-dataset="ml20m"] #interventions-root .demo-panel[data-ds="ml20m"],
+    body[data-dataset="msd"]   #interventions-root .demo-panel[data-ds="msd"] {
+      display: block !important;
+    }
+    /* A demo-panel is only shown when its dataset matches the current one. */
+    body[data-dataset="hm"]    .demo-panel[data-ds="ml20m"],
+    body[data-dataset="hm"]    .demo-panel[data-ds="msd"],
+    body[data-dataset="ml20m"] .demo-panel[data-ds="hm"],
+    body[data-dataset="ml20m"] .demo-panel[data-ds="msd"],
+    body[data-dataset="msd"]   .demo-panel[data-ds="hm"],
+    body[data-dataset="msd"]   .demo-panel[data-ds="ml20m"] {
+      display: none !important;
+    }
+
+    /* Dataset switcher pills */
+    .dataset-switcher {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    /* Intro block for the secondary (non-intervention) sections */
+    .explore-section-intro {
+      border-top: 1px solid #e2e8f0;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      margin-bottom: 1.25rem;
+    }
+    .explore-section-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin: 0 0 0.4rem 0;
+    }
+    .explore-section-subtitle {
+      font-size: 0.92rem;
+      color: #64748b;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .ds-pill {
+      background: white;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 999px;
+      padding: 0.5rem 1.1rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #475569;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .ds-pill:hover {
+      border-color: #2563eb;
+      color: #2563eb;
+    }
+    .ds-pill.active {
+      background: #2563eb;
+      border-color: #2563eb;
+      color: white;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Pipeline flow visualization */
+    .pipeline-flow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin: 1.5rem 0 2rem;
+      padding: 1rem;
+      background: #f8fafc;
+      border-radius: 12px;
+    }
+    .pipeline-node {
+      padding: 0.6rem 1rem;
+      background: white;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #334155;
+    }
+    .pipeline-node.model {
+      background: #eff6ff;
+      border-color: #93c5fd;
+      color: #1d4ed8;
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 0.8rem;
+    }
+    .pipeline-arrow {
+      color: #94a3b8;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    /* Carousel for Stage 0 */
+    .carousel-container {
+      position: relative;
+      background: #f8fafc;
+      border-radius: 16px;
+      padding: 2rem;
+      border: 1px solid #e2e8f0;
+    }
+    .carousel-viewport {
+      display: flex;
+      align-items: stretch;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .carousel-image-col {
+      flex: 0 0 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .carousel-image {
+      width: 280px;
+      height: 360px;
+      background: #fff;
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
+      object-fit: cover;
+      display: block;
+    }
+    .image-placeholder {
+      width: 280px;
+      height: 360px;
+      background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #94a3b8;
+      font-size: 3rem;
+    }
+    .carousel-content-col {
+      flex: 1;
+      min-width: 320px;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .metadata-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 0.6rem;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+    }
+    .metadata-item {
+      font-size: 0.82rem;
+    }
+    .metadata-label {
+      color: #94a3b8;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.15rem;
+    }
+    .metadata-value {
+      color: #1e293b;
+      font-weight: 600;
+    }
+    .description-box {
+      background: white;
+      padding: 1rem 1.2rem;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+      border-left: 3px solid #2563eb;
+      font-size: 0.92rem;
+      line-height: 1.6;
+      color: #334155;
+    }
+    .description-box .label-tag {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 0.15rem 0.6rem;
+      border-radius: 12px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .match-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: #ecfdf5;
+      color: #065f46;
+      padding: 0.3rem 0.7rem;
+      border-radius: 12px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      margin-top: 0.4rem;
+    }
+
+    .carousel-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1.5rem;
+      gap: 1rem;
+    }
+    .carousel-btn {
+      padding: 0.6rem 1.2rem;
+      background: white;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      color: #334155;
+      font-family: inherit;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .carousel-btn:hover:not(:disabled) {
+      border-color: #2563eb;
+      color: #2563eb;
+    }
+    .carousel-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    .carousel-dots {
+      display: flex;
+      gap: 0.4rem;
+    }
+    .carousel-dot {
+      width: 0.6rem;
+      height: 0.6rem;
+      border-radius: 50%;
+      background: #cbd5e1;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: none;
+      padding: 0;
+    }
+    .carousel-dot.active {
+      background: #2563eb;
+      transform: scale(1.3);
+    }
+    .carousel-counter {
+      font-weight: 600;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+
+    /* Stage 1: item set + summary */
+    .item-set-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+      gap: 0.6rem;
+      max-height: 480px;
+      overflow-y: auto;
+      padding: 0.5rem;
+      background: #f8fafc;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+    }
+    .item-chip {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 0.4rem;
+      text-align: center;
+      transition: transform 0.15s;
+    }
+    .item-chip:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.08);
+    }
+    .item-chip img, .item-chip .item-thumb-placeholder {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      border-radius: 4px;
+      background: #f1f5f9;
+      display: block;
+    }
+    .item-thumb-placeholder {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      color: #cbd5e1;
+      font-size: 1.4rem;
+    }
+    .item-chip .item-id {
+      font-size: 0.7rem;
+      color: #64748b;
+      font-weight: 600;
+      margin-top: 0.25rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .stage-card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .stage-card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .stage-card-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin: 0;
+    }
+    .stage-card-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      height: 2rem;
+      background: #eff6ff;
+      color: #2563eb;
+      border-radius: 8px;
+    }
+
+    .summary-text {
+      background: #f8fafc;
+      padding: 1.2rem;
+      border-radius: 8px;
+      border-left: 3px solid #2563eb;
+      font-size: 0.92rem;
+      line-height: 1.7;
+      color: #334155;
+    }
+
+    /* Top-K recommendations gallery */
+    .topk-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 0.75rem;
+    }
+    .topk-item {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.15s;
+      position: relative;
+    }
+    .topk-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 12px -4px rgb(0 0 0 / 0.12);
+    }
+    .topk-item img, .topk-item .topk-placeholder {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      background: #f1f5f9;
+      display: block;
+    }
+    .topk-placeholder {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      color: #cbd5e1;
+      font-size: 1.6rem;
+    }
+    .topk-rank {
+      position: absolute;
+      top: 0.4rem;
+      left: 0.4rem;
+      background: rgba(37, 99, 235, 0.95);
+      color: white;
+      padding: 0.1rem 0.35rem;
+      border-radius: 10px;
+      font-size: 0.6rem;
+      font-weight: 700;
+    }
+    .topk-info {
+      padding: 0.5rem;
+      font-size: 0.75rem;
+    }
+    .topk-name {
+      font-weight: 600;
+      color: #1e293b;
+      margin-bottom: 0.15rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .topk-meta {
+      color: #64748b;
+      font-size: 0.7rem;
+    }
+
+    /* Bar charts for predictions */
+    .pred-chart {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.2rem;
+    }
+    .pred-chart-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 1rem;
+    }
+    .bar-row {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.4rem;
+    }
+    .bar-label {
+      flex: 0 0 110px;
+      font-size: 0.78rem;
+      color: #475569;
+      font-weight: 500;
+      text-align: right;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .bar-track {
+      flex: 1;
+      height: 1.2rem;
+      background: #f1f5f9;
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+    }
+    .bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #93c5fd, #2563eb);
+      border-radius: 4px;
+      transition: width 0.4s ease;
+    }
+    .bar-fill.top {
+      background: linear-gradient(90deg, #3b82f6, #1d4ed8);
+    }
+    .bar-fill.dim {
+      background: #cbd5e1;
+    }
+    .bar-value {
+      flex: 0 0 50px;
+      font-size: 0.75rem;
+      color: #64748b;
+      font-weight: 600;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Color swatches inline */
+    .color-swatch {
+      display: inline-block;
+      width: 0.8rem;
+      height: 0.8rem;
+      border-radius: 3px;
+      margin-right: 0.4rem;
+      vertical-align: middle;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    /* Intervention sub-tabs */
+    .subtabs {
+      display: flex;
+      gap: 0.4rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      background: #f1f5f9;
+      padding: 0.3rem;
+      border-radius: 10px;
+    }
+    .subtab {
+      padding: 0.55rem 1.1rem;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      border-radius: 8px;
+      color: #64748b;
+      font-weight: 600;
+      font-size: 0.85rem;
+      font-family: inherit;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .subtab:hover {
+      color: #2563eb;
+    }
+    .subtab.active {
+      background: white;
+      color: #2563eb;
+      box-shadow: 0 1px 3px rgb(0 0 0 / 0.08);
+    }
+    .subtab-icon {
+      font-size: 0.8rem;
+    }
+    .subtab-icon.add { color: #059669; }
+    .subtab-icon.remove { color: #dc2626; }
+    .subtab.hidden { display: none; }
+    /* Op-tabs sit above the subtabs and pick the operation category. */
+    .op-tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .op-tab {
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      background: white;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      color: #475569;
+      font-weight: 600;
+      font-size: 0.85rem;
+      font-family: inherit;
+      transition: all 0.15s ease;
+    }
+    .op-tab:hover { color: #2563eb; border-color: #93c5fd; }
+    .op-tab.active {
+      background: #2563eb;
+      color: white;
+      border-color: #2563eb;
+    }
+
+    /* Intervention case card */
+    .intervention-case {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .intervention-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.9rem;
+      border-bottom: 1px solid #e2e8f0;
+      flex-wrap: wrap;
+    }
+    .intervention-name {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1e293b;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .op-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.25rem 0.7rem;
+      border-radius: 14px;
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+    .op-badge.add {
+      background: #d1fae5;
+      color: #065f46;
+    }
+    .op-badge.remove {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+
+    .intervention-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    @media (max-width: 900px) {
+      .intervention-grid { grid-template-columns: 1fr; }
+    }
+    .intervention-side {
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+    .side-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .side-label.original::before {
+      content: '';
+      width: 0.6rem; height: 0.6rem;
+      border-radius: 50%;
+      background: #94a3b8;
+      display: inline-block;
+    }
+    .side-label.edited::before {
+      content: '';
+      width: 0.6rem; height: 0.6rem;
+      border-radius: 50%;
+      background: #2563eb;
+      display: inline-block;
+    }
+    .attr-chip-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .attr-chip {
+      padding: 0.25rem 0.7rem;
+      background: #f1f5f9;
+      border-radius: 12px;
+      font-size: 0.78rem;
+      color: #334155;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    .attr-chip.added {
+      background: #d1fae5;
+      color: #065f46;
+      font-weight: 700;
+    }
+    .attr-chip.removed {
+      background: #fee2e2;
+      color: #991b1b;
+      text-decoration: line-through;
+    }
+    .summary-edited {
+      background: #eff6ff;
+      border-left-color: #2563eb;
+    }
+
+    .case-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin: 1.5rem 0;
+      padding: 1rem;
+      background: #f8fafc;
+      border-radius: 10px;
+      flex-wrap: wrap;
+    }
+    .case-nav-info {
+      font-weight: 600;
+      color: #475569;
+      font-size: 0.9rem;
+    }
+
+    /* Multimodal context image gallery. Sits between case-nav and the
+       intervention-case card; only shown on multimodal sub-tabs. */
+    .mm-gallery {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 0.85rem 1rem;
+      margin: 0 0 1rem 0;
+    }
+    .mm-gallery-header {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #64748b;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .mm-gallery-note {
+      font-size: 0.78rem;
+      color: #64748b;
+      margin: 0 0 0.6rem 0;
+      line-height: 1.45;
+    }
+    .mm-gallery-tiles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .mm-tile {
+      width: 64px;
+      height: 64px;
+      border-radius: 6px;
+      overflow: hidden;
+      background: #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #94a3b8;
+    }
+    .mm-tile img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    /* Text-only tile used when there is no image (MV titles, MSD tracks). */
+    .mm-title-card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 0.4rem 0.6rem;
+      font-size: 0.78rem;
+      color: #1e293b;
+      max-width: 220px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Pipeline header bar */
+    .pipeline-header {
+      background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+      color: white;
+      padding: 1.2rem 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .pipeline-header h3 {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .pipeline-header .stage-tag {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 0.25rem 0.7rem;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+
+    /* Compact info banner */
+    .info-banner {
+      background: #eff6ff;
+      border-left: 3px solid #2563eb;
+      padding: 0.9rem 1.2rem;
+      border-radius: 6px;
+      margin-bottom: 1.5rem;
+      font-size: 0.88rem;
+      color: #1e3a8a;
+    }
+    .info-banner code {
+      background: rgba(37, 99, 235, 0.1);
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.85em;
+    }
+
+    /* Prompt boxes (system/generation prompts) */
+    .prompt-stack {
+      display: grid;
+      gap: 0.9rem;
+      margin-bottom: 1.5rem;
+      align-items: stretch;
+    }
+    @media (min-width: 900px) {
+      .prompt-stack.two-col { grid-template-columns: 1fr 1fr; }
+    }
+    .prompt-box {
+      background: #0b1220;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #1e293b;
+      box-shadow: 0 1px 3px rgb(0 0 0 / 0.08);
+      display: flex;
+      flex-direction: column;
+      min-height: 280px;
+    }
+    .prompt-box-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.55rem 0.9rem;
+      background: #1e293b;
+      border-bottom: 1px solid #334155;
+      flex-shrink: 0;
+    }
+    .prompt-box-title {
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #93c5fd;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+    .prompt-copy-btn {
+      background: transparent;
+      border: 1px solid #64748b;
+      color: #e2e8f0;
+      padding: 0.2rem 0.6rem;
+      border-radius: 5px;
+      font-size: 0.72rem;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.15s;
+      font-weight: 600;
+    }
+    .prompt-copy-btn:hover {
+      background: #334155;
+      color: white;
+    }
+    .prompt-box pre {
+      margin: 0 !important;
+      padding: 1rem 1.1rem !important;
+      font-family: 'JetBrains Mono', 'SF Mono', 'Monaco', 'Consolas', 'Courier New', monospace !important;
+      font-size: 0.8rem !important;
+      line-height: 1.65 !important;
+      color: #f1f5f9 !important;
+      white-space: pre-wrap !important;
+      word-break: break-word !important;
+      background: transparent !important;
+      background-color: transparent !important;
+      flex: 1 !important;
+      overflow-y: auto !important;
+      min-height: 0 !important;
+      border: none !important;
+      border-radius: 0 !important;
+    }
+
+    .demo-section-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: #64748b;
+      font-weight: 500;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      text-decoration: none;
+    }
+    .back-link:hover { color: #2563eb; }
+
+    .empty-placeholder {
+      padding: 2rem;
+      text-align: center;
+      color: #94a3b8;
+      background: #f8fafc;
+      border: 1.5px dashed #cbd5e1;
+      border-radius: 8px;
+      font-size: 0.88rem;
+    }
+
+    /* Intervention dummy prediction block: mini chart + mini gallery */
+    .dummy-pred-block {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 0.9rem;
+    }
+    .dummy-mini-chart {
+      margin-bottom: 0.9rem;
+    }
+    .dummy-mini-chart-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #475569;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.45rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .dummy-mini-chart .bar-row {
+      margin-bottom: 0.25rem;
+    }
+    .dummy-mini-chart .bar-label {
+      flex: 0 0 75px;
+      font-size: 0.72rem;
+    }
+    .dummy-mini-chart .bar-track {
+      height: 0.85rem;
+    }
+    .dummy-mini-chart .bar-value {
+      flex: 0 0 38px;
+      font-size: 0.68rem;
+    }
+    .dummy-mini-gallery {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.4rem;
+    }
+    .dummy-mini-item {
+      aspect-ratio: 3 / 4;
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #cbd5e1;
+      font-size: 0.9rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .dummy-mini-item .mini-rank {
+      position: absolute;
+      top: 2px;
+      left: 3px;
+      font-size: 0.55rem;
+      color: #94a3b8;
+      font-weight: 700;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+  </style>
+</head>
+<body data-dataset="hm">
+
+  <main id="main-content">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-body" style="padding-top: 2.5rem; padding-bottom: 1.5rem;">
+      <div class="container is-max-widescreen">
+        <a href="index.html" class="back-link">
+          <i class="fas fa-arrow-left"></i> Back to paper page
+        </a>
+        <h1 class="title is-2" style="margin-bottom: 1.5rem;">CCBR Intervention Demo</h1>
+        <p class="subtitle is-6" id="hero-subtitle" style="color: #64748b; margin-bottom: 0;">
+          Walk through the full pipeline, from raw image content to steerable recommendations, on the H&amp;M dataset.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 1rem;">
+    <div class="container is-max-widescreen">
+
+      <!-- Dataset switcher -->
+      <div class="dataset-switcher" role="tablist" aria-label="Dataset">
+        <button class="ds-pill active" data-ds="hm">
+          <i class="fas fa-shopping-cart"></i>&nbsp; H&amp;M
+        </button>
+        <button class="ds-pill" data-ds="ml20m">
+          <i class="fas fa-film"></i>&nbsp; ML-20M
+        </button>
+        <button class="ds-pill" data-ds="msd">
+          <i class="fas fa-music"></i>&nbsp; MSD
+        </button>
+      </div>
+
+      <!-- INTERVENTIONS (always visible, top of page) -->
+      <div id="interventions-root"></div>
+
+      <!-- Divider + small intro for the secondary sections -->
+      <div class="explore-section-intro">
+        <h2 class="explore-section-title">Explore the rest of the pipeline</h2>
+        <p class="explore-section-subtitle">
+          See how individual items are described, how user profiles are built, and what the model ranks before any intervention.
+        </p>
+      </div>
+
+      <!-- Secondary tabs: Item Content / User Summary + Predictions -->
+      <div class="demo-tabs" role="tablist">
+        <button class="demo-tab active" data-tab="content" role="tab">
+          (Stage 0) <br>
+          Item Content 
+        </button>
+        <button class="demo-tab" data-tab="summary" role="tab">
+          (Stage 1 & 2) <br>
+          User Summary + Predictions
+        </button>
+      </div>
+
+      <!-- ==================================================== -->
+      <!-- PANEL: STAGE 0 — Item content (H&M)                    -->
+      <!-- ==================================================== -->
+      <div class="demo-panel active" id="panel-stage0" data-ds="hm">
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">STAGE 0</span>
+            <h3>Item Content Verbalization</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            Each item image is captioned by a vision-language model.
+          </div>
+        </div>
+
+        <div class="pipeline-flow">
+          <div class="pipeline-node"><i class="fas fa-image"></i>&nbsp; Item Image</div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-node model">Qwen3-VL-32B-Instruct</div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-node"><i class="fas fa-align-left"></i>&nbsp; Description</div>
+        </div>
+
+        <div class="prompt-stack two-col">
+          <div class="prompt-box">
+            <div class="prompt-box-header">
+              <div class="prompt-box-title">
+                <i class="fas fa-cog"></i> SYSTEM_PROMPT
+              </div>
+              <button class="prompt-copy-btn" data-target="prompt-system">Copy</button>
+            </div>
+<pre id="prompt-system">You are a fashion product description writer. Write a concise 1-2 sentence summary of the product.
+
+RULES:
+- Output EXACTLY 1-2 sentences. Nothing else.
+- No bullet points, no numbered lists, no analysis steps, no drafts.
+- Be specific about: product type, color, material, silhouette, and notable design details.
+- Do NOT use marketing language or subjective opinions.
+- Do NOT explain your reasoning or thought process.
+- Start directly with the product description.</pre>
+          </div>
+
+          <div class="prompt-box">
+            <div class="prompt-box-header">
+              <div class="prompt-box-title">
+                <i class="fas fa-comment-dots"></i> GENERATE_TEMPLATE
+              </div>
+              <button class="prompt-copy-btn" data-target="prompt-generate">Copy</button>
+            </div>
+<pre id="prompt-generate">Write a 1-2 sentence product description based on the image. Output ONLY the summary sentences, nothing else.</pre>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div class="carousel-viewport">
+
+            <div class="carousel-image-col">
+              <img id="stage0-image" class="carousel-image" alt="Item image" src="" onerror="this.outerHTML='&lt;div class=&quot;image-placeholder&quot;&gt;&lt;i class=&quot;fas fa-image&quot;&gt;&lt;/i&gt;&lt;/div&gt;'">
+            </div>
+
+            <div class="carousel-content-col">
+
+              <div>
+                <div class="demo-section-title">
+                  <i class="fas fa-quote-left" style="color: #2563eb;"></i> Generated description
+                </div>
+                <div class="description-box">
+                  <span class="label-tag">Qwen3-VL-32B-Instruct</span>
+                  <div id="stage0-description">Loading...</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="carousel-nav">
+            <button class="carousel-btn" id="carousel-prev">
+              <i class="fas fa-chevron-left"></i> Previous
+            </button>
+
+            <div style="display: flex; align-items: center; gap: 1rem;">
+              <div class="carousel-counter">
+                Item <span id="carousel-current">1</span> / <span id="carousel-total">10</span>
+              </div>
+              <div class="carousel-dots" id="carousel-dots"></div>
+            </div>
+
+            <button class="carousel-btn" id="carousel-next">
+              Next <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ==================================================== -->
+      <!-- PANEL: STAGE 1 — User Summary                         -->
+      <!-- ==================================================== -->
+      <div class="demo-panel" id="panel-stage1" data-ds="hm" data-user-id="0">
+        <!-- USER_ID_HIDDEN: 0 -->
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">STAGE 1</span>
+            <h3>Content-Based Profile Construction</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            Item descriptions are aggregated into one textual user profile.
+          </div>
+        </div>
+
+        <div class="pipeline-flow">
+          <div class="pipeline-node"><i class="fas fa-layer-group"></i>&nbsp; Item Set</div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-node model">Qwen3-30B-A3B-Instruct-2507</div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-node"><i class="fas fa-user-pen"></i>&nbsp; User Summary</div>
+        </div>
+
+        <div class="info-banner">
+          The LLM consumes each item the user interacted with (as descriptions from Stage 0) and writes a single preference profile.
+        </div>
+
+        <!-- User navigation -->
+        <div class="case-nav">
+          <button class="carousel-btn" id="user-prev">
+            <i class="fas fa-chevron-left"></i> Previous user
+          </button>
+          <div class="case-nav-info">
+            <i class="fas fa-user" style="color: #2563eb; margin-right: 0.3rem;"></i>
+            User <span id="user-current">1</span> / <span id="user-total">50</span>
+            &nbsp;&middot;&nbsp;
+            <span id="user-itemcount-inline" style="color: #64748b;">29 items</span>
+          </div>
+          <button class="carousel-btn" id="user-next">
+            Next user <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-card-header">
+            <div class="stage-card-icon"><i class="fas fa-layer-group"></i></div>
+            <h3 class="stage-card-title">Interacted item set <span style="color: #64748b; font-weight: 500; font-size: 0.85rem;">&mdash; <span id="stage1-itemcount">29</span> items</span></h3>
+          </div>
+          <div class="item-set-grid" id="stage1-items">
+            <!-- Filled dynamically -->
+          </div>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-card-header">
+            <div class="stage-card-icon"><i class="fas fa-user-pen"></i></div>
+            <h3 class="stage-card-title">Generated user summary</h3>
+          </div>
+          <div class="summary-text" id="stage1-summary">
+            &mdash; pending &mdash;
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ==================================================== -->
+      <!-- PANEL: STAGE 2 — Predictions                          -->
+      <!-- ==================================================== -->
+      <div class="demo-panel" id="panel-stage2" data-ds="hm" data-user-id="0">
+        <!-- USER_ID_HIDDEN: 0 -->
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">STAGE 2</span>
+            <h3>Summary &rarr; Final Predictions</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            The textual profile is embedded and decoded into item scores.
+          </div>
+        </div>
+
+        <div class="pipeline-flow">
+          <div class="pipeline-node"><i class="fas fa-user-pen"></i>&nbsp; User Summary</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node model">BGE-M3</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node"><i class="fas fa-link"></i>&nbsp; CF Decoder</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node"><i class="fas fa-trophy"></i>&nbsp; Top-K Items</div>
+        </div>
+
+        <!-- User navigation hidden: driven by Stage 1's nav above -->
+        <div class="case-nav" style="display: none;">
+          <button class="carousel-btn" id="stage2-user-prev">
+            <i class="fas fa-chevron-left"></i> Previous user
+          </button>
+          <div class="case-nav-info">
+            <i class="fas fa-user" style="color: #2563eb; margin-right: 0.3rem;"></i>
+            User <span id="stage2-user-current">1</span> / <span id="stage2-user-total">1</span>
+          </div>
+          <button class="carousel-btn" id="stage2-user-next">
+            Next user <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-card-header">
+            <div class="stage-card-icon"><i class="fas fa-trophy"></i></div>
+            <h3 class="stage-card-title">Top-20 recommended items</h3>
+          </div>
+          <div class="topk-gallery" id="stage2-topk">
+            <!-- Filled dynamically with placeholders -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ==================================================== -->
+      <!-- PANEL: INTERVENTIONS                                  -->
+      <!-- ==================================================== -->
+      <div class="demo-panel" id="panel-interventions" data-ds="hm" data-user-id="0">
+        <!-- USER_ID_HIDDEN: 0 -->
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">DEMO</span>
+            <h3>Steering via Text Interventions</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            Edit the summary &rarr; the model follows the edit.
+          </div>
+        </div>
+
+        <div class="info-banner">
+          Four intervention setups are explored. <strong>Add</strong> injects an unseen attribute. <strong>Remove</strong> removes a present attribute. Each case shows the original summary, the edited summary, and the resulting prediction shift.
+        </div>
+
+        <!-- Op-tabs (top tier: category of operation) -->
+        <div class="op-tabs" data-op-scope="hm">
+          <button class="op-tab active" data-op="add">Add (Text)</button>
+          <button class="op-tab"        data-op="add-mm">Add (Multimodal)</button>
+          <button class="op-tab"        data-op="remove">Remove</button>
+        </div>
+
+        <!-- Sub-tabs -->
+        <div class="subtabs" role="tablist">
+          <button class="subtab active" data-subtab="loi-color"       data-cat="add">
+            <i class="fas fa-plus-circle subtab-icon add"></i> Color
+          </button>
+          <button class="subtab"        data-subtab="loi-color-mm"    data-cat="add-mm">
+            <i class="fas fa-plus-circle subtab-icon add"></i> Color
+          </button>
+          <button class="subtab"        data-subtab="loo-color"       data-cat="remove">
+            <i class="fas fa-minus-circle subtab-icon remove"></i> Color
+          </button>
+          <button class="subtab"        data-subtab="loi-category"    data-cat="add">
+            <i class="fas fa-plus-circle subtab-icon add"></i> Category
+          </button>
+          <button class="subtab"        data-subtab="loi-category-mm" data-cat="add-mm">
+            <i class="fas fa-plus-circle subtab-icon add"></i> Category
+          </button>
+          <button class="subtab"        data-subtab="loo-category"    data-cat="remove">
+            <i class="fas fa-minus-circle subtab-icon remove"></i> Category
+          </button>
+        </div>
+
+        <!-- Case navigation -->
+        <div class="case-nav">
+          <button class="carousel-btn" id="case-prev">
+            <i class="fas fa-chevron-left"></i> Previous case
+          </button>
+          <div class="case-nav-info">
+            <i class="fas fa-flask" style="color: #2563eb; margin-right: 0.3rem;"></i>
+            Intervention <strong id="case-name">[name]</strong> &nbsp;·&nbsp;
+            Case <span id="case-current">1</span> / <span id="case-total">1</span>
+          </div>
+          <button class="carousel-btn" id="case-next">
+            Next case <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <!-- Multimodal context gallery (only visible on *-mm subtabs) -->
+        <div id="case-mm-gallery" class="mm-gallery" style="display: none;"></div>
+
+        <!-- Single intervention case -->
+        <div class="intervention-case">
+
+          <div class="intervention-header">
+            <div class="intervention-name">
+              <span id="case-title">Intervention: [name]</span>
+              <span class="op-badge add" id="case-op-badge">
+                <i class="fas fa-plus"></i> <span id="case-op-text">added</span>
+              </span>
+            </div>
+            <div style="font-size: 0.85rem; color: #64748b;">
+              <i class="fas fa-info-circle"></i>
+              Click <em>Next case</em> to step through.
+            </div>
+          </div>
+
+          <div class="intervention-grid">
+
+            <!-- Original side -->
+            <div class="intervention-side">
+              <div class="side-label original">Original</div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Attributes present
+                </div>
+                <div class="attr-chip-list" id="case-orig-attrs">
+                  <!-- Filled dynamically -->
+                </div>
+              </div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Original summary
+                </div>
+                <div class="summary-text" id="case-orig-summary" style="font-size: 0.85rem; max-height: 220px; overflow-y: auto;">
+                  &mdash; pending &mdash;
+                </div>
+              </div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Original predictions
+                </div>
+                <div id="case-orig-preds" class="dummy-pred-block">
+                  <!-- Filled dynamically -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Edited side -->
+            <div class="intervention-side">
+              <div class="side-label edited">After intervention</div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Expected attributes
+                </div>
+                <div class="attr-chip-list" id="case-edit-attrs">
+                  <!-- Filled dynamically -->
+                </div>
+              </div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Edited summary
+                </div>
+                <div class="summary-text summary-edited" id="case-edit-summary" style="font-size: 0.85rem; max-height: 220px; overflow-y: auto;">
+                  &mdash; pending &mdash;
+                </div>
+              </div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Predictions after intervention
+                </div>
+                <div id="case-edit-preds" class="dummy-pred-block">
+                  <!-- Filled dynamically -->
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- ====================================================== -->
+      <!-- ====================================================== -->
+      <!--                  ML-20M (MOVIES) PANELS                 -->
+      <!-- ====================================================== -->
+      <!-- ====================================================== -->
+
+      <!-- ==================================================== -->
+      <!-- PANEL: STAGE 0 — Item content (Movies)                 -->
+      <!-- ==================================================== -->
+      <div class="demo-panel active" id="panel-mv-stage0" data-ds="ml20m">
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">STAGE 0</span>
+            <h3>Item Content Verbalization</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            Each trailer is captioned by a video-language model.
+          </div>
+        </div>
+
+        <div class="pipeline-flow">
+          <div class="pipeline-node"><i class="fas fa-video"></i>&nbsp; Trailer</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node model">VideoLLaMA 3</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node"><i class="fas fa-align-left"></i>&nbsp; Description</div>
+        </div>
+
+<div class="prompt-stack two-col">
+          <div class="prompt-box">
+            <div class="prompt-box-header">
+              <div class="prompt-box-title">
+                <i class="fas fa-cog"></i> SYSTEM_PROMPT
+              </div>
+              <button class="prompt-copy-btn" data-target="mv-stage0-system-prompt">Copy</button>
+            </div>
+<pre id="mv-stage0-system-prompt">You are a movie trailer description writer. Write a concise summary of the trailer.
+
+RULES:
+- Describe the apparent genre, mood, setting, and tone.
+- Mention notable visual or stylistic cues.
+- Do NOT use marketing language or speculate about box office performance.
+- Output a single short paragraph, nothing else.</pre>
+          </div>
+          <div class="prompt-box">
+            <div class="prompt-box-header">
+              <div class="prompt-box-title">
+                <i class="fas fa-comment-dots"></i> GENERATE_TEMPLATE
+              </div>
+              <button class="prompt-copy-btn" data-target="mv-stage0-user-prompt">Copy</button>
+            </div>
+<pre id="mv-stage0-user-prompt">Write a one-paragraph description of this movie trailer. Output ONLY the description, nothing else.</pre>
+          </div>
+        </div>
+
+        <div class="carousel-frame">
+          <div class="carousel-row" style="align-items: flex-start;">
+            <!-- Left column: title card instead of image -->
+            <div class="carousel-image-col">
+              <div class="image-placeholder" id="mv-stage0-title-card" style="
+                  background: linear-gradient(135deg, #1e293b, #475569);
+                  color: white; font-size: 1.05rem; font-weight: 600;
+                  padding: 1.25rem; text-align: center; line-height: 1.35;
+                  font-family: 'Inter', system-ui, sans-serif;">
+                — pending —
+              </div>
+              <div style="font-size: 0.75rem; color: #94a3b8; font-family: 'JetBrains Mono', monospace;">
+                <span id="mv-stage0-itemkey">item 0</span>
+              </div>
+            </div>
+
+            <!-- Right column: generated description -->
+            <div class="carousel-content-col">
+              <div style="font-size: 0.95rem; font-weight: 600; color: #1e293b;">
+                <i class="fas fa-quote-left" style="color: #2563eb;"></i>
+                Generated description
+              </div>
+              <div class="summary-text" id="mv-stage0-description"
+                   style="background: white; border-color: #e2e8f0; padding: 1rem;">
+                <span class="model-pill">VideoLLaMA-3</span>
+                <div style="margin-top: 0.5rem; color: #94a3b8; font-style: italic;">
+                  &mdash; pending &mdash;
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel navigation -->
+          <div class="carousel-nav">
+            <button class="carousel-btn" id="mv-stage0-prev">
+              <i class="fas fa-chevron-left"></i> Previous
+            </button>
+            <div class="carousel-dots-wrap">
+              <span class="carousel-info">Item <span id="mv-carousel-current">1</span> / <span id="mv-carousel-total">10</span></span>
+              <div class="carousel-dots" id="mv-stage0-dots"></div>
+            </div>
+            <button class="carousel-btn" id="mv-stage0-next">
+              Next <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ==================================================== -->
+      <!-- PANEL: STAGE 1 — User Summary (Movies)                 -->
+      <!-- ==================================================== -->
+      <div class="demo-panel" id="panel-mv-stage1" data-ds="ml20m" data-user-id="0">
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">STAGE 1</span>
+            <h3>From Items to a User Profile</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            The LLM aggregates a user's watched titles into a single preference profile.
+          </div>
+        </div>
+
+        <!-- User navigation -->
+        <div class="case-nav">
+          <button class="carousel-btn" id="mv-user-prev">
+            <i class="fas fa-chevron-left"></i> Previous user
+          </button>
+          <div class="case-nav-info">
+            <i class="fas fa-user" style="color: #2563eb; margin-right: 0.3rem;"></i>
+            User <span id="mv-user-current">1</span> / <span id="mv-user-total">50</span>
+            &nbsp;&middot;&nbsp;
+            <span id="mv-user-itemcount-inline" style="color: #64748b;">— movies</span>
+          </div>
+          <button class="carousel-btn" id="mv-user-next">
+            Next user <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-card-header">
+            <div class="stage-card-icon"><i class="fas fa-layer-group"></i></div>
+            <h3 class="stage-card-title">Watched movies <span style="color: #64748b; font-weight: 500; font-size: 0.85rem;">&mdash; <span id="mv-stage1-itemcount">—</span> titles</span></h3>
+          </div>
+          <div class="item-set-grid" id="mv-stage1-items" style="grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));">
+            <!-- Filled dynamically with title chips -->
+          </div>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-card-header">
+            <div class="stage-card-icon"><i class="fas fa-user-pen"></i></div>
+            <h3 class="stage-card-title">Generated user summary</h3>
+          </div>
+          <div class="summary-text" id="mv-stage1-summary">
+            &mdash; pending &mdash;
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ==================================================== -->
+      <!-- PANEL: STAGE 2 — Predictions (Movies)                  -->
+      <!-- ==================================================== -->
+      <div class="demo-panel" id="panel-mv-stage2" data-ds="ml20m" data-user-id="0">
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">STAGE 2</span>
+            <h3>Summary &rarr; Final Predictions</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            The textual profile is embedded and decoded into item scores.
+          </div>
+        </div>
+
+        <div class="pipeline-flow">
+          <div class="pipeline-node"><i class="fas fa-user-pen"></i>&nbsp; User Summary</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node model">BGE-M3</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node"><i class="fas fa-link"></i>&nbsp; CF Decoder</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node"><i class="fas fa-trophy"></i>&nbsp; Top-K Items</div>
+        </div>
+
+        <!-- User navigation hidden: driven by Stage 1's nav above -->
+        <div class="case-nav" style="display: none;">
+          <button class="carousel-btn" id="mv-stage2-user-prev">
+            <i class="fas fa-chevron-left"></i> Previous user
+          </button>
+          <div class="case-nav-info">
+            <i class="fas fa-user" style="color: #2563eb; margin-right: 0.3rem;"></i>
+            User <span id="mv-stage2-user-current">1</span> / <span id="mv-stage2-user-total">50</span>
+          </div>
+          <button class="carousel-btn" id="mv-stage2-user-next">
+            Next user <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-card-header">
+            <div class="stage-card-icon"><i class="fas fa-trophy"></i></div>
+            <h3 class="stage-card-title">Top-20 recommended movies</h3>
+          </div>
+          <div class="item-set-grid" id="mv-stage2-topk" style="grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));">
+            <!-- Filled dynamically with title chips -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ==================================================== -->
+      <!-- PANEL: INTERVENTIONS (Movies)                          -->
+      <!-- ==================================================== -->
+      <div class="demo-panel" id="panel-mv-interventions" data-ds="ml20m" data-user-id="0">
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">DEMO</span>
+            <h3>Steering via Text Interventions</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            Edit the summary &rarr; the model follows the edit.
+          </div>
+        </div>
+
+        <div class="info-banner">
+          Two intervention setups are explored on ML-20M. <strong>Add</strong> injects an unseen genre. <strong>Remove</strong> removes a present genre. Each case shows the original summary, the edited summary, and the resulting prediction shift.
+        </div>
+
+        <!-- Op-tabs (top tier: category of operation) -->
+        <div class="op-tabs" data-op-scope="mv">
+          <button class="op-tab active" data-op="add">Add (Text)</button>
+          <button class="op-tab"        data-op="add-mm">Add (Multimodal)</button>
+          <button class="op-tab"        data-op="remove">Remove</button>
+        </div>
+
+        <!-- Sub-tabs (movies: only one aspect = genre) -->
+        <div class="subtabs" role="tablist">
+          <button class="subtab active" data-mv-subtab="loi-genre"    data-cat="add">
+            <i class="fas fa-plus-circle subtab-icon add"></i> Genre
+          </button>
+          <button class="subtab"        data-mv-subtab="loi-genre-mm" data-cat="add-mm">
+            <i class="fas fa-plus-circle subtab-icon add"></i> Genre
+          </button>
+          <button class="subtab"        data-mv-subtab="loo-genre"    data-cat="remove">
+            <i class="fas fa-minus-circle subtab-icon remove"></i> Genre
+          </button>
+        </div>
+
+        <!-- Case navigation -->
+        <div class="case-nav">
+          <button class="carousel-btn" id="mv-case-prev">
+            <i class="fas fa-chevron-left"></i> Previous case
+          </button>
+          <div class="case-nav-info">
+            <i class="fas fa-flask" style="color: #2563eb; margin-right: 0.3rem;"></i>
+            Intervention <strong id="mv-case-name">[name]</strong> &nbsp;&middot;&nbsp;
+            Case <span id="mv-case-current">1</span> / <span id="mv-case-total">1</span>
+          </div>
+          <button class="carousel-btn" id="mv-case-next">
+            Next case <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <!-- Multimodal context gallery (only visible on *-mm subtabs) -->
+        <div id="mv-case-mm-gallery" class="mm-gallery" style="display: none;"></div>
+
+        <!-- Single intervention case -->
+        <div class="intervention-case">
+
+          <div class="intervention-header">
+            <div class="intervention-name">
+              <span id="mv-case-title">Intervention: [name]</span>
+              <span class="op-badge add" id="mv-case-op-badge">
+                <i class="fas fa-plus"></i> <span id="mv-case-op-text">added</span>
+              </span>
+            </div>
+            <div style="font-size: 0.85rem; color: #64748b;">
+              <i class="fas fa-info-circle"></i>
+              Click <em>Next case</em> to step through.
+            </div>
+          </div>
+
+          <div class="intervention-grid">
+
+            <!-- Original side -->
+            <div class="intervention-side">
+              <div class="side-label original">Original</div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Genres present
+                </div>
+                <div class="attr-chip-list" id="mv-case-orig-attrs">
+                  <!-- Filled dynamically -->
+                </div>
+              </div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Original summary
+                </div>
+                <div class="summary-text" id="mv-case-orig-summary" style="font-size: 0.85rem; max-height: 220px; overflow-y: auto;">
+                  &mdash; pending &mdash;
+                </div>
+              </div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Original predictions
+                </div>
+                <div id="mv-case-orig-preds" class="dummy-pred-block">
+                  <!-- Filled dynamically -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Edited side -->
+            <div class="intervention-side">
+              <div class="side-label edited">After intervention</div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Expected genres
+                </div>
+                <div class="attr-chip-list" id="mv-case-edit-attrs">
+                  <!-- Filled dynamically -->
+                </div>
+              </div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Edited summary
+                </div>
+                <div class="summary-text summary-edited" id="mv-case-edit-summary" style="font-size: 0.85rem; max-height: 220px; overflow-y: auto;">
+                  &mdash; pending &mdash;
+                </div>
+              </div>
+
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Predictions after intervention
+                </div>
+                <div id="mv-case-edit-preds" class="dummy-pred-block">
+                  <!-- Filled dynamically -->
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- ====================================================== -->
+      <!-- ====================================================== -->
+      <!--                     MSD (MUSIC) PANELS                  -->
+      <!-- ====================================================== -->
+      <!-- ====================================================== -->
+
+      <!-- ==================================================== -->
+      <!-- PANEL: STAGE 0 — Item content (MSD)                    -->
+      <!-- ==================================================== -->
+      <div class="demo-panel active" id="panel-msd-stage0" data-ds="msd">
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">STAGE 0</span>
+            <h3>Item Content Verbalization</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            Each track is captioned by an audio-language model.
+          </div>
+        </div>
+
+        <div class="pipeline-flow">
+          <div class="pipeline-node"><i class="fas fa-headphones"></i>&nbsp; Audio</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node model">Music-Flamingo-7B</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node"><i class="fas fa-align-left"></i>&nbsp; Description</div>
+        </div>
+
+<div class="prompt-stack two-col">
+          <div class="prompt-box">
+            <div class="prompt-box-header">
+              <div class="prompt-box-title">
+                <i class="fas fa-cog"></i> SYSTEM_PROMPT
+              </div>
+              <button class="prompt-copy-btn" data-target="msd-stage0-system-prompt">Copy</button>
+            </div>
+<pre id="msd-stage0-system-prompt">You are a music description writer. Write a concise summary of the track.
+
+RULES:
+- Describe the apparent genre, mood, instrumentation, and tempo.
+- Mention notable sonic or stylistic cues.
+- Do NOT use marketing language or speculate about chart performance.
+- Output a single short paragraph, nothing else.</pre>
+          </div>
+          <div class="prompt-box">
+            <div class="prompt-box-header">
+              <div class="prompt-box-title">
+                <i class="fas fa-comment-dots"></i> GENERATE_TEMPLATE
+              </div>
+              <button class="prompt-copy-btn" data-target="msd-stage0-user-prompt">Copy</button>
+            </div>
+<pre id="msd-stage0-user-prompt">Write a one-paragraph description of this track. Output ONLY the description, nothing else.</pre>
+          </div>
+        </div>
+
+        <div class="carousel-frame">
+          <div class="carousel-row" style="align-items: flex-start;">
+            <div class="carousel-image-col">
+              <div class="image-placeholder" id="msd-stage0-title-card" style="
+                  background: linear-gradient(135deg, #1e293b, #475569);
+                  color: white; font-size: 1.05rem; font-weight: 600;
+                  padding: 1.25rem; text-align: center; line-height: 1.35;
+                  font-family: 'Inter', system-ui, sans-serif;">
+                &mdash; pending &mdash;
+              </div>
+              <div style="font-size: 0.75rem; color: #94a3b8; font-family: 'JetBrains Mono', monospace;">
+                <span id="msd-stage0-itemkey">item 0</span>
+              </div>
+            </div>
+
+            <div class="carousel-content-col">
+              <div style="font-size: 0.95rem; font-weight: 600; color: #1e293b;">
+                <i class="fas fa-quote-left" style="color: #2563eb;"></i>
+                Generated description
+              </div>
+              <div class="summary-text" id="msd-stage0-description"
+                   style="background: white; border-color: #e2e8f0; padding: 1rem;">
+                <span class="model-pill">Music-Flamingo-7B</span>
+                <div style="margin-top: 0.5rem; color: #94a3b8; font-style: italic;">
+                  &mdash; pending &mdash;
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-nav">
+            <button class="carousel-btn" id="msd-stage0-prev">
+              <i class="fas fa-chevron-left"></i> Previous
+            </button>
+            <div class="carousel-dots-wrap">
+              <span class="carousel-info">Item <span id="msd-carousel-current">1</span> / <span id="msd-carousel-total">10</span></span>
+              <div class="carousel-dots" id="msd-stage0-dots"></div>
+            </div>
+            <button class="carousel-btn" id="msd-stage0-next">
+              Next <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ==================================================== -->
+      <!-- PANEL: STAGE 1 — User Summary (MSD)                    -->
+      <!-- ==================================================== -->
+      <div class="demo-panel" id="panel-msd-stage1" data-ds="msd" data-user-id="0">
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">STAGE 1</span>
+            <h3>From Tracks to a User Profile</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            The LLM aggregates a user's listened tracks into a single preference profile.
+          </div>
+        </div>
+
+        <div class="case-nav">
+          <button class="carousel-btn" id="msd-user-prev">
+            <i class="fas fa-chevron-left"></i> Previous user
+          </button>
+          <div class="case-nav-info">
+            <i class="fas fa-user" style="color: #2563eb; margin-right: 0.3rem;"></i>
+            User <span id="msd-user-current">1</span> / <span id="msd-user-total">50</span>
+            &nbsp;&middot;&nbsp;
+            <span id="msd-user-itemcount-inline" style="color: #64748b;">&mdash; tracks</span>
+          </div>
+          <button class="carousel-btn" id="msd-user-next">
+            Next user <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-card-header">
+            <div class="stage-card-icon"><i class="fas fa-layer-group"></i></div>
+            <h3 class="stage-card-title">Listened tracks <span style="color: #64748b; font-weight: 500; font-size: 0.85rem;">&mdash; <span id="msd-stage1-itemcount">&mdash;</span> tracks</span></h3>
+          </div>
+          <div class="item-set-grid" id="msd-stage1-items" style="grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));">
+            <!-- Filled dynamically -->
+          </div>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-card-header">
+            <div class="stage-card-icon"><i class="fas fa-user-pen"></i></div>
+            <h3 class="stage-card-title">Generated user summary</h3>
+          </div>
+          <div class="summary-text" id="msd-stage1-summary">
+            &mdash; pending &mdash;
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ==================================================== -->
+      <!-- PANEL: STAGE 2 — Predictions (MSD)                     -->
+      <!-- ==================================================== -->
+      <div class="demo-panel" id="panel-msd-stage2" data-ds="msd" data-user-id="0">
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">STAGE 2</span>
+            <h3>Summary &rarr; Final Predictions</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            The textual profile is embedded and decoded into item scores.
+          </div>
+        </div>
+
+        <div class="pipeline-flow">
+          <div class="pipeline-node"><i class="fas fa-user-pen"></i>&nbsp; User Summary</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node model">BGE-M3</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node"><i class="fas fa-link"></i>&nbsp; CF Decoder</div>
+          <div class="pipeline-arrow">&rarr;</div>
+          <div class="pipeline-node"><i class="fas fa-trophy"></i>&nbsp; Top-K Items</div>
+        </div>
+
+        <!-- User navigation hidden: driven by Stage 1's nav above -->
+        <div class="case-nav" style="display: none;">
+          <button class="carousel-btn" id="msd-stage2-user-prev">
+            <i class="fas fa-chevron-left"></i> Previous user
+          </button>
+          <div class="case-nav-info">
+            <i class="fas fa-user" style="color: #2563eb; margin-right: 0.3rem;"></i>
+            User <span id="msd-stage2-user-current">1</span> / <span id="msd-stage2-user-total">50</span>
+          </div>
+          <button class="carousel-btn" id="msd-stage2-user-next">
+            Next user <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-card-header">
+            <div class="stage-card-icon"><i class="fas fa-trophy"></i></div>
+            <h3 class="stage-card-title">Top-20 recommended tracks</h3>
+          </div>
+          <div class="item-set-grid" id="msd-stage2-topk" style="grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));">
+            <!-- Filled dynamically -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ==================================================== -->
+      <!-- PANEL: INTERVENTIONS (MSD)                             -->
+      <!-- ==================================================== -->
+      <div class="demo-panel" id="panel-msd-interventions" data-ds="msd" data-user-id="0">
+
+        <div class="pipeline-header">
+          <div>
+            <span class="stage-tag">DEMO</span>
+            <h3>Steering via Text Interventions</h3>
+          </div>
+          <div style="text-align: right; font-size: 0.85rem; opacity: 0.85;">
+            Edit the summary &rarr; the model follows the edit.
+          </div>
+        </div>
+
+        <div class="info-banner">
+          Two intervention setups are explored on MSD. <strong>Add</strong> injects an unseen tag. <strong>Remove</strong> removes a present tag. Each case shows the original summary, the edited summary, and the resulting prediction shift.
+        </div>
+
+        <!-- Op-tabs (top tier: category of operation) -->
+        <div class="op-tabs" data-op-scope="msd">
+          <button class="op-tab active" data-op="add">Add (Text)</button>
+          <button class="op-tab"        data-op="add-mm">Add (Multimodal)</button>
+          <button class="op-tab"        data-op="remove">Remove</button>
+        </div>
+
+        <!-- Sub-tabs (music: only one aspect = tag) -->
+        <div class="subtabs" role="tablist">
+          <button class="subtab active" data-msd-subtab="tag-add"    data-cat="add">
+            <i class="fas fa-plus-circle subtab-icon add"></i> Tag
+          </button>
+          <button class="subtab"        data-msd-subtab="tag-add-mm" data-cat="add-mm">
+            <i class="fas fa-plus-circle subtab-icon add"></i> Tag
+          </button>
+          <button class="subtab"        data-msd-subtab="tag-remove" data-cat="remove">
+            <i class="fas fa-minus-circle subtab-icon remove"></i> Tag
+          </button>
+        </div>
+
+        <!-- Case navigation -->
+        <div class="case-nav">
+          <button class="carousel-btn" id="msd-case-prev">
+            <i class="fas fa-chevron-left"></i> Previous case
+          </button>
+          <div class="case-nav-info">
+            <i class="fas fa-flask" style="color: #2563eb; margin-right: 0.3rem;"></i>
+            Intervention <strong id="msd-case-name">[name]</strong> &nbsp;&middot;&nbsp;
+            Case <span id="msd-case-current">1</span> / <span id="msd-case-total">1</span>
+          </div>
+          <button class="carousel-btn" id="msd-case-next">
+            Next case <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <!-- Multimodal context gallery (only visible on *-mm subtabs) -->
+        <div id="msd-case-mm-gallery" class="mm-gallery" style="display: none;"></div>
+
+        <div class="intervention-case">
+
+          <div class="intervention-header">
+            <div class="intervention-name">
+              <span id="msd-case-title">Intervention: [name]</span>
+              <span class="op-badge add" id="msd-case-op-badge">
+                <i class="fas fa-plus"></i> <span id="msd-case-op-text">added</span>
+              </span>
+            </div>
+            <div style="font-size: 0.85rem; color: #64748b;">
+              <i class="fas fa-info-circle"></i>
+              Click <em>Next case</em> to step through.
+            </div>
+          </div>
+
+          <div class="intervention-grid">
+
+            <div class="intervention-side">
+              <div class="side-label original">Original</div>
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Tags present
+                </div>
+                <div class="attr-chip-list" id="msd-case-orig-attrs"></div>
+              </div>
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Original summary
+                </div>
+                <div class="summary-text" id="msd-case-orig-summary" style="font-size: 0.85rem; max-height: 220px; overflow-y: auto;">
+                  &mdash; pending &mdash;
+                </div>
+              </div>
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Original predictions
+                </div>
+                <div id="msd-case-orig-preds" class="dummy-pred-block"></div>
+              </div>
+            </div>
+
+            <div class="intervention-side">
+              <div class="side-label edited">After intervention</div>
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Expected tags
+                </div>
+                <div class="attr-chip-list" id="msd-case-edit-attrs"></div>
+              </div>
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Edited summary
+                </div>
+                <div class="summary-text summary-edited" id="msd-case-edit-summary" style="font-size: 0.85rem; max-height: 220px; overflow-y: auto;">
+                  &mdash; pending &mdash;
+                </div>
+              </div>
+              <div>
+                <div style="font-size: 0.78rem; color: #64748b; font-weight: 600; margin-bottom: 0.4rem;">
+                  Predictions after intervention
+                </div>
+                <div id="msd-case-edit-preds" class="dummy-pred-block"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer class="footer" style="margin-top: 3rem;">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              Live demo for the CCBR pipeline. Page built on the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+              Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </main>
+
+  <!-- ============================================================ -->
+  <!-- Demo data (inline, all placeholders — will be filled later)  -->
+  <!-- ============================================================ -->
+  <script>
+    // ============================================================
+    // Deterministic seeded RNG (mulberry32). Same shuffle every load,
+    // so the demo is reproducible. Change DEMO_SEED for a different
+    // "random" subset.
+    // ============================================================
+    const DEMO_SEED = 42;
+    // How many users to display per panel (Stage 1, Stage 2, Interventions).
+    // Predictions are computed offline for exactly this same 50-user sample.
+    const SAMPLE_USERS = 50;
+    // Stage 0 (Item Content) iterates over filtered_images/<idx>.jpg files
+    // and is capped separately because we only ship a small number of images.
+    const SAMPLE_ITEMS = 10;
+    function mulberry32(seed) {
+      let a = seed >>> 0;
+      return function() {
+        a |= 0; a = (a + 0x6D2B79F5) | 0;
+        let t = Math.imul(a ^ (a >>> 15), 1 | a);
+        t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+        return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+      };
+    }
+    // Pick k items deterministically from arr (Fisher-Yates, seeded).
+    function sampleK(arr, k, seed) {
+      if (arr.length <= k) return arr.slice();
+      const rand = mulberry32(seed);
+      const idx = arr.map((_, i) => i);
+      for (let i = idx.length - 1; i > 0; i--) {
+        const j = Math.floor(rand() * (i + 1));
+        [idx[i], idx[j]] = [idx[j], idx[i]];
+      }
+      return idx.slice(0, k).map(i => arr[i]);
+    }
+
+    // ============================================================
+    // Demo data: hardcoded placeholders. Replace these with model
+    // outputs once available. The shape mirrors the JSON files
+    // referenced in app_intervention.py.
+    // ============================================================
+
+    // ----- Constant label maps (from app_intervention.py) -----
+    const COLOR_MAP = {
+      'Beige': 0, 'Black': 1, 'Blue': 2, 'Bronze/Copper': 3, 'Gold': 4,
+      'Green': 5, 'Grey': 6, 'Orange': 7, 'Pink': 8, 'Purple': 9,
+      'Red': 10, 'Silver': 11, 'Transparent': 12, 'Turquoise': 13,
+      'White': 14, 'Yellow': 15
+    };
+    const COLOR_HEX = {
+      'Beige': '#F5F5DC', 'Black': '#1a1a1a', 'Blue': '#4169E1',
+      'Bronze/Copper': '#CD7F32', 'Gold': '#FFD700', 'Green': '#228B22',
+      'Grey': '#808080', 'Orange': '#FF8C00', 'Pink': '#FF69B4',
+      'Purple': '#800080', 'Red': '#DC143C', 'Silver': '#B0B0B0',
+      'Transparent': '#E8E8E8', 'Turquoise': '#40E0D0', 'White': '#F8F8F8',
+      'Yellow': '#FFD700'
+    };
+
+    // ============================================================
+    // STAGE 0: 10 items, loaded lazily from item_metadata.json.
+    // Expected location: ./item_metadata.json (next to demo.html).
+    // Schema per entry (item_idx as string key):
+    //   { article_id, image_path, product_type_name, graphical_appearance_name,
+    //     colour_group_name, perceived_colour_value_name, department_name,
+    //     index_name, index_group_name, section_name, garment_group_name,
+    //     prod_name, product_group_name, detail_desc }
+    // image_path inside the JSON refers to the source dataset layout
+    // (e.g. "010/0108775015.jpg") and is NOT used for display.
+    // The carousel always reads from filtered_images/<idx>.jpg instead.
+    // qwen_description is set after running the multimodal model;
+    // until then it stays empty and the UI shows "pending".
+    // ============================================================
+    let STAGE0_ITEMS = Array.from({length: SAMPLE_ITEMS}, (_, k) => ({
+      item_idx: k,
+      article_id: null,
+      image_path: `filtered_images/${k}.jpg`,
+      product_type_name: "",
+      graphical_appearance_name: "",
+      colour_group_name: "",
+      perceived_colour_value_name: "",
+      department_name: "",
+      index_name: "",
+      section_name: "",
+      garment_group_name: "",
+      prod_name: "",
+      product_group_name: "",
+      detail_desc: "",
+      qwen_description: ""
+    }));
+    let stage0Loaded = false;
+
+    // Full item_metadata.json kept in memory so the prediction tiles
+    // (Stage 2 and intervention sub-tabs) can look up prod_name /
+    // product_type_name / colour_group_name by item_idx without bloating
+    // the predictions JSON files.
+    let ITEM_METADATA = {};
+
+    function lookupItemMeta(itemIdx) {
+      const m = ITEM_METADATA[String(itemIdx)];
+      if (!m) return { prod_name: "", product_type_name: "", colour_group_name: "" };
+      return {
+        prod_name:           m.prod_name           || "",
+        product_type_name:   m.product_type_name   || "",
+        colour_group_name:   m.colour_group_name   || "",
+      };
+    }
+
+    async function loadStage0Items() {
+      if (stage0Loaded) return;
+      try {
+        const resp = await fetch('item_metadata.json', { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const data = await resp.json();
+
+        // Keep the whole metadata table for later lookups (prediction tiles).
+        ITEM_METADATA = data;
+
+        // Random-sample 10 keys deterministically.
+        const allKeys = Object.keys(data).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+        const keys = sampleK(allKeys, SAMPLE_ITEMS, DEMO_SEED + 1);
+
+        STAGE0_ITEMS = keys.map((k, i) => {
+          const m = data[k] || {};
+          return {
+            item_idx: parseInt(k, 10),
+            article_id:                   m.article_id ?? null,
+            // Force the display image to filtered_images/<idx>.jpg
+            // (the JSON's image_path points to the raw dataset layout).
+            image_path:                   `filtered_images/${k}.jpg`,
+            product_type_name:            m.product_type_name            || "",
+            graphical_appearance_name:    m.graphical_appearance_name    || "",
+            colour_group_name:            m.colour_group_name            || "",
+            perceived_colour_value_name:  m.perceived_colour_value_name  || "",
+            department_name:              m.department_name              || "",
+            index_name:                   m.index_name                   || "",
+            section_name:                 m.section_name                 || "",
+            garment_group_name:           m.garment_group_name           || "",
+            prod_name:                    m.prod_name                    || "",
+            product_group_name:           m.product_group_name           || "",
+            detail_desc:                  m.detail_desc                  || "",
+            qwen_description:             ""
+          };
+        });
+
+        // Pad to SAMPLE_ITEMS if fewer keys were available.
+        while (STAGE0_ITEMS.length < SAMPLE_ITEMS) {
+          const k = STAGE0_ITEMS.length;
+          STAGE0_ITEMS.push({
+            item_idx: k, article_id: null,
+            image_path: `filtered_images/${k}.jpg`,
+            product_type_name: "", graphical_appearance_name: "",
+            colour_group_name: "", perceived_colour_value_name: "",
+            department_name: "", index_name: "", section_name: "",
+            garment_group_name: "", prod_name: "", product_group_name: "",
+            detail_desc: "", qwen_description: ""
+          });
+        }
+
+        stage0Loaded = true;
+        console.log(`[stage0] Loaded ${STAGE0_ITEMS.length} items from item_metadata.json`);
+      } catch (err) {
+        console.warn('[stage0] Could not load item_metadata.json:', err.message);
+        stage0Loaded = true; // Stop retrying.
+      }
+    }
+
+    // ============================================================
+    // PREDICTIONS (computed offline by compute_predictions.py):
+    //   image/predictions_original.json
+    //     { "<user_id>": [ {rank, item_idx, score}, ... ] }
+    //   image/predictions_loi_color.json,  predictions_loo_color.json,
+    //   image/predictions_loi_category.json, predictions_loo_category.json
+    //     { "<user_id>": { "<changed_attr>": [ {rank, item_idx, score}, ... ] } }
+    // Tiles look up prod_name / colour / type via ITEM_METADATA (item_metadata.json).
+    // ============================================================
+    const PREDICTIONS = {
+      original:        { data: null, loaded: false, path: 'image/predictions_original.json' },
+      loi_color:       { data: null, loaded: false, path: 'image/predictions_loi_color.json' },
+      loi_color_mm:    { data: null, loaded: false, path: 'image/predictions_loi_color_multimodal.json' },
+      loo_color:       { data: null, loaded: false, path: 'image/predictions_loo_color.json' },
+      loi_category:    { data: null, loaded: false, path: 'image/predictions_loi_category.json' },
+      loi_category_mm: { data: null, loaded: false, path: 'image/predictions_loi_category_multimodal.json' },
+      loo_category:    { data: null, loaded: false, path: 'image/predictions_loo_category.json' },
+    };
+
+    async function loadPredictions(key) {
+      const slot = PREDICTIONS[key];
+      if (!slot || slot.loaded) return;
+      try {
+        const resp = await fetch(slot.path, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        slot.data = await resp.json();
+        console.log(`[predictions] Loaded ${key} from ${slot.path}`);
+      } catch (err) {
+        console.warn(`[predictions] Could not load ${slot.path}:`, err.message);
+      } finally {
+        slot.loaded = true; // Don't retry on subsequent navigations.
+      }
+    }
+
+    // Map intervention sub-tab key -> PREDICTIONS key.
+    function predictionsKeyForSubtab(subtabKey) {
+      // 'loi-color' -> 'loi_color'
+      return subtabKey.replaceAll('-', '_');
+    }
+
+    // Render both summary panels with a git-diff style word-level diff.
+    // Uses Google's diff-match-patch with semantic cleanup so short common
+    // runs inside long changes get absorbed into the change (this matches
+    // diffchecker.com's behavior). The ORIGINAL panel renders deletions on
+    // a red translucent background; the EDITED panel renders insertions on
+    // a green translucent background. Common runs appear plain on both
+    // sides. Preserves the pending fallback when a side is empty.
+    function fillSummariesWithDiff(origId, editId, origText, editText, op) {
+      const origEl = document.getElementById(origId);
+      const editEl = document.getElementById(editId);
+      const pending = '<span style="color:#94a3b8; font-style: italic;">&mdash; pending &mdash;</span>';
+      const escapeHtml = (s) => s
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+      const hasOrig = origText && origText.trim();
+      const hasEdit = editText && editText.trim();
+
+      const setPlain = (el, text) => {
+        if (!el) return;
+        if (!text || !text.trim()) { el.innerHTML = pending; return; }
+        el.textContent = text;
+        el.style.fontStyle = 'normal';
+        el.style.color = '';
+      };
+
+      // If diff-match-patch hasn't loaded (offline / CDN blocked) or both
+      // sides are empty, fall back to plain rendering.
+      const DMP = (typeof diff_match_patch !== 'undefined') ? diff_match_patch : null;
+      if (!DMP || (!hasOrig && !hasEdit)) {
+        setPlain(origEl, origText);
+        setPlain(editEl, editText);
+        return;
+      }
+
+      const dmp = new DMP();
+      // Compute char-level diff, then merge runs into word-level chunks via
+      // semantic cleanup (this is how diffchecker-style "smart" diffs work).
+      const diffs = dmp.diff_main(origText || '', editText || '');
+      dmp.diff_cleanupSemantic(diffs);
+
+      // Translucent backgrounds; bold for emphasis. Inline styles to avoid
+      // touching the rest of the stylesheet.
+      const addedStyle   = 'background: rgba(34,197,94,0.18); border-radius: 3px; padding: 0 2px;';
+      const removedStyle = 'background: rgba(239,68,68,0.18); border-radius: 3px; padding: 0 2px;';
+
+      // dmp op codes: -1 = deletion, 0 = equal, 1 = insertion.
+      // sideKey 'added'   -> edited side: keep equal + insertions, drop deletions.
+      // sideKey 'removed' -> original side: keep equal + deletions, drop insertions.
+      const renderSide = (sideKey) => diffs.map(([opCode, text]) => {
+        if (opCode === 1) {
+          if (sideKey !== 'added') return '';
+          return `<strong style="${addedStyle}">${escapeHtml(text)}</strong>`;
+        }
+        if (opCode === -1) {
+          if (sideKey !== 'removed') return '';
+          return `<strong style="${removedStyle}">${escapeHtml(text)}</strong>`;
+        }
+        return escapeHtml(text);
+      }).join('');
+
+      if (origEl) {
+        if (!hasOrig) {
+          origEl.innerHTML = pending;
+        } else {
+          origEl.innerHTML = renderSide('removed');
+          origEl.style.fontStyle = 'normal';
+          origEl.style.color = '';
+        }
+      }
+      if (editEl) {
+        if (!hasEdit) {
+          editEl.innerHTML = pending;
+        } else {
+          editEl.innerHTML = renderSide('added');
+          editEl.style.fontStyle = 'normal';
+          editEl.style.color = '';
+        }
+      }
+    }
+
+    // Build the gallery HTML from a list of {rank, item_idx, score}.
+    // Pads to `pad` tiles with placeholders if the array is shorter.
+    function buildTopKGalleryFromPreds(preds, pad = 20, cls = 'topk') {
+      if (!preds || preds.length === 0) return null;
+      const tiles = preds.map(it => {
+        const meta = lookupItemMeta(it.item_idx);
+        const name = meta.prod_name || `Item ${it.item_idx}`;
+        const sub  = [meta.product_type_name, meta.colour_group_name].filter(Boolean).join(' · ') || '—';
+        if (cls === 'mini') {
+          return `
+            <div class="dummy-mini-item" style="opacity: 1; background: white; border-color: #cbd5e1;">
+              <span class="mini-rank">#${it.rank}</span>
+              <img src="filtered_images/${it.item_idx}.jpg" alt="rank ${it.rank}"
+                   style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;"
+                   onerror="this.outerHTML='<i class=\\'fas fa-tshirt\\'></i>'">
+            </div>`;
+        }
+        return `
+          <div class="topk-item">
+            <div class="topk-rank">#${it.rank}</div>
+            <img src="filtered_images/${it.item_idx}.jpg" alt="rank ${it.rank}"
+                 onerror="this.outerHTML='<div class=\\'topk-placeholder\\'><i class=\\'fas fa-tshirt\\'></i></div>'">
+            <div class="topk-info">
+              <div class="topk-name" title="${name}">${name}</div>
+              <div class="topk-meta">${sub}</div>
+            </div>
+          </div>`;
+      });
+      // Pad with empty placeholders to keep grid shape stable.
+      while (tiles.length < pad) {
+        const i = tiles.length + 1;
+        if (cls === 'mini') {
+          tiles.push(`<div class="dummy-mini-item"><span class="mini-rank">#${i}</span><i class="fas fa-tshirt"></i></div>`);
+        } else {
+          tiles.push(`
+            <div class="topk-item">
+              <div class="topk-rank">#${i}</div>
+              <div class="topk-placeholder"><i class="fas fa-tshirt"></i></div>
+              <div class="topk-info">
+                <div class="topk-name" style="color:#94a3b8; font-style: italic;">— pending —</div>
+                <div class="topk-meta">—</div>
+              </div>
+            </div>`);
+        }
+      }
+      return tiles.join('');
+    }
+
+    // ============================================================
+    // STAGE 1: 10 sample users loaded lazily from JSON files in the
+    // same folder as demo.html:
+    //   image/interactions.json -> { "<user_id>": [item_id, item_id, ...] }
+    //   image/summaries.json    -> { "<user_id>": { num_items, summary } }
+    // The loader picks 10 evenly-spaced user keys deterministically.
+    // ============================================================
+    let STAGE1_USERS = Array.from({length: SAMPLE_USERS}, (_, k) => ({
+      user_id: null,
+      item_ids: [],
+      num_items: 0,
+      summary: ""
+    }));
+    let stage1Loaded = false;
+
+    async function loadStage1Users() {
+      if (stage1Loaded) return;
+      try {
+        const [itemsResp, summariesResp] = await Promise.all([
+          fetch('image/interactions.json', { cache: 'no-store' }),
+          fetch('image/summaries.json',    { cache: 'no-store' })
+        ]);
+        if (!itemsResp.ok)     throw new Error(`image/interactions.json HTTP ${itemsResp.status}`);
+        if (!summariesResp.ok) throw new Error(`image/summaries.json HTTP ${summariesResp.status}`);
+        const itemsData     = await itemsResp.json();
+        const summariesData = await summariesResp.json();
+
+        // Random-sample 10 user keys deterministically.
+        const keys = Object.keys(itemsData).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+        const picked = sampleK(keys, SAMPLE_USERS, DEMO_SEED + 2);
+
+        STAGE1_USERS = picked.map(uid => {
+          const item_ids   = itemsData[uid] || [];
+          const summaryObj = summariesData[uid] || {};
+          return {
+            user_id:   parseInt(uid, 10),
+            item_ids:  item_ids,
+            num_items: summaryObj.num_items ?? item_ids.length,
+            summary:   summaryObj.summary || ""
+          };
+        });
+        // Pad to SAMPLE_USERS if fewer.
+        while (STAGE1_USERS.length < SAMPLE_USERS) {
+          STAGE1_USERS.push({ user_id: null, item_ids: [], num_items: 0, summary: "" });
+        }
+        stage1Loaded = true;
+        console.log(`[stage1] Loaded ${STAGE1_USERS.length} users from image/interactions.json + image/summaries.json`);
+      } catch (err) {
+        console.warn('[stage1] Could not load Stage 1 JSON files:', err.message);
+        stage1Loaded = true; // Don't retry on every navigation.
+      }
+    }
+
+    // ============================================================
+    // STAGE 2: BGE-M3 -> CF decoder outputs.
+    // top_items is now driven by predictions_original.json (loaded above).
+    // The block is kept here for backward compatibility with any
+    // existing hand-filled overrides; if non-empty, the renderer can
+    // still consume it.
+    // ============================================================
+    const STAGE2_OUTPUT = {
+      user_id: 0,
+      top_items: []
+    };
+
+    // ============================================================
+    // ============================================================
+    // INTERVENTIONS: 4 sub-types, each loaded lazily from a JSON file
+    // on the server. JSON shape mirrors image/loi_color.json / image/loo_color.json
+    // / image/loi_category.json / image/loo_category.json (keyed by user_id string,
+    // with "additions" or "removals" lists per user).
+    //
+    // To populate: place those files at intervention/<filename>.json next
+    // to demo.html. The renderer normalizes each entry to the case shape
+    // {user_id, original_summary, edited_summary, original_attrs,
+    //  expected_attrs, changed_attr, op}.
+    //
+    // Until JSON files are present, sub-tab cases stay as 10 pending
+    // placeholders so the layout doesn't break.
+    // ============================================================
+    const INTERVENTION_SOURCES = {
+      'loi-color':       { path: 'image/loi_color.json',              attr_key: 'color',    op: 'add',    list_key: 'additions', changed_field: 'added_color',     idx_field: 'expected_color_indices',    name_field: 'expected_color_names',    orig_idx_field: 'original_color_indices',    orig_name_field: 'original_color_names' },
+      'loi-color-mm':    { path: 'image/loi_color_multimodal.json',    attr_key: 'color',    op: 'add',    list_key: 'additions', changed_field: 'added_color',     idx_field: 'expected_color_indices',    name_field: 'expected_color_names',    orig_idx_field: 'original_color_indices',    orig_name_field: 'original_color_names' },
+      'loo-color':       { path: 'image/loo_color.json',               attr_key: 'color',    op: 'remove', list_key: 'removals',  changed_field: 'removed_color',   idx_field: 'expected_color_indices',    name_field: 'expected_color_names',    orig_idx_field: 'original_color_indices',    orig_name_field: 'original_color_names' },
+      'loi-category':    { path: 'image/loi_category.json',            attr_key: 'category', op: 'add',    list_key: 'additions', changed_field: 'added_category',  idx_field: 'expected_category_indices', name_field: 'expected_category_names', orig_idx_field: 'original_category_indices', orig_name_field: 'original_category_names' },
+      'loi-category-mm': { path: 'image/loi_category_multimodal.json', attr_key: 'category', op: 'add',    list_key: 'additions', changed_field: 'added_category',  idx_field: 'expected_category_indices', name_field: 'expected_category_names', orig_idx_field: 'original_category_indices', orig_name_field: 'original_category_names' },
+      'loo-category':    { path: 'image/loo_category.json',            attr_key: 'category', op: 'remove', list_key: 'removals',  changed_field: 'removed_category', idx_field: 'expected_category_indices', name_field: 'expected_category_names', orig_idx_field: 'original_category_indices', orig_name_field: 'original_category_names' }
+    };
+
+    function emptyCase(user_id = null) {
+      return {
+        user_id: user_id,
+        attr_name: '',
+        attr_idx: null,
+        original_summary: "",
+        edited_summary: "",
+        original_attrs: [],
+        expected_attrs: [],
+        changed_attr: ''
+      };
+    }
+
+    // Normalize one user's entry from the JSON file into a single case.
+    // The JSON has multiple additions/removals per user — we pick the first.
+    function normalizeOneCase(user_id, entry, src) {
+      const list = entry[src.list_key] || [];
+      if (list.length === 0) return null;
+      const op_entry = list[0];
+      return {
+        user_id: parseInt(user_id, 10),
+        attr_name: op_entry[src.changed_field] || '',
+        attr_idx: null,
+        original_summary: entry.original_summary || '',
+        edited_summary: op_entry.edited_summary || '',
+        original_attrs: entry[src.orig_name_field] || [],
+        expected_attrs: op_entry[src.name_field] || [],
+        changed_attr: op_entry[src.changed_field] || '',
+        sampled_item_ids: Array.isArray(op_entry.sampled_item_ids) ? op_entry.sampled_item_ids : []
+      };
+    }
+
+    // INTERVENTIONS holds the currently-loaded cases (initially: 10 pending
+    // per type). loadIntervention() replaces them with real ones from JSON.
+    const INTERVENTIONS = {
+      'loi-color':       { title: 'Color (add a new color)',           op: 'add',    op_text: 'added color',    cases: Array.from({length: SAMPLE_USERS}, () => emptyCase(null)), loaded: false },
+      'loi-color-mm':    { title: 'Color (add a new color — multimodal)', op: 'add',  op_text: 'added color',    cases: Array.from({length: SAMPLE_USERS}, () => emptyCase(null)), loaded: false },
+      'loo-color':       { title: 'Color (remove an existing color)',   op: 'remove', op_text: 'removed color',  cases: Array.from({length: SAMPLE_USERS}, () => emptyCase(null)), loaded: false },
+      'loi-category':    { title: 'Category (add a new product type)',  op: 'add',    op_text: 'added category', cases: Array.from({length: SAMPLE_USERS}, () => emptyCase(null)), loaded: false },
+      'loi-category-mm': { title: 'Category (add a new product type — multimodal)', op: 'add', op_text: 'added category', cases: Array.from({length: SAMPLE_USERS}, () => emptyCase(null)), loaded: false },
+      'loo-category':    { title: 'Category (remove an existing product type)', op: 'remove', op_text: 'removed category', cases: Array.from({length: SAMPLE_USERS}, () => emptyCase(null)), loaded: false }
+    };
+
+    // Sample SAMPLE_USERS deterministic user ids from a JSON object's keys.
+    // Each intervention sub-tab gets its own seed offset so the four
+    // tabs don't show the same users (use the sub-tab index as offset).
+    function pickTenUsers(jsonObj, seedOffset = 0) {
+      const keys = Object.keys(jsonObj).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+      return sampleK(keys, SAMPLE_USERS, DEMO_SEED + 10 + seedOffset);
+    }
+
+    async function loadIntervention(subtabKey) {
+      const block = INTERVENTIONS[subtabKey];
+      if (block.loaded) return; // Already loaded once.
+      const src = INTERVENTION_SOURCES[subtabKey];
+      // Stable seed offset per sub-tab (so each tab samples a different
+      // user subset, but the same subset on every reload).
+      const seedOffsetMap = { 'loi-color': 0, 'loi-color-mm': 1, 'loo-color': 2, 'loi-category': 3, 'loi-category-mm': 4, 'loo-category': 5 };
+      const seedOffset = seedOffsetMap[subtabKey] ?? 0;
+      try {
+        const resp = await fetch(src.path, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const data = await resp.json();
+        const userIds = pickTenUsers(data, seedOffset);
+        const cases = [];
+        for (const uid of userIds) {
+          const normalized = normalizeOneCase(uid, data[uid], src);
+          cases.push(normalized || emptyCase(parseInt(uid, 10)));
+        }
+        // Pad to SAMPLE_USERS if fewer.
+        while (cases.length < SAMPLE_USERS) cases.push(emptyCase(null));
+        block.cases = cases;
+        block.loaded = true;
+        console.log(`[interventions] Loaded ${cases.length} cases for ${subtabKey} from ${src.path}`);
+      } catch (err) {
+        // Stay on placeholder cases; surface the reason in console.
+        console.warn(`[interventions] Could not load ${src.path}:`, err.message);
+        block.loaded = true; // Avoid refetching every click.
+      }
+    }
+
+  </script>
+
+  <!-- ============================================================ -->
+  <!-- Demo logic                                                   -->
+  <!-- ============================================================ -->
+  <script>
+
+    // ============================================================
+    // Prompt copy buttons (Stage 0)
+    // ============================================================
+    document.querySelectorAll('.prompt-copy-btn').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const targetId = btn.dataset.target;
+        const text = document.getElementById(targetId)?.textContent || '';
+        try {
+          await navigator.clipboard.writeText(text);
+          const orig = btn.textContent;
+          btn.textContent = 'Copied!';
+          setTimeout(() => { btn.textContent = orig; }, 1200);
+        } catch (e) {
+          // Clipboard API not available; silently ignore.
+        }
+      });
+    });
+
+    // ============================================================
+    // Tab switching
+    // ============================================================
+    // Maps a (dataset, tab) pair to one or more panel ids. The "summary"
+    // tab stacks Stage 1 and Stage 2 vertically; "content" is just Stage 0.
+    // Intervention panels live in #interventions-root and are always shown
+    // for the active dataset (CSS handles their visibility).
+    function panelIdsFor(dataset, tabKey) {
+      const prefix = dataset === 'hm' ? 'panel-'
+                   : dataset === 'ml20m' ? 'panel-mv-'
+                   : 'panel-msd-';
+      if (tabKey === 'content') return [prefix + 'stage0'];
+      if (tabKey === 'summary') return [prefix + 'stage1', prefix + 'stage2'];
+      return [];
+    }
+    function currentDataset() {
+      return document.body.dataset.dataset || 'hm';
+    }
+    function currentTab() {
+      const btn = document.querySelector('.demo-tab.active');
+      return btn ? btn.dataset.tab : 'content';
+    }
+
+    // Show only panels that match (currentDataset, currentTab); leave the
+    // intervention panels alone (CSS rules in #interventions-root handle them).
+    function applyTabToActiveDataset() {
+      const ds  = currentDataset();
+      const tab = currentTab();
+      const wantedIds = new Set(panelIdsFor(ds, tab));
+      document.querySelectorAll('.demo-panel').forEach(p => {
+        // Skip intervention panels: they live in #interventions-root and
+        // CSS keeps them visible for the active dataset.
+        if (p.closest('#interventions-root')) return;
+        const isMatch = (p.dataset.ds === ds) && wantedIds.has(p.id);
+        p.classList.toggle('active', isMatch);
+      });
+    }
+
+    document.querySelectorAll('.demo-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.demo-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        applyTabToActiveDataset();
+      });
+    });
+
+    // Dataset switcher: update body[data-dataset], reset to Content tab,
+    // update hero subtitle, and re-render the active panel.
+    const HERO_SUBTITLES = {
+      hm:    'Walk through the full pipeline, from raw image content to steerable recommendations, on the H&M dataset.',
+      ml20m: 'Walk through the full pipeline, from movie trailer descriptions to steerable recommendations, on the ML-20M dataset.',
+      msd:   'Walk through the full pipeline, from track descriptions to steerable recommendations, on the Million Song Dataset.'
+    };
+    document.querySelectorAll('.ds-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const ds = btn.dataset.ds;
+        document.querySelectorAll('.ds-pill').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        document.body.dataset.dataset = ds;
+        // Reset to Content tab when switching datasets.
+        document.querySelectorAll('.demo-tab').forEach(b => b.classList.remove('active'));
+        const contentTab = document.querySelector('.demo-tab[data-tab="content"]');
+        if (contentTab) contentTab.classList.add('active');
+        const sub = document.getElementById('hero-subtitle');
+        if (sub) sub.textContent = HERO_SUBTITLES[ds] || HERO_SUBTITLES.hm;
+        applyTabToActiveDataset();
+        // Lazy-load that dataset's data on first activation.
+        if (ds === 'ml20m') initMoviesLazy();
+        if (ds === 'msd')   initMusicLazy();
+      });
+    });
+
+    // Move intervention panels (H&M + Movies + MSD) into #interventions-root
+    // at the top of the page so they're always visible above the tab bar.
+    (function relocateInterventionPanels() {
+      const root = document.getElementById('interventions-root');
+      if (!root) return;
+      const panels = [
+        document.getElementById('panel-interventions'),
+        document.getElementById('panel-mv-interventions'),
+        document.getElementById('panel-msd-interventions'),
+      ].filter(Boolean);
+      panels.forEach(p => {
+        // Remove the .active class — visibility is now driven by CSS rules
+        // scoped to #interventions-root, not by the tab system.
+        p.classList.remove('active');
+        root.appendChild(p);
+      });
+    })();
+
+    // Make sure the initial Content panel is shown (the old default was Stage 0).
+    applyTabToActiveDataset();
+
+    // ============================================================
+    // STAGE 0: Carousel
+    // ============================================================
+    let stage0Idx = 0;
+    const getStage0Total = () => STAGE0_ITEMS.length;
+
+    function renderStage0() {
+      const item = STAGE0_ITEMS[stage0Idx];
+      const imgEl = document.getElementById('stage0-image');
+
+      // Image fallback: replace with placeholder if missing.
+      const imgWrapper = imgEl?.parentElement || document.querySelector('.carousel-image-col');
+      if (imgEl) {
+        imgEl.src = item.image_path;
+      } else {
+        // Image was replaced with placeholder on a previous error; rebuild it.
+        const placeholder = imgWrapper.querySelector('.image-placeholder');
+        if (placeholder) {
+          const newImg = document.createElement('img');
+          newImg.id = 'stage0-image';
+          newImg.className = 'carousel-image';
+          newImg.alt = 'Item image';
+          newImg.src = item.image_path;
+          newImg.onerror = function() {
+            this.outerHTML = '<div class="image-placeholder"><i class="fas fa-image"></i></div>';
+          };
+          placeholder.replaceWith(newImg);
+        }
+      }
+
+      // Show the item description. Prefer the Qwen-generated text when
+      // available; otherwise fall back to the dataset's detail_desc so the
+      // user always sees something useful (no debug-y "pending" string).
+      const descText = (item.qwen_description?.trim())
+        || (item.detail_desc?.trim())
+        || '';
+      const descHTML = descText
+        ? `<strong style="color: #475569;">Description:</strong> ${descText}`
+        : '';
+      document.getElementById('stage0-description').innerHTML = descHTML;
+
+      document.getElementById('carousel-current').textContent = stage0Idx + 1;
+      document.getElementById('carousel-total').textContent = getStage0Total();
+      document.getElementById('carousel-prev').disabled = (stage0Idx === 0);
+      document.getElementById('carousel-next').disabled = (stage0Idx === getStage0Total() - 1);
+
+      document.querySelectorAll('.carousel-dot').forEach((d, i) => {
+        d.classList.toggle('active', i === stage0Idx);
+      });
+    }
+
+    function buildStage0Dots() {
+      const container = document.getElementById('carousel-dots');
+      container.innerHTML = STAGE0_ITEMS.map((_, i) =>
+        `<button class="carousel-dot${i === 0 ? ' active' : ''}" data-idx="${i}" aria-label="Go to item ${i + 1}"></button>`
+      ).join('');
+      container.querySelectorAll('.carousel-dot').forEach(d => {
+        d.addEventListener('click', () => {
+          stage0Idx = parseInt(d.dataset.idx, 10);
+          renderStage0();
+        });
+      });
+    }
+
+    document.getElementById('carousel-prev').addEventListener('click', () => {
+      if (stage0Idx > 0) { stage0Idx--; renderStage0(); }
+    });
+    document.getElementById('carousel-next').addEventListener('click', () => {
+      if (stage0Idx < getStage0Total() - 1) { stage0Idx++; renderStage0(); }
+    });
+
+    buildStage0Dots();
+    renderStage0();
+    // Load real metadata, then re-render (also rebuild dots in case the
+    // metadata file contains fewer than 10 items).
+    loadStage0Items().then(() => {
+      buildStage0Dots();
+      renderStage0();
+    });
+
+    // ============================================================
+    // STAGE 1: item set + summary, with user navigation
+    // ============================================================
+    let stage1UserIdx = 0;
+
+    function renderStage1() {
+      const total = STAGE1_USERS.length;
+      const user = STAGE1_USERS[stage1UserIdx] || { user_id: null, item_ids: [], num_items: 0, summary: "" };
+
+      // Hidden user id on the panel itself.
+      document.getElementById('panel-stage1').dataset.userId = user.user_id ?? '';
+
+      // Header counters.
+      document.getElementById('user-current').textContent = stage1UserIdx + 1;
+      document.getElementById('user-total').textContent = total;
+      document.getElementById('user-itemcount-inline').textContent = `${user.num_items || 0} items`;
+      document.getElementById('stage1-itemcount').textContent = user.num_items || 0;
+
+      // Item grid (empty state when item_ids is empty).
+      const grid = document.getElementById('stage1-items');
+      if (!user.item_ids || user.item_ids.length === 0) {
+        grid.innerHTML = `
+          <div style="grid-column: 1 / -1; padding: 1.5rem; text-align: center; color: #94a3b8; font-style: italic; font-size: 0.88rem;">
+            &mdash; pending &mdash;
+          </div>
+        `;
+      } else {
+        grid.innerHTML = user.item_ids.map(id => `
+          <div class="item-chip" title="item_idx = ${id}">
+            <img src="filtered_images/${id}.jpg" alt="item ${id}"
+                 onerror="this.outerHTML='<div class=\\'item-thumb-placeholder\\'><i class=\\'fas fa-tshirt\\'></i></div>'">
+            <div class="item-id">#${id}</div>
+          </div>
+        `).join('');
+      }
+
+      // Summary.
+      const summaryEl = document.getElementById('stage1-summary');
+      if (user.summary && user.summary.trim()) {
+        summaryEl.innerHTML = user.summary;
+        summaryEl.style.fontStyle = 'normal';
+        summaryEl.style.color = '#334155';
+      } else {
+        summaryEl.innerHTML = '&mdash; pending &mdash;';
+        summaryEl.style.fontStyle = 'italic';
+        summaryEl.style.color = '#94a3b8';
+      }
+
+      // Nav buttons.
+      document.getElementById('user-prev').disabled = (stage1UserIdx === 0);
+      document.getElementById('user-next').disabled = (stage1UserIdx >= total - 1);
+    }
+
+    document.getElementById('user-prev').addEventListener('click', () => {
+      if (stage1UserIdx > 0) {
+        stage1UserIdx--;
+        // Keep Stage 2 in sync (it lives in the same tab now).
+        stage2UserIdx = stage1UserIdx;
+        renderStage1();
+        renderStage2();
+      }
+    });
+    document.getElementById('user-next').addEventListener('click', () => {
+      if (stage1UserIdx < STAGE1_USERS.length - 1) {
+        stage1UserIdx++;
+        stage2UserIdx = stage1UserIdx;
+        renderStage1();
+        renderStage2();
+      }
+    });
+
+    // Initial: render placeholders, then load JSON and re-render.
+    renderStage1();
+    loadStage1Users().then(() => renderStage1());
+
+    // ============================================================
+    // STAGE 2: predictions + top-K
+    // ============================================================
+
+    // ============================================================
+    // Dummy gallery builder (used when real outputs are absent).
+    // ============================================================
+    function buildDummyGallery(n, cls = 'topk') {
+      // n rank-tagged empty tiles.
+      if (cls === 'mini') {
+        return Array.from({length: n}, (_, i) =>
+          `<div class="dummy-mini-item"><span class="mini-rank">#${i + 1}</span><i class="fas fa-tshirt"></i></div>`
+        ).join('');
+      }
+      return Array.from({length: n}, (_, i) => `
+        <div class="topk-item">
+          <div class="topk-rank">#${i + 1}</div>
+          <div class="topk-placeholder"><i class="fas fa-tshirt"></i></div>
+          <div class="topk-info">
+            <div class="topk-name" style="color:#94a3b8; font-style: italic;">&mdash; pending &mdash;</div>
+            <div class="topk-meta">&mdash;</div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderStage2() {
+      const gallery = document.getElementById('stage2-topk');
+      // We reuse STAGE1_USERS for the user list (Stage 2 navigates over the
+      // same 50 sampled users — their predictions live in predictions_original.json).
+      const users = STAGE1_USERS;
+      const total = users.length;
+      const user = users[stage2UserIdx] || { user_id: null };
+
+      document.getElementById('stage2-user-current').textContent = stage2UserIdx + 1;
+      document.getElementById('stage2-user-total').textContent   = total;
+      document.getElementById('stage2-user-prev').disabled = (stage2UserIdx === 0);
+      document.getElementById('stage2-user-next').disabled = (stage2UserIdx >= total - 1);
+      document.getElementById('panel-stage2').dataset.userId = user.user_id ?? '';
+
+      // Look up offline-computed top-K for this user from predictions_original.json.
+      const predsData = PREDICTIONS.original.data;
+      const preds = (predsData && user.user_id != null)
+        ? (predsData[String(user.user_id)] || null)
+        : null;
+
+      const html = buildTopKGalleryFromPreds(preds, 20, 'topk');
+      gallery.innerHTML = html || buildDummyGallery(20, 'topk');
+    }
+
+    let stage2UserIdx = 0;
+    document.getElementById('stage2-user-prev').addEventListener('click', () => {
+      if (stage2UserIdx > 0) { stage2UserIdx--; renderStage2(); }
+    });
+    document.getElementById('stage2-user-next').addEventListener('click', () => {
+      if (stage2UserIdx < STAGE1_USERS.length - 1) { stage2UserIdx++; renderStage2(); }
+    });
+
+    // Initial render (placeholders), then load original predictions and refresh.
+    renderStage2();
+    loadPredictions('original').then(() => renderStage2());
+    // Also re-render once Stage 1 user list is loaded (so total/user_id are real).
+    loadStage1Users().then(() => renderStage2());
+
+    // ============================================================
+    // INTERVENTIONS
+    // ============================================================
+    let currentSubtab = 'loi-color';
+    let currentCaseIdx = 0;
+
+    function isColorIntervention(key) {
+      return key.endsWith('-color');
+    }
+
+    function renderAttrChips(attrs, changedAttr, op, isExpected) {
+      return attrs.map(a => {
+        let cls = 'attr-chip';
+        if (op === 'add' && isExpected && a === changedAttr) cls += ' added';
+        if (op === 'remove' && !isExpected && a === changedAttr) cls += ' removed';
+        return `<span class="${cls}">${a}</span>`;
+      }).join('');
+    }
+
+    function renderIntervention() {
+      const block = INTERVENTIONS[currentSubtab];
+      const cases = block.cases;
+      const caseObj = cases[currentCaseIdx];
+
+      // Hidden user id on the panel itself.
+      document.getElementById('panel-interventions').dataset.userId = caseObj.user_id;
+
+      document.getElementById('case-name').textContent = block.title;
+      document.getElementById('case-title').textContent = caseObj.changed_attr
+        ? `${block.title} — ${caseObj.changed_attr}`
+        : block.title;
+      document.getElementById('case-current').textContent = currentCaseIdx + 1;
+      document.getElementById('case-total').textContent = cases.length;
+
+      const opBadge = document.getElementById('case-op-badge');
+      opBadge.classList.toggle('add', block.op === 'add');
+      opBadge.classList.toggle('remove', block.op === 'remove');
+      const changedDisplay = caseObj.changed_attr || '—';
+      // Rewrite the badge contents as a single innerHTML write. We can't
+      // query/mutate the inner <i> directly because FontAwesome's SVG
+      // mode replaces those <i> tags with <svg> after load.
+      const opIcon = block.op === 'add' ? 'fa-plus' : 'fa-minus';
+      opBadge.innerHTML = `<i class="fas ${opIcon}"></i> <span id="case-op-text">${block.op_text}: ${changedDisplay}</span>`;
+
+      // Multimodal context gallery: only on *-mm subtabs, only when the
+      // case has sampled_item_ids. Otherwise hide the container.
+      const mmEl = document.getElementById('case-mm-gallery');
+      if (mmEl) {
+        const isMm = currentSubtab.endsWith('-mm');
+        const ids = (isMm && Array.isArray(caseObj.sampled_item_ids)) ? caseObj.sampled_item_ids.slice(0, 10) : [];
+        if (ids.length) {
+          const tiles = ids.map(iid => {
+            const fname = String(iid).padStart(10, '0');
+            return `
+            <div class="mm-tile">
+              <img src="collected_images/${fname}.jpg" alt="item ${iid}"
+                   onerror="this.outerHTML='<i class=&quot;fas fa-tshirt&quot;></i>'">
+            </div>`;
+          }).join('');
+          mmEl.innerHTML = `
+            <div class="mm-gallery-header">
+              <i class="fas fa-images" style="color:#2563eb;"></i>
+              New item(s) used to guide the model (${ids.length} item${ids.length === 1 ? '' : 's'})
+            </div>
+            <p class="mm-gallery-note">
+              For the attribute we want to add, we use the items (not previously used to train the system) below to steer the recommendations.
+            </p>
+            <div class="mm-gallery-tiles">${tiles}</div>`;
+          mmEl.style.display = '';
+        } else {
+          mmEl.innerHTML = '';
+          mmEl.style.display = 'none';
+        }
+      }
+
+      // Empty-state attr chip placeholder.
+      const emptyChip = '<span style="color:#94a3b8; font-style: italic; font-size: 0.8rem;">— pending —</span>';
+      document.getElementById('case-orig-attrs').innerHTML =
+        caseObj.original_attrs && caseObj.original_attrs.length
+          ? renderAttrChips(caseObj.original_attrs, caseObj.changed_attr, block.op, false)
+          : emptyChip;
+      document.getElementById('case-edit-attrs').innerHTML =
+        caseObj.expected_attrs && caseObj.expected_attrs.length
+          ? renderAttrChips(caseObj.expected_attrs, caseObj.changed_attr, block.op, true)
+          : emptyChip;
+
+      const fillSummary = (id, text) => {
+        const el = document.getElementById(id);
+        if (text && text.trim()) {
+          el.textContent = text;
+          el.style.fontStyle = 'normal';
+          el.style.color = '';
+        } else {
+          el.innerHTML = '<span style="color:#94a3b8; font-style: italic;">— pending —</span>';
+        }
+      };
+      fillSummariesWithDiff('case-orig-summary', 'case-edit-summary', caseObj.original_summary, caseObj.edited_summary, block.op);
+
+      // Prediction panels: real top-K from predictions JSON when available,
+      // otherwise fall back to a dummy mini gallery so layout stays intact.
+      const dummyGallery = Array.from({length: 10}, (_, i) =>
+        `<div class="dummy-mini-item"><span class="mini-rank">#${i + 1}</span><i class="fas fa-tshirt"></i></div>`
+      ).join('');
+      const fallbackPredsHTML = `
+        <div class="dummy-mini-chart-title">
+          <i class="fas fa-trophy" style="color: #94a3b8;"></i> Top-20 items (pending)
+        </div>
+        <div class="dummy-mini-gallery">${dummyGallery}</div>
+      `;
+
+      // Original predictions for this user: predictions_original.json[uid].
+      const uidStr = caseObj.user_id != null ? String(caseObj.user_id) : null;
+      const origPredsAll = (PREDICTIONS.original.data && uidStr)
+        ? (PREDICTIONS.original.data[uidStr] || null)
+        : null;
+      // Edited predictions: predictions_<type>.json[uid][changed_attr].
+      const predsKey = predictionsKeyForSubtab(currentSubtab);
+      const editedSlot = PREDICTIONS[predsKey];
+      const editedPredsAll = (editedSlot && editedSlot.data && uidStr && caseObj.changed_attr)
+        ? ((editedSlot.data[uidStr] || {})[caseObj.changed_attr] || null)
+        : null;
+
+      // Show only top 10 in the mini view to keep it compact.
+      const origPreds   = origPredsAll   ? origPredsAll.slice(0, 20)   : null;
+      const editedPreds = editedPredsAll ? editedPredsAll.slice(0, 20) : null;
+
+      const buildBlock = (preds) => {
+        const gallery = buildTopKGalleryFromPreds(preds, 10, 'mini');
+        if (!gallery) return fallbackPredsHTML;
+        return `
+          <div class="dummy-mini-chart-title">
+            <i class="fas fa-trophy" style="color: #2563eb;"></i> Top-20 items
+          </div>
+          <div class="dummy-mini-gallery">${gallery}</div>
+        `;
+      };
+
+      document.getElementById('case-orig-preds').innerHTML = buildBlock(origPreds);
+      document.getElementById('case-edit-preds').innerHTML = buildBlock(editedPreds);
+
+      document.getElementById('case-prev').disabled = (currentCaseIdx === 0);
+      document.getElementById('case-next').disabled = (currentCaseIdx === cases.length - 1);
+    }
+
+    // Sub-tab switching: load that sub-tab's JSON file + its predictions file, then render.
+    document.querySelectorAll('.subtab[data-subtab]').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const newSubtab = btn.dataset.subtab;
+        currentSubtab = newSubtab;
+        currentCaseIdx = 0;
+        document.querySelectorAll('.subtab[data-subtab]').forEach(s => s.classList.remove('active'));
+        btn.classList.add('active');
+        // Render once immediately (placeholders), then again after loads finish.
+        renderIntervention();
+        await Promise.all([
+          loadIntervention(newSubtab),
+          loadPredictions(predictionsKeyForSubtab(newSubtab)),
+          loadPredictions('original'),
+        ]);
+        if (currentSubtab === newSubtab) renderIntervention();
+      });
+    });
+
+    document.getElementById('case-prev').addEventListener('click', () => {
+      const max = INTERVENTIONS[currentSubtab].cases.length - 1;
+      console.log(`[intervention] prev clicked. subtab=${currentSubtab} idx=${currentCaseIdx} max=${max}`);
+      if (currentCaseIdx > 0) { currentCaseIdx--; renderIntervention(); }
+    });
+    document.getElementById('case-next').addEventListener('click', () => {
+      const max = INTERVENTIONS[currentSubtab].cases.length - 1;
+      console.log(`[intervention] next clicked. subtab=${currentSubtab} idx=${currentCaseIdx} max=${max}`);
+      if (currentCaseIdx < max) { currentCaseIdx++; renderIntervention(); }
+    });
+
+    // Initial: render placeholders, then load default sub-tab + predictions.
+    renderIntervention();
+    Promise.all([
+      loadIntervention(currentSubtab),
+      loadPredictions('original'),
+      loadPredictions(predictionsKeyForSubtab(currentSubtab)),
+    ]).then(() => renderIntervention());
+
+
+    // ============================================================
+    // ============================================================
+    //                MOVIES (ML-20M) — separate pipeline
+    // ============================================================
+    // Expected files under image_movies/:
+    //   titles.json                 -> { "<item_idx>": "Movie Title" }
+    //   descriptions.json           -> { "<item_idx>": "VideoLLaMA description" }
+    //   interactions.json           -> { "<user_id>": [item_id, ...] }
+    //   summaries.json              -> { "<user_id>": { num_items, summary } }
+    //   loi_genre.json              -> intervention file (LOI additions, genre)
+    //   loo_genre.json              -> intervention file (LOO removals, genre)
+    //   idx2tag.json                -> { "<genre_idx>": "Genre name" }
+    //   predictions_original.json   -> top-K for original summary (offline)
+    //   predictions_loi_genre.json  -> top-K after each LOI edit
+    //   predictions_loo_genre.json  -> top-K after each LOO edit
+    // tag_matrix.npy (n_items x n_genres) is consumed offline only.
+    // ============================================================
+
+    const MV_DIR = 'movie';
+
+    // --- Lazy stores ------------------------------------------------------
+    let MV_TITLES        = {};   // item_idx (str) -> title
+    let MV_TITLES_UNSEEN = {};   // item_idx (str) -> title (for sampled multimodal items)
+    let MV_DESCRIPTIONS  = {};   // item_idx (str) -> description
+    let MV_IDX2TAG       = {};   // genre_idx (str) -> name
+    let MV_ITEM_TAGS     = {};   // item_idx (str) -> [tag_name, ...]
+
+    let MV_STAGE0_ITEMS  = [];   // [{item_idx, title, description}]
+    let MV_STAGE1_USERS  = [];   // [{user_id, item_ids, summary, num_items}]
+    let MV_INTERVENTIONS = {
+      'loi-genre':    { title: 'Genre (add a new genre)',                op: 'add',    op_text: 'added genre',   cases: [], loaded: false },
+      'loi-genre-mm': { title: 'Genre (add a new genre — multimodal)',   op: 'add',    op_text: 'added genre',   cases: [], loaded: false },
+      'loo-genre':    { title: 'Genre (remove an existing genre)',       op: 'remove', op_text: 'removed genre', cases: [], loaded: false }
+    };
+    const MV_INTERVENTION_SOURCES = {
+      'loi-genre':    { path: `${MV_DIR}/loi_genre.json`,            list_key: 'additions', changed_field: 'added_genre',
+                        idx_field: 'expected_genre_indices', name_field: 'expected_genre_names',
+                        orig_idx_field: 'original_genre_indices', orig_name_field: 'original_genres', op: 'add' },
+      'loi-genre-mm': { path: `${MV_DIR}/loi_genre_multimodal.json`, list_key: 'additions', changed_field: 'added_genre',
+                        idx_field: 'expected_genre_indices', name_field: 'expected_genre_names',
+                        orig_idx_field: 'original_genre_indices', orig_name_field: 'original_genres', op: 'add' },
+      'loo-genre':    { path: `${MV_DIR}/loo_genre.json`,            list_key: 'removals',  changed_field: 'removed_genre',
+                        idx_field: 'expected_genre_indices', name_field: 'expected_genre_names',
+                        orig_idx_field: 'original_genre_indices', orig_name_field: 'original_genres', op: 'remove' }
+    };
+    const MV_PREDICTIONS = {
+      original:     { data: null, loaded: false, path: `${MV_DIR}/predictions_original.json` },
+      loi_genre:    { data: null, loaded: false, path: `${MV_DIR}/predictions_loi_genre.json` },
+      loi_genre_mm: { data: null, loaded: false, path: `${MV_DIR}/predictions_loi_genre_multimodal.json` },
+      loo_genre:    { data: null, loaded: false, path: `${MV_DIR}/predictions_loo_genre.json` }
+    };
+
+    let mvStage0Idx     = 0;
+    let mvStage1UserIdx = 0;
+    let mvStage2UserIdx = 0;
+    let mvCurrentSubtab = 'loi-genre';
+    let mvCurrentCaseIdx = 0;
+
+    let moviesInitStarted = false;
+    function initMoviesLazy() {
+      if (moviesInitStarted) return;
+      moviesInitStarted = true;
+      // Kick off all loads in parallel; each renderer re-runs when its data lands.
+      loadMvTitlesAndDescriptions().then(() => { renderMvStage0(); renderMvStage1(); renderMvStage2(); renderMvIntervention(); });
+      loadMvIdx2Tag().then(() => { renderMvIntervention(); });
+      loadMvItemTags().then(() => { renderMvStage2(); renderMvIntervention(); });
+      loadMvTitlesUnseen().then(() => { renderMvIntervention(); });
+      loadMvStage1Users().then(() => { renderMvStage1(); renderMvStage2(); });
+      loadMvPredictions('original').then(() => { renderMvStage2(); renderMvIntervention(); });
+      loadMvIntervention(mvCurrentSubtab).then(() => renderMvIntervention());
+      loadMvPredictions(predictionsKeyForSubtab(mvCurrentSubtab)).then(() => renderMvIntervention());
+    }
+
+    // --- Helpers ----------------------------------------------------------
+    function mvLookupTitle(itemIdx) {
+      return MV_TITLES[String(itemIdx)] || `Movie ${itemIdx}`;
+    }
+    function mvLookupDescription(itemIdx) {
+      return MV_DESCRIPTIONS[String(itemIdx)] || '';
+    }
+
+    async function loadMvTitlesAndDescriptions() {
+      try {
+        const [titlesResp, descResp] = await Promise.all([
+          fetch(`${MV_DIR}/titles.json`, { cache: 'no-store' }),
+          fetch(`${MV_DIR}/descriptions.json`, { cache: 'no-store' })
+        ]);
+        if (titlesResp.ok) MV_TITLES = await titlesResp.json();
+        else console.warn(`[movies] titles.json HTTP ${titlesResp.status}`);
+        if (descResp.ok)   MV_DESCRIPTIONS = await descResp.json();
+        else console.warn(`[movies] descriptions.json HTTP ${descResp.status}`);
+
+        // Build Stage 0 carousel: SAMPLE_ITEMS random items, deterministic.
+        const allKeys = Object.keys(MV_TITLES)
+          .sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+        const picked = sampleK(allKeys, SAMPLE_ITEMS, DEMO_SEED + 100);
+        MV_STAGE0_ITEMS = picked.map(k => ({
+          item_idx: parseInt(k, 10),
+          title:       MV_TITLES[k] || `Movie ${k}`,
+          description: MV_DESCRIPTIONS[k] || ''
+        }));
+        // Pad if fewer than SAMPLE_ITEMS available.
+        while (MV_STAGE0_ITEMS.length < SAMPLE_ITEMS) {
+          const k = MV_STAGE0_ITEMS.length;
+          MV_STAGE0_ITEMS.push({ item_idx: k, title: '', description: '' });
+        }
+        console.log(`[movies] Loaded ${Object.keys(MV_TITLES).length} titles, ${Object.keys(MV_DESCRIPTIONS).length} descriptions`);
+      } catch (err) {
+        console.warn('[movies] titles/descriptions load error:', err.message);
+      }
+    }
+
+    async function loadMvIdx2Tag() {
+      try {
+        const resp = await fetch(`${MV_DIR}/idx2tag.json`, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        MV_IDX2TAG = await resp.json();
+        console.log(`[movies] Loaded ${Object.keys(MV_IDX2TAG).length} genre tags`);
+      } catch (err) {
+        console.warn(`[movies] idx2tag.json:`, err.message);
+      }
+    }
+
+    async function loadMvItemTags() {
+      try {
+        const resp = await fetch(`${MV_DIR}/item_tags.json`, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        MV_ITEM_TAGS = await resp.json();
+        console.log(`[movies] Loaded item_tags for ${Object.keys(MV_ITEM_TAGS).length} items`);
+      } catch (err) {
+        console.warn(`[movies] item_tags.json:`, err.message);
+      }
+    }
+
+    async function loadMvTitlesUnseen() {
+      try {
+        const resp = await fetch(`${MV_DIR}/titles_unseen.json`, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        MV_TITLES_UNSEEN = await resp.json();
+        console.log(`[movies] Loaded titles_unseen for ${Object.keys(MV_TITLES_UNSEEN).length} items`);
+      } catch (err) {
+        console.warn(`[movies] titles_unseen.json:`, err.message);
+      }
+    }
+
+    async function loadMvStage1Users() {
+      try {
+        const [itemsResp, summariesResp] = await Promise.all([
+          fetch(`${MV_DIR}/interactions.json`, { cache: 'no-store' }),
+          fetch(`${MV_DIR}/summaries.json`,    { cache: 'no-store' })
+        ]);
+        if (!itemsResp.ok)     throw new Error(`interactions.json HTTP ${itemsResp.status}`);
+        if (!summariesResp.ok) throw new Error(`summaries.json HTTP ${summariesResp.status}`);
+        const itemsData     = await itemsResp.json();
+        const summariesData = await summariesResp.json();
+
+        const keys = Object.keys(itemsData).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+        const picked = sampleK(keys, SAMPLE_USERS, DEMO_SEED + 200);
+
+        MV_STAGE1_USERS = picked.map(uid => {
+          const item_ids   = itemsData[uid] || [];
+          const summaryObj = summariesData[uid] || {};
+          return {
+            user_id:   parseInt(uid, 10),
+            item_ids,
+            num_items: summaryObj.num_items ?? item_ids.length,
+            summary:   summaryObj.summary || ''
+          };
+        });
+        while (MV_STAGE1_USERS.length < SAMPLE_USERS) {
+          MV_STAGE1_USERS.push({ user_id: null, item_ids: [], num_items: 0, summary: '' });
+        }
+        console.log(`[movies] Loaded ${MV_STAGE1_USERS.length} sample users`);
+      } catch (err) {
+        console.warn('[movies] stage1 load error:', err.message);
+      }
+    }
+
+    async function loadMvPredictions(key) {
+      const slot = MV_PREDICTIONS[key];
+      if (!slot || slot.loaded) return;
+      try {
+        const resp = await fetch(slot.path, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        slot.data = await resp.json();
+        console.log(`[movies][predictions] Loaded ${key} from ${slot.path}`);
+      } catch (err) {
+        console.warn(`[movies][predictions] ${slot.path}:`, err.message);
+      } finally {
+        slot.loaded = true;
+      }
+    }
+
+    async function loadMvIntervention(subtabKey) {
+      const block = MV_INTERVENTIONS[subtabKey];
+      if (block.loaded) return;
+      const src = MV_INTERVENTION_SOURCES[subtabKey];
+      const seedOffsetMap = { 'loi-genre': 0, 'loi-genre-mm': 1, 'loo-genre': 2 };
+      const seedOffset = seedOffsetMap[subtabKey] ?? 0;
+      try {
+        const resp = await fetch(src.path, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const data = await resp.json();
+
+        // Pick SAMPLE_USERS deterministic user ids.
+        const keys = Object.keys(data).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+        const userIds = sampleK(keys, SAMPLE_USERS, DEMO_SEED + 300 + seedOffset);
+
+        // Build one case per (user, edited summary) pair, mirroring H&M.
+        const cases = [];
+        for (const uid of userIds) {
+          const entry = data[uid];
+          if (!entry) continue;
+          const opList = entry[src.list_key] || [];
+          for (const op of opList) {
+            cases.push({
+              user_id:               parseInt(uid, 10),
+              original_summary:      entry.original_summary || '',
+              edited_summary:        op.edited_summary || '',
+              changed_attr:          op[src.changed_field] || '',
+              expected_attrs_idx:    entry[src.idx_field]     || op[src.idx_field]     || [],
+              expected_attrs_names:  entry[src.name_field]    || op[src.name_field]    || [],
+              original_attrs_idx:    entry[src.orig_idx_field]  || [],
+              original_attrs_names:  entry[src.orig_name_field] || [],
+              sampled_item_ids:      Array.isArray(op.sampled_movie_ids) ? op.sampled_movie_ids : [],
+            });
+          }
+        }
+        while (cases.length < SAMPLE_USERS) cases.push({
+          user_id: null, original_summary: '', edited_summary: '',
+          changed_attr: '', expected_attrs_names: [], original_attrs_names: []
+        });
+        block.cases = cases;
+        block.loaded = true;
+        console.log(`[movies][interventions] Loaded ${cases.length} cases for ${subtabKey}`);
+      } catch (err) {
+        console.warn(`[movies][interventions] ${src.path}:`, err.message);
+        block.loaded = true;
+      }
+    }
+
+    // --- Renderers --------------------------------------------------------
+
+    function renderMvStage0() {
+      const total = MV_STAGE0_ITEMS.length || SAMPLE_ITEMS;
+      if (mvStage0Idx >= total) mvStage0Idx = total - 1;
+      const item = MV_STAGE0_ITEMS[mvStage0Idx] || { item_idx: 0, title: '', description: '' };
+
+      const card = document.getElementById('mv-stage0-title-card');
+      const desc = document.getElementById('mv-stage0-description');
+      const key  = document.getElementById('mv-stage0-itemkey');
+      if (card) card.textContent = item.title || '— pending —';
+      if (key)  key.textContent  = `item ${item.item_idx}`;
+      if (desc) {
+        if (item.description && item.description.trim()) {
+          desc.innerHTML = `<span class="model-pill">VideoLLaMA-3</span>
+            <div style="margin-top: 0.5rem; color: #334155;">${item.description}</div>`;
+        } else {
+          desc.innerHTML = `<span class="model-pill">VideoLLaMA-3</span>
+            <div style="margin-top: 0.5rem; color: #94a3b8; font-style: italic;">— pending —</div>`;
+        }
+      }
+
+      // Dots
+      const dotsEl = document.getElementById('mv-stage0-dots');
+      if (dotsEl) {
+        dotsEl.innerHTML = Array.from({length: total}, (_, i) =>
+          `<span class="carousel-dot${i === mvStage0Idx ? ' active' : ''}" data-mv-stage0-i="${i}"></span>`
+        ).join('');
+        dotsEl.querySelectorAll('.carousel-dot').forEach(d => {
+          d.addEventListener('click', () => {
+            mvStage0Idx = parseInt(d.dataset.mvStage0I, 10);
+            renderMvStage0();
+          });
+        });
+      }
+      document.getElementById('mv-carousel-current').textContent = mvStage0Idx + 1;
+      document.getElementById('mv-carousel-total').textContent   = total;
+      document.getElementById('mv-stage0-prev').disabled = (mvStage0Idx === 0);
+      document.getElementById('mv-stage0-next').disabled = (mvStage0Idx >= total - 1);
+    }
+
+    document.getElementById('mv-stage0-prev')?.addEventListener('click', () => {
+      if (mvStage0Idx > 0) { mvStage0Idx--; renderMvStage0(); }
+    });
+    document.getElementById('mv-stage0-next')?.addEventListener('click', () => {
+      if (mvStage0Idx < MV_STAGE0_ITEMS.length - 1) { mvStage0Idx++; renderMvStage0(); }
+    });
+
+    function renderMvStage1() {
+      const users = MV_STAGE1_USERS;
+      const total = users.length || SAMPLE_USERS;
+      if (mvStage1UserIdx >= total) mvStage1UserIdx = total - 1;
+      const user = users[mvStage1UserIdx] || { user_id: null, item_ids: [], num_items: 0, summary: '' };
+
+      document.getElementById('panel-mv-stage1').dataset.userId = user.user_id ?? '';
+      document.getElementById('mv-user-current').textContent = mvStage1UserIdx + 1;
+      document.getElementById('mv-user-total').textContent   = total;
+      const cnt = user.num_items || (user.item_ids ? user.item_ids.length : 0);
+      document.getElementById('mv-user-itemcount-inline').textContent = `${cnt} movies`;
+      document.getElementById('mv-stage1-itemcount').textContent      = cnt;
+      document.getElementById('mv-user-prev').disabled = (mvStage1UserIdx === 0);
+      document.getElementById('mv-user-next').disabled = (mvStage1UserIdx >= total - 1);
+
+      // Watched movies grid: title chips (no images).
+      const grid = document.getElementById('mv-stage1-items');
+      if (!user.item_ids || user.item_ids.length === 0) {
+        grid.innerHTML = `<div style="color:#94a3b8; font-style: italic; padding: 1rem;">— pending —</div>`;
+      } else {
+        // Cap at first ~50 to keep the page sane.
+        const show = user.item_ids.slice(0, 50);
+        grid.innerHTML = show.map(iid => {
+          const title = mvLookupTitle(iid);
+          return `
+            <div class="topk-item" style="padding: 0.6rem;">
+              <div class="topk-info" style="padding: 0;">
+                <div class="topk-name" title="${title}">${title}</div>
+                <div class="topk-meta">item ${iid}</div>
+              </div>
+            </div>`;
+        }).join('');
+      }
+
+      // Summary
+      const summaryEl = document.getElementById('mv-stage1-summary');
+      if (user.summary && user.summary.trim()) {
+        summaryEl.innerHTML = user.summary;
+        summaryEl.style.fontStyle = 'normal';
+        summaryEl.style.color = '#334155';
+      } else {
+        summaryEl.innerHTML = '&mdash; pending &mdash;';
+        summaryEl.style.fontStyle = 'italic';
+        summaryEl.style.color = '#94a3b8';
+      }
+    }
+
+    document.getElementById('mv-user-prev')?.addEventListener('click', () => {
+      if (mvStage1UserIdx > 0) {
+        mvStage1UserIdx--;
+        mvStage2UserIdx = mvStage1UserIdx;
+        renderMvStage1();
+        renderMvStage2();
+      }
+    });
+    document.getElementById('mv-user-next')?.addEventListener('click', () => {
+      if (mvStage1UserIdx < MV_STAGE1_USERS.length - 1) {
+        mvStage1UserIdx++;
+        mvStage2UserIdx = mvStage1UserIdx;
+        renderMvStage1();
+        renderMvStage2();
+      }
+    });
+
+    // Top-K gallery builder for movies: title chips (no images).
+    function buildMvTopKGallery(preds, pad = 20) {
+      const tiles = [];
+      const renderTags = (itemIdx) => {
+        const tags = MV_ITEM_TAGS[String(itemIdx)] || [];
+        if (!tags.length) return '<span style="color:#94a3b8; font-style: italic; font-size: 0.7rem;">no tags</span>';
+        return tags.map(t =>
+          `<span style="display: inline-block; padding: 0.1rem 0.4rem; margin: 0.1rem 0.15rem 0.1rem 0; background: #eff6ff; color: #1e40af; border-radius: 8px; font-size: 0.7rem; line-height: 1.3;">${t}</span>`
+        ).join('');
+      };
+      if (preds && preds.length) {
+        preds.forEach(it => {
+          const title = mvLookupTitle(it.item_idx);
+          tiles.push(`
+            <div class="topk-item" style="padding: 0.6rem 0.6rem 0.6rem 2.2rem; min-height: 5rem;">
+              <div class="topk-rank">#${it.rank}</div>
+              <div class="topk-info" style="padding: 0;">
+                <div class="topk-name" title="${title}">${title}</div>
+                <div class="topk-meta" style="margin-top: 0.25rem;">${renderTags(it.item_idx)}</div>
+              </div>
+            </div>`);
+        });
+      }
+      while (tiles.length < pad) {
+        const i = tiles.length + 1;
+        tiles.push(`
+          <div class="topk-item" style="padding: 0.6rem 0.6rem 0.6rem 2.2rem; min-height: 5rem;">
+            <div class="topk-rank">#${i}</div>
+            <div class="topk-info" style="padding: 0;">
+              <div class="topk-name" style="color:#94a3b8; font-style: italic;">— pending —</div>
+              <div class="topk-meta">—</div>
+            </div>
+          </div>`);
+      }
+      return tiles.join('');
+    }
+
+    function renderMvStage2() {
+      const users = MV_STAGE1_USERS;
+      const total = users.length || SAMPLE_USERS;
+      if (mvStage2UserIdx >= total) mvStage2UserIdx = total - 1;
+      const user = users[mvStage2UserIdx] || { user_id: null };
+      document.getElementById('mv-stage2-user-current').textContent = mvStage2UserIdx + 1;
+      document.getElementById('mv-stage2-user-total').textContent   = total;
+      document.getElementById('mv-stage2-user-prev').disabled = (mvStage2UserIdx === 0);
+      document.getElementById('mv-stage2-user-next').disabled = (mvStage2UserIdx >= total - 1);
+      document.getElementById('panel-mv-stage2').dataset.userId = user.user_id ?? '';
+
+      const predsData = MV_PREDICTIONS.original.data;
+      const preds = (predsData && user.user_id != null)
+        ? (predsData[String(user.user_id)] || null)
+        : null;
+      document.getElementById('mv-stage2-topk').innerHTML = buildMvTopKGallery(preds, 20);
+    }
+
+    document.getElementById('mv-stage2-user-prev')?.addEventListener('click', () => {
+      if (mvStage2UserIdx > 0) { mvStage2UserIdx--; renderMvStage2(); }
+    });
+    document.getElementById('mv-stage2-user-next')?.addEventListener('click', () => {
+      if (mvStage2UserIdx < MV_STAGE1_USERS.length - 1) { mvStage2UserIdx++; renderMvStage2(); }
+    });
+
+    // Build attr chip list for genre interventions.
+    function renderMvAttrChips(attrs, changedAttr, op, isExpected) {
+      return (attrs || []).map(a => {
+        const isChanged = (a === changedAttr);
+        let cls = 'attr-chip';
+        if (isExpected && isChanged && op === 'add')    cls += ' added';
+        if (!isExpected && isChanged && op === 'remove') cls += ' removed-original';
+        return `<span class="${cls}">${a}</span>`;
+      }).join('') || `<span style="color:#94a3b8; font-style: italic;">— pending —</span>`;
+    }
+
+    function renderMvIntervention() {
+      const block = MV_INTERVENTIONS[mvCurrentSubtab];
+      const cases = block.cases.length ? block.cases
+                                       : Array.from({length: SAMPLE_USERS}, () => ({
+                                           user_id: null, original_summary: '', edited_summary: '',
+                                           changed_attr: '', expected_attrs_names: [], original_attrs_names: []
+                                         }));
+      if (mvCurrentCaseIdx >= cases.length) mvCurrentCaseIdx = cases.length - 1;
+      const caseObj = cases[mvCurrentCaseIdx];
+
+      document.getElementById('panel-mv-interventions').dataset.userId = caseObj.user_id ?? '';
+      document.getElementById('mv-case-name').textContent    = block.title;
+      document.getElementById('mv-case-title').textContent   = `${block.title} — ${caseObj.changed_attr || '—'}`;
+      document.getElementById('mv-case-current').textContent = mvCurrentCaseIdx + 1;
+      document.getElementById('mv-case-total').textContent   = cases.length;
+
+      // Op badge (rewrite HTML to be safe against FontAwesome SVG mode).
+      const opBadge = document.getElementById('mv-case-op-badge');
+      opBadge.classList.toggle('add', block.op === 'add');
+      opBadge.classList.toggle('remove', block.op === 'remove');
+      const opIcon = block.op === 'add' ? 'fa-plus' : 'fa-minus';
+      const changedDisplay = caseObj.changed_attr || '—';
+      opBadge.innerHTML = `<i class="fas ${opIcon}"></i> <span id="mv-case-op-text">${block.op_text}: ${changedDisplay}</span>`;
+
+      // Multimodal context gallery: only on *-mm subtabs, only when the
+      // case has sampled_item_ids. Otherwise hide the container.
+      const mvMmEl = document.getElementById('mv-case-mm-gallery');
+      if (mvMmEl) {
+        const isMm = mvCurrentSubtab.endsWith('-mm');
+        const ids = (isMm && Array.isArray(caseObj.sampled_item_ids)) ? caseObj.sampled_item_ids.slice(0, 10) : [];
+        if (ids.length) {
+          const tiles = ids.map(iid => {
+            const title = MV_TITLES_UNSEEN[String(iid)] || `Movie ${iid}`;
+            return `<div class="mm-title-card" title="${title}">${title}</div>`;
+          }).join('');
+          mvMmEl.innerHTML = `
+            <div class="mm-gallery-header">
+              <i class="fas fa-film" style="color:#2563eb;"></i>
+              New item(s) used to guide the model (${ids.length} movie${ids.length === 1 ? '' : 's'})
+            </div>
+            <p class="mm-gallery-note">
+              For the attribute we want to add, we use the items (not previously used to train the system) below to steer the recommendations.
+            </p>
+            <div class="mm-gallery-tiles">${tiles}</div>`;
+          mvMmEl.style.display = '';
+        } else {
+          mvMmEl.innerHTML = '';
+          mvMmEl.style.display = 'none';
+        }
+      }
+
+      // Attribute chips (genres).
+      document.getElementById('mv-case-orig-attrs').innerHTML =
+        renderMvAttrChips(caseObj.original_attrs_names, caseObj.changed_attr, block.op, false);
+      document.getElementById('mv-case-edit-attrs').innerHTML =
+        renderMvAttrChips(caseObj.expected_attrs_names, caseObj.changed_attr, block.op, true);
+
+      // Summaries.
+      const fillSummary = (id, text) => {
+        const el = document.getElementById(id);
+        if (text && text.trim()) {
+          el.textContent = text;
+          el.style.fontStyle = 'normal';
+          el.style.color = '';
+        } else {
+          el.innerHTML = '<span style="color:#94a3b8; font-style: italic;">— pending —</span>';
+        }
+      };
+      fillSummariesWithDiff('mv-case-orig-summary', 'mv-case-edit-summary', caseObj.original_summary, caseObj.edited_summary, block.op);
+
+      // Predictions (real if available, otherwise placeholder gallery).
+      const uidStr = caseObj.user_id != null ? String(caseObj.user_id) : null;
+      const origPredsAll = (MV_PREDICTIONS.original.data && uidStr)
+        ? (MV_PREDICTIONS.original.data[uidStr] || null)
+        : null;
+      const predsKey = predictionsKeyForSubtab(mvCurrentSubtab);
+      const editedSlot = MV_PREDICTIONS[predsKey];
+      const editedPredsAll = (editedSlot && editedSlot.data && uidStr && caseObj.changed_attr)
+        ? ((editedSlot.data[uidStr] || {})[caseObj.changed_attr] || null)
+        : null;
+      const origPreds   = origPredsAll   ? origPredsAll.slice(0, 20)   : null;
+      const editedPreds = editedPredsAll ? editedPredsAll.slice(0, 20) : null;
+
+      const buildBlock = (preds) => `
+        <div class="dummy-mini-chart-title">
+          <i class="fas fa-trophy" style="color: #2563eb;"></i> Top-20 movies
+        </div>
+        <div class="item-set-grid" style="grid-template-columns: repeat(2, 1fr); gap: 0.4rem;">${buildMvTopKGallery(preds, 10)}</div>
+      `;
+      document.getElementById('mv-case-orig-preds').innerHTML = buildBlock(origPreds);
+      document.getElementById('mv-case-edit-preds').innerHTML = buildBlock(editedPreds);
+
+      document.getElementById('mv-case-prev').disabled = (mvCurrentCaseIdx === 0);
+      document.getElementById('mv-case-next').disabled = (mvCurrentCaseIdx >= cases.length - 1);
+    }
+
+    document.querySelectorAll('.subtab[data-mv-subtab]').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const newSubtab = btn.dataset.mvSubtab;
+        mvCurrentSubtab = newSubtab;
+        mvCurrentCaseIdx = 0;
+        document.querySelectorAll('.subtab[data-mv-subtab]').forEach(s => s.classList.remove('active'));
+        btn.classList.add('active');
+        renderMvIntervention();
+        await Promise.all([
+          loadMvIntervention(newSubtab),
+          loadMvPredictions(predictionsKeyForSubtab(newSubtab)),
+          loadMvPredictions('original'),
+        ]);
+        if (mvCurrentSubtab === newSubtab) renderMvIntervention();
+      });
+    });
+
+    document.getElementById('mv-case-prev')?.addEventListener('click', () => {
+      if (mvCurrentCaseIdx > 0) { mvCurrentCaseIdx--; renderMvIntervention(); }
+    });
+    document.getElementById('mv-case-next')?.addEventListener('click', () => {
+      const max = MV_INTERVENTIONS[mvCurrentSubtab].cases.length - 1;
+      if (mvCurrentCaseIdx < max) { mvCurrentCaseIdx++; renderMvIntervention(); }
+    });
+
+    // Initial placeholder paint for movies (data loads when dataset switches in).
+    renderMvStage0();
+    renderMvStage1();
+    renderMvStage2();
+    renderMvIntervention();
+
+
+    // ============================================================
+    // ============================================================
+    //                  MSD (MUSIC) — separate pipeline
+    // ============================================================
+    // Expected files under image_music/:
+    //   titles.json                 -> { "<item_idx>": "Song title or Song — Artist" }
+    //   descriptions.json           -> { "<item_idx>": "Audio-LM description" }
+    //   interactions.json           -> { "<user_id>": [item_id, ...] }
+    //   summaries.json              -> { "<user_id>": { num_items, summary } }
+    //   tag_add.json                -> intervention file (additions)
+    //   tag_remove.json             -> intervention file (removals)
+    //   idx2tag.json                -> { "<tag_idx>": "Tag name" }
+    //   predictions_original.json
+    //   predictions_tag_add.json
+    //   predictions_tag_remove.json
+    // ============================================================
+
+    const MSD_DIR = 'music';
+
+    let MSD_TITLES        = {};
+    let MSD_TITLES_UNSEEN = {};   // item_idx (str) -> title (sampled items)
+    let MSD_DESCRIPTIONS  = {};
+    let MSD_IDX2TAG       = {};
+    let MSD_ITEM_TAGS     = {};   // item_idx (str) -> [tag_name, ...]
+
+    let MSD_STAGE0_ITEMS  = [];
+    let MSD_STAGE1_USERS  = [];
+    let MSD_INTERVENTIONS = {
+      'tag-add':    { title: 'Tag (add a new tag)',                op: 'add',    op_text: 'added tag',   cases: [], loaded: false },
+      'tag-add-mm': { title: 'Tag (add a new tag — multimodal)',   op: 'add',    op_text: 'added tag',   cases: [], loaded: false },
+      'tag-remove': { title: 'Tag (remove an existing tag)',       op: 'remove', op_text: 'removed tag', cases: [], loaded: false }
+    };
+    const MSD_INTERVENTION_SOURCES = {
+      'tag-add':    { path: `${MSD_DIR}/tag_add.json`,            list_key: 'additions', changed_field: 'added_tag',
+                      idx_field: 'expected_tag_indices', name_field: 'expected_tag_names',
+                      orig_idx_field: 'original_tag_indices', orig_name_field: 'original_tags', op: 'add' },
+      'tag-add-mm': { path: `${MSD_DIR}/tag_add_multimodal.json`, list_key: 'additions', changed_field: 'added_tag',
+                      idx_field: 'expected_tag_indices', name_field: 'expected_tag_names',
+                      orig_idx_field: 'original_tag_indices', orig_name_field: 'original_tags', op: 'add' },
+      'tag-remove': { path: `${MSD_DIR}/tag_remove.json`,         list_key: 'removals',  changed_field: 'removed_tag',
+                      idx_field: 'expected_tag_indices', name_field: 'expected_tag_names',
+                      orig_idx_field: 'original_tag_indices', orig_name_field: 'original_tags', op: 'remove' }
+    };
+    const MSD_PREDICTIONS = {
+      original:   { data: null, loaded: false, path: `${MSD_DIR}/predictions_original.json` },
+      tag_add:    { data: null, loaded: false, path: `${MSD_DIR}/predictions_tag_add.json` },
+      tag_add_mm: { data: null, loaded: false, path: `${MSD_DIR}/predictions_tag_add_multimodal.json` },
+      tag_remove: { data: null, loaded: false, path: `${MSD_DIR}/predictions_tag_remove.json` }
+    };
+
+    let msdStage0Idx     = 0;
+    let msdStage1UserIdx = 0;
+    let msdStage2UserIdx = 0;
+    let msdCurrentSubtab = 'tag-add';
+    let msdCurrentCaseIdx = 0;
+
+    let musicInitStarted = false;
+    function initMusicLazy() {
+      if (musicInitStarted) return;
+      musicInitStarted = true;
+      loadMsdTitlesAndDescriptions().then(() => { renderMsdStage0(); renderMsdStage1(); renderMsdStage2(); renderMsdIntervention(); });
+      loadMsdIdx2Tag().then(() => { renderMsdIntervention(); });
+      loadMsdItemTags().then(() => { renderMsdStage2(); renderMsdIntervention(); });
+      loadMsdTitlesUnseen().then(() => { renderMsdIntervention(); });
+      loadMsdStage1Users().then(() => { renderMsdStage1(); renderMsdStage2(); });
+      loadMsdPredictions('original').then(() => { renderMsdStage2(); renderMsdIntervention(); });
+      loadMsdIntervention(msdCurrentSubtab).then(() => renderMsdIntervention());
+      // predictionsKeyForSubtab('tag-add') -> 'tag_add', matches MSD_PREDICTIONS keys.
+      loadMsdPredictions(predictionsKeyForSubtab(msdCurrentSubtab)).then(() => renderMsdIntervention());
+    }
+
+    function msdLookupTitle(itemIdx) {
+      return MSD_TITLES[String(itemIdx)] || `Track ${itemIdx}`;
+    }
+
+    async function loadMsdTitlesAndDescriptions() {
+      try {
+        const [titlesResp, descResp] = await Promise.all([
+          fetch(`${MSD_DIR}/titles.json`,       { cache: 'no-store' }),
+          fetch(`${MSD_DIR}/descriptions.json`, { cache: 'no-store' })
+        ]);
+        if (titlesResp.ok) MSD_TITLES = await titlesResp.json();
+        else console.warn(`[music] titles.json HTTP ${titlesResp.status}`);
+        if (descResp.ok)   MSD_DESCRIPTIONS = await descResp.json();
+        else console.warn(`[music] descriptions.json HTTP ${descResp.status}`);
+
+        const allKeys = Object.keys(MSD_TITLES)
+          .sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+        const picked = sampleK(allKeys, SAMPLE_ITEMS, DEMO_SEED + 500);
+        MSD_STAGE0_ITEMS = picked.map(k => ({
+          item_idx: parseInt(k, 10),
+          title:       MSD_TITLES[k]       || `Track ${k}`,
+          description: MSD_DESCRIPTIONS[k] || ''
+        }));
+        while (MSD_STAGE0_ITEMS.length < SAMPLE_ITEMS) {
+          const k = MSD_STAGE0_ITEMS.length;
+          MSD_STAGE0_ITEMS.push({ item_idx: k, title: '', description: '' });
+        }
+        console.log(`[music] Loaded ${Object.keys(MSD_TITLES).length} titles, ${Object.keys(MSD_DESCRIPTIONS).length} descriptions`);
+      } catch (err) {
+        console.warn('[music] titles/descriptions load error:', err.message);
+      }
+    }
+
+    async function loadMsdIdx2Tag() {
+      try {
+        const resp = await fetch(`${MSD_DIR}/idx2tag.json`, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        MSD_IDX2TAG = await resp.json();
+        console.log(`[music] Loaded ${Object.keys(MSD_IDX2TAG).length} tag entries`);
+      } catch (err) {
+        console.warn(`[music] idx2tag.json:`, err.message);
+      }
+    }
+
+    async function loadMsdItemTags() {
+      try {
+        const resp = await fetch(`${MSD_DIR}/item_tags.json`, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        MSD_ITEM_TAGS = await resp.json();
+        console.log(`[music] Loaded item_tags for ${Object.keys(MSD_ITEM_TAGS).length} items`);
+      } catch (err) {
+        console.warn(`[music] item_tags.json:`, err.message);
+      }
+    }
+
+    async function loadMsdTitlesUnseen() {
+      try {
+        const resp = await fetch(`${MSD_DIR}/titles_unseen.json`, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        MSD_TITLES_UNSEEN = await resp.json();
+        console.log(`[music] Loaded titles_unseen for ${Object.keys(MSD_TITLES_UNSEEN).length} items`);
+      } catch (err) {
+        console.warn(`[music] titles_unseen.json:`, err.message);
+      }
+    }
+
+    async function loadMsdStage1Users() {
+      try {
+        const [itemsResp, summariesResp] = await Promise.all([
+          fetch(`${MSD_DIR}/interactions.json`, { cache: 'no-store' }),
+          fetch(`${MSD_DIR}/summaries.json`,    { cache: 'no-store' })
+        ]);
+        if (!itemsResp.ok)     throw new Error(`interactions.json HTTP ${itemsResp.status}`);
+        if (!summariesResp.ok) throw new Error(`summaries.json HTTP ${summariesResp.status}`);
+        const itemsData     = await itemsResp.json();
+        const summariesData = await summariesResp.json();
+
+        const keys = Object.keys(itemsData).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+        const picked = sampleK(keys, SAMPLE_USERS, DEMO_SEED + 600);
+
+        MSD_STAGE1_USERS = picked.map(uid => {
+          const item_ids   = itemsData[uid] || [];
+          const summaryObj = summariesData[uid] || {};
+          return {
+            user_id:   parseInt(uid, 10),
+            item_ids,
+            num_items: summaryObj.num_items ?? item_ids.length,
+            summary:   summaryObj.summary || ''
+          };
+        });
+        while (MSD_STAGE1_USERS.length < SAMPLE_USERS) {
+          MSD_STAGE1_USERS.push({ user_id: null, item_ids: [], num_items: 0, summary: '' });
+        }
+        console.log(`[music] Loaded ${MSD_STAGE1_USERS.length} sample users`);
+      } catch (err) {
+        console.warn('[music] stage1 load error:', err.message);
+      }
+    }
+
+    async function loadMsdPredictions(key) {
+      const slot = MSD_PREDICTIONS[key];
+      if (!slot || slot.loaded) return;
+      try {
+        const resp = await fetch(slot.path, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        slot.data = await resp.json();
+        console.log(`[music][predictions] Loaded ${key} from ${slot.path}`);
+      } catch (err) {
+        console.warn(`[music][predictions] ${slot.path}:`, err.message);
+      } finally {
+        slot.loaded = true;
+      }
+    }
+
+    async function loadMsdIntervention(subtabKey) {
+      const block = MSD_INTERVENTIONS[subtabKey];
+      if (block.loaded) return;
+      const src = MSD_INTERVENTION_SOURCES[subtabKey];
+      const seedOffsetMap = { 'tag-add': 0, 'tag-add-mm': 1, 'tag-remove': 2 };
+      const seedOffset = seedOffsetMap[subtabKey] ?? 0;
+      try {
+        const resp = await fetch(src.path, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const data = await resp.json();
+
+        const keys = Object.keys(data).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+        const userIds = sampleK(keys, SAMPLE_USERS, DEMO_SEED + 700 + seedOffset);
+
+        const cases = [];
+        for (const uid of userIds) {
+          const entry = data[uid];
+          if (!entry) continue;
+          const opList = entry[src.list_key] || [];
+          for (const op of opList) {
+            cases.push({
+              user_id:               parseInt(uid, 10),
+              original_summary:      entry.original_summary || '',
+              edited_summary:        op.edited_summary || '',
+              changed_attr:          op[src.changed_field] || '',
+              expected_attrs_idx:    entry[src.idx_field]     || op[src.idx_field]     || [],
+              expected_attrs_names:  entry[src.name_field]    || op[src.name_field]    || [],
+              original_attrs_idx:    entry[src.orig_idx_field]  || [],
+              original_attrs_names:  entry[src.orig_name_field] || [],
+              sampled_item_ids:      Array.isArray(op.sampled_song_ids) ? op.sampled_song_ids : [],
+            });
+          }
+        }
+        while (cases.length < SAMPLE_USERS) cases.push({
+          user_id: null, original_summary: '', edited_summary: '',
+          changed_attr: '', expected_attrs_names: [], original_attrs_names: []
+        });
+        block.cases = cases;
+        block.loaded = true;
+        console.log(`[music][interventions] Loaded ${cases.length} cases for ${subtabKey}`);
+      } catch (err) {
+        console.warn(`[music][interventions] ${src.path}:`, err.message);
+        block.loaded = true;
+      }
+    }
+
+    // --- Renderers --------------------------------------------------------
+
+    function renderMsdStage0() {
+      const total = MSD_STAGE0_ITEMS.length || SAMPLE_ITEMS;
+      if (msdStage0Idx >= total) msdStage0Idx = total - 1;
+      const item = MSD_STAGE0_ITEMS[msdStage0Idx] || { item_idx: 0, title: '', description: '' };
+
+      const card = document.getElementById('msd-stage0-title-card');
+      const desc = document.getElementById('msd-stage0-description');
+      const key  = document.getElementById('msd-stage0-itemkey');
+      if (card) card.textContent = item.title || '— pending —';
+      if (key)  key.textContent  = `item ${item.item_idx}`;
+      if (desc) {
+        if (item.description && item.description.trim()) {
+          desc.innerHTML = `<span class="model-pill">Music-Flamingo-7B</span>
+            <div style="margin-top: 0.5rem; color: #334155;">${item.description}</div>`;
+        } else {
+          desc.innerHTML = `<span class="model-pill">Music-Flamingo-7B</span>
+            <div style="margin-top: 0.5rem; color: #94a3b8; font-style: italic;">— pending —</div>`;
+        }
+      }
+
+      const dotsEl = document.getElementById('msd-stage0-dots');
+      if (dotsEl) {
+        dotsEl.innerHTML = Array.from({length: total}, (_, i) =>
+          `<span class="carousel-dot${i === msdStage0Idx ? ' active' : ''}" data-msd-stage0-i="${i}"></span>`
+        ).join('');
+        dotsEl.querySelectorAll('.carousel-dot').forEach(d => {
+          d.addEventListener('click', () => {
+            msdStage0Idx = parseInt(d.dataset.msdStage0I, 10);
+            renderMsdStage0();
+          });
+        });
+      }
+      document.getElementById('msd-carousel-current').textContent = msdStage0Idx + 1;
+      document.getElementById('msd-carousel-total').textContent   = total;
+      document.getElementById('msd-stage0-prev').disabled = (msdStage0Idx === 0);
+      document.getElementById('msd-stage0-next').disabled = (msdStage0Idx >= total - 1);
+    }
+
+    document.getElementById('msd-stage0-prev')?.addEventListener('click', () => {
+      if (msdStage0Idx > 0) { msdStage0Idx--; renderMsdStage0(); }
+    });
+    document.getElementById('msd-stage0-next')?.addEventListener('click', () => {
+      if (msdStage0Idx < MSD_STAGE0_ITEMS.length - 1) { msdStage0Idx++; renderMsdStage0(); }
+    });
+
+    function renderMsdStage1() {
+      const users = MSD_STAGE1_USERS;
+      const total = users.length || SAMPLE_USERS;
+      if (msdStage1UserIdx >= total) msdStage1UserIdx = total - 1;
+      const user = users[msdStage1UserIdx] || { user_id: null, item_ids: [], num_items: 0, summary: '' };
+
+      document.getElementById('panel-msd-stage1').dataset.userId = user.user_id ?? '';
+      document.getElementById('msd-user-current').textContent = msdStage1UserIdx + 1;
+      document.getElementById('msd-user-total').textContent   = total;
+      const cnt = user.num_items || (user.item_ids ? user.item_ids.length : 0);
+      document.getElementById('msd-user-itemcount-inline').textContent = `${cnt} tracks`;
+      document.getElementById('msd-stage1-itemcount').textContent      = cnt;
+      document.getElementById('msd-user-prev').disabled = (msdStage1UserIdx === 0);
+      document.getElementById('msd-user-next').disabled = (msdStage1UserIdx >= total - 1);
+
+      const grid = document.getElementById('msd-stage1-items');
+      if (!user.item_ids || user.item_ids.length === 0) {
+        grid.innerHTML = `<div style="color:#94a3b8; font-style: italic; padding: 1rem;">— pending —</div>`;
+      } else {
+        const show = user.item_ids.slice(0, 50);
+        grid.innerHTML = show.map(iid => {
+          const title = msdLookupTitle(iid);
+          return `
+            <div class="topk-item" style="padding: 0.6rem;">
+              <div class="topk-info" style="padding: 0;">
+                <div class="topk-name" title="${title}">${title}</div>
+                <div class="topk-meta">item ${iid}</div>
+              </div>
+            </div>`;
+        }).join('');
+      }
+
+      const summaryEl = document.getElementById('msd-stage1-summary');
+      if (user.summary && user.summary.trim()) {
+        summaryEl.innerHTML = user.summary;
+        summaryEl.style.fontStyle = 'normal';
+        summaryEl.style.color = '#334155';
+      } else {
+        summaryEl.innerHTML = '&mdash; pending &mdash;';
+        summaryEl.style.fontStyle = 'italic';
+        summaryEl.style.color = '#94a3b8';
+      }
+    }
+
+    document.getElementById('msd-user-prev')?.addEventListener('click', () => {
+      if (msdStage1UserIdx > 0) {
+        msdStage1UserIdx--;
+        msdStage2UserIdx = msdStage1UserIdx;
+        renderMsdStage1();
+        renderMsdStage2();
+      }
+    });
+    document.getElementById('msd-user-next')?.addEventListener('click', () => {
+      if (msdStage1UserIdx < MSD_STAGE1_USERS.length - 1) {
+        msdStage1UserIdx++;
+        msdStage2UserIdx = msdStage1UserIdx;
+        renderMsdStage1();
+        renderMsdStage2();
+      }
+    });
+
+    function buildMsdTopKGallery(preds, pad = 20) {
+      const tiles = [];
+      const renderTags = (itemIdx) => {
+        const tags = MSD_ITEM_TAGS[String(itemIdx)] || [];
+        if (!tags.length) return '<span style="color:#94a3b8; font-style: italic; font-size: 0.7rem;">no tags</span>';
+        return tags.map(t =>
+          `<span style="display: inline-block; padding: 0.1rem 0.4rem; margin: 0.1rem 0.15rem 0.1rem 0; background: #eff6ff; color: #1e40af; border-radius: 8px; font-size: 0.7rem; line-height: 1.3;">${t}</span>`
+        ).join('');
+      };
+      if (preds && preds.length) {
+        preds.forEach(it => {
+          const title = msdLookupTitle(it.item_idx);
+          tiles.push(`
+            <div class="topk-item" style="padding: 0.6rem 0.6rem 0.6rem 2.2rem; min-height: 5rem;">
+              <div class="topk-rank">#${it.rank}</div>
+              <div class="topk-info" style="padding: 0;">
+                <div class="topk-name" title="${title}">${title}</div>
+                <div class="topk-meta" style="margin-top: 0.25rem;">${renderTags(it.item_idx)}</div>
+              </div>
+            </div>`);
+        });
+      }
+      while (tiles.length < pad) {
+        const i = tiles.length + 1;
+        tiles.push(`
+          <div class="topk-item" style="padding: 0.6rem 0.6rem 0.6rem 2.2rem; min-height: 5rem;">
+            <div class="topk-rank">#${i}</div>
+            <div class="topk-info" style="padding: 0;">
+              <div class="topk-name" style="color:#94a3b8; font-style: italic;">— pending —</div>
+              <div class="topk-meta">—</div>
+            </div>
+          </div>`);
+      }
+      return tiles.join('');
+    }
+
+    function renderMsdStage2() {
+      const users = MSD_STAGE1_USERS;
+      const total = users.length || SAMPLE_USERS;
+      if (msdStage2UserIdx >= total) msdStage2UserIdx = total - 1;
+      const user = users[msdStage2UserIdx] || { user_id: null };
+      document.getElementById('msd-stage2-user-current').textContent = msdStage2UserIdx + 1;
+      document.getElementById('msd-stage2-user-total').textContent   = total;
+      document.getElementById('msd-stage2-user-prev').disabled = (msdStage2UserIdx === 0);
+      document.getElementById('msd-stage2-user-next').disabled = (msdStage2UserIdx >= total - 1);
+      document.getElementById('panel-msd-stage2').dataset.userId = user.user_id ?? '';
+
+      const predsData = MSD_PREDICTIONS.original.data;
+      const preds = (predsData && user.user_id != null)
+        ? (predsData[String(user.user_id)] || null)
+        : null;
+      document.getElementById('msd-stage2-topk').innerHTML = buildMsdTopKGallery(preds, 20);
+    }
+
+    function renderMsdAttrChips(attrs, changedAttr, op, isExpected) {
+      return (attrs || []).map(a => {
+        const isChanged = (a === changedAttr);
+        let cls = 'attr-chip';
+        if (isExpected && isChanged && op === 'add')    cls += ' added';
+        if (!isExpected && isChanged && op === 'remove') cls += ' removed-original';
+        return `<span class="${cls}">${a}</span>`;
+      }).join('') || `<span style="color:#94a3b8; font-style: italic;">— pending —</span>`;
+    }
+
+    function renderMsdIntervention() {
+      const block = MSD_INTERVENTIONS[msdCurrentSubtab];
+      const cases = block.cases.length ? block.cases
+                                       : Array.from({length: SAMPLE_USERS}, () => ({
+                                           user_id: null, original_summary: '', edited_summary: '',
+                                           changed_attr: '', expected_attrs_names: [], original_attrs_names: []
+                                         }));
+      if (msdCurrentCaseIdx >= cases.length) msdCurrentCaseIdx = cases.length - 1;
+      const caseObj = cases[msdCurrentCaseIdx];
+
+      document.getElementById('panel-msd-interventions').dataset.userId = caseObj.user_id ?? '';
+      document.getElementById('msd-case-name').textContent    = block.title;
+      document.getElementById('msd-case-title').textContent   = `${block.title} — ${caseObj.changed_attr || '—'}`;
+      document.getElementById('msd-case-current').textContent = msdCurrentCaseIdx + 1;
+      document.getElementById('msd-case-total').textContent   = cases.length;
+
+      const opBadge = document.getElementById('msd-case-op-badge');
+      opBadge.classList.toggle('add', block.op === 'add');
+      opBadge.classList.toggle('remove', block.op === 'remove');
+      const opIcon = block.op === 'add' ? 'fa-plus' : 'fa-minus';
+      const changedDisplay = caseObj.changed_attr || '—';
+      opBadge.innerHTML = `<i class="fas ${opIcon}"></i> <span id="msd-case-op-text">${block.op_text}: ${changedDisplay}</span>`;
+
+      // Multimodal context gallery: only on *-mm subtabs, only when the
+      // case has sampled_item_ids. Otherwise hide the container.
+      const msdMmEl = document.getElementById('msd-case-mm-gallery');
+      if (msdMmEl) {
+        const isMm = msdCurrentSubtab.endsWith('-mm');
+        const ids = (isMm && Array.isArray(caseObj.sampled_item_ids)) ? caseObj.sampled_item_ids.slice(0, 10) : [];
+        if (ids.length) {
+          const tiles = ids.map(iid => {
+            const title = MSD_TITLES_UNSEEN[String(iid)] || `Track ${iid}`;
+            return `<div class="mm-title-card" title="${title}">${title}</div>`;
+          }).join('');
+          msdMmEl.innerHTML = `
+            <div class="mm-gallery-header">
+              <i class="fas fa-music" style="color:#2563eb;"></i>
+              New item(s) used to guide the model (${ids.length} song${ids.length === 1 ? '' : 's'})
+            </div>
+            <p class="mm-gallery-note">
+              For the attribute we want to add, we use the items (not previously used to train the system) below to steer the recommendations.
+            </p>
+            <div class="mm-gallery-tiles">${tiles}</div>`;
+          msdMmEl.style.display = '';
+        } else {
+          msdMmEl.innerHTML = '';
+          msdMmEl.style.display = 'none';
+        }
+      }
+
+      document.getElementById('msd-case-orig-attrs').innerHTML =
+        renderMsdAttrChips(caseObj.original_attrs_names, caseObj.changed_attr, block.op, false);
+      document.getElementById('msd-case-edit-attrs').innerHTML =
+        renderMsdAttrChips(caseObj.expected_attrs_names, caseObj.changed_attr, block.op, true);
+
+      const fillSummary = (id, text) => {
+        const el = document.getElementById(id);
+        if (text && text.trim()) {
+          el.textContent = text;
+          el.style.fontStyle = 'normal';
+          el.style.color = '';
+        } else {
+          el.innerHTML = '<span style="color:#94a3b8; font-style: italic;">— pending —</span>';
+        }
+      };
+      fillSummariesWithDiff('msd-case-orig-summary', 'msd-case-edit-summary', caseObj.original_summary, caseObj.edited_summary, block.op);
+
+      const uidStr = caseObj.user_id != null ? String(caseObj.user_id) : null;
+      const origPredsAll = (MSD_PREDICTIONS.original.data && uidStr)
+        ? (MSD_PREDICTIONS.original.data[uidStr] || null)
+        : null;
+      const predsKey = predictionsKeyForSubtab(msdCurrentSubtab);
+      const editedSlot = MSD_PREDICTIONS[predsKey];
+      const editedPredsAll = (editedSlot && editedSlot.data && uidStr && caseObj.changed_attr)
+        ? ((editedSlot.data[uidStr] || {})[caseObj.changed_attr] || null)
+        : null;
+      const origPreds   = origPredsAll   ? origPredsAll.slice(0, 20)   : null;
+      const editedPreds = editedPredsAll ? editedPredsAll.slice(0, 20) : null;
+
+      const buildBlock = (preds) => `
+        <div class="dummy-mini-chart-title">
+          <i class="fas fa-trophy" style="color: #2563eb;"></i> Top-20 tracks
+        </div>
+        <div class="item-set-grid" style="grid-template-columns: repeat(2, 1fr); gap: 0.4rem;">${buildMsdTopKGallery(preds, 10)}</div>
+      `;
+      document.getElementById('msd-case-orig-preds').innerHTML = buildBlock(origPreds);
+      document.getElementById('msd-case-edit-preds').innerHTML = buildBlock(editedPreds);
+
+      document.getElementById('msd-case-prev').disabled = (msdCurrentCaseIdx === 0);
+      document.getElementById('msd-case-next').disabled = (msdCurrentCaseIdx >= cases.length - 1);
+    }
+
+    document.querySelectorAll('.subtab[data-msd-subtab]').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const newSubtab = btn.dataset.msdSubtab;
+        msdCurrentSubtab = newSubtab;
+        msdCurrentCaseIdx = 0;
+        document.querySelectorAll('.subtab[data-msd-subtab]').forEach(s => s.classList.remove('active'));
+        btn.classList.add('active');
+        renderMsdIntervention();
+        await Promise.all([
+          loadMsdIntervention(newSubtab),
+          loadMsdPredictions(predictionsKeyForSubtab(newSubtab)),
+          loadMsdPredictions('original'),
+        ]);
+        if (msdCurrentSubtab === newSubtab) renderMsdIntervention();
+      });
+    });
+
+    document.getElementById('msd-case-prev')?.addEventListener('click', () => {
+      if (msdCurrentCaseIdx > 0) { msdCurrentCaseIdx--; renderMsdIntervention(); }
+    });
+    document.getElementById('msd-case-next')?.addEventListener('click', () => {
+      const max = MSD_INTERVENTIONS[msdCurrentSubtab].cases.length - 1;
+      if (msdCurrentCaseIdx < max) { msdCurrentCaseIdx++; renderMsdIntervention(); }
+    });
+
+    // Initial placeholder paint for music (data loads when dataset switches in).
+    renderMsdStage0();
+    renderMsdStage1();
+    renderMsdStage2();
+    renderMsdIntervention();
+
+    // ============================================================
+    // Op-tabs: top-tier "Add (Text) / Add (Multimodal) / Remove"
+    // selector that filters which sub-tabs are visible. The sub-tab
+    // buttons themselves keep their existing data-subtab keys and
+    // existing click handlers; we only toggle visibility here, then
+    // synthesize a click on the first visible sub-tab so the panel
+    // updates without duplicating the load logic.
+    // ============================================================
+    (function setupOpTabs() {
+      // Which sub-tab selector belongs to each op-scope.
+      const scopeSubtabSelector = {
+        hm:  '.subtab[data-subtab]',
+        mv:  '.subtab[data-mv-subtab]',
+        msd: '.subtab[data-msd-subtab]',
+      };
+      document.querySelectorAll('.op-tabs').forEach(opBar => {
+        const scope = opBar.dataset.opScope;
+        const subSel = scopeSubtabSelector[scope];
+        if (!subSel) return;
+        const subtabs = Array.from(document.querySelectorAll(subSel));
+        const applyOp = (op, { autoClick = true } = {}) => {
+          // Toggle op-tab active state.
+          opBar.querySelectorAll('.op-tab').forEach(t =>
+            t.classList.toggle('active', t.dataset.op === op));
+          // Hide sub-tabs not in this category.
+          subtabs.forEach(s => s.classList.toggle('hidden', s.dataset.cat !== op));
+          // If the currently-active sub-tab got hidden, click the first
+          // visible one so the panel re-renders against a valid subtab.
+          if (autoClick) {
+            const visible = subtabs.filter(s => !s.classList.contains('hidden'));
+            const activeVisible = visible.find(s => s.classList.contains('active'));
+            if (!activeVisible && visible.length) visible[0].click();
+          }
+        };
+        opBar.querySelectorAll('.op-tab').forEach(t => {
+          t.addEventListener('click', () => applyOp(t.dataset.op));
+        });
+        // Initial paint: respect the op-tab marked active in HTML, but
+        // skip auto-click so we don't override the page's default subtab.
+        const initial = opBar.querySelector('.op-tab.active')?.dataset.op || 'add';
+        applyOp(initial, { autoClick: false });
+      });
+    })();
+
+  </script>
+
+</body>
+</html>
