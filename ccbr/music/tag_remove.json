@@ -1,0 +1,3246 @@
+{
+  "3412": {
+    "original_summary": "The user has a strong preference for high-energy, guitar-driven music across indie rock, alternative rock, pop-punk, and punk subgenres, with a recurring emphasis on fast tempos (typically 130–160 BPM) and driving rhythms anchored by distorted electric guitars, punchy drums, and solid bass lines. They gravitate toward dynamic, emotionally charged performances—often featuring male vocalists with raw, gritty, or anthemic delivery, including shifts between singing, shouting, and spoken-word styles—while also appreciating subtle electronic textures like synths and pads that add atmospheric depth without overshadowing the organic rock foundation. Moods range from urgent and rebellious to introspective and anthemic, with a clear affinity for both raw, garage-rock authenticity and polished, modern indie production. Instrumental tracks are also favored, particularly those blending progressive complexity with emotional intensity or cinematic grandeur, suggesting an appreciation for both narrative-driven soundscapes and intricate sonic layering.",
+    "original_tags": [
+      "male vocalist",
+      "alternative rock",
+      "electronic",
+      "epic",
+      "guitar",
+      "indie rock",
+      "instrumental",
+      "progressive rock",
+      "punk rock",
+      "punk",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      7,
+      11,
+      29,
+      32,
+      39,
+      47,
+      48,
+      61,
+      63,
+      64,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "instrumental",
+        "removed_tag_idx": 48,
+        "edited_summary": "The user has a strong preference for high-energy, guitar-driven music across indie rock, alternative rock, pop-punk, and punk subgenres, with a recurring emphasis on fast tempos (typically 130–160 BPM) and driving rhythms anchored by distorted electric guitars, punchy drums, and solid bass lines. They gravitate toward dynamic, emotionally charged performances—often featuring male vocalists with raw, gritty, or anthemic delivery, including shifts between singing, shouting, and spoken-word styles—while also appreciating subtle electronic textures like synths and pads that add atmospheric depth without overshadowing the organic rock foundation. Moods range from urgent and rebellious to introspective and anthemic, with a clear affinity for both raw, garage-rock authenticity and polished, modern indie production.",
+        "expected_tag_indices": [
+          7,
+          11,
+          29,
+          32,
+          39,
+          47,
+          61,
+          63,
+          64,
+          78
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "alternative rock",
+          "electronic",
+          "epic",
+          "guitar",
+          "indie rock",
+          "progressive rock",
+          "punk rock",
+          "punk",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "83": {
+    "original_summary": "The user has a strong preference for introspective, emotionally nuanced music, with a clear affinity for acoustic folk, indie, and ambient genres—particularly those that blend singer-songwriter traditions with subtle indie, jazz, or classical influences. Recurring moods include melancholy, contemplation, and quiet hope, often conveyed through sparse, organic arrangements featuring warm fingerpicked guitar, gentle piano, and minimal percussion. Tempos tend to be moderate to slow (ranging from 60–136 BPM), favoring a reflective, unhurried pace, though some tracks use faster tempos to create a sense of forward motion without sacrificing intimacy. Instrumentation is often understated and textural, emphasizing natural dynamics, reverb-drenched atmospheres, and layered electronic or acoustic pads, with vocals typically soft, breathy, or conversational—male baritone or tenor voices dominate, though female vocals appear in ethereal, whisper-like harmonies. The user also appreciates instrumental works that prioritize mood and atmosphere over structure, especially ambient-drone, experimental electronic, and contemporary classical fusions.",
+    "original_tags": [
+      "singer-songwriter",
+      "male vocalist",
+      "male vocalists",
+      "piano",
+      "acoustic",
+      "ambient",
+      "classic",
+      "electronic",
+      "experimental",
+      "folk",
+      "guitar",
+      "indie pop",
+      "indie rock",
+      "instrumental",
+      "jazz",
+      "melancholic",
+      "melancholy",
+      "mellow",
+      "relax",
+      "relaxing",
+      "soft rock"
+    ],
+    "original_tag_indices": [
+      4,
+      7,
+      8,
+      9,
+      10,
+      13,
+      21,
+      29,
+      33,
+      34,
+      39,
+      46,
+      47,
+      48,
+      49,
+      52,
+      53,
+      54,
+      67,
+      68,
+      73
+    ],
+    "removals": [
+      {
+        "removed_tag": "electronic",
+        "removed_tag_idx": 29,
+        "edited_summary": "The user has a strong preference for introspective, emotionally nuanced music, with a clear affinity for acoustic folk, indie, and ambient genres—particularly those that blend singer-songwriter traditions with subtle indie, jazz, or classical influences. Recurring moods include melancholy, contemplation, and quiet hope, often conveyed through sparse, organic arrangements featuring warm fingerpicked guitar, gentle piano, and minimal percussion. Tempos tend to be moderate to slow (ranging from 60–136 BPM), favoring a reflective, unhurried pace, though some tracks use faster tempos to create a sense of forward motion without sacrificing intimacy. Instrumentation is often understated and textural, emphasizing natural dynamics, reverb-drenched atmospheres, and layered acoustic pads, with vocals typically soft, breathy, or conversational—male baritone or tenor voices dominate, though female vocals appear in ethereal, whisper-like harmonies. The user also appreciates instrumental works that prioritize mood and atmosphere over structure, especially ambient-drone and contemporary classical fusions.",
+        "expected_tag_indices": [
+          4,
+          7,
+          8,
+          9,
+          10,
+          13,
+          21,
+          33,
+          34,
+          39,
+          46,
+          47,
+          48,
+          49,
+          52,
+          53,
+          54,
+          67,
+          68,
+          73
+        ],
+        "expected_tag_names": [
+          "singer-songwriter",
+          "male vocalist",
+          "male vocalists",
+          "piano",
+          "acoustic",
+          "ambient",
+          "classic",
+          "experimental",
+          "folk",
+          "guitar",
+          "indie pop",
+          "indie rock",
+          "instrumental",
+          "jazz",
+          "melancholic",
+          "melancholy",
+          "mellow",
+          "relax",
+          "relaxing",
+          "soft rock"
+        ]
+      }
+    ]
+  },
+  "2446": {
+    "original_summary": "This user has a strong affinity for instrumental and atmospheric music, with a clear preference for genres that emphasize texture, mood, and sonic experimentation—particularly progressive rock, ambient, electronic, jazz fusion, and experimental soundscapes. Their taste leans toward moderate to brisk tempos (ranging from 86 to 167 BPM), favoring compositions that balance introspective depth with dynamic energy, often driven by layered guitars, evolving synth pads, and intricate rhythmic interplay. Instrumentation is predominantly electronic or acoustic with a focus on clean electric guitars, analog synths, ambient textures, and live percussion, while vocals—when present—are typically sparse, breathy, or used as atmospheric elements rather than central features. The recurring moods include contemplative, ethereal, and uplifting intensity, with a consistent appreciation for complexity, emotional nuance, and immersive sound design across both organic and digital realms.",
+    "original_tags": [
+      "acoustic",
+      "ambient",
+      "electro",
+      "electronic",
+      "experimental",
+      "guitar",
+      "instrumental",
+      "jazz",
+      "progressive rock",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      10,
+      13,
+      28,
+      29,
+      33,
+      39,
+      48,
+      49,
+      61,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "progressive rock",
+        "removed_tag_idx": 61,
+        "edited_summary": "This user has a strong affinity for instrumental and atmospheric music, with a clear preference for genres that emphasize texture, mood, and sonic experimentation—particularly ambient, electronic, jazz fusion, and experimental soundscapes. Their taste leans toward moderate to brisk tempos (ranging from 86 to 167 BPM), favoring compositions that balance introspective depth with dynamic energy, often driven by layered guitars, evolving synth pads, and intricate rhythmic interplay. Instrumentation is predominantly electronic or acoustic with a focus on clean electric guitars, analog synths, ambient textures, and live percussion, while vocals—when present—are typically sparse, breathy, or used as atmospheric elements rather than central features. The recurring moods include contemplative, ethereal, and uplifting intensity, with a consistent appreciation for complexity, emotional nuance, and immersive sound design across both organic and digital realms.",
+        "expected_tag_indices": [
+          10,
+          13,
+          28,
+          29,
+          33,
+          39,
+          48,
+          49,
+          78
+        ],
+        "expected_tag_names": [
+          "acoustic",
+          "ambient",
+          "electro",
+          "electronic",
+          "experimental",
+          "guitar",
+          "instrumental",
+          "jazz",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "3018": {
+    "original_summary": "The user has a strong preference for high-energy, fast-paced tracks across genres like Pop-Punk, Alternative Rock, and electronic dance styles, with a recurring tempo range between 115–176 BPM, particularly favoring blistering speeds around 143–176 BPM for maximum intensity. Their taste leans heavily toward aggressive, driving instrumentation—distorted electric guitars, punchy drums, tight bass lines, and layered synths—often blending rock grit with electronic or pop sensibilities, especially in tracks that fuse Pop-Punk with Trap, Electro House, or R&B elements. Vocally, they gravitate toward raw, emotive, and dynamic performances: male tenor/baritone voices delivering clean singing, strained shouts, or gritty spoken interjections, as well as confident female mezzo-sopranos with husky, pitch-corrected, or rap-sung delivery. While they appreciate energetic anthems and high-octane aggression, there’s also a notable appreciation for atmospheric contrast, including ambient-drone, jazz-infused lo-fi, and experimental electronic textures that provide depth and mood without relying on traditional vocals.",
+    "original_tags": [
+      "female vocalist",
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "chill",
+      "chillout",
+      "dance",
+      "electronic",
+      "experimental",
+      "fun",
+      "guitar",
+      "jazz",
+      "punk rock",
+      "punk",
+      "rap",
+      "rnb",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      5,
+      7,
+      11,
+      13,
+      18,
+      19,
+      24,
+      29,
+      33,
+      35,
+      39,
+      49,
+      63,
+      64,
+      65,
+      69,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "dance",
+        "removed_tag_idx": 24,
+        "edited_summary": "The user has a strong preference for high-energy, fast-paced tracks across genres like Pop-Punk, Alternative Rock, and electronic styles, with a recurring tempo range between 115–176 BPM, particularly favoring blistering speeds around 143–176 BPM for maximum intensity. Their taste leans heavily toward aggressive, driving instrumentation—distorted electric guitars, punchy drums, tight bass lines, and layered synths—often blending rock grit with electronic or pop sensibilities, especially in tracks that fuse Pop-Punk with Trap, Electro House, or R&B elements. Vocally, they gravitate toward raw, emotive, and dynamic performances: male tenor/baritone voices delivering clean singing, strained shouts, or gritty spoken interjections, as well as confident female mezzo-sopranos with husky, pitch-corrected, or rap-sung delivery. While they appreciate energetic anthems and high-octane aggression, there's also a notable appreciation for atmospheric contrast, including ambient-drone, jazz-infused lo-fi, and experimental electronic textures that provide depth and mood without relying on traditional vocals.",
+        "expected_tag_indices": [
+          5,
+          7,
+          11,
+          13,
+          18,
+          19,
+          29,
+          33,
+          35,
+          39,
+          49,
+          63,
+          64,
+          65,
+          69,
+          78
+        ],
+        "expected_tag_names": [
+          "female vocalist",
+          "male vocalist",
+          "alternative rock",
+          "ambient",
+          "chill",
+          "chillout",
+          "electronic",
+          "experimental",
+          "fun",
+          "guitar",
+          "jazz",
+          "punk rock",
+          "punk",
+          "rap",
+          "rnb",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "1586": {
+    "original_summary": "The user demonstrates a strong preference for instrumental and atmospheric music, particularly in the realms of ambient drone, progressive rock, and jazz-infused electronic fusion, with a recurring emphasis on lush textures, evolving harmonies, and intricate instrumental interplay—often devoid of vocals or featuring them only as atmospheric elements. Their taste leans toward contemplative, meditative, or emotionally nuanced moods, with a clear affinity for slow to moderate tempos (ranging from 68–120 BPM), spacious arrangements, and organic or analog-inspired instrumentation such as analog synths, nylon-string guitars, warm bass, and delicate percussion. They also appreciate genre-blending tracks that merge classical sensibilities with experimental sound design, as well as emotionally resonant Latin and acoustic ballads with expressive, often Spanish-language vocals. Overall, the user favors music that prioritizes mood, texture, and emotional depth over conventional song structures or aggressive rhythmic drive.",
+    "original_tags": [
+      "piano",
+      "acoustic",
+      "ambient",
+      "ballad",
+      "classic",
+      "electronic",
+      "experimental",
+      "guitar",
+      "instrumental",
+      "jazz",
+      "melancholic",
+      "mellow",
+      "progressive rock",
+      "relax",
+      "relaxing",
+      "world"
+    ],
+    "original_tag_indices": [
+      9,
+      10,
+      13,
+      15,
+      21,
+      29,
+      33,
+      39,
+      48,
+      49,
+      52,
+      54,
+      61,
+      67,
+      68,
+      79
+    ],
+    "removals": [
+      {
+        "removed_tag": "ballad",
+        "removed_tag_idx": 15,
+        "edited_summary": "The user demonstrates a strong preference for instrumental and atmospheric music, particularly in the realms of ambient drone, progressive rock, and jazz-infused electronic fusion, with a recurring emphasis on lush textures, evolving harmonies, and intricate instrumental interplay—often devoid of vocals or featuring them only as atmospheric elements. Their taste leans toward contemplative, meditative, or emotionally nuanced moods, with a clear affinity for slow to moderate tempos (ranging from 68–120 BPM), spacious arrangements, and organic or analog-inspired instrumentation such as analog synths, nylon-string guitars, warm bass, and delicate percussion. They also appreciate genre-blending tracks that merge classical sensibilities with experimental sound design, as well as emotionally resonant Latin and acoustic tracks with expressive, often Spanish-language vocals. Overall, the user favors music that prioritizes mood, texture, and emotional depth over conventional song structures or aggressive rhythmic drive.",
+        "expected_tag_indices": [
+          9,
+          10,
+          13,
+          21,
+          29,
+          33,
+          39,
+          48,
+          49,
+          52,
+          54,
+          61,
+          67,
+          68,
+          79
+        ],
+        "expected_tag_names": [
+          "piano",
+          "acoustic",
+          "ambient",
+          "classic",
+          "electronic",
+          "experimental",
+          "guitar",
+          "instrumental",
+          "jazz",
+          "melancholic",
+          "mellow",
+          "progressive rock",
+          "relax",
+          "relaxing",
+          "world"
+        ]
+      }
+    ]
+  },
+  "2213": {
+    "original_summary": "The user has a strong preference for high-energy, aggressive, and technically intricate music, with a clear affinity for extreme and aggressive subgenres of metal—particularly thrash metal, metalcore, deathcore, and nu-metal—often characterized by fast tempos (ranging from 107 to 166 BPM), heavily distorted guitars, relentless double-bass drumming, and intense, raw vocal delivery such as growls, screams, and rap-style shouting. They also appreciate complex instrumental compositions, especially in progressive and technical metal, where virtuosic guitar work, polyrhythmic drumming, and dynamic interplay between instruments take center stage, often without vocals. Alongside these heavier styles, the user enjoys electronic and dance-oriented tracks with driving rhythms (like house, techno, and electroclash), particularly those with gritty textures, deep basslines, and synthetic layers, suggesting a taste for both sonic intensity and rhythmic propulsion. Overall, their music taste leans toward powerful, immersive, and often dark or confrontational moods, blending aggression with sophistication across genres.",
+    "original_tags": [
+      "death metal",
+      "electro",
+      "electronic",
+      "hard rock",
+      "heavy metal",
+      "house",
+      "instrumental",
+      "metal",
+      "techno",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      25,
+      28,
+      29,
+      41,
+      43,
+      45,
+      48,
+      55,
+      76,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "metal",
+        "removed_tag_idx": 55,
+        "edited_summary": "The user has a strong preference for high-energy, aggressive, and technically intricate music, with a clear affinity for extreme and aggressive subgenres—particularly thrash, metalcore, deathcore, and nu-metal—often characterized by fast tempos (ranging from 107 to 166 BPM), heavily distorted guitars, relentless double-bass drumming, and intense, raw vocal delivery such as growls, screams, and rap-style shouting. They also appreciate complex instrumental compositions, especially in progressive and technical styles, where virtuosic guitar work, polyrhythmic drumming, and dynamic interplay between instruments take center stage, often without vocals. Alongside these heavier styles, the user enjoys electronic and dance-oriented tracks with driving rhythms (like house, techno, and electroclash), particularly those with gritty textures, deep basslines, and synthetic layers, suggesting a taste for both sonic intensity and rhythmic propulsion. Overall, their music taste leans toward powerful, immersive, and often dark or confrontational moods, blending aggression with sophistication across genres.",
+        "expected_tag_indices": [
+          25,
+          28,
+          29,
+          41,
+          43,
+          45,
+          48,
+          76,
+          78
+        ],
+        "expected_tag_names": [
+          "death metal",
+          "electro",
+          "electronic",
+          "hard rock",
+          "heavy metal",
+          "house",
+          "instrumental",
+          "techno",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "4636": {
+    "original_summary": "This user has a strong affinity for high-energy, intensity-driven music, with a clear preference for aggressive and dynamic genres such as thrash metal, metalcore, nu metal, and industrial metal. Their taste leans heavily toward fast to mid-tempo tracks (ranging from 81 to 176 BPM), often featuring distorted electric guitars, thunderous double-bass drumming, and dense, layered soundscapes that prioritize sonic power and rhythmic urgency. Vocally, they favor raw, expressive delivery—especially harsh growls, screams, and gritty shouts—though they also appreciate melodic contrasts, rap-style vocals, and wordless or processed vocal textures. Instrumentation consistently emphasizes electronic experimentation, ambient textures, and intricate arrangements, blending organic rock elements with avant-garde sound design, synth drones, and glitchy percussion, reflecting a deep appreciation for both emotional depth and sonic innovation.",
+    "original_tags": [
+      "ambient",
+      "electronic",
+      "experimental",
+      "hard rock",
+      "heavy metal",
+      "metal",
+      "rap"
+    ],
+    "original_tag_indices": [
+      13,
+      29,
+      33,
+      41,
+      43,
+      55,
+      65
+    ],
+    "removals": [
+      {
+        "removed_tag": "electronic",
+        "removed_tag_idx": 29,
+        "edited_summary": "This user has a strong affinity for high-energy, intensity-driven music, with a clear preference for aggressive and dynamic genres such as thrash metal, metalcore, nu metal, and industrial metal. Their taste leans heavily toward fast to mid-tempo tracks (ranging from 81 to 176 BPM), often featuring distorted electric guitars, thunderous double-bass drumming, and dense, layered soundscapes that prioritize sonic power and rhythmic urgency. Vocally, they favor raw, expressive delivery—especially harsh growls, screams, and gritty shouts—though they also appreciate melodic contrasts, rap-style vocals, and wordless or processed vocal textures. Instrumentation consistently emphasizes ambient textures and intricate arrangements, blending organic rock elements with avant-garde sound design, synth drones, and glitchy percussion, reflecting a deep appreciation for both emotional depth and sonic innovation.",
+        "expected_tag_indices": [
+          13,
+          33,
+          41,
+          43,
+          55,
+          65
+        ],
+        "expected_tag_names": [
+          "ambient",
+          "experimental",
+          "hard rock",
+          "heavy metal",
+          "metal",
+          "rap"
+        ]
+      }
+    ]
+  },
+  "3573": {
+    "original_summary": "The user has a strong preference for instrumental music, particularly across progressive rock, jazz fusion, and experimental electronic genres, with a clear affinity for complex arrangements, technical proficiency, and atmospheric depth. Their taste leans toward moderate to fast tempos (ranging from 77 to 176 BPM), favoring dynamic, driving rhythms and intricate interplay between electric guitars, bass, drums, and layered synths—often with subtle or absent vocals. Moods frequently oscillate between introspective and energetic, with recurring themes of tension, melancholy, and triumphant intensity, often enhanced by ambient textures, wordless vocals (oohs, hums), or spoken word as atmospheric elements rather than lyrical content. They appreciate genre-blending works that merge classical, rock, jazz, and electronic influences, especially those with cinematic scope, emotional resonance, and a focus on sonic craftsmanship over traditional song structure.",
+    "original_tags": [
+      "ambient",
+      "electronic",
+      "epic",
+      "experimental",
+      "guitar",
+      "instrumental",
+      "jazz",
+      "melancholic",
+      "progressive rock",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      13,
+      29,
+      32,
+      33,
+      39,
+      48,
+      49,
+      52,
+      61,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "instrumental",
+        "removed_tag_idx": 48,
+        "edited_summary": "The user has a strong preference for music, particularly across progressive rock, jazz fusion, and experimental electronic genres, with a clear affinity for complex arrangements, technical proficiency, and atmospheric depth. Their taste leans toward moderate to fast tempos (ranging from 77 to 176 BPM), favoring dynamic, driving rhythms and intricate interplay between electric guitars, bass, drums, and layered synths—often with subtle or absent vocals. Moods frequently oscillate between introspective and energetic, with recurring themes of tension, melancholy, and triumphant intensity, often enhanced by ambient textures, wordless vocals (oohs, hums), or spoken word as atmospheric elements rather than lyrical content. They appreciate genre-blending works that merge classical, rock, jazz, and electronic influences, especially those with cinematic scope, emotional resonance, and a focus on sonic craftsmanship over traditional song structure.",
+        "expected_tag_indices": [
+          13,
+          29,
+          32,
+          33,
+          39,
+          49,
+          52,
+          61,
+          78
+        ],
+        "expected_tag_names": [
+          "ambient",
+          "electronic",
+          "epic",
+          "experimental",
+          "guitar",
+          "jazz",
+          "melancholic",
+          "progressive rock",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "1324": {
+    "original_summary": "The user demonstrates a strong preference for high-energy, rhythm-driven music across genres like electronic, rock, and metal, with a clear affinity for tracks at moderate to fast tempos (ranging from 68 to 167 BPM), particularly those with propulsive beats, driving rhythms, and dynamic intensity. Recurring genres include aggressive subgenres such as nu-metal, industrial metal, thrash metal, and electro-punk, as well as energetic electronic styles like progressive trance, Eurodance, and synthwave—often blending heavy distortion, punchy synths, and intricate percussion. Instrumentation consistently favors distorted electric guitars, powerful drum machines, deep basslines, and lush synth textures, with a notable emphasis on atmospheric depth and textural evolution, even in purely instrumental tracks. Vocally, the user leans toward processed, rhythmic, or non-lyrical vocal elements—such as shouted phrases, spoken-word snippets, or wordless humming—rather than traditional melodic singing, suggesting a preference for mood and texture over lyrical content.",
+    "original_tags": [
+      "dance",
+      "electro",
+      "electronic",
+      "fun",
+      "hard rock",
+      "heavy metal",
+      "instrumental",
+      "metal",
+      "punk",
+      "trance",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      24,
+      28,
+      29,
+      35,
+      41,
+      43,
+      48,
+      55,
+      64,
+      77,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "fun",
+        "removed_tag_idx": 35,
+        "edited_summary": "The user demonstrates a strong preference for high-energy, rhythm-driven music across genres like electronic, rock, and metal, with a clear affinity for tracks at moderate to fast tempos (ranging from 68 to 167 BPM), particularly those with propulsive beats, driving rhythms, and dynamic intensity. Recurring genres include aggressive subgenres such as nu-metal, industrial metal, thrash metal, and electro-punk, as well as energetic electronic styles like progressive trance, Eurodance, and synthwave—often blending heavy distortion, punchy synths, and intricate percussion. Instrumentation consistently favors distorted electric guitars, powerful drum machines, deep basslines, and lush synth textures, with a notable emphasis on atmospheric depth and textural evolution, even in purely instrumental tracks. Vocally, the user leans toward processed, rhythmic, or non-lyrical vocal elements—such as shouted phrases, spoken-word snippets, or wordless humming—rather than traditional melodic singing, suggesting a preference for mood and texture over lyrical content.",
+        "expected_tag_indices": [
+          24,
+          28,
+          29,
+          41,
+          43,
+          48,
+          55,
+          64,
+          77,
+          78
+        ],
+        "expected_tag_names": [
+          "dance",
+          "electro",
+          "electronic",
+          "hard rock",
+          "heavy metal",
+          "instrumental",
+          "metal",
+          "punk",
+          "trance",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "3056": {
+    "original_summary": "The user has a strong preference for instrumental music, particularly across genres like jazz fusion, progressive rock, ambient, and electronic, with a clear affinity for sophisticated, texturally rich compositions that prioritize mood and atmosphere over vocals. Recurring moods include contemplative, melancholic, and introspective tones, often enhanced by warm acoustic textures—such as brushed drums, upright bass, electric piano, and reverb-drenched guitars—paired with subtle electronic elements like synth pads and ambient drones. Tempos tend to hover in the moderate range (80–130 BPM), favoring flowing, deliberate pacing that supports emotional depth and musical interplay, though energetic tracks at faster tempos (130–158 BPM) also appear, especially in funk, rock, and electronic genres. Vocals, when present, are typically used as atmospheric or textural elements—spoken word, wordless hums, or layered harmonies—rather than central melodic features, reinforcing a preference for instrumental expression and sonic craftsmanship.",
+    "original_tags": [
+      "piano",
+      "acoustic",
+      "ambient",
+      "electronic",
+      "funk",
+      "guitar",
+      "instrumental",
+      "jazz",
+      "melancholic",
+      "progressive rock",
+      "relaxing"
+    ],
+    "original_tag_indices": [
+      9,
+      10,
+      13,
+      29,
+      36,
+      39,
+      48,
+      49,
+      52,
+      61,
+      68
+    ],
+    "removals": [
+      {
+        "removed_tag": "funk",
+        "removed_tag_idx": 36,
+        "edited_summary": "The user has a strong preference for instrumental music, particularly across genres like jazz fusion, progressive rock, ambient, and electronic, with a clear affinity for sophisticated, texturally rich compositions that prioritize mood and atmosphere over vocals. Recurring moods include contemplative, melancholic, and introspective tones, often enhanced by warm acoustic textures—such as brushed drums, upright bass, electric piano, and reverb-drenched guitars—paired with subtle electronic elements like synth pads and ambient drones. Tempos tend to hover in the moderate range (80–130 BPM), favoring flowing, deliberate pacing that supports emotional depth and musical interplay, though energetic tracks at faster tempos (130–158 BPM) also appear, especially in rock and electronic genres. Vocals, when present, are typically used as atmospheric or textural elements—spoken word, wordless hums, or layered harmonies—rather than central melodic features, reinforcing a preference for instrumental expression and sonic craftsmanship.",
+        "expected_tag_indices": [
+          9,
+          10,
+          13,
+          29,
+          39,
+          48,
+          49,
+          52,
+          61,
+          68
+        ],
+        "expected_tag_names": [
+          "piano",
+          "acoustic",
+          "ambient",
+          "electronic",
+          "guitar",
+          "instrumental",
+          "jazz",
+          "melancholic",
+          "progressive rock",
+          "relaxing"
+        ]
+      }
+    ]
+  },
+  "1017": {
+    "original_summary": "The user has a strong preference for high-energy, rhythm-driven music across genres like punk rock, hard rock, thrash metal, and electronic dance music, with a clear affinity for fast tempos (ranging from 90–158 BPM) and aggressive, punchy instrumentation featuring distorted guitars, tight drums, and powerful bass lines. They consistently favor tracks with raw, intense moods—rebellious, defiant, or confrontational—often conveyed through gritty male vocals, shouted interjections, or processed spoken word, though they equally appreciate instrumental complexity and atmospheric depth in progressive, ambient, and experimental electronic works. There’s a notable balance between aggressive sonic textures and introspective, ethereal soundscapes, with recurring use of synths, drones, and ambient layers to create immersive, mood-driven experiences. Their taste spans from live-band rock and funk to avant-garde electronic and jazz fusion, reflecting an appreciation for both technical precision and emotional intensity, whether through dynamic vocal performances or intricate instrumental interplay.",
+    "original_tags": [
+      "male vocalist",
+      "ambient",
+      "dance",
+      "electronic",
+      "experimental",
+      "funk",
+      "hard rock",
+      "jazz",
+      "metal",
+      "progressive rock",
+      "punk rock"
+    ],
+    "original_tag_indices": [
+      7,
+      13,
+      24,
+      29,
+      33,
+      36,
+      41,
+      49,
+      55,
+      61,
+      63
+    ],
+    "removals": [
+      {
+        "removed_tag": "electronic",
+        "removed_tag_idx": 29,
+        "edited_summary": "The user has a strong preference for high-energy, rhythm-driven music across genres like punk rock, hard rock, and thrash metal, with a clear affinity for fast tempos (ranging from 90–158 BPM) and aggressive, punchy instrumentation featuring distorted guitars, tight drums, and powerful bass lines. They consistently favor tracks with raw, intense moods—rebellious, defiant, or confrontational—often conveyed through gritty male vocals, shouted interjections, or processed spoken word, though they equally appreciate instrumental complexity and atmospheric depth in progressive, ambient, and experimental works. There's a notable balance between aggressive sonic textures and introspective, ethereal soundscapes, with recurring use of synths, drones, and ambient layers to create immersive, mood-driven experiences. Their taste spans from live-band rock and funk to avant-garde and jazz fusion, reflecting an appreciation for both technical precision and emotional intensity, whether through dynamic vocal performances or intricate instrumental interplay.",
+        "expected_tag_indices": [
+          7,
+          13,
+          24,
+          33,
+          36,
+          41,
+          49,
+          55,
+          61,
+          63
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "ambient",
+          "dance",
+          "experimental",
+          "funk",
+          "hard rock",
+          "jazz",
+          "metal",
+          "progressive rock",
+          "punk rock"
+        ]
+      }
+    ]
+  },
+  "3546": {
+    "original_summary": "The user has a strong preference for high-energy, rhythm-driven music across genres like Pop-Punk, Alternative Rock, Hip-Hop, Trap, and Electro House, with a clear affinity for fast tempos (often 125–158 BPM) and aggressive, punchy instrumentation featuring distorted electric guitars, crisp electronic drums, and deep sub-bass. They gravitate toward assertive, emotionally charged moods—ranging from youthful angst and urgency to confident empowerment—often delivered through dynamic vocal performances, including gritty male tenors, powerful female belters, and rhythmic rap flows, though instrumental tracks with rich textures and sonic experimentation are also highly represented. There’s a notable balance between raw, live-band energy (e.g., blues-rock, garage rock) and polished, modern production (e.g., pop, R&B, electronic), with recurring use of layered synths, atmospheric pads, and intricate guitar interplay. Additionally, the user appreciates introspective and ambient moments, particularly in instrumental and experimental tracks that emphasize evolving soundscapes, spatial textures, and emotional depth, suggesting a taste for both cathartic intensity and meditative stillness.",
+    "original_tags": [
+      "female vocalist",
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "blues",
+      "electro",
+      "electronic",
+      "experimental",
+      "guitar",
+      "hip hop",
+      "house",
+      "instrumental",
+      "punk rock",
+      "punk",
+      "rap",
+      "relaxing",
+      "rnb",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      5,
+      7,
+      11,
+      13,
+      16,
+      28,
+      29,
+      33,
+      39,
+      44,
+      45,
+      48,
+      63,
+      64,
+      65,
+      68,
+      69,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "experimental",
+        "removed_tag_idx": 33,
+        "edited_summary": "The user has a strong preference for high-energy, rhythm-driven music across genres like Pop-Punk, Alternative Rock, Hip-Hop, Trap, and Electro House, with a clear affinity for fast tempos (often 125–158 BPM) and aggressive, punchy instrumentation featuring distorted electric guitars, crisp electronic drums, and deep sub-bass. They gravitate toward assertive, emotionally charged moods—ranging from youthful angst and urgency to confident empowerment—often delivered through dynamic vocal performances, including gritty male tenors, powerful female belters, and rhythmic rap flows, though instrumental tracks with rich textures are also highly represented. There's a notable balance between raw, live-band energy (e.g., blues-rock, garage rock) and polished, modern production (e.g., pop, R&B, electronic), with recurring use of layered synths, atmospheric pads, and intricate guitar interplay. Additionally, the user appreciates introspective and ambient moments, particularly in instrumental tracks that emphasize evolving soundscapes, spatial textures, and emotional depth, suggesting a taste for both cathartic intensity and meditative stillness.",
+        "expected_tag_indices": [
+          5,
+          7,
+          11,
+          13,
+          16,
+          28,
+          29,
+          39,
+          44,
+          45,
+          48,
+          63,
+          64,
+          65,
+          68,
+          69,
+          78
+        ],
+        "expected_tag_names": [
+          "female vocalist",
+          "male vocalist",
+          "alternative rock",
+          "ambient",
+          "blues",
+          "electro",
+          "electronic",
+          "guitar",
+          "hip hop",
+          "house",
+          "instrumental",
+          "punk rock",
+          "punk",
+          "rap",
+          "relaxing",
+          "rnb",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "2138": {
+    "original_summary": "The user's music taste leans heavily toward atmospheric, instrumental, and emotionally resonant compositions, with a strong preference for ambient, drone, and experimental electronic genres that prioritize texture, mood, and sonic immersion over traditional song structure. Recurring moods include serenity, melancholy, introspection, and contemplation, often conveyed through slow to moderate tempos (70–110 BPM), sustained synth pads, deep drones, and minimalist arrangements featuring piano, strings, glockenspiel, and subtle organic or electronic percussion. Vocals, when present, are typically non-lyrical—used as textural elements such as wordless humming, breathy whispers, or processed spoken fragments—rather than melodic or narrative, reflecting a clear preference for abstraction and atmosphere over lyrical content. The user also appreciates genre-blending works that merge classical, jazz, indie rock, and electronic influences, particularly those with a cinematic, meditative, or avant-garde quality, suggesting a deep affinity for music that evokes space, emotion, and sonic depth.",
+    "original_tags": [
+      "piano",
+      "ambient",
+      "electronic",
+      "experimental",
+      "indie rock",
+      "instrumental",
+      "jazz",
+      "melancholy",
+      "mellow"
+    ],
+    "original_tag_indices": [
+      9,
+      13,
+      29,
+      33,
+      47,
+      48,
+      49,
+      53,
+      54
+    ],
+    "removals": [
+      {
+        "removed_tag": "instrumental",
+        "removed_tag_idx": 48,
+        "edited_summary": "The user's music taste leans heavily toward atmospheric and emotionally resonant compositions, with a strong preference for ambient, drone, and experimental electronic genres that prioritize texture, mood, and sonic immersion over traditional song structure. Recurring moods include serenity, melancholy, introspection, and contemplation, often conveyed through slow to moderate tempos (70–110 BPM), sustained synth pads, deep drones, and minimalist arrangements featuring piano, strings, glockenspiel, and subtle organic or electronic percussion. Vocals, when present, are typically non-lyrical—used as textural elements such as wordless humming, breathy whispers, or processed spoken fragments—rather than melodic or narrative, reflecting a clear preference for abstraction and atmosphere over lyrical content. The user also appreciates genre-blending works that merge classical, jazz, indie rock, and electronic influences, particularly those with a cinematic, meditative, or avant-garde quality, suggesting a deep affinity for music that evokes space, emotion, and sonic depth.",
+        "expected_tag_indices": [
+          9,
+          13,
+          29,
+          33,
+          47,
+          49,
+          53,
+          54
+        ],
+        "expected_tag_names": [
+          "piano",
+          "ambient",
+          "electronic",
+          "experimental",
+          "indie rock",
+          "jazz",
+          "melancholy",
+          "mellow"
+        ]
+      }
+    ]
+  },
+  "4604": {
+    "original_summary": "The user has a strong affinity for instrumental and atmospheric music that prioritizes texture, mood, and sonic complexity over traditional song structures or lyrical content. Recurring genres include progressive rock, ambient, experimental electronic, and indie/folk, often blended with jazz, world, or dark-ambient influences, suggesting a preference for genre-defying, intricately layered compositions. Moods are predominantly introspective, melancholic, or contemplative, with a consistent use of slow to moderate tempos (70–130 BPM), though brisker, driving rhythms (130–143 BPM) appear in energetic rock and pop-punk tracks, indicating an appreciation for dynamic contrast. Instrumentation favors electric guitars (clean, arpeggiated, or distorted), atmospheric synths, acoustic textures (fingerpicked guitar, piano, strings), and subtle percussion, while vocals—when present—are typically wordless, breathy, whispered, or used as textural elements rather than narrative devices, reflecting a deep interest in timbre and emotional atmosphere over vocal clarity or storytelling.",
+    "original_tags": [
+      "piano",
+      "acoustic",
+      "ambient",
+      "electronic",
+      "experimental",
+      "folk",
+      "guitar",
+      "indie rock",
+      "instrumental",
+      "jazz",
+      "melancholic",
+      "progressive rock",
+      "punk",
+      "world"
+    ],
+    "original_tag_indices": [
+      9,
+      10,
+      13,
+      29,
+      33,
+      34,
+      39,
+      47,
+      48,
+      49,
+      52,
+      61,
+      64,
+      79
+    ],
+    "removals": [
+      {
+        "removed_tag": "electronic",
+        "removed_tag_idx": 29,
+        "edited_summary": "The user has a strong affinity for instrumental and atmospheric music that prioritizes texture, mood, and sonic complexity over traditional song structures or lyrical content. Recurring genres include progressive rock, ambient, and indie/folk, often blended with jazz, world, or dark-ambient influences, suggesting a preference for genre-defying, intricately layered compositions. Moods are predominantly introspective, melancholic, or contemplative, with a consistent use of slow to moderate tempos (70–130 BPM), though brisker, driving rhythms (130–143 BPM) appear in energetic rock and pop-punk tracks, indicating an appreciation for dynamic contrast. Instrumentation favors electric guitars (clean, arpeggiated, or distorted), atmospheric synths, acoustic textures (fingerpicked guitar, piano, strings), and subtle percussion, while vocals—when present—are typically wordless, breathy, whispered, or used as textural elements rather than narrative devices, reflecting a deep interest in timbre and emotional atmosphere over vocal clarity or storytelling.",
+        "expected_tag_indices": [
+          9,
+          10,
+          13,
+          33,
+          34,
+          39,
+          47,
+          48,
+          49,
+          52,
+          61,
+          64,
+          79
+        ],
+        "expected_tag_names": [
+          "piano",
+          "acoustic",
+          "ambient",
+          "experimental",
+          "folk",
+          "guitar",
+          "indie rock",
+          "instrumental",
+          "jazz",
+          "melancholic",
+          "progressive rock",
+          "punk",
+          "world"
+        ]
+      }
+    ]
+  },
+  "1428": {
+    "original_summary": "The user has a strong affinity for emotionally resonant, introspective music, with a clear preference for acoustic folk, indie-folk, and alternative genres that emphasize vulnerability, authenticity, and lyrical depth. Recurring moods include melancholy, reflection, and quiet hope, often conveyed through slow to moderate tempos (68–107 BPM), warm fingerpicked or strummed guitar, and sparse, organic instrumentation featuring piano, upright bass, and subtle percussion. Vocally, the user favors raw, unprocessed male baritone or tenor voices—often delivered with breathy intimacy or urgent intensity—though there’s also appreciation for ethereal female harmonies and wordless vocal textures in ambient and experimental tracks. While they enjoy high-energy genres like hardcore punk, thrash metal, and punk rock for their raw aggression and intensity, these are balanced by a deeper connection to atmospheric, contemplative pieces that prioritize mood, texture, and emotional sincerity over technical showmanship.",
+    "original_tags": [
+      "singer-songwriter",
+      "male vocalist",
+      "piano",
+      "acoustic",
+      "alternative rock",
+      "ambient",
+      "experimental",
+      "folk",
+      "guitar",
+      "hardcore",
+      "heavy metal",
+      "indie rock",
+      "melancholy",
+      "mellow",
+      "punk rock",
+      "punk",
+      "sad"
+    ],
+    "original_tag_indices": [
+      4,
+      7,
+      9,
+      10,
+      11,
+      13,
+      33,
+      34,
+      39,
+      42,
+      43,
+      47,
+      53,
+      54,
+      63,
+      64,
+      71
+    ],
+    "removals": [
+      {
+        "removed_tag": "ambient",
+        "removed_tag_idx": 13,
+        "edited_summary": "The user has a strong affinity for emotionally resonant, introspective music, with a clear preference for acoustic folk, indie-folk, and alternative genres that emphasize vulnerability, authenticity, and lyrical depth. Recurring moods include melancholy, reflection, and quiet hope, often conveyed through slow to moderate tempos (68–107 BPM), warm fingerpicked or strummed guitar, and sparse, organic instrumentation featuring piano, upright bass, and subtle percussion. Vocally, the user favors raw, unprocessed male baritone or tenor voices—often delivered with breathy intimacy or urgent intensity—though there's also appreciation for ethereal female harmonies and wordless vocal textures in experimental tracks. While they enjoy high-energy genres like hardcore punk, thrash metal, and punk rock for their raw aggression and intensity, these are balanced by a deeper connection to atmospheric, contemplative pieces that prioritize mood, texture, and emotional sincerity over technical showmanship.",
+        "expected_tag_indices": [
+          4,
+          7,
+          9,
+          10,
+          11,
+          33,
+          34,
+          39,
+          42,
+          43,
+          47,
+          53,
+          54,
+          63,
+          64,
+          71
+        ],
+        "expected_tag_names": [
+          "singer-songwriter",
+          "male vocalist",
+          "piano",
+          "acoustic",
+          "alternative rock",
+          "experimental",
+          "folk",
+          "guitar",
+          "hardcore",
+          "heavy metal",
+          "indie rock",
+          "melancholy",
+          "mellow",
+          "punk rock",
+          "punk",
+          "sad"
+        ]
+      }
+    ]
+  },
+  "4531": {
+    "original_summary": "The user has a strong affinity for introspective, organic, and emotionally resonant music, with a clear preference for acoustic-driven genres such as indie-folk, singer-songwriter, and folk-country, often blended with subtle jazz, progressive rock, or ambient textures. Recurring moods include reflective, nostalgic, hopeful, and contemplative, frequently conveyed through warm, fingerpicked or strummed acoustic guitars, gentle piano, and sparse yet expressive instrumentation—often without vocals or featuring wordless vocals, spoken phrases, or raw, expressive male and female vocals with emotional honesty. Tempos are predominantly moderate (80–110 BPM), favoring steady, flowing rhythms that support intimate storytelling, while instrumentation leans toward acoustic textures—steel-string guitars, mandolin, upright bass, and brushed drums—interwoven with atmospheric synths, ambient pads, and occasional electric guitar accents. The user also appreciates sophisticated, complex arrangements in instrumental tracks, particularly in jazz-fusion, progressive rock, and ambient-electronic blends, suggesting a taste for both emotional depth and musical intricacy.",
+    "original_tags": [
+      "singer-songwriter",
+      "female vocalist",
+      "male vocalist",
+      "piano",
+      "acoustic",
+      "ambient",
+      "country",
+      "electronic",
+      "folk",
+      "instrumental",
+      "jazz",
+      "mellow",
+      "progressive rock",
+      "relaxing"
+    ],
+    "original_tag_indices": [
+      4,
+      5,
+      7,
+      9,
+      10,
+      13,
+      23,
+      29,
+      34,
+      48,
+      49,
+      54,
+      61,
+      68
+    ],
+    "removals": [
+      {
+        "removed_tag": "male vocalist",
+        "removed_tag_idx": 7,
+        "edited_summary": "The user has a strong affinity for introspective, organic, and emotionally resonant music, with a clear preference for acoustic-driven genres such as indie-folk, singer-songwriter, and folk-country, often blended with subtle jazz, progressive rock, or ambient textures. Recurring moods include reflective, nostalgic, hopeful, and contemplative, frequently conveyed through warm, fingerpicked or strummed acoustic guitars, gentle piano, and sparse yet expressive instrumentation—often without vocals or featuring wordless vocals, spoken phrases, or raw, expressive female vocals with emotional honesty. Tempos are predominantly moderate (80–110 BPM), favoring steady, flowing rhythms that support intimate storytelling, while instrumentation leans toward acoustic textures—steel-string guitars, mandolin, upright bass, and brushed drums—interwoven with atmospheric synths, ambient pads, and occasional electric guitar accents. The user also appreciates sophisticated, complex arrangements in instrumental tracks, particularly in jazz-fusion, progressive rock, and ambient-electronic blends, suggesting a taste for both emotional depth and musical intricacy.",
+        "expected_tag_indices": [
+          4,
+          5,
+          9,
+          10,
+          13,
+          23,
+          29,
+          34,
+          48,
+          49,
+          54,
+          61,
+          68
+        ],
+        "expected_tag_names": [
+          "singer-songwriter",
+          "female vocalist",
+          "piano",
+          "acoustic",
+          "ambient",
+          "country",
+          "electronic",
+          "folk",
+          "instrumental",
+          "jazz",
+          "mellow",
+          "progressive rock",
+          "relaxing"
+        ]
+      }
+    ]
+  },
+  "1530": {
+    "original_summary": "The user demonstrates a strong preference for instrumental and atmospheric music, with a clear affinity for genres like ambient drone, experimental electronic, progressive rock, jazz fusion, and instrumental hip-hop. Their listening habits favor contemplative, immersive, and texturally rich soundscapes—often slow to moderate in tempo (64–115 BPM)—that emphasize mood, spatial depth, and sonic evolution over traditional melody or rhythm. Recurring instrumentation includes layered synthesizers, sustained pads, deep sub-bass, clean or distorted electric guitars, and intricate percussion, with vocals (when present) typically used as textural elements—such as processed whispers, spoken word, or wordless harmonies—rather than lyrical focal points. The user gravitates toward emotionally nuanced, dynamic compositions that balance introspection with intensity, ranging from meditative drone to high-energy electronic and rock-driven tracks, reflecting a taste for both cerebral complexity and visceral sonic impact.",
+    "original_tags": [
+      "ambient",
+      "electronic",
+      "experimental",
+      "hip hop",
+      "instrumental",
+      "jazz",
+      "mellow",
+      "progressive rock",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      13,
+      29,
+      33,
+      44,
+      48,
+      49,
+      54,
+      61,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "ambient",
+        "removed_tag_idx": 13,
+        "edited_summary": "The user demonstrates a strong preference for instrumental and atmospheric music, with a clear affinity for genres like experimental electronic, progressive rock, jazz fusion, and instrumental hip-hop. Their listening habits favor contemplative, immersive, and texturally rich soundscapes—often slow to moderate in tempo (64–115 BPM)—that emphasize mood, spatial depth, and sonic evolution over traditional melody or rhythm. Recurring instrumentation includes layered synthesizers, sustained pads, deep sub-bass, clean or distorted electric guitars, and intricate percussion, with vocals (when present) typically used as textural elements—such as processed whispers, spoken word, or wordless harmonies—rather than lyrical focal points. The user gravitates toward emotionally nuanced, dynamic compositions that balance introspection with intensity, ranging from meditative drone to high-energy electronic and rock-driven tracks, reflecting a taste for both cerebral complexity and visceral sonic impact.",
+        "expected_tag_indices": [
+          29,
+          33,
+          44,
+          48,
+          49,
+          54,
+          61,
+          78
+        ],
+        "expected_tag_names": [
+          "electronic",
+          "experimental",
+          "hip hop",
+          "instrumental",
+          "jazz",
+          "mellow",
+          "progressive rock",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "2907": {
+    "original_summary": "This user has a strong affinity for high-energy, rhythm-driven music across genres like punk rock, hard rock, alternative rock, and progressive rock, with a clear preference for tracks that blend aggression with melodic or instrumental sophistication. Recurring tempos range from mid-tempo to fast (103–158 BPM), favoring driving grooves anchored by punchy drums, distorted electric guitars, and assertive bass lines, often layered with atmospheric synths or dynamic shifts. Instrumental tracks are prominent, especially those that emphasize complex interplay between guitars, bass, and drums—particularly in progressive, post-rock, and post-punk revival styles—though vocal tracks often feature raw, urgent male voices in spoken, shouted, or gritty singing styles rather than polished melodies. The mood consistently leans toward intensity, rebellion, or introspective depth, with a recurring balance between raw power and emotional resonance, whether through aggressive punk energy, cinematic grandeur, or meditative ambient textures.",
+    "original_tags": [
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "experimental",
+      "guitar",
+      "hard rock",
+      "instrumental",
+      "post-punk",
+      "progressive rock",
+      "punk rock"
+    ],
+    "original_tag_indices": [
+      7,
+      11,
+      13,
+      33,
+      39,
+      41,
+      48,
+      60,
+      61,
+      63
+    ],
+    "removals": [
+      {
+        "removed_tag": "experimental",
+        "removed_tag_idx": 33,
+        "edited_summary": "This user has a strong affinity for high-energy, rhythm-driven music across genres like punk rock, hard rock, alternative rock, and progressive rock, with a clear preference for tracks that blend aggression with melodic or instrumental sophistication. Recurring tempos range from mid-tempo to fast (103–158 BPM), favoring driving grooves anchored by punchy drums, distorted electric guitars, and assertive bass lines, often layered with atmospheric synths or dynamic shifts. Instrumental tracks are prominent, especially those that emphasize complex interplay between guitars, bass, and drums—particularly in progressive, post-rock, and post-punk revival styles—though vocal tracks often feature raw, urgent male voices in spoken, shouted, or gritty singing styles rather than polished melodies. The mood consistently leans toward intensity, rebellion, or introspective depth, with a recurring balance between raw power and emotional resonance, whether through aggressive punk energy, cinematic grandeur, or meditative ambient textures.",
+        "expected_tag_indices": [
+          7,
+          11,
+          13,
+          39,
+          41,
+          48,
+          60,
+          61,
+          63
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "alternative rock",
+          "ambient",
+          "guitar",
+          "hard rock",
+          "instrumental",
+          "post-punk",
+          "progressive rock",
+          "punk rock"
+        ]
+      }
+    ]
+  },
+  "747": {
+    "original_summary": "The user has a strong affinity for high-energy, rhythm-driven music across genres like indie rock, punk, garage rock, and electroclash, with a clear preference for tempos ranging from 107 to 176 BPM—particularly favoring fast, propulsive grooves that convey urgency and intensity. Instrumentally, they gravitate toward distorted electric guitars, punchy drums, and dynamic bass lines, often layered with synth textures, whether in the shimmering pads of dream-pop, the gritty electronic pulses of electroclash, or the raw power of garage punk. Vocally, they respond to expressive, often raw or assertive performances—raspy male shouts, gritty mezzo-soprano deliveries, and confident female vocals that blend singing with spoken-word or melodic intensity—though they equally appreciate vocal-free ambient and instrumental tracks that emphasize texture and atmosphere. Recurring moods include rebellion, empowerment, and exhilaration, balanced by moments of ethereal calm and introspection, suggesting a taste for music that oscillates between adrenaline-fueled energy and meditative depth.",
+    "original_tags": [
+      "female vocalist",
+      "male vocalist",
+      "ambient",
+      "electro",
+      "electronic",
+      "fun",
+      "indie pop",
+      "indie rock",
+      "instrumental",
+      "mellow",
+      "punk rock",
+      "punk",
+      "relax",
+      "relaxing",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      5,
+      7,
+      13,
+      28,
+      29,
+      35,
+      46,
+      47,
+      48,
+      54,
+      63,
+      64,
+      67,
+      68,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "ambient",
+        "removed_tag_idx": 13,
+        "edited_summary": "The user has a strong affinity for high-energy, rhythm-driven music across genres like indie rock, punk, garage rock, and electroclash, with a clear preference for tempos ranging from 107 to 176 BPM—particularly favoring fast, propulsive grooves that convey urgency and intensity. Instrumentally, they gravitate toward distorted electric guitars, punchy drums, and dynamic bass lines, often layered with synth textures, whether in the shimmering pads of dream-pop, the gritty electronic pulses of electroclash, or the raw power of garage punk. Vocally, they respond to expressive, often raw or assertive performances—raspy male shouts, gritty mezzo-soprano deliveries, and confident female vocals that blend singing with spoken-word or melodic intensity. Recurring moods include rebellion, empowerment, and exhilaration, balanced by moments of ethereal calm and introspection, suggesting a taste for music that oscillates between adrenaline-fueled energy and meditative depth.",
+        "expected_tag_indices": [
+          5,
+          7,
+          28,
+          29,
+          35,
+          46,
+          47,
+          48,
+          54,
+          63,
+          64,
+          67,
+          68,
+          78
+        ],
+        "expected_tag_names": [
+          "female vocalist",
+          "male vocalist",
+          "electro",
+          "electronic",
+          "fun",
+          "indie pop",
+          "indie rock",
+          "instrumental",
+          "mellow",
+          "punk rock",
+          "punk",
+          "relax",
+          "relaxing",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "4350": {
+    "original_summary": "The user has a strong preference for dynamic, emotionally charged music that spans alternative, rock, and electronic genres, with a particular affinity for high-energy tracks driven by distorted guitars, punchy drums, and driving rhythms—especially in alternative rock, post-hardcore, punk, and pop-punk contexts. They consistently engage with instrumental compositions that emphasize atmospheric textures, ambient drones, and evolving sonic landscapes, often featuring sustained synth pads, deep sub-bass, and experimental sound design, particularly in ambient, experimental electronic, and contemporary classical-infused works. Tempos vary widely but lean toward fast to moderate paces (100–150 BPM), with a notable appreciation for rhythmic propulsion in dance-oriented genres like electronic dance music, Eurodance, and funk-disco, as well as the propulsive grooves of progressive trance and house. Vocally, they favor expressive, gritty, or clear lead performances—male tenor-baritone or female mezzo-soprano voices—often layered with harmonies or used for emotional intensity, though they equally value vocal-free tracks that prioritize immersive instrumental depth and mood.",
+    "original_tags": [
+      "female vocalist",
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "dance",
+      "electronic",
+      "experimental",
+      "funk",
+      "house",
+      "instrumental",
+      "punk",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      5,
+      7,
+      11,
+      13,
+      24,
+      29,
+      33,
+      36,
+      45,
+      48,
+      64,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "punk",
+        "removed_tag_idx": 64,
+        "edited_summary": "The user has a strong preference for dynamic, emotionally charged music that spans alternative, rock, and electronic genres, with a particular affinity for high-energy tracks driven by distorted guitars, punchy drums, and driving rhythms—especially in alternative rock and post-hardcore contexts. They consistently engage with instrumental compositions that emphasize atmospheric textures, ambient drones, and evolving sonic landscapes, often featuring sustained synth pads, deep sub-bass, and experimental sound design, particularly in ambient, experimental electronic, and contemporary classical-infused works. Tempos vary widely but lean toward fast to moderate paces (100–150 BPM), with a notable appreciation for rhythmic propulsion in dance-oriented genres like electronic dance music, Eurodance, and funk-disco, as well as the propulsive grooves of progressive trance and house. Vocally, they favor expressive, gritty, or clear lead performances—male tenor-baritone or female mezzo-soprano voices—often layered with harmonies or used for emotional intensity, though they equally value vocal-free tracks that prioritize immersive instrumental depth and mood.",
+        "expected_tag_indices": [
+          5,
+          7,
+          11,
+          13,
+          24,
+          29,
+          33,
+          36,
+          45,
+          48,
+          78
+        ],
+        "expected_tag_names": [
+          "female vocalist",
+          "male vocalist",
+          "alternative rock",
+          "ambient",
+          "dance",
+          "electronic",
+          "experimental",
+          "funk",
+          "house",
+          "instrumental",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "3376": {
+    "original_summary": "The user has a strong preference for high-energy, rhythm-driven music that blends alternative rock, punk, and electronic elements, with a recurring emphasis on distorted guitars, punchy bass, dynamic drums, and textured synths. Their taste leans toward mid-to-fast tempos (ranging from 103–167 BPM), particularly favoring driving, propulsive grooves in genres like indie rock, hard rock, post-punk revival, and progressive house, often with a raw, gritty edge. Moods are consistently intense—ranging from rebellious and defiant to introspective and ethereal—often achieved through a mix of aggressive instrumentation and atmospheric soundscapes, with a notable affinity for ambient drone, experimental electronics, and cinematic textures. Vocals, when present, are typically male and delivered with grit, intensity, or spoken-word cadence, though many tracks embrace instrumental focus, using processed samples, ambient pads, or no vocals at all to emphasize mood and sonic depth.",
+    "original_tags": [
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "electro",
+      "electronic",
+      "experimental",
+      "guitar",
+      "hard rock",
+      "house",
+      "indie rock",
+      "instrumental",
+      "post-punk",
+      "progressive rock",
+      "punk"
+    ],
+    "original_tag_indices": [
+      7,
+      11,
+      13,
+      28,
+      29,
+      33,
+      39,
+      41,
+      45,
+      47,
+      48,
+      60,
+      61,
+      64
+    ],
+    "removals": [
+      {
+        "removed_tag": "house",
+        "removed_tag_idx": 45,
+        "edited_summary": "The user has a strong preference for high-energy, rhythm-driven music that blends alternative rock, punk, and electronic elements, with a recurring emphasis on distorted guitars, punchy bass, dynamic drums, and textured synths. Their taste leans toward mid-to-fast tempos (ranging from 103–167 BPM), particularly favoring driving, propulsive grooves in genres like indie rock, hard rock, and post-punk revival, often with a raw, gritty edge. Moods are consistently intense—ranging from rebellious and defiant to introspective and ethereal—often achieved through a mix of aggressive instrumentation and atmospheric soundscapes, with a notable affinity for ambient drone, experimental electronics, and cinematic textures. Vocals, when present, are typically male and delivered with grit, intensity, or spoken-word cadence, though many tracks embrace instrumental focus, using processed samples, ambient pads, or no vocals at all to emphasize mood and sonic depth.",
+        "expected_tag_indices": [
+          7,
+          11,
+          13,
+          28,
+          29,
+          33,
+          39,
+          41,
+          47,
+          48,
+          60,
+          61,
+          64
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "alternative rock",
+          "ambient",
+          "electro",
+          "electronic",
+          "experimental",
+          "guitar",
+          "hard rock",
+          "indie rock",
+          "instrumental",
+          "post-punk",
+          "progressive rock",
+          "punk"
+        ]
+      }
+    ]
+  },
+  "4792": {
+    "original_summary": "This user has a rich and diverse taste in music, with a strong preference for instrumental and atmospheric compositions that prioritize mood and texture over traditional song structures. Recurring genres include ambient, post-rock, instrumental hip-hop, Latin jazz, and experimental electronic music, often blending organic instrumentation—like piano, strings, and acoustic guitars—with electronic elements such as synths, glitches, and processed textures. The moods are frequently introspective, melancholic, or contemplative, though balanced with moments of joy, energy, and celebration, particularly in reggae, ska, and Latin-influenced tracks. Tempos tend to hover in the moderate range (70–115 BPM), with a clear affinity for groove-driven rhythms, intricate percussion, and dynamic layering, while vocal styles—when present—are often conversational, spoken-word, or used as textural elements rather than lyrical focal points.",
+    "original_tags": [
+      "piano",
+      "acoustic",
+      "ambient",
+      "electronic",
+      "experimental",
+      "funky",
+      "guitar",
+      "hip hop",
+      "jazz",
+      "melancholic",
+      "punk",
+      "reggae",
+      "world"
+    ],
+    "original_tag_indices": [
+      9,
+      10,
+      13,
+      29,
+      33,
+      37,
+      39,
+      44,
+      49,
+      52,
+      64,
+      66,
+      79
+    ],
+    "removals": [
+      {
+        "removed_tag": "electronic",
+        "removed_tag_idx": 29,
+        "edited_summary": "This user has a rich and diverse taste in music, with a strong preference for instrumental and atmospheric compositions that prioritize mood and texture over traditional song structures. Recurring genres include ambient, post-rock, instrumental hip-hop, and Latin jazz, often blending organic instrumentation—like piano, strings, and acoustic guitars—with elements such as synths, glitches, and processed textures. The moods are frequently introspective, melancholic, or contemplative, though balanced with moments of joy, energy, and celebration, particularly in reggae, ska, and Latin-influenced tracks. Tempos tend to hover in the moderate range (70–115 BPM), with a clear affinity for groove-driven rhythms, intricate percussion, and dynamic layering, while vocal styles—when present—are often conversational, spoken-word, or used as textural elements rather than lyrical focal points.",
+        "expected_tag_indices": [
+          9,
+          10,
+          13,
+          33,
+          37,
+          39,
+          44,
+          49,
+          52,
+          64,
+          66,
+          79
+        ],
+        "expected_tag_names": [
+          "piano",
+          "acoustic",
+          "ambient",
+          "experimental",
+          "funky",
+          "guitar",
+          "hip hop",
+          "jazz",
+          "melancholic",
+          "punk",
+          "reggae",
+          "world"
+        ]
+      }
+    ]
+  },
+  "4128": {
+    "original_summary": "The user has a strong preference for high-energy, guitar-driven rock and alternative genres, with recurring themes in post-grunge, hard rock, alternative rock, and punk-influenced tracks that emphasize distorted electric guitars, punchy drums, and powerful bass lines. Their taste leans toward mid-to-fast tempos (ranging from 85 to 167 BPM), often favoring driving rhythms, dynamic shifts, and intense, emotionally charged performances—particularly through male vocals that alternate between clean singing, strained delivery, shouted bursts, and belting. Instrumental tracks are also prominent, especially those blending progressive rock, jazz fusion, and post-metal, showcasing a deep appreciation for complex arrangements, layered textures, and expressive guitar work without vocals. Additionally, the user enjoys a mix of raw, garage-style authenticity and polished production, with recurring use of synth pads, atmospheric effects, and occasional electronic or orchestral elements that enhance mood and depth.",
+    "original_tags": [
+      "male vocalist",
+      "alternative rock",
+      "electronic",
+      "guitar",
+      "hard rock",
+      "instrumental",
+      "jazz",
+      "metal",
+      "progressive rock",
+      "punk"
+    ],
+    "original_tag_indices": [
+      7,
+      11,
+      29,
+      39,
+      41,
+      48,
+      49,
+      55,
+      61,
+      64
+    ],
+    "removals": [
+      {
+        "removed_tag": "punk",
+        "removed_tag_idx": 64,
+        "edited_summary": "The user has a strong preference for high-energy, guitar-driven rock and alternative genres, with recurring themes in post-grunge, hard rock, and alternative rock that emphasize distorted electric guitars, punchy drums, and powerful bass lines. Their taste leans toward mid-to-fast tempos (ranging from 85 to 167 BPM), often favoring driving rhythms, dynamic shifts, and intense, emotionally charged performances—particularly through male vocals that alternate between clean singing, strained delivery, shouted bursts, and belting. Instrumental tracks are also prominent, especially those blending progressive rock, jazz fusion, and post-metal, showcasing a deep appreciation for complex arrangements, layered textures, and expressive guitar work without vocals. Additionally, the user enjoys a mix of raw, garage-style authenticity and polished production, with recurring use of synth pads, atmospheric effects, and occasional electronic or orchestral elements that enhance mood and depth.",
+        "expected_tag_indices": [
+          7,
+          11,
+          29,
+          39,
+          41,
+          48,
+          49,
+          55,
+          61
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "alternative rock",
+          "electronic",
+          "guitar",
+          "hard rock",
+          "instrumental",
+          "jazz",
+          "metal",
+          "progressive rock"
+        ]
+      }
+    ]
+  },
+  "1364": {
+    "original_summary": "This user has a diverse yet cohesive taste that gravitates toward high-energy, rhythm-driven genres such as progressive rock, electronic dance music (especially Eurodance, trance, and house), and various forms of aggressive rock and metal—including thrash, hardcore punk, and industrial metal. Recurring moods include euphoric intensity, rebellious urgency, and cinematic grandeur, often achieved through dynamic builds, intricate instrumentation, and powerful sonic textures. Tempos frequently range from mid-to-fast (115–158 BPM), with a strong preference for driving rhythms anchored by punchy drums, distorted guitars, and layered electronic elements. Instrumentation leans heavily on electric guitars, electronic synths, and dynamic percussion, while vocal styles vary from harsh growls and shouted raps to melodic singing and spoken word—though many tracks are instrumental, highlighting a deep appreciation for complex, emotionally resonant instrumental composition.",
+    "original_tags": [
+      "dance",
+      "electro",
+      "electronic",
+      "epic",
+      "guitar",
+      "hard rock",
+      "hardcore",
+      "house",
+      "instrumental",
+      "metal",
+      "progressive rock",
+      "punk",
+      "trance",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      24,
+      28,
+      29,
+      32,
+      39,
+      41,
+      42,
+      45,
+      48,
+      55,
+      61,
+      64,
+      77,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "trance",
+        "removed_tag_idx": 77,
+        "edited_summary": "This user has a diverse yet cohesive taste that gravitates toward high-energy, rhythm-driven genres such as progressive rock, electronic dance music (especially Eurodance and house), and various forms of aggressive rock and metal—including thrash, hardcore punk, and industrial metal. Recurring moods include euphoric intensity, rebellious urgency, and cinematic grandeur, often achieved through dynamic builds, intricate instrumentation, and powerful sonic textures. Tempos frequently range from mid-to-fast (115–158 BPM), with a strong preference for driving rhythms anchored by punchy drums, distorted guitars, and layered electronic elements. Instrumentation leans heavily on electric guitars, electronic synths, and dynamic percussion, while vocal styles vary from harsh growls and shouted raps to melodic singing and spoken word—though many tracks are instrumental, highlighting a deep appreciation for complex, emotionally resonant instrumental composition.",
+        "expected_tag_indices": [
+          24,
+          28,
+          29,
+          32,
+          39,
+          41,
+          42,
+          45,
+          48,
+          55,
+          61,
+          64,
+          78
+        ],
+        "expected_tag_names": [
+          "dance",
+          "electro",
+          "electronic",
+          "epic",
+          "guitar",
+          "hard rock",
+          "hardcore",
+          "house",
+          "instrumental",
+          "metal",
+          "progressive rock",
+          "punk",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "1213": {
+    "original_summary": "The user has a strong preference for high-energy, fast-paced music across genres like indie rock, post-punk revival, alternative rock, and electronic dance music, with tempos frequently ranging from 125 to 167 BPM. Their taste leans heavily on driving guitar riffs—often distorted and punchy—paired with tight, dynamic drumming, propulsive bass lines, and a blend of analog and digital textures, including shimmering synths, atmospheric pads, and occasional glitchy or processed electronic elements. Vocally, they favor expressive, dynamic delivery, particularly from male leads with gritty, raw, or shouted vocals, though female voices in harmonies or processed pop styles also appear frequently. The mood often balances urgency and rebellion with introspection or melancholy, blending aggressive rock intensity with melodic pop sensibilities, while also appreciating experimental and ambient textures that add depth without sacrificing energy.",
+    "original_tags": [
+      "female vocalists",
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "dance",
+      "electronic",
+      "experimental",
+      "guitar",
+      "indie rock",
+      "melancholic",
+      "post-punk",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      6,
+      7,
+      11,
+      13,
+      24,
+      29,
+      33,
+      39,
+      47,
+      52,
+      60,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "ambient",
+        "removed_tag_idx": 13,
+        "edited_summary": "The user has a strong preference for high-energy, fast-paced music across genres like indie rock, post-punk revival, alternative rock, and electronic dance music, with tempos frequently ranging from 125 to 167 BPM. Their taste leans heavily on driving guitar riffs—often distorted and punchy—paired with tight, dynamic drumming, propulsive bass lines, and a blend of analog and digital textures, including shimmering synths, atmospheric pads, and occasional glitchy or processed electronic elements. Vocally, they favor expressive, dynamic delivery, particularly from male leads with gritty, raw, or shouted vocals, though female voices in harmonies or processed pop styles also appear frequently. The mood often balances urgency and rebellion with introspection or melancholy, blending aggressive rock intensity with melodic pop sensibilities, while also appreciating experimental textures that add depth without sacrificing energy.",
+        "expected_tag_indices": [
+          6,
+          7,
+          11,
+          24,
+          29,
+          33,
+          39,
+          47,
+          52,
+          60,
+          78
+        ],
+        "expected_tag_names": [
+          "female vocalists",
+          "male vocalist",
+          "alternative rock",
+          "dance",
+          "electronic",
+          "experimental",
+          "guitar",
+          "indie rock",
+          "melancholic",
+          "post-punk",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "1685": {
+    "original_summary": "The user has a strong preference for emotionally resonant, atmospheric music that blends indie, alternative, and experimental elements, with a recurring emphasis on introspective, melancholic, or meditative moods. Their taste leans heavily toward mid-to-slow tempos (ranging from 71–130 BPM), with frequent use of reverb-drenched guitars, lush synth pads, warm bass lines, and intricate instrumental layering—particularly in genres like indie rock, ambient drone, dream pop, and smooth jazz. Vocals, when present, are typically male and raw or breathy, often delivered with a baritone-to-tenor range, featuring spoken-word passages, whispered delivery, or ethereal processing, while many tracks are instrumental, highlighting texture and mood over traditional song structure. They also show a consistent appreciation for dynamic contrast, from quiet, reflective passages to climactic, driving intensity, especially in progressive and post-rock-influenced compositions.",
+    "original_tags": [
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "experimental",
+      "indie rock",
+      "instrumental",
+      "jazz",
+      "melancholic",
+      "mellow",
+      "progressive rock",
+      "relax",
+      "relaxing"
+    ],
+    "original_tag_indices": [
+      7,
+      11,
+      13,
+      33,
+      47,
+      48,
+      49,
+      52,
+      54,
+      61,
+      67,
+      68
+    ],
+    "removals": [
+      {
+        "removed_tag": "instrumental",
+        "removed_tag_idx": 48,
+        "edited_summary": "The user has a strong preference for emotionally resonant, atmospheric music that blends indie, alternative, and experimental elements, with a recurring emphasis on introspective, melancholic, or meditative moods. Their taste leans heavily toward mid-to-slow tempos (ranging from 71–130 BPM), with frequent use of reverb-drenched guitars, lush synth pads, warm bass lines, and intricate layering—particularly in genres like indie rock, ambient drone, dream pop, and smooth jazz. Vocals, when present, are typically male and raw or breathy, often delivered with a baritone-to-tenor range, featuring spoken-word passages, whispered delivery, or ethereal processing, while many tracks highlight texture and mood over traditional song structure. They also show a consistent appreciation for dynamic contrast, from quiet, reflective passages to climactic, driving intensity, especially in progressive and post-rock-influenced compositions.",
+        "expected_tag_indices": [
+          7,
+          11,
+          13,
+          33,
+          47,
+          49,
+          52,
+          54,
+          61,
+          67,
+          68
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "alternative rock",
+          "ambient",
+          "experimental",
+          "indie rock",
+          "jazz",
+          "melancholic",
+          "mellow",
+          "progressive rock",
+          "relax",
+          "relaxing"
+        ]
+      }
+    ]
+  },
+  "637": {
+    "original_summary": "The user has a strong preference for instrumental and emotionally resonant music, with a clear affinity for ambient, drone, post-rock, and experimental electronic genres that prioritize texture, atmosphere, and sonic depth over traditional song structures. Recurring moods include meditative, ethereal, introspective, and melancholic, often conveyed through slow-to-moderate tempos (70–120 BPM), lush synthesizer pads, sustained drones, and sparse piano or guitar motifs, with many tracks lacking vocals entirely. Instrumentation consistently highlights electric guitars—ranging from clean arpeggios to heavy distortion—layered with atmospheric synths, dynamic bass lines, and intricate percussion, often blending rock, indie, and electronic influences. Vocally, when present, the style leans toward clear, expressive male tenor/baritone leads with emotional grit or rawness, occasionally paired with female harmonies or wordless vocalizations, while a few tracks feature spoken-word or processed vocal textures used atmospherically rather than lyrically.",
+    "original_tags": [
+      "male vocalist",
+      "piano",
+      "ambient",
+      "electronic",
+      "experimental",
+      "guitar",
+      "instrumental",
+      "melancholic"
+    ],
+    "original_tag_indices": [
+      7,
+      9,
+      13,
+      29,
+      33,
+      39,
+      48,
+      52
+    ],
+    "removals": [
+      {
+        "removed_tag": "melancholic",
+        "removed_tag_idx": 52,
+        "edited_summary": "The user has a strong preference for instrumental and emotionally resonant music, with a clear affinity for ambient, drone, post-rock, and experimental electronic genres that prioritize texture, atmosphere, and sonic depth over traditional song structures. Recurring moods include meditative, ethereal, and introspective, often conveyed through slow-to-moderate tempos (70–120 BPM), lush synthesizer pads, sustained drones, and sparse piano or guitar motifs, with many tracks lacking vocals entirely. Instrumentation consistently highlights electric guitars—ranging from clean arpeggios to heavy distortion—layered with atmospheric synths, dynamic bass lines, and intricate percussion, often blending rock, indie, and electronic influences. Vocally, when present, the style leans toward clear, expressive male tenor/baritone leads with emotional grit or rawness, occasionally paired with female harmonies or wordless vocalizations, while a few tracks feature spoken-word or processed vocal textures used atmospherically rather than lyrically.",
+        "expected_tag_indices": [
+          7,
+          9,
+          13,
+          29,
+          33,
+          39,
+          48
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "piano",
+          "ambient",
+          "electronic",
+          "experimental",
+          "guitar",
+          "instrumental"
+        ]
+      }
+    ]
+  },
+  "1556": {
+    "original_summary": "The user demonstrates a strong preference for atmospheric, introspective, and emotionally nuanced music, with a clear affinity for ambient, experimental electronic, and acoustic folk genres. Recurring moods include contemplative, meditative, and melancholic, often enhanced by slow to moderate tempos (60–100 BPM), lush synthesizer pads, and minimal or absent percussion. Instrumentation frequently centers on warm analog textures—such as layered pads, granular synthesis, and resonant drones—combined with acoustic elements like fingerpicked guitar, upright bass, and grand piano, particularly in intimate jazz and folk ballads. Vocally, the user favors expressive, naturalistic performances—whether whispered, soulful, or wordless humming—over polished or heavily processed vocals, with a notable appreciation for female voices in jazz and folk contexts, and a recurring interest in abstract, textural vocal elements rather than traditional lyrical narratives.",
+    "original_tags": [
+      "female vocalist",
+      "piano",
+      "acoustic",
+      "ambient",
+      "ballad",
+      "electronic",
+      "experimental",
+      "folk",
+      "guitar",
+      "jazz",
+      "melancholic",
+      "soul"
+    ],
+    "original_tag_indices": [
+      5,
+      9,
+      10,
+      13,
+      15,
+      29,
+      33,
+      34,
+      39,
+      49,
+      52,
+      74
+    ],
+    "removals": [
+      {
+        "removed_tag": "ambient",
+        "removed_tag_idx": 13,
+        "edited_summary": "The user demonstrates a strong preference for atmospheric, introspective, and emotionally nuanced music, with a clear affinity for experimental electronic and acoustic folk genres. Recurring moods include contemplative, meditative, and melancholic, often enhanced by slow to moderate tempos (60–100 BPM), lush synthesizer pads, and minimal or absent percussion. Instrumentation frequently centers on warm analog textures—such as layered pads, granular synthesis, and resonant drones—combined with acoustic elements like fingerpicked guitar, upright bass, and grand piano, particularly in intimate jazz and folk ballads. Vocally, the user favors expressive, naturalistic performances—whether whispered, soulful, or wordless humming—over polished or heavily processed vocals, with a notable appreciation for female voices in jazz and folk contexts, and a recurring interest in abstract, textural vocal elements rather than traditional lyrical narratives.",
+        "expected_tag_indices": [
+          5,
+          9,
+          10,
+          15,
+          29,
+          33,
+          34,
+          39,
+          49,
+          52,
+          74
+        ],
+        "expected_tag_names": [
+          "female vocalist",
+          "piano",
+          "acoustic",
+          "ballad",
+          "electronic",
+          "experimental",
+          "folk",
+          "guitar",
+          "jazz",
+          "melancholic",
+          "soul"
+        ]
+      }
+    ]
+  },
+  "2798": {
+    "original_summary": "The user has a strong preference for emotionally resonant, introspective, and atmospheric music, with a clear affinity for indie rock, alternative rock, and experimental electronic genres—often blending them with folk, ambient, or classical elements. Recurring moods include contemplative, melancholic, hopeful, and meditative, frequently achieved through moderate to slow tempos (65–107 BPM), lush instrumental textures, and a focus on atmosphere over traditional song structure. Instrumentation centers on acoustic and electric guitars (often fingerpicked or distorted), melodic bass lines, dynamic drums, and layered synths or pads, with frequent use of wordless vocals, harmonies, or ambient soundscapes. Vocally, the user favors clear, earnest, and expressive male or female tenor voices—often raw, intimate, or ethereal—though many tracks are instrumental, highlighting a deep appreciation for instrumental craftsmanship and sonic depth.",
+    "original_tags": [
+      "female vocalist",
+      "male vocalist",
+      "acoustic",
+      "alternative rock",
+      "ambient",
+      "electronic",
+      "experimental",
+      "folk",
+      "guitar",
+      "indie rock",
+      "instrumental",
+      "melancholic"
+    ],
+    "original_tag_indices": [
+      5,
+      7,
+      10,
+      11,
+      13,
+      29,
+      33,
+      34,
+      39,
+      47,
+      48,
+      52
+    ],
+    "removals": [
+      {
+        "removed_tag": "guitar",
+        "removed_tag_idx": 39,
+        "edited_summary": "The user has a strong preference for emotionally resonant, introspective, and atmospheric music, with a clear affinity for indie rock, alternative rock, and experimental electronic genres—often blending them with folk, ambient, or classical elements. Recurring moods include contemplative, melancholic, hopeful, and meditative, frequently achieved through moderate to slow tempos (65–107 BPM), lush instrumental textures, and a focus on atmosphere over traditional song structure. Instrumentation centers on melodic bass lines, dynamic drums, and layered synths or pads, with frequent use of wordless vocals, harmonies, or ambient soundscapes. Vocally, the user favors clear, earnest, and expressive male or female tenor voices—often raw, intimate, or ethereal—though many tracks are instrumental, highlighting a deep appreciation for instrumental craftsmanship and sonic depth.",
+        "expected_tag_indices": [
+          5,
+          7,
+          10,
+          11,
+          13,
+          29,
+          33,
+          34,
+          47,
+          48,
+          52
+        ],
+        "expected_tag_names": [
+          "female vocalist",
+          "male vocalist",
+          "acoustic",
+          "alternative rock",
+          "ambient",
+          "electronic",
+          "experimental",
+          "folk",
+          "indie rock",
+          "instrumental",
+          "melancholic"
+        ]
+      }
+    ]
+  },
+  "2638": {
+    "original_summary": "The user has a strong preference for energetic, rhythm-driven music across genres like alternative rock, punk, indie rock, and blues rock, often favoring mid-to-fast tempos (ranging from 97 to 143 BPM) that emphasize driving guitars, punchy bass, and dynamic drumming. They consistently gravitate toward raw, expressive vocal styles—ranging from gritty baritone belts and raspy tenor deliveries to conversational, intimate storytelling—often with a focus on emotional authenticity and dynamic shifts. Instrumentation frequently blends organic elements (acoustic guitars, upright bass, live drums) with electronic textures (synths, pads, arpeggios), particularly in tracks that merge rock with ambient, electronic, or jazz influences. Recurring moods include introspective melancholy, defiant energy, and sophisticated intensity, with a clear appreciation for both high-octane performances and contemplative, atmospheric soundscapes.",
+    "original_tags": [
+      "male vocalist",
+      "acoustic",
+      "alternative rock",
+      "ambient",
+      "blues",
+      "electronic",
+      "guitar",
+      "indie rock",
+      "jazz",
+      "melancholic",
+      "punk",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      7,
+      10,
+      11,
+      13,
+      16,
+      29,
+      39,
+      47,
+      49,
+      52,
+      64,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "indie rock",
+        "removed_tag_idx": 47,
+        "edited_summary": "The user has a strong preference for energetic, rhythm-driven music across genres like alternative rock, punk, and blues rock, often favoring mid-to-fast tempos (ranging from 97 to 143 BPM) that emphasize driving guitars, punchy bass, and dynamic drumming. They consistently gravitate toward raw, expressive vocal styles—ranging from gritty baritone belts and raspy tenor deliveries to conversational, intimate storytelling—often with a focus on emotional authenticity and dynamic shifts. Instrumentation frequently blends organic elements (acoustic guitars, upright bass, live drums) with electronic textures (synths, pads, arpeggios), particularly in tracks that merge rock with ambient, electronic, or jazz influences. Recurring moods include introspective melancholy, defiant energy, and sophisticated intensity, with a clear appreciation for both high-octane performances and contemplative, atmospheric soundscapes.",
+        "expected_tag_indices": [
+          7,
+          10,
+          11,
+          13,
+          16,
+          29,
+          39,
+          49,
+          52,
+          64,
+          78
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "acoustic",
+          "alternative rock",
+          "ambient",
+          "blues",
+          "electronic",
+          "guitar",
+          "jazz",
+          "melancholic",
+          "punk",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "192": {
+    "original_summary": "The user has a strong preference for instrumental and experimental tracks that prioritize atmosphere, texture, and mood over traditional melody or lyrics, with a clear affinity for genres like progressive rock, post-metal, jazz-fusion, ambient, and avant-garde electronic music. Recurring moods include introspective, contemplative, and intense, often shifting between quiet, hypnotic passages and climactic, heavy crescendos, with a consistent use of dynamic contrast and evolving soundscapes. Tempos are predominantly mid-range (68–125 BPM), favoring steady, deliberate pacing that supports intricate arrangements, while instrumentation emphasizes layered guitars (clean and distorted), atmospheric synths, deep drones, and complex rhythmic interplay—often featuring prominent bass, dynamic drums, and subtle world-music or jazz-inflected textures. Vocals, when present, are typically sparse and non-traditional—ranging from whispered spoken word, wordless vocalizations, and male tenor harmonies to aggressive rapping and growling—used more as textural elements than lyrical anchors.",
+    "original_tags": [
+      "male vocalist",
+      "ambient",
+      "electronic",
+      "experimental",
+      "guitar",
+      "instrumental",
+      "jazz",
+      "progressive rock",
+      "rap",
+      "world"
+    ],
+    "original_tag_indices": [
+      7,
+      13,
+      29,
+      33,
+      39,
+      48,
+      49,
+      61,
+      65,
+      79
+    ],
+    "removals": [
+      {
+        "removed_tag": "experimental",
+        "removed_tag_idx": 33,
+        "edited_summary": "The user has a strong preference for instrumental tracks that prioritize atmosphere, texture, and mood over traditional melody or lyrics, with a clear affinity for genres like progressive rock, post-metal, jazz-fusion, ambient, and avant-garde electronic music. Recurring moods include introspective, contemplative, and intense, often shifting between quiet, hypnotic passages and climactic, heavy crescendos, with a consistent use of dynamic contrast and evolving soundscapes. Tempos are predominantly mid-range (68–125 BPM), favoring steady, deliberate pacing that supports intricate arrangements, while instrumentation emphasizes layered guitars (clean and distorted), atmospheric synths, deep drones, and complex rhythmic interplay—often featuring prominent bass, dynamic drums, and subtle world-music or jazz-inflected textures. Vocals, when present, are typically sparse and non-traditional—ranging from whispered spoken word, wordless vocalizations, and male tenor harmonies to aggressive rapping and growling—used more as textural elements than lyrical anchors.",
+        "expected_tag_indices": [
+          7,
+          13,
+          29,
+          39,
+          48,
+          49,
+          61,
+          65,
+          79
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "ambient",
+          "electronic",
+          "guitar",
+          "instrumental",
+          "jazz",
+          "progressive rock",
+          "rap",
+          "world"
+        ]
+      }
+    ]
+  },
+  "3758": {
+    "original_summary": "The user has a strong preference for high-energy, rhythm-driven music across genres like indie rock, alternative metal, thrash metal, and electronic dance, with a clear affinity for fast tempos (ranging from 111 to 158 BPM) and aggressive instrumentation such as distorted electric guitars, punchy drums, and driving basslines. They consistently engage with tracks that blend intensity and atmosphere—whether through the ferocity of extreme metal, the anthemic drive of Eurodance and pop-punk, or the immersive textures of ambient and progressive rock—often favoring instrumental pieces that rely on dynamic interplay between guitars, synths, and percussion. Moods tend toward energetic, determined, or introspective, with recurring themes of nostalgia, emotional depth, and sonic experimentation, particularly in fusion styles that merge traditional elements (like oud or folk guitar) with modern electronic or rock production. Vocals, when present, are typically raw, expressive, and varied—ranging from gritty male belting and spoken-word delivery to ethereal female harmonies—though the user equally appreciates vocal-free compositions that build mood through layered instrumentation and atmospheric design.",
+    "original_tags": [
+      "female vocalists",
+      "male vocalist",
+      "ambient",
+      "dance",
+      "electronic",
+      "folk",
+      "guitar",
+      "heavy metal",
+      "indie rock",
+      "instrumental",
+      "metal",
+      "progressive rock",
+      "punk",
+      "upbeat",
+      "world"
+    ],
+    "original_tag_indices": [
+      6,
+      7,
+      13,
+      24,
+      29,
+      34,
+      39,
+      43,
+      47,
+      48,
+      55,
+      61,
+      64,
+      78,
+      79
+    ],
+    "removals": [
+      {
+        "removed_tag": "female vocalists",
+        "removed_tag_idx": 6,
+        "edited_summary": "The user has a strong preference for high-energy, rhythm-driven music across genres like indie rock, alternative metal, thrash metal, and electronic dance, with a clear affinity for fast tempos (ranging from 111 to 158 BPM) and aggressive instrumentation such as distorted electric guitars, punchy drums, and driving basslines. They consistently engage with tracks that blend intensity and atmosphere—whether through the ferocity of extreme metal, the anthemic drive of Eurodance and pop-punk, or the immersive textures of ambient and progressive rock—often favoring instrumental pieces that rely on dynamic interplay between guitars, synths, and percussion. Moods tend toward energetic, determined, or introspective, with recurring themes of nostalgia, emotional depth, and sonic experimentation, particularly in fusion styles that merge traditional elements (like oud or folk guitar) with modern electronic or rock production. Vocals, when present, are typically raw, expressive, and varied—ranging from gritty male belting and spoken-word delivery to ethereal harmonies—though the user equally appreciates vocal-free compositions that build mood through layered instrumentation and atmospheric design.",
+        "expected_tag_indices": [
+          7,
+          13,
+          24,
+          29,
+          34,
+          39,
+          43,
+          47,
+          48,
+          55,
+          61,
+          64,
+          78,
+          79
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "ambient",
+          "dance",
+          "electronic",
+          "folk",
+          "guitar",
+          "heavy metal",
+          "indie rock",
+          "instrumental",
+          "metal",
+          "progressive rock",
+          "punk",
+          "upbeat",
+          "world"
+        ]
+      }
+    ]
+  },
+  "2781": {
+    "original_summary": "This user has a strong preference for high-energy, rhythm-driven music across genres like punk, hardcore, thrash metal, and alternative rock, with a clear affinity for fast tempos (often between 100–160 BPM) and aggressive, punchy instrumentation featuring distorted guitars, tight bass lines, and powerful drumming. Their taste leans heavily toward instrumental tracks and songs with raw, unprocessed vocals—especially shouted, screamed, or spoken-word deliveries—suggesting a preference for intensity and immediacy over melodic refinement. Recurring genres include punk, hardcore, metal, and indie/alternative rock, often fused with elements of garage, post-punk, and progressive sensibilities, while vocal styles are typically male, gritty, and dynamic, ranging from guttural screams to detached spoken word. They also appreciate atmospheric and textural depth, evident in their engagement with ambient, jazz-fusion, and electronic-influenced tracks, indicating a balance between raw power and sonic sophistication.",
+    "original_tags": [
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "electronic",
+      "guitar",
+      "hardcore",
+      "indie rock",
+      "instrumental",
+      "jazz",
+      "metal",
+      "post-punk",
+      "progressive rock",
+      "punk",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      7,
+      11,
+      13,
+      29,
+      39,
+      42,
+      47,
+      48,
+      49,
+      55,
+      60,
+      61,
+      64,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "electronic",
+        "removed_tag_idx": 29,
+        "edited_summary": "This user has a strong preference for high-energy, rhythm-driven music across genres like punk, hardcore, thrash metal, and alternative rock, with a clear affinity for fast tempos (often between 100–160 BPM) and aggressive, punchy instrumentation featuring distorted guitars, tight bass lines, and powerful drumming. Their taste leans heavily toward instrumental tracks and songs with raw, unprocessed vocals—especially shouted, screamed, or spoken-word deliveries—suggesting a preference for intensity and immediacy over melodic refinement. Recurring genres include punk, hardcore, metal, and indie/alternative rock, often fused with elements of garage, post-punk, and progressive sensibilities, while vocal styles are typically male, gritty, and dynamic, ranging from guttural screams to detached spoken word. They also appreciate atmospheric and textural depth, evident in their engagement with ambient and jazz-fusion tracks, indicating a balance between raw power and sonic sophistication.",
+        "expected_tag_indices": [
+          7,
+          11,
+          13,
+          39,
+          42,
+          47,
+          48,
+          49,
+          55,
+          60,
+          61,
+          64,
+          78
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "alternative rock",
+          "ambient",
+          "guitar",
+          "hardcore",
+          "indie rock",
+          "instrumental",
+          "jazz",
+          "metal",
+          "post-punk",
+          "progressive rock",
+          "punk",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "220": {
+    "original_summary": "The user has a strong preference for high-energy, aggressive genres such as metalcore, death metal, thrash metal, and industrial, often characterized by heavily distorted guitars, relentless double-kick drumming, and intense vocal styles ranging from guttural growls to piercing screams. Their taste leans heavily toward fast to moderate tempos (ranging from 86 to 176 BPM), with a particular affinity for tracks that blend technical precision with raw emotional intensity, especially in hybrid forms like deathcore, nu-metal, and industrial techno. Instrumentation is predominantly heavy and guitar-driven, though they also appreciate complex instrumental interplay in jazz fusion, orchestral film scores, and electronic textures—often favoring the absence of vocals to highlight sonic depth and dynamics. Recurring moods include dark, confrontational, heroic, or introspective atmospheres, with a clear attraction to both aggressive sonic force and immersive, ambient experimentation.",
+    "original_tags": [
+      "ambient",
+      "death metal",
+      "electronic",
+      "experimental",
+      "hard rock",
+      "heavy metal",
+      "instrumental",
+      "jazz",
+      "melancholic",
+      "metal",
+      "techno"
+    ],
+    "original_tag_indices": [
+      13,
+      25,
+      29,
+      33,
+      41,
+      43,
+      48,
+      49,
+      52,
+      55,
+      76
+    ],
+    "removals": [
+      {
+        "removed_tag": "ambient",
+        "removed_tag_idx": 13,
+        "edited_summary": "The user has a strong preference for high-energy, aggressive genres such as metalcore, death metal, thrash metal, and industrial, often characterized by heavily distorted guitars, relentless double-kick drumming, and intense vocal styles ranging from guttural growls to piercing screams. Their taste leans heavily toward fast to moderate tempos (ranging from 86 to 176 BPM), with a particular affinity for tracks that blend technical precision with raw emotional intensity, especially in hybrid forms like deathcore, nu-metal, and industrial techno. Instrumentation is predominantly heavy and guitar-driven, though they also appreciate complex instrumental interplay in jazz fusion, orchestral film scores, and electronic textures—often favoring the absence of vocals to highlight sonic depth and dynamics. Recurring moods include dark, confrontational, heroic, or introspective atmospheres, with a clear attraction to aggressive sonic force.",
+        "expected_tag_indices": [
+          25,
+          29,
+          33,
+          41,
+          43,
+          48,
+          49,
+          52,
+          55,
+          76
+        ],
+        "expected_tag_names": [
+          "death metal",
+          "electronic",
+          "experimental",
+          "hard rock",
+          "heavy metal",
+          "instrumental",
+          "jazz",
+          "melancholic",
+          "metal",
+          "techno"
+        ]
+      }
+    ]
+  },
+  "4183": {
+    "original_summary": "The user's music taste leans heavily toward atmospheric, texturally rich compositions across genres like ambient, drone, experimental electronic, and progressive rock, with a strong preference for immersive, mood-driven soundscapes over traditional song structures. Recurring moods include meditative, ethereal, introspective, and sometimes unsettling or tense, often achieved through evolving synth pads, deep sub-bass drones, and sparse, processed percussion—frequently without vocals or with vocals used as abstract textures rather than lyrical elements. Tempos vary widely but favor moderate to slow pacing (79–125 BPM), with a notable affinity for free-flowing, non-rhythmic or loosely pulsed arrangements that emphasize spatial depth and sonic evolution. Instrumentation is predominantly instrumental, highlighting electric guitars, layered synths, analog-style textures, and intricate rhythmic interplay, while vocal styles—when present—are raw, expressive, and often used for emotional intensity rather than melodic clarity, ranging from gritty male shouts to wordless hums and processed whispers.",
+    "original_tags": [
+      "male vocalist",
+      "ambient",
+      "electro",
+      "electronic",
+      "experimental",
+      "guitar",
+      "instrumental",
+      "progressive rock"
+    ],
+    "original_tag_indices": [
+      7,
+      13,
+      28,
+      29,
+      33,
+      39,
+      48,
+      61
+    ],
+    "removals": [
+      {
+        "removed_tag": "instrumental",
+        "removed_tag_idx": 48,
+        "edited_summary": "The user's music taste leans heavily toward atmospheric, texturally rich compositions across genres like ambient, drone, experimental electronic, and progressive rock, with a strong preference for immersive, mood-driven soundscapes over traditional song structures. Recurring moods include meditative, ethereal, introspective, and sometimes unsettling or tense, often achieved through evolving synth pads, deep sub-bass drones, and sparse, processed percussion—frequently without vocals or with vocals used as abstract textures rather than lyrical elements. Tempos vary widely but favor moderate to slow pacing (79–125 BPM), with a notable affinity for free-flowing, non-rhythmic or loosely pulsed arrangements that emphasize spatial depth and sonic evolution. Instrumentation highlights electric guitars, layered synths, analog-style textures, and intricate rhythmic interplay, while vocal styles—when present—are raw, expressive, and often used for emotional intensity rather than melodic clarity, ranging from gritty male shouts to wordless hums and processed whispers.",
+        "expected_tag_indices": [
+          7,
+          13,
+          28,
+          29,
+          33,
+          39,
+          61
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "ambient",
+          "electro",
+          "electronic",
+          "experimental",
+          "guitar",
+          "progressive rock"
+        ]
+      }
+    ]
+  },
+  "3403": {
+    "original_summary": "This user has a strong affinity for instrumental and atmospheric music, with a clear preference for genres like ambient, post-rock, progressive rock, jazz fusion, and experimental electronic, often blending them to create immersive, textural soundscapes. Their taste leans toward moderate to slow tempos (60–125 BPM), favoring contemplative, melancholic, and introspective moods, though they also embrace high-energy tracks with fast tempos (130–176 BPM) in punk, indie rock, and alternative styles. Instrumentation is predominantly centered on electric guitars (clean, arpeggiated, or distorted), lush synth pads, piano, and dynamic percussion, with a recurring emphasis on organic textures, reverb-heavy production, and intricate layering. Vocals, when present, are typically raw, expressive, and unpolished—ranging from breathy baritone to gritty tenor—often delivered in a conversational or shouted style, but the user clearly values instrumental depth and emotional atmosphere over lyrical content.",
+    "original_tags": [
+      "male vocalist",
+      "piano",
+      "alternative rock",
+      "ambient",
+      "electronic",
+      "experimental",
+      "guitar",
+      "indie rock",
+      "instrumental",
+      "jazz",
+      "melancholic",
+      "progressive rock",
+      "punk"
+    ],
+    "original_tag_indices": [
+      7,
+      9,
+      11,
+      13,
+      29,
+      33,
+      39,
+      47,
+      48,
+      49,
+      52,
+      61,
+      64
+    ],
+    "removals": [
+      {
+        "removed_tag": "indie rock",
+        "removed_tag_idx": 47,
+        "edited_summary": "This user has a strong affinity for instrumental and atmospheric music, with a clear preference for genres like ambient, post-rock, progressive rock, jazz fusion, and experimental electronic, often blending them to create immersive, textural soundscapes. Their taste leans toward moderate to slow tempos (60–125 BPM), favoring contemplative, melancholic, and introspective moods, though they also embrace high-energy tracks with fast tempos (130–176 BPM) in punk and alternative styles. Instrumentation is predominantly centered on electric guitars (clean, arpeggiated, or distorted), lush synth pads, piano, and dynamic percussion, with a recurring emphasis on organic textures, reverb-heavy production, and intricate layering. Vocals, when present, are typically raw, expressive, and unpolished—ranging from breathy baritone to gritty tenor—often delivered in a conversational or shouted style, but the user clearly values instrumental depth and emotional atmosphere over lyrical content.",
+        "expected_tag_indices": [
+          7,
+          9,
+          11,
+          13,
+          29,
+          33,
+          39,
+          48,
+          49,
+          52,
+          61,
+          64
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "piano",
+          "alternative rock",
+          "ambient",
+          "electronic",
+          "experimental",
+          "guitar",
+          "instrumental",
+          "jazz",
+          "melancholic",
+          "progressive rock",
+          "punk"
+        ]
+      }
+    ]
+  },
+  "28": {
+    "original_summary": "The user has a strong preference for high-energy, rhythm-driven music across genres like alternative rock, hard rock, metal, and electronic, with recurring tempos ranging from mid-tempo (90–120 BPM) to fast-paced (130–160 BPM), often emphasizing urgency and intensity. Their taste leans heavily toward distorted electric guitars, punchy bass lines, dynamic drums (especially double-kick and programmed beats), and layered electronic textures—blending rock aggression with synth-driven atmospheres, industrial grit, or funk grooves. Vocally, they favor expressive, raw, or processed male voices—ranging from gritty shouts and baritone growls to robotic, spoken-word samples—though many tracks are instrumental or feature minimal, non-melodic vocal elements. Moods frequently oscillate between brooding melancholy, defiant rebellion, and triumphant intensity, with a clear affinity for genres like post-punk revival, nu-metal, industrial metal, progressive rock, and experimental electronic, often fused with jazz, folk, or dance elements for added depth and texture.",
+    "original_tags": [
+      "male vocalist",
+      "male vocalists",
+      "alternative rock",
+      "dance",
+      "electronic",
+      "experimental",
+      "folk",
+      "funk",
+      "guitar",
+      "hard rock",
+      "instrumental",
+      "jazz",
+      "melancholic",
+      "metal",
+      "post-punk",
+      "progressive rock"
+    ],
+    "original_tag_indices": [
+      7,
+      8,
+      11,
+      24,
+      29,
+      33,
+      34,
+      36,
+      39,
+      41,
+      48,
+      49,
+      52,
+      55,
+      60,
+      61
+    ],
+    "removals": [
+      {
+        "removed_tag": "funk",
+        "removed_tag_idx": 36,
+        "edited_summary": "The user has a strong preference for high-energy, rhythm-driven music across genres like alternative rock, hard rock, metal, and electronic, with recurring tempos ranging from mid-tempo (90–120 BPM) to fast-paced (130–160 BPM), often emphasizing urgency and intensity. Their taste leans heavily toward distorted electric guitars, punchy bass lines, dynamic drums (especially double-kick and programmed beats), and layered electronic textures—blending rock aggression with synth-driven atmospheres or industrial grit. Vocally, they favor expressive, raw, or processed male voices—ranging from gritty shouts and baritone growls to robotic, spoken-word samples—though many tracks are instrumental or feature minimal, non-melodic vocal elements. Moods frequently oscillate between brooding melancholy, defiant rebellion, and triumphant intensity, with a clear affinity for genres like post-punk revival, nu-metal, industrial metal, progressive rock, and experimental electronic, often fused with jazz, folk, or dance elements for added depth and texture.",
+        "expected_tag_indices": [
+          7,
+          8,
+          11,
+          24,
+          29,
+          33,
+          34,
+          39,
+          41,
+          48,
+          49,
+          52,
+          55,
+          60,
+          61
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "male vocalists",
+          "alternative rock",
+          "dance",
+          "electronic",
+          "experimental",
+          "folk",
+          "guitar",
+          "hard rock",
+          "instrumental",
+          "jazz",
+          "melancholic",
+          "metal",
+          "post-punk",
+          "progressive rock"
+        ]
+      }
+    ]
+  },
+  "54": {
+    "original_summary": "This user has a strong affinity for emotionally resonant, atmospheric music that blends organic instrumentation with ambient and electronic textures, favoring introspective, contemplative, and often melancholic moods. Recurring genres include indie rock, ambient, contemporary classical, and experimental electronic, with a particular emphasis on tracks that feature lush strings, piano, and synths—often layered with subtle or wordless vocals, sparse percussion, and evolving soundscapes. Tempos tend to range from moderate to fast, with a preference for mid-to-upbeat pacing (around 110–160 BPM) in energetic tracks, though slower, meditative pieces (60–90 BPM) also feature prominently, especially in ambient and instrumental works. Instrumentation consistently highlights electric guitars, acoustic textures, and dynamic rhythm sections, while vocal styles lean toward clear, raw, or breathy deliveries—often male baritone or tenor leads, or ethereal female harmonies—used more for atmosphere than lyrical storytelling.",
+    "original_tags": [
+      "female vocalists",
+      "male vocalist",
+      "piano",
+      "acoustic",
+      "ambient",
+      "electronic",
+      "experimental",
+      "guitar",
+      "indie rock",
+      "instrumental",
+      "melancholic",
+      "mellow",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      6,
+      7,
+      9,
+      10,
+      13,
+      29,
+      33,
+      39,
+      47,
+      48,
+      52,
+      54,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "indie rock",
+        "removed_tag_idx": 47,
+        "edited_summary": "This user has a strong affinity for emotionally resonant, atmospheric music that blends organic instrumentation with ambient and electronic textures, favoring introspective, contemplative, and often melancholic moods. Recurring genres include ambient, contemporary classical, and experimental electronic, with a particular emphasis on tracks that feature lush strings, piano, and synths—often layered with subtle or wordless vocals, sparse percussion, and evolving soundscapes. Tempos tend to range from moderate to fast, with a preference for mid-to-upbeat pacing (around 110–160 BPM) in energetic tracks, though slower, meditative pieces (60–90 BPM) also feature prominently, especially in ambient and instrumental works. Instrumentation consistently highlights electric guitars, acoustic textures, and dynamic rhythm sections, while vocal styles lean toward clear, raw, or breathy deliveries—often male baritone or tenor leads, or ethereal female harmonies—used more for atmosphere than lyrical storytelling.",
+        "expected_tag_indices": [
+          6,
+          7,
+          9,
+          10,
+          13,
+          29,
+          33,
+          39,
+          48,
+          52,
+          54,
+          78
+        ],
+        "expected_tag_names": [
+          "female vocalists",
+          "male vocalist",
+          "piano",
+          "acoustic",
+          "ambient",
+          "electronic",
+          "experimental",
+          "guitar",
+          "instrumental",
+          "melancholic",
+          "mellow",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "1341": {
+    "original_summary": "The user has a strong affinity for emotionally charged, texturally rich music that spans genres like alternative rock, indie rock, ambient drone, experimental electronic, and progressive rock, often blending organic instrumentation with electronic elements. Recurring moods include introspective melancholy, ethereal calm, and intense energy, with a particular preference for tracks that balance raw emotional delivery with atmospheric depth—whether through soaring guitars, layered synths, or minimalist textures. Tempos vary widely but frequently center around moderate to fast pacing (107–158 BPM), with a notable emphasis on dynamic contrast, evolving soundscapes, and instrumental complexity, especially in post-rock, progressive, and ambient compositions. Vocals, when present, are typically male, ranging from raw baritone-to-tenor tones to expressive, belted, or whispered deliveries, often used for emotional resonance rather than lyrical clarity, while many tracks favor instrumental or wordless vocal textures to enhance mood and atmosphere.",
+    "original_tags": [
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "electronic",
+      "experimental",
+      "guitar",
+      "indie rock",
+      "instrumental",
+      "melancholic",
+      "progressive rock",
+      "relaxing",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      7,
+      11,
+      13,
+      29,
+      33,
+      39,
+      47,
+      48,
+      52,
+      61,
+      68,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "electronic",
+        "removed_tag_idx": 29,
+        "edited_summary": "The user has a strong affinity for emotionally charged, texturally rich music that spans genres like alternative rock, indie rock, ambient drone, and progressive rock, often blending organic instrumentation with synthetic elements. Recurring moods include introspective melancholy, ethereal calm, and intense energy, with a particular preference for tracks that balance raw emotional delivery with atmospheric depth—whether through soaring guitars, layered synths, or minimalist textures. Tempos vary widely but frequently center around moderate to fast pacing (107–158 BPM), with a notable emphasis on dynamic contrast, evolving soundscapes, and instrumental complexity, especially in post-rock, progressive, and ambient compositions. Vocals, when present, are typically male, ranging from raw baritone-to-tenor tones to expressive, belted, or whispered deliveries, often used for emotional resonance rather than lyrical clarity, while many tracks favor instrumental or wordless vocal textures to enhance mood and atmosphere.",
+        "expected_tag_indices": [
+          7,
+          11,
+          13,
+          33,
+          39,
+          47,
+          48,
+          52,
+          61,
+          68,
+          78
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "alternative rock",
+          "ambient",
+          "experimental",
+          "guitar",
+          "indie rock",
+          "instrumental",
+          "melancholic",
+          "progressive rock",
+          "relaxing",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "4752": {
+    "original_summary": "This user has a strong preference for high-energy, rhythm-driven electronic music, particularly within the realms of Progressive House, Electro House, Tech House, and Trance, often characterized by fast tempos (ranging from 110–136 BPM), punchy four-on-the-floor beats, deep sub-bass, and bright, melodic synthesizers. They favor instrumental compositions or tracks with non-lyrical vocal elements—such as processed samples, wordless hums, or spoken fragments—used primarily as rhythmic or textural accents rather than narrative content, indicating a focus on sonic texture and groove over traditional songwriting. Moods frequently lean toward uplifting, euphoric, or driving intensity, though there’s a notable appreciation for darker, more introspective, and avant-garde atmospheres, especially in experimental electronic and ambient works featuring granular noise, evolving drones, and abstract sound design. Their taste spans from polished dancefloor anthems to immersive, contemplative soundscapes, revealing a deep engagement with both the dynamic energy of club music and the atmospheric depth of experimental and ambient electronic genres.",
+    "original_tags": [
+      "ambient",
+      "dance",
+      "electro",
+      "electronic",
+      "experimental",
+      "funky",
+      "instrumental",
+      "trance",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      13,
+      24,
+      28,
+      29,
+      33,
+      37,
+      48,
+      77,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "electro",
+        "removed_tag_idx": 28,
+        "edited_summary": "This user has a strong preference for high-energy, rhythm-driven electronic music, particularly within the realms of Progressive House, Tech House, and Trance, often characterized by fast tempos (ranging from 110–136 BPM), punchy four-on-the-floor beats, deep sub-bass, and bright, melodic synthesizers. They favor instrumental compositions or tracks with non-lyrical vocal elements—such as processed samples, wordless hums, or spoken fragments—used primarily as rhythmic or textural accents rather than narrative content, indicating a focus on sonic texture and groove over traditional songwriting. Moods frequently lean toward uplifting, euphoric, or driving intensity, though there's a notable appreciation for darker, more introspective, and avant-garde atmospheres, especially in experimental electronic and ambient works featuring granular noise, evolving drones, and abstract sound design. Their taste spans from polished dancefloor anthems to immersive, contemplative soundscapes, revealing a deep engagement with both the dynamic energy of club music and the atmospheric depth of experimental and ambient electronic genres.",
+        "expected_tag_indices": [
+          13,
+          24,
+          29,
+          33,
+          37,
+          48,
+          77,
+          78
+        ],
+        "expected_tag_names": [
+          "ambient",
+          "dance",
+          "electronic",
+          "experimental",
+          "funky",
+          "instrumental",
+          "trance",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "1465": {
+    "original_summary": "The user demonstrates a strong preference for high-energy, rhythm-driven music across genres like electronic dance, hard rock, metal, and hip-hop, with a clear affinity for tracks at moderate to fast tempos (ranging from 85–158 BPM), particularly around 90–130 BPM. They gravitate toward intense, aggressive moods—often dark, confrontational, or ferocious—fueled by distorted guitars, punchy electronic drums, deep sub-bass, and layered textures, with a recurring emphasis on sonic density and intensity. Instrumentation is predominantly instrumental or features processed, non-traditional vocals, favoring abstract vocal samples, spoken word, or distorted rapping over melodic singing, with a notable interest in experimental and avant-garde sound design. Their taste spans genres from progressive rock and ambient drone to trap-metal and industrial hip-hop, reflecting a deep appreciation for genre-blending, textural complexity, and atmospheric depth, especially in tracks that balance aggression with introspection or ethereal beauty.",
+    "original_tags": [
+      "ambient",
+      "dance",
+      "electronic",
+      "experimental",
+      "guitar",
+      "hard rock",
+      "hip hop",
+      "instrumental",
+      "melancholic",
+      "metal",
+      "progressive rock",
+      "rap",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      13,
+      24,
+      29,
+      33,
+      39,
+      41,
+      44,
+      48,
+      52,
+      55,
+      61,
+      65,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "metal",
+        "removed_tag_idx": 55,
+        "edited_summary": "The user demonstrates a strong preference for high-energy, rhythm-driven music across genres like electronic dance, hard rock, and hip-hop, with a clear affinity for tracks at moderate to fast tempos (ranging from 85–158 BPM), particularly around 90–130 BPM. They gravitate toward intense, aggressive moods—often dark, confrontational, or ferocious—fueled by distorted guitars, punchy electronic drums, deep sub-bass, and layered textures, with a recurring emphasis on sonic density and intensity. Instrumentation is predominantly instrumental or features processed, non-traditional vocals, favoring abstract vocal samples, spoken word, or distorted rapping over melodic singing, with a notable interest in experimental and avant-garde sound design. Their taste spans genres from progressive rock and ambient drone to industrial hip-hop, reflecting a deep appreciation for genre-blending, textural complexity, and atmospheric depth, especially in tracks that balance aggression with introspection or ethereal beauty.",
+        "expected_tag_indices": [
+          13,
+          24,
+          29,
+          33,
+          39,
+          41,
+          44,
+          48,
+          52,
+          61,
+          65,
+          78
+        ],
+        "expected_tag_names": [
+          "ambient",
+          "dance",
+          "electronic",
+          "experimental",
+          "guitar",
+          "hard rock",
+          "hip hop",
+          "instrumental",
+          "melancholic",
+          "progressive rock",
+          "rap",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "2347": {
+    "original_summary": "This user has a strong affinity for energetic, rhythm-driven music across alternative, indie, garage rock, and progressive rock genres, with a clear preference for mid-to-fast tempos (ranging from 75–136 BPM) and dynamic, punchy instrumentation centered on distorted electric guitars, driving bass lines, and powerful drumming. They gravitate toward raw, expressive performances—whether through gritty male vocals, dynamic vocal contrasts, or even spoken-word elements—often favoring a live, organic feel with a balance of aggression and melodic sensibility. Instrumental tracks are highly represented, particularly in genres like progressive rock, ambient drone, cinematic orchestral, and jazz fusion, suggesting an appreciation for complex textures, sonic depth, and atmospheric layering without vocals. Moods range from defiant and rebellious to introspective and serene, with recurring themes of emotional intensity, vulnerability, and sonic experimentation, especially in ambient, dream pop, and experimental electronic works.",
+    "original_tags": [
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "electronic",
+      "experimental",
+      "indie pop",
+      "indie rock",
+      "instrumental",
+      "jazz",
+      "progressive rock",
+      "punk"
+    ],
+    "original_tag_indices": [
+      7,
+      11,
+      13,
+      29,
+      33,
+      46,
+      47,
+      48,
+      49,
+      61,
+      64
+    ],
+    "removals": [
+      {
+        "removed_tag": "punk",
+        "removed_tag_idx": 64,
+        "edited_summary": "This user has a strong affinity for energetic, rhythm-driven music across alternative, indie, garage rock, and progressive rock genres, with a clear preference for mid-to-fast tempos (ranging from 75–136 BPM) and dynamic, punchy instrumentation centered on distorted electric guitars, driving bass lines, and powerful drumming. They gravitate toward raw, expressive performances—whether through gritty male vocals, dynamic vocal contrasts, or even spoken-word elements—often favoring a live, organic feel with a balance of aggression and melodic sensibility. Instrumental tracks are highly represented, particularly in genres like progressive rock, ambient drone, cinematic orchestral, and jazz fusion, suggesting an appreciation for complex textures, sonic depth, and atmospheric layering without vocals. Moods range from defiant and rebellious to introspective and serene, with recurring themes of emotional intensity, vulnerability, and sonic experimentation, especially in ambient, dream pop, and experimental electronic works.",
+        "expected_tag_indices": [
+          7,
+          11,
+          13,
+          29,
+          33,
+          46,
+          47,
+          48,
+          49,
+          61
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "alternative rock",
+          "ambient",
+          "electronic",
+          "experimental",
+          "indie pop",
+          "indie rock",
+          "instrumental",
+          "jazz",
+          "progressive rock"
+        ]
+      }
+    ]
+  },
+  "815": {
+    "original_summary": "The user has a strong preference for high-energy, dance-oriented electronic music, particularly across genres like Eurodance, Electro House, Progressive House, and Latin House, often characterized by steady four-on-the-floor rhythms, driving tempos (ranging from 115–136 BPM), and punchy electronic drums paired with bright synth leads and deep sub-bass. They consistently favor tracks with a club-ready, euphoric, or celebratory mood, frequently incorporating processed female vocal samples used as rhythmic textures rather than lyrical content. Alongside this, there's a notable appreciation for ambient and atmospheric textures—especially in ethereal, meditative, and drone-based compositions—often featuring lush synthesizer pads, deep drones, and wordless or textural vocals, creating immersive, introspective soundscapes at slower tempos (77–115 BPM). This duality reflects a taste that balances high-octane dance energy with serene, reflective atmospheres, blending electronic precision with organic instrumentation like piano, strings, and acoustic guitar in both instrumental and vocal-driven tracks.",
+    "original_tags": [
+      "female vocalist",
+      "piano",
+      "acoustic",
+      "ambient",
+      "dance",
+      "electro",
+      "electronic",
+      "fun",
+      "guitar",
+      "instrumental",
+      "relax",
+      "relaxing",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      5,
+      9,
+      10,
+      13,
+      24,
+      28,
+      29,
+      35,
+      39,
+      48,
+      67,
+      68,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "instrumental",
+        "removed_tag_idx": 48,
+        "edited_summary": "The user has a strong preference for high-energy, dance-oriented electronic music, particularly across genres like Eurodance, Electro House, Progressive House, and Latin House, often characterized by steady four-on-the-floor rhythms, driving tempos (ranging from 115–136 BPM), and punchy electronic drums paired with bright synth leads and deep sub-bass. They consistently favor tracks with a club-ready, euphoric, or celebratory mood, frequently incorporating processed female vocal samples used as rhythmic textures rather than lyrical content. Alongside this, there's a notable appreciation for ambient and atmospheric textures—especially in ethereal, meditative, and drone-based compositions—often featuring lush synthesizer pads, deep drones, and wordless or textural vocals, creating immersive, introspective soundscapes at slower tempos (77–115 BPM). This duality reflects a taste that balances high-octane dance energy with serene, reflective atmospheres, blending electronic precision with organic instrumentation like piano, strings, and acoustic guitar in both vocal-driven and purely musical tracks.",
+        "expected_tag_indices": [
+          5,
+          9,
+          10,
+          13,
+          24,
+          28,
+          29,
+          35,
+          39,
+          67,
+          68,
+          78
+        ],
+        "expected_tag_names": [
+          "female vocalist",
+          "piano",
+          "acoustic",
+          "ambient",
+          "dance",
+          "electro",
+          "electronic",
+          "fun",
+          "guitar",
+          "relax",
+          "relaxing",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "3395": {
+    "original_summary": "The user has a strong preference for high-energy, rhythmically driven music across genres like alternative rock, hard rock, progressive rock, and Latin rock, often characterized by distorted electric guitars, punchy drums, and dynamic bass lines. They gravitate toward mid-to-fast tempos (ranging from 80–150 BPM), with a particular affinity for tracks with driving grooves, intricate instrumentation, and a raw or powerful sonic intensity—especially in genres like post-grunge, post-punk revival, and electro-funk. Instrumental compositions are highly represented, particularly those blending progressive complexity with emotional depth, often featuring clean or soaring guitar work, atmospheric synths, and jazz or Latin influences, with many tracks emphasizing instrumental interplay over vocals. Vocals, when present, tend to be expressive and dynamic—ranging from strained, shouted bursts to clean, melodic tenor/baritone deliveries—while spoken-word snippets, wordless vocals, and non-traditional vocal textures also appear frequently, suggesting an appreciation for textural and atmospheric vocal elements beyond lyrical content.",
+    "original_tags": [
+      "male vocalist",
+      "alternative rock",
+      "electronic",
+      "funky",
+      "guitar",
+      "hard rock",
+      "instrumental",
+      "jazz",
+      "progressive rock",
+      "punk",
+      "world"
+    ],
+    "original_tag_indices": [
+      7,
+      11,
+      29,
+      37,
+      39,
+      41,
+      48,
+      49,
+      61,
+      64,
+      79
+    ],
+    "removals": [
+      {
+        "removed_tag": "guitar",
+        "removed_tag_idx": 39,
+        "edited_summary": "The user has a strong preference for high-energy, rhythmically driven music across genres like alternative rock, hard rock, progressive rock, and Latin rock, often characterized by punchy drums, and dynamic bass lines. They gravitate toward mid-to-fast tempos (ranging from 80–150 BPM), with a particular affinity for tracks with driving grooves, intricate instrumentation, and a raw or powerful sonic intensity—especially in genres like post-grunge, post-punk revival, and electro-funk. Instrumental compositions are highly represented, particularly those blending progressive complexity with emotional depth, often featuring atmospheric synths, and jazz or Latin influences, with many tracks emphasizing instrumental interplay over vocals. Vocals, when present, tend to be expressive and dynamic—ranging from strained, shouted bursts to clean, melodic tenor/baritone deliveries—while spoken-word snippets, wordless vocals, and non-traditional vocal textures also appear frequently, suggesting an appreciation for textural and atmospheric vocal elements beyond lyrical content.",
+        "expected_tag_indices": [
+          7,
+          11,
+          29,
+          37,
+          41,
+          48,
+          49,
+          61,
+          64,
+          79
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "alternative rock",
+          "electronic",
+          "funky",
+          "hard rock",
+          "instrumental",
+          "jazz",
+          "progressive rock",
+          "punk",
+          "world"
+        ]
+      }
+    ]
+  },
+  "867": {
+    "original_summary": "The user has a strong preference for emotionally charged, dynamically layered rock and instrumental music, with recurring genres including alternative rock, post-rock, progressive rock, and ambient/drone. Their taste leans toward mid-to-fast tempos with a focus on atmospheric depth, often blending distorted electric guitars with subtle electronic textures like synths and ambient pads, while favoring expressive instrumental interplay over vocals—especially in instrumental tracks that emphasize mood, texture, and dynamic evolution. Moods are consistently introspective, melancholic, or anthemic, ranging from meditative and tranquil to urgent and rebellious, with a particular affinity for emotive minimalism, soaring guitar work, and rich harmonic movement. Vocals, when present, are typically powerful and expressive—ranging from raw female belting to male tenor falsettos and wordless humming—often serving as a dynamic counterpoint to the instrumental intensity.",
+    "original_tags": [
+      "female vocalist",
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "electronic",
+      "guitar",
+      "instrumental",
+      "melancholic",
+      "progressive rock"
+    ],
+    "original_tag_indices": [
+      5,
+      7,
+      11,
+      13,
+      29,
+      39,
+      48,
+      52,
+      61
+    ],
+    "removals": [
+      {
+        "removed_tag": "male vocalist",
+        "removed_tag_idx": 7,
+        "edited_summary": "The user has a strong preference for emotionally charged, dynamically layered rock and instrumental music, with recurring genres including alternative rock, post-rock, progressive rock, and ambient/drone. Their taste leans toward mid-to-fast tempos with a focus on atmospheric depth, often blending distorted electric guitars with subtle electronic textures like synths and ambient pads, while favoring expressive instrumental interplay over vocals—especially in instrumental tracks that emphasize mood, texture, and dynamic evolution. Moods are consistently introspective, melancholic, or anthemic, ranging from meditative and tranquil to urgent and rebellious, with a particular affinity for emotive minimalism, soaring guitar work, and rich harmonic movement. Vocals, when present, are typically powerful and expressive—ranging from raw female belting to wordless humming—often serving as a dynamic counterpoint to the instrumental intensity.",
+        "expected_tag_indices": [
+          5,
+          11,
+          13,
+          29,
+          39,
+          48,
+          52,
+          61
+        ],
+        "expected_tag_names": [
+          "female vocalist",
+          "alternative rock",
+          "ambient",
+          "electronic",
+          "guitar",
+          "instrumental",
+          "melancholic",
+          "progressive rock"
+        ]
+      }
+    ]
+  },
+  "4735": {
+    "original_summary": "The user has a strong preference for high-energy, rhythm-driven music across alternative rock, indie rock, punk, and electronic genres, with a clear affinity for fast to moderate tempos (ranging from 79 to 176 BPM) that emphasize intensity and momentum. Recurring instrumentation includes distorted electric guitars, punchy bass lines, dynamic drums, and layered textures—often blending rock power with electronic or synth elements—while many tracks feature raw, gritty, or emotionally charged vocal deliveries, particularly male tenor/baritone voices with raspy, urgent, or anthemic qualities. The mood consistently leans toward rebellious, defiant, or anthemic energy, with a balance of aggression and melodic sophistication, especially in post-punk revival, math rock, and indie-punk hybrids. Notably, the user appreciates both vocal-driven tracks and instrumentally complex, technically proficient compositions—ranging from progressive rock to experimental electronic—suggesting a taste for both emotional authenticity and sonic innovation.",
+    "original_tags": [
+      "male vocalist",
+      "alternative rock",
+      "electronic",
+      "experimental",
+      "guitar",
+      "indie rock",
+      "post-punk",
+      "progressive rock",
+      "punk"
+    ],
+    "original_tag_indices": [
+      7,
+      11,
+      29,
+      33,
+      39,
+      47,
+      60,
+      61,
+      64
+    ],
+    "removals": [
+      {
+        "removed_tag": "punk",
+        "removed_tag_idx": 64,
+        "edited_summary": "The user has a strong preference for high-energy, rhythm-driven music across alternative rock, indie rock, and electronic genres, with a clear affinity for fast to moderate tempos (ranging from 79 to 176 BPM) that emphasize intensity and momentum. Recurring instrumentation includes distorted electric guitars, punchy bass lines, dynamic drums, and layered textures—often blending rock power with electronic or synth elements—while many tracks feature raw, gritty, or emotionally charged vocal deliveries, particularly male tenor/baritone voices with raspy, urgent, or anthemic qualities. The mood consistently leans toward rebellious, defiant, or anthemic energy, with a balance of aggression and melodic sophistication, especially in post-punk revival and math rock. Notably, the user appreciates both vocal-driven tracks and instrumentally complex, technically proficient compositions—ranging from progressive rock to experimental electronic—suggesting a taste for both emotional authenticity and sonic innovation.",
+        "expected_tag_indices": [
+          7,
+          11,
+          29,
+          33,
+          39,
+          47,
+          60,
+          61
+        ],
+        "expected_tag_names": [
+          "male vocalist",
+          "alternative rock",
+          "electronic",
+          "experimental",
+          "guitar",
+          "indie rock",
+          "post-punk",
+          "progressive rock"
+        ]
+      }
+    ]
+  },
+  "1488": {
+    "original_summary": "The user has a strong preference for atmospheric, emotionally resonant music characterized by slow to moderate tempos, often in the 68–125 BPM range, with a focus on introspection, melancholy, and serenity. Recurring genres include ambient, drone, ethereal pop, dream pop, and acoustic folk, frequently blending organic instrumentation—such as fingerpicked guitar, warm piano, and subtle strings—with lush synthesizer pads, reverb-drenched textures, and processed vocals. Instrumental tracks are prominent, especially those emphasizing evolving soundscapes over traditional rhythm or melody, with a notable absence of lyrics in many pieces. Vocals, when present, are typically breathy, soft, and ethereal—often delivered by female mezzo-sopranos or sopranos in a whisper-like, melodic style that blends into the ambient fabric rather than dominating it.",
+    "original_tags": [
+      "female vocalist",
+      "female vocalists",
+      "piano",
+      "acoustic",
+      "ambient",
+      "folk",
+      "guitar",
+      "instrumental",
+      "melancholic",
+      "melancholy",
+      "mellow",
+      "relax",
+      "relaxing",
+      "sad",
+      "soft rock"
+    ],
+    "original_tag_indices": [
+      5,
+      6,
+      9,
+      10,
+      13,
+      34,
+      39,
+      48,
+      52,
+      53,
+      54,
+      67,
+      68,
+      71,
+      73
+    ],
+    "removals": [
+      {
+        "removed_tag": "relax",
+        "removed_tag_idx": 67,
+        "edited_summary": "The user has a strong preference for atmospheric, emotionally resonant music characterized by slow to moderate tempos, often in the 68–125 BPM range, with a focus on introspection and melancholy. Recurring genres include ambient, drone, ethereal pop, dream pop, and acoustic folk, frequently blending organic instrumentation—such as fingerpicked guitar, warm piano, and subtle strings—with lush synthesizer pads, reverb-drenched textures, and processed vocals. Instrumental tracks are prominent, especially those emphasizing evolving soundscapes over traditional rhythm or melody, with a notable absence of lyrics in many pieces. Vocals, when present, are typically breathy, soft, and ethereal—often delivered by female mezzo-sopranos or sopranos in a whisper-like, melodic style that blends into the ambient fabric rather than dominating it.",
+        "expected_tag_indices": [
+          5,
+          6,
+          9,
+          10,
+          13,
+          34,
+          39,
+          48,
+          52,
+          53,
+          54,
+          68,
+          71,
+          73
+        ],
+        "expected_tag_names": [
+          "female vocalist",
+          "female vocalists",
+          "piano",
+          "acoustic",
+          "ambient",
+          "folk",
+          "guitar",
+          "instrumental",
+          "melancholic",
+          "melancholy",
+          "mellow",
+          "relaxing",
+          "sad",
+          "soft rock"
+        ]
+      }
+    ]
+  },
+  "3072": {
+    "original_summary": "The user demonstrates a strong preference for instrumental and atmospheric music, with a clear affinity for Ambient, New Age, and Downtempo electronic genres that prioritize mood and texture over rhythm or lyrics. Recurring moods include meditative, introspective, serene, and contemplative states, often enhanced by lush synthesizer pads, delicate piano arpeggios, and ethereal soundscapes, with tempos generally ranging from moderate (85–110 BPM) to slow, and occasionally fast-paced but still ambient in feel. Instrumentation consistently favors electronic textures—synths, pads, drones, and subtle percussion—alongside organic elements like acoustic piano, strings, and jazz-inflected guitar, particularly in fusion and progressive rock contexts. While vocals are present in some tracks, they are often minimal, wordless, or used as textural elements (e.g., spoken word, chants, or processed samples), with a notable preference for expressive, emotive, or raw vocal delivery when present, especially in rock and folk genres.",
+    "original_tags": [
+      "piano",
+      "acoustic",
+      "ambient",
+      "downtempo",
+      "electronic",
+      "folk",
+      "instrumental",
+      "jazz",
+      "mellow",
+      "progressive rock",
+      "relax",
+      "relaxing"
+    ],
+    "original_tag_indices": [
+      9,
+      10,
+      13,
+      26,
+      29,
+      34,
+      48,
+      49,
+      54,
+      61,
+      67,
+      68
+    ],
+    "removals": [
+      {
+        "removed_tag": "jazz",
+        "removed_tag_idx": 49,
+        "edited_summary": "The user demonstrates a strong preference for instrumental and atmospheric music, with a clear affinity for Ambient, New Age, and Downtempo electronic genres that prioritize mood and texture over rhythm or lyrics. Recurring moods include meditative, introspective, serene, and contemplative states, often enhanced by lush synthesizer pads, delicate piano arpeggios, and ethereal soundscapes, with tempos generally ranging from moderate (85–110 BPM) to slow, and occasionally fast-paced but still ambient in feel. Instrumentation consistently favors electronic textures—synths, pads, drones, and subtle percussion—alongside organic elements like acoustic piano, strings, and guitar, particularly in fusion and progressive rock contexts. While vocals are present in some tracks, they are often minimal, wordless, or used as textural elements (e.g., spoken word, chants, or processed samples), with a notable preference for expressive, emotive, or raw vocal delivery when present, especially in rock and folk genres.",
+        "expected_tag_indices": [
+          9,
+          10,
+          13,
+          26,
+          29,
+          34,
+          48,
+          54,
+          61,
+          67,
+          68
+        ],
+        "expected_tag_names": [
+          "piano",
+          "acoustic",
+          "ambient",
+          "downtempo",
+          "electronic",
+          "folk",
+          "instrumental",
+          "mellow",
+          "progressive rock",
+          "relax",
+          "relaxing"
+        ]
+      }
+    ]
+  },
+  "1905": {
+    "original_summary": "This user has a diverse yet cohesive taste that gravitates toward high-energy, emotionally charged music with a strong emphasis on dynamic instrumentation and expressive vocals. Recurring genres include indie rock, alternative rock, pop-punk, and experimental electronic, often blended with elements of ambient, jazz fusion, and R&B, reflecting a preference for genre-fluid, texturally rich soundscapes. Moods frequently oscillate between defiant intensity and introspective melancholy, with a strong presence of driving mid-to-fast tempos (ranging from 85–143 BPM), punchy electric guitars, distorted bass lines, and layered electronic textures—especially synth pads, glitchy percussion, and atmospheric drones. Vocally, the user favors clear, expressive performances—often with grit, breathiness, or rawness—ranging from melodic singing and shouted exclamations to whispered, processed, or spoken-word delivery, with a notable appreciation for both female and male voices across a wide tonal spectrum.",
+    "original_tags": [
+      "female vocalist",
+      "male vocalist",
+      "alternative rock",
+      "ambient",
+      "electronic",
+      "guitar",
+      "indie rock",
+      "jazz",
+      "melancholic",
+      "punk",
+      "rnb",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      5,
+      7,
+      11,
+      13,
+      29,
+      39,
+      47,
+      49,
+      52,
+      64,
+      69,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "indie rock",
+        "removed_tag_idx": 47,
+        "edited_summary": "This user has a diverse yet cohesive taste that gravitates toward high-energy, emotionally charged music with a strong emphasis on dynamic instrumentation and expressive vocals. Recurring genres include alternative rock, pop-punk, and experimental electronic, often blended with elements of ambient, jazz fusion, and R&B, reflecting a preference for genre-fluid, texturally rich soundscapes. Moods frequently oscillate between defiant intensity and introspective melancholy, with a strong presence of driving mid-to-fast tempos (ranging from 85–143 BPM), punchy electric guitars, distorted bass lines, and layered electronic textures—especially synth pads, glitchy percussion, and atmospheric drones. Vocally, the user favors clear, expressive performances—often with grit, breathiness, or rawness—ranging from melodic singing and shouted exclamations to whispered, processed, or spoken-word delivery, with a notable appreciation for both female and male voices across a wide tonal spectrum.",
+        "expected_tag_indices": [
+          5,
+          7,
+          11,
+          13,
+          29,
+          39,
+          49,
+          52,
+          64,
+          69,
+          78
+        ],
+        "expected_tag_names": [
+          "female vocalist",
+          "male vocalist",
+          "alternative rock",
+          "ambient",
+          "electronic",
+          "guitar",
+          "jazz",
+          "melancholic",
+          "punk",
+          "rnb",
+          "upbeat"
+        ]
+      }
+    ]
+  },
+  "4289": {
+    "original_summary": "The user's music taste leans heavily toward emotionally charged, dynamically driven tracks across alternative rock, indie, pop, and electronic genres, with a strong preference for high-energy tempos (ranging from 115–150 BPM) and intense, expressive performances. Recurring moods include raw intensity, anthemic uplift, and introspective melancholy, often balanced with moments of euphoric release—evident in the frequent use of powerful vocals, driving guitars, and layered electronic textures. Instrumentation consistently features distorted electric guitars, punchy drums, and synth elements, with a notable affinity for hybrid styles like pop-punk, indie-rock, progressive rock, and electronic dance music, often blending organic and digital sounds. Vocally, the user favors clear, expressive leads—particularly male tenor/baritone and female mezzo-soprano voices—ranging from conversational intimacy to powerful belting and shouted bursts, with a recurring appreciation for wordless vocals, harmonies, and spoken-word textures that add atmospheric depth.",
+    "original_tags": [
+      "female vocalist",
+      "male vocalist",
+      "alternative rock",
+      "dance",
+      "electronic",
+      "fun",
+      "guitar",
+      "indie rock",
+      "melancholic",
+      "pop rock",
+      "progressive rock",
+      "punk",
+      "upbeat"
+    ],
+    "original_tag_indices": [
+      5,
+      7,
+      11,
+      24,
+      29,
+      35,
+      39,
+      47,
+      52,
+      59,
+      61,
+      64,
+      78
+    ],
+    "removals": [
+      {
+        "removed_tag": "dance",
+        "removed_tag_idx": 24,
+        "edited_summary": "The user's music taste leans heavily toward emotionally charged, dynamically driven tracks across alternative rock, indie, pop, and electronic genres, with a strong preference for high-energy tempos (ranging from 115–150 BPM) and intense, expressive performances. Recurring moods include raw intensity, anthemic uplift, and introspective melancholy, often balanced with moments of euphoric release—evident in the frequent use of powerful vocals, driving guitars, and layered electronic textures. Instrumentation consistently features distorted electric guitars, punchy drums, and synth elements, with a notable affinity for hybrid styles like pop-punk, indie-rock, and progressive rock, often blending organic and digital sounds. Vocally, the user favors clear, expressive leads—particularly male tenor/baritone and female mezzo-soprano voices—ranging from conversational intimacy to powerful belting and shouted bursts, with a recurring appreciation for wordless vocals, harmonies, and spoken-word textures that add atmospheric depth.",
+        "expected_tag_indices": [
+          5,
+          7,
+          11,
+          29,
+          35,
+          39,
+          47,
+          52,
+          59,
+          61,
+          64,
+          78
+        ],
+        "expected_tag_names": [
+          "female vocalist",
+          "male vocalist",
+          "alternative rock",
+          "electronic",
+          "fun",
+          "guitar",
+          "indie rock",
+          "melancholic",
+          "pop rock",
+          "progressive rock",
+          "punk",
+          "upbeat"
+        ]
+      }
+    ]
+  }
+}
