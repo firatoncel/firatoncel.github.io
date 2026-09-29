@@ -1,0 +1,2831 @@
+{
+  "428": {
+    "original_summary": "The user has a strong preference for films with complex, non-linear narratives that build suspense through fragmented storytelling, flashbacks, and multiple perspectives—evident across thrillers, historical dramas, and psychological mysteries. They are drawn to intense, atmospheric films with high stakes, whether in action-packed adventures, war epics, or emotionally charged romantic dramas, often featuring character-driven plots and deep emotional resonance. A recurring interest in period settings—especially historical, romantic, or Western-themed stories—suggests an appreciation for richly detailed worlds, social intrigue, and timeless themes like love, identity, and legacy. While they enjoy lighthearted romantic comedies and family-friendly adventures, these are often balanced with deeper emotional or nostalgic undertones, indicating a taste for stories that blend entertainment with heartfelt, introspective depth.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Children",
+      "Comedy",
+      "Drama",
+      "Mystery",
+      "Romance",
+      "Thriller",
+      "War",
+      "Western"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      3,
+      4,
+      7,
+      12,
+      13,
+      15,
+      16,
+      17
+    ],
+    "num_user_movies": 45,
+    "n_samples_per_genre": 4,
+    "additions": [
+      {
+        "added_genre": "Film-Noir",
+        "added_genre_idx": 9,
+        "sampled_movie_ids": [
+          "91770",
+          "127013",
+          "111716",
+          "118868"
+        ],
+        "edited_summary": "The user has a strong preference for films with complex, non-linear narratives that build suspense through fragmented storytelling, flashbacks, and multiple perspectives—evident across thrillers, historical dramas, psychological mysteries, and the dark, moody atmosphere of film noir. They are drawn to intense, atmospheric films with high stakes, whether in action-packed adventures, war epics, emotionally charged romantic dramas, or noir tales defined by grainy textures, deep shadows, and a vintage, suspenseful ambiance. A recurring interest in period settings—especially historical, romantic, or Western-themed stories—suggests an appreciation for richly detailed worlds, social intrigue, and timeless themes like love, identity, and legacy, as well as the psychological tension and intricate plots found in classic noir cinema. While they enjoy lighthearted romantic comedies and family-friendly adventures, these are often balanced with deeper emotional or nostalgic undertones, indicating a taste for stories that blend entertainment with heartfelt, introspective depth, including the slow-burning, character-driven intimacy and moral ambiguity typical of the film noir genre.",
+        "expected_genre_indices": [
+          0,
+          1,
+          3,
+          4,
+          7,
+          9,
+          12,
+          13,
+          15,
+          16,
+          17
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Children",
+          "Comedy",
+          "Drama",
+          "Film-Noir",
+          "Mystery",
+          "Romance",
+          "Thriller",
+          "War",
+          "Western"
+        ]
+      }
+    ]
+  },
+  "2192": {
+    "original_summary": "The user has a strong preference for emotionally resonant, character-driven narratives across a range of genres, with recurring themes of reunion, resilience, and human connection in the face of adversity. They are drawn to films with complex, non-linear storytelling that employs flashbacks, dream sequences, and fragmented timelines to deepen emotional and psychological impact. The atmosphere of their preferred movies often blends tension with heart—ranging from the gritty realism of war and espionage dramas to the nostalgic warmth of romantic and historical tales—suggesting an appreciation for both intensity and sentimentality. Genres like historical drama, romantic drama, science fiction, and mystery are prominent, with a clear affinity for stories that balance epic scale (space operas, wartime epics) with intimate, personal journeys.",
+    "original_genres": [
+      "Drama",
+      "Mystery",
+      "Romance",
+      "Sci-Fi",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      7,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "num_user_movies": 10,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Action",
+        "added_genre_idx": 0,
+        "sampled_movie_ids": [
+          "104606",
+          "109032",
+          "108775"
+        ],
+        "edited_summary": "The user has a strong preference for emotionally resonant, character-driven narratives across a range of genres, with recurring themes of reunion, resilience, and human connection in the face of adversity. They are drawn to films with complex, non-linear storytelling that employs flashbacks, dream sequences, and fragmented timelines to deepen emotional and psychological impact. The atmosphere of their preferred movies often blends tension with heart—ranging from the gritty realism of war and espionage dramas to the nostalgic warmth of romantic and historical tales—suggesting an appreciation for both intensity and sentimentality. This appreciation for intensity extends to high-stakes action thrillers, where they enjoy fast-paced, adrenaline-fueled storylines defined by rapid cuts, strategic combat, and dramatic explosions. They are particularly drawn to military-themed narratives that focus on individual characters' struggles and escalating danger, balancing the epic scale of wartime epics and space operas with intimate, personal journeys. Genres like historical drama, romantic drama, science fiction, mystery, and action are prominent, with a clear affinity for stories that merge visual storytelling through dynamic sequences with complex, character-driven emotional arcs.",
+        "expected_genre_indices": [
+          0,
+          7,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Drama",
+          "Mystery",
+          "Romance",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "714": {
+    "original_summary": "The user has a strong preference for dramatic, character-driven films, particularly within the thriller and war drama genres, often centered on intense emotional experiences and human resilience. Their taste leans toward tense, suspenseful atmospheres with a focus on psychological depth and moral complexity, frequently enhanced by non-linear storytelling, flashbacks, and fragmented narratives that build suspense and invite deeper reflection. Recurring themes include survival, sacrifice, camaraderie under pressure, and the lasting impact of trauma—especially in historical or high-stakes settings. Overall, the user favors mature, thought-provoking cinema that prioritizes emotional authenticity and narrative intricacy over conventional plot resolution.",
+    "original_genres": [
+      "Drama",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      7,
+      15,
+      16
+    ],
+    "num_user_movies": 4,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Mystery",
+        "added_genre_idx": 12,
+        "sampled_movie_ids": [
+          "27457",
+          "77259",
+          "120536"
+        ],
+        "edited_summary": "The user has a strong preference for dramatic, character-driven films, particularly within the thriller, war drama, and mystery genres, often centered on intense emotional experiences and human resilience. Their taste leans toward tense, suspenseful atmospheres with a focus on psychological depth and moral complexity, frequently enhanced by non-linear storytelling, flashbacks, and fragmented narratives that build suspense and invite deeper reflection. This appreciation for mystery is evident in their enjoyment of dark, eerie atmospheres where they engage in piecing together complex narratives involving murder investigations, larger conspiracies, and multiple plot twists. Recurring themes include survival, sacrifice, camaraderie under pressure, and the lasting impact of trauma—especially in historical or high-stakes settings—alongside the intrigue of uncovering hidden truths through shifting perspectives. Overall, the user favors mature, thought-provoking cinema that prioritizes emotional authenticity and narrative intricacy over conventional plot resolution.",
+        "expected_genre_indices": [
+          7,
+          12,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Drama",
+          "Mystery",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "3336": {
+    "original_summary": "The user has a strong preference for character-driven narratives with complex emotional depth, often exploring personal struggles, moral ambiguity, and psychological tension. Their taste leans toward non-linear storytelling, using fragmented timelines, quick cuts, and shifting perspectives to build suspense and deepen character exploration. They enjoy genre-blending films that mix drama, thriller, and dark comedy elements, particularly those with strong female leads and sharp, witty dialogue. Overall, the user is drawn to adult-oriented, emotionally intense stories with unexpected twists—ranging from prison dramas and courtroom tension to satirical takes on identity and adolescence—suggesting a preference for intelligent, stylistically bold cinema with psychological and thematic complexity.",
+    "original_genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      4,
+      7,
+      15
+    ],
+    "num_user_movies": 3,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "War",
+        "added_genre_idx": 16,
+        "sampled_movie_ids": [
+          "26137",
+          "41523",
+          "104776"
+        ],
+        "edited_summary": "The user has a strong preference for character-driven narratives with complex emotional depth, often exploring personal struggles, moral ambiguity, and psychological tension. Their taste leans toward non-linear storytelling, using fragmented timelines, quick cuts, and shifting perspectives to build suspense and deepen character exploration. They enjoy genre-blending films that mix drama, thriller, and dark comedy elements, particularly those with strong female leads and sharp, witty dialogue. This appreciation extends to war cinema, where they are drawn to both gritty, high-stakes conflict featuring intense explosions and survival, as well as historical dramas that blend romance and humor within the chaos of the Civil War era. They value narratives that highlight the discipline, camaraderie, and sacrifice of soldiers in uniform, whether through tense, fast-paced action or serious examinations of human resilience in challenging environments. Overall, the user is drawn to adult-oriented, emotionally intense stories with unexpected twists—ranging from prison dramas and courtroom tension to satirical takes on identity and adolescence—suggesting a preference for intelligent, stylistically bold cinema with psychological and thematic complexity.",
+        "expected_genre_indices": [
+          4,
+          7,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Comedy",
+          "Drama",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "2183": {
+    "original_summary": "The user has a strong preference for complex, character-driven narratives across genres like crime thrillers, psychological dramas, and historical epics, often favoring intense, suspenseful atmospheres with morally ambiguous themes. A recurring element in their taste is the use of non-linear storytelling—flashbacks, fragmented sequences, and multiple perspectives—which suggests an appreciation for layered, intellectually engaging plots that challenge viewers to piece together the full story. They are drawn to films with emotional depth, whether through personal growth, relationships, or high-stakes conflict, and show a particular interest in genres that blend tension with introspection, such as dark comedies, crime dramas, and coming-of-age stories set in vividly rendered historical or fictional worlds. While they enjoy family-friendly animated adventures and lighthearted rom-coms, their core preference leans toward mature, atmospheric films with rich character development, dynamic visuals, and narrative complexity.",
+    "original_genres": [
+      "Adventure",
+      "Animation",
+      "Children",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      13,
+      15
+    ],
+    "num_user_movies": 32,
+    "n_samples_per_genre": 4,
+    "additions": [
+      {
+        "added_genre": "Sci-Fi",
+        "added_genre_idx": 14,
+        "sampled_movie_ids": [
+          "112326",
+          "120476",
+          "104870",
+          "115235"
+        ],
+        "edited_summary": "The user has a strong preference for complex, character-driven narratives across genres like crime thrillers, psychological dramas, historical epics, and sci-fi, often favoring intense, suspenseful atmospheres with morally ambiguous themes. A recurring element in their taste is the use of non-linear storytelling—flashbacks, fragmented sequences, and multiple perspectives—which suggests an appreciation for layered, intellectually engaging plots that challenge viewers to piece together the full story. They are drawn to films with emotional depth, whether through personal growth, relationships, or high-stakes conflict, and show a particular interest in genres that blend tension with introspection, such as dark comedies, crime dramas, coming-of-age stories, and sci-fi narratives that explore themes of memory, identity, and truth within vividly rendered fictional worlds. While they enjoy family-friendly animated adventures and lighthearted rom-coms, their core preference leans toward mature, atmospheric films with rich character development, dynamic visuals, and narrative complexity, including sci-fi action with advanced technology, rapid cuts, and adrenaline-fueled chases, as well as introspective dramas that utilize non-linear structures to convey a protagonist's internal journey through complex human emotions and high-stakes confrontations.",
+        "expected_genre_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Adventure",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "882": {
+    "original_summary": "The user shows a strong preference for emotionally rich, character-driven narratives across genres like drama, romance, and thriller, often favoring complex, non-linear storytelling that employs flashbacks and multiple perspectives to deepen emotional impact. They are drawn to intense, suspenseful atmospheres—particularly in dramas and thrillers—yet also appreciate lighter, satirical takes on everyday life, such as workplace comedies, indicating a balanced taste between high-stakes tension and comedic relief. Recurring themes include personal struggle, redemption, identity, and connection, often set in intimate or nostalgic environments like small towns or urban landscapes, with a particular affinity for stories centered on music, relationships, and self-discovery. Overall, the user enjoys layered, thematically resonant films that blend emotional depth with stylistic flair, whether through vibrant musical sequences or tightly paced, plot-driven action.",
+    "original_genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Musical",
+      "Romance",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      4,
+      7,
+      11,
+      13,
+      15
+    ],
+    "num_user_movies": 8,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "War",
+        "added_genre_idx": 16,
+        "sampled_movie_ids": [
+          "104606",
+          "116819",
+          "114617"
+        ],
+        "edited_summary": "The user shows a strong preference for emotionally rich, character-driven narratives across genres like drama, romance, thriller, and war, often favoring complex, non-linear storytelling that employs flashbacks and multiple perspectives to deepen emotional impact. They are drawn to intense, suspenseful atmospheres—particularly in dramas, thrillers, and military-themed films that focus on individual soldiers' experiences during wartime, blending suspenseful moments with dramatic encounters. Yet they also appreciate lighter, satirical takes on everyday life, such as workplace comedies, indicating a balanced taste between high-stakes tension and comedic relief. Recurring themes include personal struggle, redemption, identity, and connection, often set in intimate or nostalgic environments like small towns or urban landscapes, as well as historical battlefields where the bravery and sacrifice of soldiers are highlighted through fast-paced, high-stakes scenarios. They have a particular affinity for stories centered on music, relationships, and self-discovery, alongside narratives of heroism and patriotism that evoke strong emotional responses. Overall, the user enjoys layered, thematically resonant films that blend emotional depth with stylistic flair, whether through vibrant musical sequences, tightly paced plot-driven action, or the unique visual blend of authenticity and stylization found in historical war epics.",
+        "expected_genre_indices": [
+          0,
+          4,
+          7,
+          11,
+          13,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Musical",
+          "Romance",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "312": {
+    "original_summary": "The user has a strong preference for genre-blending films that combine suspense, emotional depth, and dynamic storytelling, with recurring themes of personal growth, identity, and complex relationships. They are drawn to non-linear narratives, particularly in psychological thrillers, coming-of-age stories, and sci-fi adventures, where tension builds through ambiguity, flashbacks, and layered character arcs. The atmosphere of their preferred films often oscillates between tense and introspective, with a mix of nostalgia, mystery, and high-stakes action, suggesting an appreciation for both emotional resonance and cinematic energy. Overall, the user favors character-driven, visually engaging films that balance intellectual intrigue with emotional impact, spanning genres from dark thrillers and romantic dramas to quirky comedies and epic adventures.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Mystery",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      4,
+      7,
+      12,
+      13,
+      14,
+      15
+    ],
+    "num_user_movies": 14,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "War",
+        "added_genre_idx": 16,
+        "sampled_movie_ids": [
+          "102213",
+          "26050",
+          "77451"
+        ],
+        "edited_summary": "The user has a strong preference for genre-blending films that combine suspense, emotional depth, and dynamic storytelling, with recurring themes of personal growth, identity, and complex relationships. They are drawn to non-linear narratives, particularly in psychological thrillers, coming-of-age stories, sci-fi adventures, and war dramas, where tension builds through ambiguity, flashbacks, layered character arcs, and the stark realities of historical conflict. The atmosphere of their preferred films often oscillates between tense and introspective, with a mix of nostalgia, mystery, high-stakes action, and the dramatic weight of battlefield confrontations, suggesting an appreciation for both emotional resonance and cinematic energy. They are especially captivated by war stories that utilize black-and-white visuals to evoke classic historical settings, feature fast-paced sequences driven by intense conflict, or employ text overlays to hint at multiple perspectives and timelines within a crowd's emotional reactions. Overall, the user favors character-driven, visually engaging films that balance intellectual intrigue with emotional impact, spanning genres from dark thrillers and romantic dramas to quirky comedies, epic adventures, and thought-provoking war narratives that explore the human condition amidst chaos.",
+        "expected_genre_indices": [
+          0,
+          1,
+          4,
+          7,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Drama",
+          "Mystery",
+          "Romance",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "3105": {
+    "original_summary": "The user has a strong preference for emotionally resonant, character-driven stories that explore deep interpersonal relationships and personal growth, evident in their appreciation for romantic comedies with dramatic undertones and heartwarming family dramas. They are drawn to films with rich atmospheres—ranging from warm and inviting to tense and unsettling—suggesting an openness to both comforting narratives and intellectually challenging, psychologically intense experiences. Recurring themes include familial bonds, societal critique (particularly in dystopian sci-fi with satirical edge), and the complexities of human connection, often conveyed through non-linear storytelling and vivid, stylized visuals. Overall, the user seems to favor films that balance emotional depth with thematic complexity, whether through culinary warmth, personal struggle, or dystopian satire.",
+    "original_genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      4,
+      7,
+      13,
+      14,
+      15
+    ],
+    "num_user_movies": 5,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Crime",
+        "added_genre_idx": 5,
+        "sampled_movie_ids": [
+          "87977",
+          "91768",
+          "103259"
+        ],
+        "edited_summary": "The user has a strong preference for emotionally resonant, character-driven stories that explore deep interpersonal relationships and personal growth, evident in their appreciation for romantic comedies with dramatic undertones and heartwarming family dramas. They are drawn to films with rich atmospheres—ranging from warm and inviting to tense and unsettling—suggesting an openness to both comforting narratives and intellectually challenging, psychologically intense experiences. This appreciation for tension extends to crime thrillers, where they enjoy high-stakes scenarios and complex character dynamics set against backdrops of dim lighting and confined spaces that foster mystery and intrigue. Recurring themes include familial bonds, societal critique (particularly in dystopian sci-fi with satirical edge), and the complexities of human connection, often conveyed through non-linear storytelling and vivid, stylized visuals. They are particularly engaged by the fast-paced editing, dramatic music, and fragmented scenes found in action-oriented crime narratives that create a sense of urgency and anticipation. Overall, the user seems to favor films that balance emotional depth with thematic complexity, whether through culinary warmth, personal struggle, dystopian satire, or the intense, emotionally charged conflicts of crime dramas.",
+        "expected_genre_indices": [
+          4,
+          5,
+          7,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "4392": {
+    "original_summary": "The user has a strong preference for fast-paced, high-energy films across genres like action, thriller, and adventure, with a clear affinity for intense atmospheres, suspenseful storytelling, and dynamic visuals. They enjoy narratives that are often non-linear, featuring quick cuts, multiple storylines, and complex plots that build tension and urgency—evident in their repeated interest in spy thrillers, espionage, and high-stakes chases. While they appreciate lighter, family-friendly content such as animated adventures and festive rom-coms, these are often balanced with deeper emotional or thematic layers, including personal growth, moral dilemmas, and character-driven journeys. Overall, the user gravitates toward films that blend excitement with emotional resonance, appealing to both adrenaline-seeking and introspective viewing experiences.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Children",
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7,
+      13,
+      15
+    ],
+    "num_user_movies": 29,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Western",
+        "added_genre_idx": 17,
+        "sampled_movie_ids": [
+          "67878",
+          "123113",
+          "25809"
+        ],
+        "edited_summary": "The user has a strong preference for fast-paced, high-energy films across genres like action, thriller, adventure, and Western, with a clear affinity for intense atmospheres, suspenseful storytelling, and dynamic visuals. They enjoy narratives that are often non-linear, featuring quick cuts, multiple storylines, and complex plots that build tension and urgency—evident in their repeated interest in spy thrillers, espionage, and high-stakes chases, as well as their appreciation for Westerns that range from somber, dialogue-driven character studies in rustic settings to action-packed adventures defined by intense gunfights, rugged landscapes, and the hero's journey against lawlessness. While they appreciate lighter, family-friendly content such as animated adventures and festive rom-coms, these are often balanced with deeper emotional or thematic layers, including personal growth, moral dilemmas, and character-driven journeys. Overall, the user gravitates toward films that blend excitement with emotional resonance, appealing to both adrenaline-seeking and introspective viewing experiences, whether through the dark, grainy urgency of a thriller or the dramatic, high-stakes confrontations of a classic Western.",
+        "expected_genre_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          13,
+          15,
+          17
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Thriller",
+          "Western"
+        ]
+      }
+    ]
+  },
+  "4606": {
+    "original_summary": "The user has a strong preference for high-energy, visually dynamic films across genres like action, thriller, and science fiction, particularly those featuring fast-paced editing, intense stunts, and high-stakes narratives. They are drawn to immersive, adrenaline-fueled experiences—whether through space operas, espionage plots, or interstellar conflict—suggesting an appreciation for epic scale and dramatic tension. Alongside this, there’s a clear interest in emotionally resonant storytelling, as seen in the inclusion of character-driven dramas with romantic and mysterious undertones, indicating a taste for depth beneath the spectacle. Their enjoyment of animated adventures with whimsical, family-friendly tones also reveals a fondness for imaginative worlds and lighthearted fun, showing a balanced palate that values both excitement and heartfelt storytelling.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Children",
+      "Drama",
+      "Mystery",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      12,
+      13,
+      14,
+      15
+    ],
+    "num_user_movies": 8,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Crime",
+        "added_genre_idx": 5,
+        "sampled_movie_ids": [
+          "118974",
+          "97853",
+          "110405"
+        ],
+        "edited_summary": "The user has a strong preference for high-energy, visually dynamic films across genres like action, thriller, science fiction, and crime, particularly those featuring fast-paced editing, intense stunts, and high-stakes narratives. They are drawn to immersive, adrenaline-fueled experiences—whether through space operas, espionage plots, interstellar conflict, or gritty crime dramas involving suspenseful heists, divers breaking into banks, and tense confrontations with powerful forces. This suggests an appreciation for epic scale, dramatic tension, and dark, gritty atmospheres filled with unexpected twists and non-linear storytelling. Alongside this, there's a clear interest in emotionally resonant storytelling, as seen in the inclusion of character-driven dramas with romantic and mysterious undertones, indicating a taste for depth beneath the spectacle. Their enjoyment of animated adventures with whimsical, family-friendly tones also reveals a fondness for imaginative worlds and lighthearted fun, showing a balanced palate that values both excitement and heartfelt storytelling.",
+        "expected_genre_indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          7,
+          12,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Children",
+          "Crime",
+          "Drama",
+          "Mystery",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "2721": {
+    "original_summary": "The user has a strong preference for genre-blending, high-energy films that combine fantasy, science fiction, and action elements, often set in epic or imaginative worlds. They are drawn to movies with dynamic atmospheres—ranging from dark and mysterious to vibrant and adventurous—and favor fast-paced, plot-driven narratives that emphasize heroism, personal growth, and complex character relationships. Recurring themes include journeys of self-discovery, the struggle between good and evil, and emotional depth, often delivered through non-linear storytelling or a mix of humor and drama. Their taste spans both family-friendly, whimsical adventures and mature, suspenseful thrillers, suggesting an appreciation for stories that balance spectacle with heartfelt moments.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Children",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      3,
+      4,
+      7,
+      8,
+      13,
+      14,
+      15
+    ],
+    "num_user_movies": 12,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Film-Noir",
+        "added_genre_idx": 9,
+        "sampled_movie_ids": [
+          "109708",
+          "104028",
+          "86671"
+        ],
+        "edited_summary": "The user has a strong preference for genre-blending, high-energy films that combine fantasy, science fiction, and action elements, often set in epic or imaginative worlds. They are drawn to movies with dynamic atmospheres—ranging from dark and mysterious to vibrant and adventurous—and favor fast-paced, plot-driven narratives that emphasize heroism, personal growth, and complex character relationships. This appreciation for tension extends to the gritty, somber tones of Film-Noir, where they enjoy historical or period settings in bustling early 20th-century urban environments that explore social hierarchies and personal connections. They are equally captivated by the slow-burning, suspenseful drama of these noir narratives, which build tension through subtle interactions and visual cues, as well as by non-linear mysteries featuring fragmented scenes and flashbacks that highlight a protagonist's isolation. Recurring themes include journeys of self-discovery, the struggle between good and evil, and emotional depth, often delivered through non-linear storytelling or a mix of humor and drama. Their taste spans both family-friendly, whimsical adventures and mature, suspenseful thrillers, suggesting an appreciation for stories that balance spectacle with heartfelt moments.",
+        "expected_genre_indices": [
+          0,
+          1,
+          3,
+          4,
+          7,
+          8,
+          9,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Children",
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Film-Noir",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "2791": {
+    "original_summary": "The user has a strong preference for complex, character-driven narratives across genres like thriller, drama, crime, and psychological suspense, often with a dark, gritty, or intense atmosphere. Recurring elements include non-linear storytelling, flashbacks, and a focus on emotional depth, moral ambiguity, and suspenseful pacing—evident in films ranging from crime dramas to psychological thrillers. While they enjoy high-stakes, fast-paced action and visually dynamic sequences (especially in sci-fi, fantasy, and musical genres), they also appreciate lighter, more heartfelt tones in romantic comedies, coming-of-age stories, and family-friendly holiday films, suggesting a balanced taste between intense and uplifting experiences. Overall, their preferences lean toward mature, thought-provoking stories with layered plots and strong emotional resonance, whether through tension, personal growth, or artistic expression.",
+    "original_genres": [
+      "Action",
+      "Children",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Fantasy",
+      "Musical",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      3,
+      4,
+      5,
+      7,
+      8,
+      11,
+      13,
+      14,
+      15
+    ],
+    "num_user_movies": 22,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Animation",
+        "added_genre_idx": 2,
+        "sampled_movie_ids": [
+          "88756",
+          "71726",
+          "122129"
+        ],
+        "edited_summary": "The user has a strong preference for complex, character-driven narratives across genres like thriller, drama, crime, and psychological suspense, often with a dark, gritty, or intense atmosphere. Recurring elements include non-linear storytelling, flashbacks, and a focus on emotional depth, moral ambiguity, and suspenseful pacing—evident in films ranging from crime dramas to psychological thrillers. While they enjoy high-stakes, fast-paced action and visually dynamic sequences (especially in sci-fi, fantasy, and musical genres), they also appreciate the immersive, imaginative storytelling found in animation, drawn to both whimsical, magical narratives that blend wonder and mystery with ethereal visuals, and satirical comedies that use exaggerated characters and absurd situations to mock political figures with irreverent, fast-paced humor. They further enjoy the playful, light-hearted atmosphere of comedic horror animation, which balances slapstick comedy and witty banter for family-friendly entertainment. Alongside these animated experiences, they appreciate lighter, more heartfelt tones in romantic comedies, coming-of-age stories, and family-friendly holiday films, suggesting a balanced taste between intense and uplifting experiences. Overall, their preferences lean toward mature, thought-provoking stories with layered plots and strong emotional resonance, whether through tension, personal growth, or artistic expression.",
+        "expected_genre_indices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          11,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Fantasy",
+          "Musical",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "425": {
+    "original_summary": "The user's movie preferences reveal a strong inclination toward **adult-oriented, character-driven narratives** with a consistent emphasis on **tension, complexity, and emotional depth**. Recurring genres include **thrillers, dramas, and crime stories**, often featuring **non-linear storytelling**, **multiple perspectives**, and **flashbacks**, which suggest an appreciation for intricate plots and psychological depth. Atmosphere is frequently **dark, suspenseful, or intense**, with a focus on mood, suspense, and moral ambiguity—ranging from gritty urban settings to historical or dystopian backdrops. While there are a few family-friendly animated adventures and lighthearted romantic comedies, these appear to be outliers, indicating that the user primarily gravitates toward **mature, thought-provoking films** that explore themes like identity, trauma, justice, and human resilience. Their taste leans toward **visually stylized, plot-driven cinema** with strong performances, complex characters, and layered narratives—favoring films that challenge the viewer rather than simply entertain.",
+    "original_genres": [
+      "Animation",
+      "Children",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      13,
+      14,
+      15
+    ],
+    "num_user_movies": 179,
+    "n_samples_per_genre": 10,
+    "additions": [
+      {
+        "added_genre": "Adventure",
+        "added_genre_idx": 1,
+        "sampled_movie_ids": [
+          "104629",
+          "112589",
+          "32062",
+          "102190",
+          "128201",
+          "96498",
+          "109776",
+          "129978",
+          "37824",
+          "127134"
+        ],
+        "edited_summary": "The user's movie preferences reveal a strong inclination toward **adult-oriented, character-driven narratives** with a consistent emphasis on **tension, complexity, and emotional depth**. Recurring genres include **thrillers, dramas, crime stories, and adventure**, often featuring **non-linear storytelling**, **multiple perspectives**, and **flashbacks**, which suggest an appreciation for intricate plots and psychological depth. Atmosphere is frequently **dark, suspenseful, or intense**, with a focus on mood, suspense, and moral ambiguity—ranging from gritty urban settings to historical or dystopian backdrops, as well as **tense, uncharted territories and high-stakes survival scenarios**. While there are a few family-friendly animated adventures and lighthearted romantic comedies, these appear to be outliers, indicating that the user primarily gravitates toward **mature, thought-provoking films** that explore themes like identity, trauma, justice, human resilience, **and the pursuit of personal growth through physical challenges and exploration**. Their taste leans toward **visually stylized, plot-driven cinema** with strong performances, complex characters, and layered narratives—favoring films that challenge the viewer rather than simply entertain, including **fast-paced action-adventures driven by camaraderie, the overcoming of obstacles, and the discovery of hidden secrets**.",
+        "expected_genre_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Adventure",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "1307": {
+    "original_summary": "The user has a strong preference for high-energy, visually dynamic films across genres like action, thriller, and superhero narratives, often favoring dark, moody atmospheres and intense pacing. They are drawn to stories with high stakes, complex characters, and suspenseful plotting—whether in military thrillers, vigilante dramas, or psychological mysteries—suggesting an appreciation for tension and strategic tension. There’s also a recurring interest in non-linear storytelling and layered narratives that challenge viewers to piece together the full picture. While they enjoy family-friendly animated adventures, their core taste leans toward mature, gripping, and atmospheric films that prioritize suspense, action, and psychological depth.",
+    "original_genres": [
+      "Action",
+      "Animation",
+      "Children",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      12,
+      15,
+      16
+    ],
+    "num_user_movies": 4,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Film-Noir",
+        "added_genre_idx": 9,
+        "sampled_movie_ids": [
+          "89588",
+          "105406",
+          "127013"
+        ],
+        "edited_summary": "The user has a strong preference for high-energy, visually dynamic films across genres like action, thriller, and superhero narratives, often favoring dark, moody atmospheres and intense pacing. They are drawn to stories with high stakes, complex characters, and suspenseful plotting—whether in military thrillers, vigilante dramas, or psychological mysteries—suggesting an appreciation for tension and strategic tension. This taste extends to classic film noir, where they enjoy the gritty, vintage atmosphere of detective stories, non-linear narratives filled with flashbacks, and character-driven plots that unfold in confined, suspenseful settings. There's also a recurring interest in layered narratives that challenge viewers to piece together the full picture, particularly those featuring unpredictable plot twists and a focus on the protagonist's inner thoughts. While they enjoy family-friendly animated adventures, their core taste leans toward mature, gripping, and atmospheric films that prioritize suspense, action, and psychological depth.",
+        "expected_genre_indices": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          12,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Animation",
+          "Children",
+          "Crime",
+          "Drama",
+          "Film-Noir",
+          "Mystery",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "1106": {
+    "original_summary": "The user has a strong preference for intense, atmospheric films with complex narratives, particularly within the thriller, action, and drama genres. They are drawn to dark, gritty, and suspenseful tones—evident in their repeated engagement with superhero thrillers, psychological thrillers, crime dramas, and sci-fi horror—often featuring non-linear storytelling, flashbacks, and multiple intersecting plotlines that build mystery and tension. There’s a clear affinity for character-driven stories with emotional depth, whether through personal struggle, moral ambiguity, or historical and social commentary, especially in period dramas and biopics. While they occasionally enjoy lighter fare like romantic comedies or family-friendly animations, their core taste leans heavily toward high-stakes, visually striking, and intellectually engaging films that prioritize atmosphere, suspense, and narrative complexity over pure entertainment.",
+    "original_genres": [
+      "Action",
+      "Animation",
+      "Children",
+      "Crime",
+      "Drama",
+      "Horror",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      10,
+      13,
+      14,
+      15
+    ],
+    "num_user_movies": 37,
+    "n_samples_per_genre": 4,
+    "additions": [
+      {
+        "added_genre": "Comedy",
+        "added_genre_idx": 4,
+        "sampled_movie_ids": [
+          "120114",
+          "54988",
+          "86405",
+          "98991"
+        ],
+        "edited_summary": "The user has a strong preference for intense, atmospheric films with complex narratives, particularly within the thriller, action, and drama genres. They are drawn to dark, gritty, and suspenseful tones—evident in their repeated engagement with superhero thrillers, psychological thrillers, crime dramas, and sci-fi horror—often featuring non-linear storytelling, flashbacks, and multiple intersecting plotlines that build mystery and tension. There's a clear affinity for character-driven stories with emotional depth, whether through personal struggle, moral ambiguity, or historical and social commentary, especially in period dramas and biopics. While they occasionally enjoy lighter fare like romantic comedies or family-friendly animations, their taste also extends to vibrant, energetic comedies that blend humor with heartfelt moments, such as coming-of-age stories about young women navigating friendship and self-discovery in lively settings, or dynamic action-comedies where light-hearted interactions mix with intense conflicts in fast-paced, unpredictable narratives. They also appreciate romantic comedies with a carefree atmosphere and non-linear structures that intertwine multiple character arcs for a feel-good experience. Ultimately, their core taste leans heavily toward high-stakes, visually striking, and intellectually engaging films that prioritize atmosphere, suspense, and narrative complexity, yet they remain open to the spontaneous events and relatable character dynamics found in engaging comedic storylines.",
+        "expected_genre_indices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7,
+          10,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Horror",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "2762": {
+    "original_summary": "The user has a strong preference for emotionally resonant, character-driven narratives across a range of genres, with a particular affinity for dramas, thrillers, and suspenseful stories that explore complex human emotions, moral dilemmas, and high-stakes situations. Recurring themes include personal growth, survival under pressure, and the intricacies of relationships, often set against intense or atmospheric backdrops—whether the neon-lit streets of Las Vegas, the isolation of space, or the tension of wartime. The user is drawn to non-linear storytelling, fast-paced action, and immersive, suspenseful atmospheres, suggesting an appreciation for films that blend psychological depth with gripping pacing. While they enjoy family-friendly animation and heartwarming stories, their core taste leans toward darker, more mature content with dramatic tension, political or military intrigue, and a focus on internal conflict and resilience.",
+    "original_genres": [
+      "Action",
+      "Animation",
+      "Children",
+      "Drama",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      2,
+      3,
+      7,
+      15,
+      16
+    ],
+    "num_user_movies": 13,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Film-Noir",
+        "added_genre_idx": 9,
+        "sampled_movie_ids": [
+          "118868",
+          "86894",
+          "106583"
+        ],
+        "edited_summary": "The user has a strong preference for emotionally resonant, character-driven narratives across a range of genres, with a particular affinity for dramas, thrillers, and suspenseful stories that explore complex human emotions, moral dilemmas, and high-stakes situations. This taste extends to the vintage, noir-like ambiance of classic film noir, where they appreciate slow-burning, deliberate narratives that build tension through subtle hints, dimly lit settings, and the intricate dynamics of character relationships. Recurring themes include personal growth, survival under pressure, and the intricacies of relationships, often set against intense or atmospheric backdrops—whether the neon-lit streets of Las Vegas, the isolation of space, the tension of wartime, or the shadowy, suspense-filled environments of mystery thrillers. The user is drawn to non-linear storytelling, fast-paced action, and immersive, suspenseful atmospheres, suggesting an appreciation for films that blend psychological depth with gripping pacing, including those that rely on dark lighting and close-ups to foreshadow danger rather than overt action. While they enjoy family-friendly animation and heartwarming stories, their core taste leans toward darker, more mature content with dramatic tension, political or military intrigue, and a focus on internal conflict and resilience, often finding resonance in the nostalgic, character-driven plots of period dramas and the tense, intrigue-laden mysteries of classic cinema.",
+        "expected_genre_indices": [
+          0,
+          2,
+          3,
+          7,
+          9,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Animation",
+          "Children",
+          "Drama",
+          "Film-Noir",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "4595": {
+    "original_summary": "The user has a strong preference for high-octane, visually dynamic films, particularly within the science fiction, action, and thriller genres, often featuring futuristic settings, intense pacing, and high-stakes scenarios. They are drawn to complex, non-linear narratives with multiple storylines, quick cuts, and fragmented storytelling, suggesting an appreciation for suspense, mystery, and layered plots. While they enjoy adrenaline-fueled adventures and dark, gritty atmospheres—especially in sci-fi and crime thrillers—they also have a fondness for lighter, more whimsical tones, particularly in animated family films and romantic comedies with time-travel or imaginative twists. Overall, their taste reflects a balance between intense, plot-driven excitement and heartwarming, character-driven stories, with a clear affinity for genre-blending films that combine action, suspense, humor, and imaginative worlds.",
+    "original_genres": [
+      "Action",
+      "Animation",
+      "Children",
+      "Comedy",
+      "Crime",
+      "Mystery",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      12,
+      13,
+      14,
+      15
+    ],
+    "num_user_movies": 15,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Film-Noir",
+        "added_genre_idx": 9,
+        "sampled_movie_ids": [
+          "113585",
+          "32952",
+          "89588"
+        ],
+        "edited_summary": "The user has a strong preference for high-octane, visually dynamic films, particularly within the science fiction, action, and thriller genres, often featuring futuristic settings, intense pacing, and high-stakes scenarios. They are drawn to complex, non-linear narratives with multiple storylines, quick cuts, and fragmented storytelling, suggesting an appreciation for suspense, mystery, and layered plots. This affinity for intricate plotting extends to a deep appreciation for Film-Noir, where they enjoy dark, suspenseful atmospheres reminiscent of classic black-and-white cinema, driven by mystery, tension, and deep character development. They are particularly captivated by the genre's non-linear narrative styles that utilize multiple flashbacks to explore a protagonist's inner thoughts, creating engaging and unpredictable storylines filled with plot twists. While they enjoy adrenaline-fueled adventures and dark, gritty atmospheres—especially in sci-fi, crime thrillers, and these moody noir mysteries—they also have a fondness for lighter, more whimsical tones, particularly in animated family films and romantic comedies with time-travel or imaginative twists. Overall, their taste reflects a balance between intense, plot-driven excitement and heartwarming, character-driven stories, with a clear affinity for genre-blending films that combine action, suspense, humor, and imaginative worlds.",
+        "expected_genre_indices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          9,
+          12,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "2734": {
+    "original_summary": "The user has a strong preference for genre-blending, high-tension narratives that prioritize atmosphere, psychological depth, and intricate storytelling. Recurring genres include psychological thrillers, mysteries, and suspense-driven dramas, often set in dark, gritty, or emotionally charged environments—such as hospitals, war zones, or gothic landscapes—suggesting an affinity for intense, mood-heavy films. A consistent narrative trait across their watched movies is the use of non-linear storytelling, with flashbacks, multiple timelines, and fragmented perspectives that build suspense and encourage active engagement. Additionally, they appear drawn to complex character development, emotional stakes, and visually rich settings, whether in dystopian futures, historical periods, or surreal worlds, indicating a taste for films that are both intellectually stimulating and emotionally resonant.",
+    "original_genres": [
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      7,
+      10,
+      12,
+      14,
+      15,
+      16
+    ],
+    "num_user_movies": 11,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Western",
+        "added_genre_idx": 17,
+        "sampled_movie_ids": [
+          "115164",
+          "122310",
+          "68163"
+        ],
+        "edited_summary": "The user has a strong preference for genre-blending, high-tension narratives that prioritize atmosphere, psychological depth, and intricate storytelling. Recurring genres include psychological thrillers, mysteries, suspense-driven dramas, and gritty Westerns, often set in dark, emotionally charged environments—ranging from hospitals, war zones, and gothic landscapes to rugged terrains defined by fast-paced conflict and individual heroism. This affinity for intense, mood-heavy films is evident in their enjoyment of action-packed stories featuring gunfights, horseback riding, and dramatic confrontations that resolve through tension and suspense. A consistent narrative trait across their watched movies is the use of non-linear storytelling, with flashbacks, multiple timelines, and fragmented perspectives that build suspense and encourage active engagement. Additionally, they appear drawn to complex character development, emotional stakes, and visually rich settings, whether in dystopian futures, historical periods, surreal worlds, or the dramatic landscapes of classic Westerns, indicating a taste for films that are both intellectually stimulating and emotionally resonant.",
+        "expected_genre_indices": [
+          7,
+          10,
+          12,
+          14,
+          15,
+          16,
+          17
+        ],
+        "expected_genre_names": [
+          "Drama",
+          "Horror",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller",
+          "War",
+          "Western"
+        ]
+      }
+    ]
+  },
+  "2008": {
+    "original_summary": "The user has a strong preference for high-energy, visually dynamic films across genres like action, adventure, sci-fi, and thriller, often with a fast-paced, suspenseful narrative style that emphasizes tension, danger, and character-driven stakes. They are drawn to both family-friendly and mature-oriented content, enjoying animated adventures with whimsical, imaginative worlds as well as darker, more complex stories involving war, dystopia, or moral ambiguity. Recurring themes include personal growth, heroism, survival, and the interplay between technology and humanity, often explored through non-linear storytelling, multiple perspectives, and layered plots. Their taste spans from lighthearted comedies and romantic dramas to intense historical epics and space operas, indicating a broad appreciation for immersive storytelling, whether through emotional depth, thrilling action, or imaginative world-building.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Children",
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Sci-Fi",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7,
+      13,
+      14,
+      15,
+      16
+    ],
+    "num_user_movies": 44,
+    "n_samples_per_genre": 4,
+    "additions": [
+      {
+        "added_genre": "Fantasy",
+        "added_genre_idx": 8,
+        "sampled_movie_ids": [
+          "120781",
+          "101180",
+          "91960",
+          "121275"
+        ],
+        "edited_summary": "The user has a strong preference for high-energy, visually dynamic films across genres like action, adventure, sci-fi, fantasy, and thriller, often with a fast-paced, suspenseful narrative style that emphasizes tension, danger, and character-driven stakes. They are drawn to both family-friendly and mature-oriented content, enjoying animated adventures with whimsical, imaginative worlds filled with magic and wonder, as well as darker, more complex stories involving war, dystopia, or moral ambiguity set in richly detailed, epic realms. Recurring themes include personal growth, heroism, survival, and the interplay between technology and humanity, often explored through non-linear storytelling, multiple perspectives, and layered plots that blend magical realism with intense action sequences. Their taste spans from lighthearted comedies and romantic dramas to intense historical epics, space operas, and thrilling fantasy adventures featuring mysterious atmospheres and visually stunning world-building, indicating a broad appreciation for immersive storytelling, whether through emotional depth, thrilling action, or the enchanting sense of wonder found in fantastical narratives.",
+        "expected_genre_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          13,
+          14,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Romance",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "1341": {
+    "original_summary": "The user has a strong preference for high-octane, action-driven narratives across genres such as sci-fi, thriller, crime, war, and superhero films, with a clear affinity for intense, suspenseful atmospheres and fast-paced, plot-driven storytelling. Recurring themes include heroism, rebellion, moral ambiguity, and personal transformation, often set in dystopian, wartime, or high-stakes environments. The user is drawn to complex, non-linear narratives with multiple timelines, flashbacks, and interconnected character arcs that build tension and reward close attention. While they enjoy moments of humor and lightheartedness—particularly in comedic or satirical tones—they consistently gravitate toward mature, adult-oriented content with gritty visuals, emotional depth, and visually spectacular set pieces, suggesting a taste for immersive, adrenaline-fueled cinematic experiences.",
+    "original_genres": [
+      "Action",
+      "Comedy",
+      "Crime",
+      "Sci-Fi",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      4,
+      5,
+      14,
+      15,
+      16
+    ],
+    "num_user_movies": 74,
+    "n_samples_per_genre": 10,
+    "additions": [
+      {
+        "added_genre": "Animation",
+        "added_genre_idx": 2,
+        "sampled_movie_ids": [
+          "120440",
+          "126405",
+          "109102",
+          "124983",
+          "115611",
+          "107061",
+          "126072",
+          "116499",
+          "86791",
+          "91747"
+        ],
+        "edited_summary": "The user has a strong preference for high-octane, action-driven narratives across genres such as sci-fi, thriller, crime, war, superhero, and animation, with a clear affinity for intense, suspenseful atmospheres and fast-paced, plot-driven storytelling. Recurring themes include heroism, rebellion, moral ambiguity, and personal transformation, often set in dystopian, wartime, or high-stakes environments, as well as whimsical, imaginative worlds featuring anthropomorphic characters and magical elements. The user is drawn to complex, non-linear narratives with multiple timelines, flashbacks, and interconnected character arcs that build tension and reward close attention, alongside simple, straightforward journeys of exploration and growth found in serene, nature-focused animated adventures. While they enjoy moments of humor and lightheartedness—particularly in comedic or satirical tones, as well as in vibrant, family-friendly animated films with playful characters and dynamic action sequences—they consistently gravitate toward mature, adult-oriented content with gritty visuals, emotional depth, and visually spectacular set pieces, suggesting a taste for immersive, adrenaline-fueled cinematic experiences that range from cold, wintry fantasy landscapes to surreal, dreamlike visual metaphors.",
+        "expected_genre_indices": [
+          0,
+          2,
+          4,
+          5,
+          14,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Crime",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "13": {
+    "original_summary": "The user has a diverse yet nuanced taste in film, with a clear preference for narratives that blend emotional depth with suspense or adventure. They are drawn to character-driven stories across genres—particularly dramas, thrillers, and romantic comedies—often emphasizing personal growth, relationships, and complex emotional landscapes. There’s a recurring fascination with non-linear storytelling, suspenseful atmospheres, and psychological tension, evident in the frequent use of quick cuts, flashbacks, and fragmented timelines across thrillers, mysteries, and crime dramas. At the same time, they appreciate whimsical, imaginative worlds in fantasy and family-friendly adventures, suggesting an openness to both introspective, mood-driven films and lively, visually engaging escapism. Overall, their preferences lean toward intelligent, emotionally resonant cinema that balances heart with intrigue, whether through intimate character studies or high-stakes, genre-blending narratives.",
+    "original_genres": [
+      "Adventure",
+      "Children",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Fantasy",
+      "Mystery",
+      "Romance",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      1,
+      3,
+      4,
+      5,
+      7,
+      8,
+      12,
+      13,
+      15
+    ],
+    "num_user_movies": 40,
+    "n_samples_per_genre": 4,
+    "additions": [
+      {
+        "added_genre": "Western",
+        "added_genre_idx": 17,
+        "sampled_movie_ids": [
+          "65932",
+          "69195",
+          "103570",
+          "108542"
+        ],
+        "edited_summary": "The user has a diverse yet nuanced taste in film, with a clear preference for narratives that blend emotional depth with suspense or adventure. They are drawn to character-driven stories across genres—particularly dramas, thrillers, romantic comedies, and Westerns—often emphasizing personal growth, relationships, and complex emotional landscapes. There's a recurring fascination with non-linear storytelling, suspenseful atmospheres, and psychological tension, evident in the frequent use of quick cuts, flashbacks, and fragmented timelines across thrillers, mysteries, crime dramas, and dark Westerns that explore betrayal, revenge, and personal struggles. At the same time, they appreciate whimsical, imaginative worlds in fantasy and family-friendly adventures, as well as the rugged, action-packed spirit of classic Westerns featuring historical dramas, community gatherings, and elements of romance and conflict. They are also drawn to the tense, gritty realism of period pieces set in harsh environments like mining towns, where stories focus on resilience, survival, and interpersonal relationships. Overall, their preferences lean toward intelligent, emotionally resonant cinema that balances heart with intrigue, whether through intimate character studies, high-stakes genre-blending narratives, or the enigmatic, slow-burning tension found in both psychological thrillers and atmospheric Westerns.",
+        "expected_genre_indices": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          12,
+          13,
+          15,
+          17
+        ],
+        "expected_genre_names": [
+          "Adventure",
+          "Children",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Romance",
+          "Thriller",
+          "Western"
+        ]
+      }
+    ]
+  },
+  "3573": {
+    "original_summary": "The user has a strong preference for high-octane, visually driven films across genres like action, sci-fi, and dark fantasy, consistently drawn to dark, gritty, and suspenseful atmospheres. Their taste leans toward fast-paced, intense narratives with a focus on tension, mystery, and dramatic visuals, often featuring morally complex characters and non-linear storytelling. Recurring themes include conspiracy, political intrigue, and the clash between technology and humanity, suggesting an appreciation for layered, thought-provoking plots beneath the surface excitement. Overall, the user favors genre films that prioritize atmosphere and pacing over deep character development, favoring immersive, adrenaline-fueled experiences with a touch of the supernatural or dystopian.",
+    "original_genres": [
+      "Action",
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      7,
+      8,
+      10,
+      12,
+      14,
+      15
+    ],
+    "num_user_movies": 7,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "War",
+        "added_genre_idx": 16,
+        "sampled_movie_ids": [
+          "107912",
+          "104776",
+          "116159"
+        ],
+        "edited_summary": "The user has a strong preference for high-octane, visually driven films across genres like action, sci-fi, dark fantasy, and war, consistently drawn to dark, gritty, and suspenseful atmospheres. Their taste leans toward fast-paced, intense narratives with a focus on tension, mystery, and dramatic visuals, often featuring morally complex characters and non-linear storytelling. Recurring themes include conspiracy, political intrigue, the clash between technology and humanity, and the harsh realities of military life, suggesting an appreciation for layered, thought-provoking plots beneath the surface excitement. They are particularly drawn to war stories that highlight themes of discipline, camaraderie, and sacrifice, often utilizing quick cuts and flashes of violence to create a sense of urgency and danger. Overall, the user favors genre films that prioritize atmosphere and pacing over deep character development, favoring immersive, adrenaline-fueled experiences with a touch of the supernatural, dystopian, or historical military drama.",
+        "expected_genre_indices": [
+          0,
+          7,
+          8,
+          10,
+          12,
+          14,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "717": {
+    "original_summary": "The user has a strong preference for intense, high-stakes narratives across genres such as crime thrillers, psychological dramas, and action-packed adventures, with a recurring fascination for dark, moody atmospheres and complex, morally ambiguous characters. A significant number of the listed films feature non-linear storytelling, flashbacks, and multiple perspectives, suggesting an appreciation for layered, suspense-driven plots that unfold gradually and reward close attention. The user is drawn to both gritty urban crime stories and epic historical or sci-fi adventures, often involving rebellion, heroism, or personal transformation, with a clear taste for visual spectacle and fast-paced editing. While they enjoy occasional lighthearted or romantic comedies, these are outliers in an otherwise dominant preference for serious, character-driven, and suspenseful cinema—particularly within the thriller, noir, and historical drama genres.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Film-Noir",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      4,
+      5,
+      7,
+      9,
+      13,
+      14,
+      15
+    ],
+    "num_user_movies": 111,
+    "n_samples_per_genre": 10,
+    "additions": [
+      {
+        "added_genre": "Western",
+        "added_genre_idx": 17,
+        "sampled_movie_ids": [
+          "66250",
+          "25809",
+          "88796",
+          "99659",
+          "67878",
+          "121432",
+          "114252",
+          "102208",
+          "83186",
+          "94083"
+        ],
+        "edited_summary": "The user has a strong preference for intense, high-stakes narratives across genres such as crime thrillers, psychological dramas, action-packed adventures, and Westerns, with a recurring fascination for dark, moody atmospheres and complex, morally ambiguous characters. A significant number of the listed films feature non-linear storytelling, flashbacks, and multiple perspectives, suggesting an appreciation for layered, suspense-driven plots that unfold gradually and reward close attention. The user is drawn to both gritty urban crime stories and epic historical or sci-fi adventures, as well as rugged Western tales set in dramatic landscapes that focus on interpersonal conflict, survival scenarios, and the consequences of one's actions. These Western selections often blend fast-paced chase sequences and high-stakes confrontations with character-driven drama, sometimes incorporating elements of romance or a modern twist on classic tropes. While they enjoy occasional lighthearted or romantic comedies, these are outliers in an otherwise dominant preference for serious, character-driven, and suspenseful cinema—particularly within the thriller, noir, historical drama, and Western genres.",
+        "expected_genre_indices": [
+          0,
+          1,
+          4,
+          5,
+          7,
+          9,
+          13,
+          14,
+          15,
+          17
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Film-Noir",
+          "Romance",
+          "Sci-Fi",
+          "Thriller",
+          "Western"
+        ]
+      }
+    ]
+  },
+  "4895": {
+    "original_summary": "The user has a strong preference for fast-paced, high-energy films across genres like science fiction, action, thriller, and adventure, with a clear affinity for suspenseful, plot-driven narratives that emphasize urgency, danger, and adrenaline-fueled sequences. They are drawn to stories with futuristic, dystopian, or fantastical settings—particularly those involving time travel, space exploration, or magical worlds—often blending these elements with humor, romance, or lighthearted moments to balance intensity. Recurring themes include survival, heroism, personal growth, and complex character dynamics, with a notable interest in both animated and live-action formats that feature immersive visuals, imaginative worlds, and strong emotional arcs. While they enjoy family-friendly and whimsical adventures, their taste leans heavily toward mature, intense storytelling with non-linear structures, high stakes, and intricate plots, suggesting a preference for intelligent, visually dynamic cinema that blends spectacle with substance.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Children",
+      "Comedy",
+      "Fantasy",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8,
+      13,
+      14,
+      15
+    ],
+    "num_user_movies": 35,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Mystery",
+        "added_genre_idx": 12,
+        "sampled_movie_ids": [
+          "103382",
+          "111285",
+          "87662"
+        ],
+        "edited_summary": "The user has a strong preference for fast-paced, high-energy films across genres like science fiction, action, thriller, adventure, and mystery, with a clear affinity for suspenseful, plot-driven narratives that emphasize urgency, danger, and adrenaline-fueled sequences. They are drawn to stories with futuristic, dystopian, or fantastical settings—particularly those involving time travel, space exploration, or magical worlds—often blending these elements with humor, romance, or lighthearted moments to balance intensity. Their taste extends to atmospheric thrillers defined by dark lighting, dramatic music, and non-linear structures where multiple storylines converge to create tension, as well as psychological narratives focused on unraveling secrets, uncovering hidden truths, and exploring complex memory elements. Recurring themes include survival, heroism, personal growth, and complex character dynamics, with a notable interest in both animated and live-action formats that feature immersive visuals, imaginative worlds, and strong emotional arcs. While they enjoy family-friendly and whimsical adventures, their taste leans heavily toward mature, intense storytelling with high stakes and intricate plots, including classic dramatic tones with dim lighting and serious moral dilemmas that invite deep engagement with interpersonal struggles. This suggests a preference for intelligent, visually dynamic cinema that blends spectacle with substance, whether through action-packed high-stakes situations or the slow-burn unraveling of psychological mysteries.",
+        "expected_genre_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8,
+          12,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Fantasy",
+          "Mystery",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "3093": {
+    "original_summary": "The user has a strong preference for emotionally rich, character-driven narratives across genres like drama, historical fiction, and thriller, with a recurring emphasis on personal growth, identity, and human resilience. They are drawn to films with complex, non-linear storytelling—frequent use of flashbacks, multiple perspectives, and layered timelines—that build tension and deepen emotional impact. The atmosphere of their preferred movies tends to be introspective, somber, or suspenseful, often blending moments of quiet intimacy with high stakes, whether in wartime, historical upheaval, or personal crises. Themes of love, loss, social justice, and moral dilemmas are central, particularly when set in period contexts or speculative worlds, suggesting an appreciation for stories that balance aesthetic depth with profound human experience.",
+    "original_genres": [
+      "Drama",
+      "Romance",
+      "Sci-Fi",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      7,
+      13,
+      14,
+      15,
+      16
+    ],
+    "num_user_movies": 42,
+    "n_samples_per_genre": 8,
+    "additions": [
+      {
+        "added_genre": "Crime",
+        "added_genre_idx": 5,
+        "sampled_movie_ids": [
+          "92001",
+          "116879",
+          "94435",
+          "94808",
+          "116323",
+          "118326",
+          "36804",
+          "108656"
+        ],
+        "edited_summary": "The user has a strong preference for emotionally rich, character-driven narratives across genres like drama, historical fiction, thriller, and crime, with a recurring emphasis on personal growth, identity, and human resilience. They are drawn to films with complex, non-linear storytelling—frequent use of flashbacks, multiple perspectives, and layered timelines—that build tension and deepen emotional impact. The atmosphere of their preferred movies tends to be introspective, somber, or suspenseful, often blending moments of quiet intimacy with high stakes, whether in wartime, historical upheaval, personal crises, or gritty urban landscapes defined by corruption and redemption. Themes of love, loss, social justice, and moral dilemmas are central, particularly when set in period contexts, speculative worlds, or noir-inspired settings where law enforcement battles the darker side of human nature. This appreciation extends to narratives that balance aesthetic depth with profound human experience, featuring the slow build-up of tension leading to climactic confrontations, the internal struggles of protagonists navigating complex webs of relationships, and the intense, action-packed sequences that explore the consequences of crime and the search for meaning in a chaotic world.",
+        "expected_genre_indices": [
+          5,
+          7,
+          13,
+          14,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Crime",
+          "Drama",
+          "Romance",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "572": {
+    "original_summary": "The user has a strong preference for complex, character-driven narratives across genres like thriller, drama, and crime, often with a dark, suspenseful, or atmospheric tone. A recurring element in their watched films is non-linear storytelling—featuring flashbacks, multiple perspectives, and fragmented timelines—that adds layers of intrigue and encourages active audience engagement. They are drawn to emotionally intense, psychologically rich stories, whether set in gritty urban environments, historical periods, or high-stakes heists, with a particular interest in moral ambiguity, personal transformation, and social or political themes. While they appreciate moments of levity and nostalgia—such as in musicals or coming-of-age rock tales—their core taste leans toward mature, atmospheric dramas with strong visual style, deep character development, and narrative complexity.",
+    "original_genres": [
+      "Crime",
+      "Drama",
+      "Musical",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      5,
+      7,
+      11,
+      15
+    ],
+    "num_user_movies": 18,
+    "n_samples_per_genre": 4,
+    "additions": [
+      {
+        "added_genre": "Animation",
+        "added_genre_idx": 2,
+        "sampled_movie_ids": [
+          "116837",
+          "80160",
+          "98621",
+          "118894"
+        ],
+        "edited_summary": "The user has a strong preference for complex, character-driven narratives across genres like thriller, drama, crime, and animation, often with a dark, suspenseful, or atmospheric tone. A recurring element in their watched films is non-linear storytelling—featuring flashbacks, multiple perspectives, and fragmented timelines—that adds layers of intrigue and encourages active audience engagement. They are drawn to emotionally intense, psychologically rich stories, whether set in gritty urban environments, historical periods, high-stakes heists, or vibrant, otherworldly realms of speculative fiction. While they appreciate moments of levity and nostalgia—such as in musicals, coming-of-age rock tales, or whimsical animated adventures filled with visual gags and playful humor—their core taste leans toward mature, atmospheric dramas with strong visual style, deep character development, and narrative complexity. This includes an appreciation for animated works that blend episodic, light-hearted character interactions with complex storylines involving time travel, alternate realities, or interstellar exploration, as well as family-friendly mysteries that deliver unexpected twists alongside their usual interest in moral ambiguity, personal transformation, and social or political themes.",
+        "expected_genre_indices": [
+          2,
+          5,
+          7,
+          11,
+          15
+        ],
+        "expected_genre_names": [
+          "Animation",
+          "Crime",
+          "Drama",
+          "Musical",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "54": {
+    "original_summary": "The user has a strong preference for intense, high-stakes narratives across genres like thriller, crime, action, and historical drama, often characterized by dark, suspenseful atmospheres and morally complex characters. A recurring element in their watched films is a non-linear narrative structure—featuring flashbacks, multiple perspectives, and fragmented timelines—that adds layers of intrigue and keeps the viewer engaged in piecing together the story. They are drawn to films with fast-paced editing, dramatic tension, and visual intensity, particularly those blending action with emotional depth, whether in war epics, psychological thrillers, or ensemble-driven plots. Additionally, while they enjoy darker, more mature themes, they also appreciate genre-blending works—such as horror-comedies or dark fantasy—that subvert expectations with unconventional storytelling and a mix of suspense, humor, and spectacle.",
+    "original_genres": [
+      "Action",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      4,
+      5,
+      7,
+      8,
+      10,
+      15,
+      16
+    ],
+    "num_user_movies": 29,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Adventure",
+        "added_genre_idx": 1,
+        "sampled_movie_ids": [
+          "106193",
+          "121148",
+          "91757"
+        ],
+        "edited_summary": "The user has a strong preference for intense, high-stakes narratives across genres like thriller, crime, action, historical drama, and adventure, often characterized by dark, suspenseful atmospheres and morally complex characters. A recurring element in their watched films is a non-linear narrative structure—featuring flashbacks, multiple perspectives, and fragmented timelines—that adds layers of intrigue and keeps the viewer engaged in piecing together the story. They are drawn to films with fast-paced editing, dramatic tension, and visual intensity, particularly those blending action with emotional depth, whether in war epics, psychological thrillers, or ensemble-driven plots. This appreciation extends to adventure stories that range from adrenaline-fueled thrillers involving espionage and crime-fighting against formidable adversaries to narratives steeped in mystery, wonder, and nature exploration with a touch of magic realism. Additionally, while they enjoy darker, more mature themes, they also appreciate genre-blending works—such as horror-comedies, dark fantasy, or heartwarming family-oriented holiday adventures—that subvert expectations with unconventional storytelling and a mix of suspense, humor, and spectacle.",
+        "expected_genre_indices": [
+          0,
+          1,
+          4,
+          5,
+          7,
+          8,
+          10,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "2584": {
+    "original_summary": "The user has a strong preference for emotionally intense, character-driven narratives across genres like thriller, drama, and psychological suspense, often with a dark or mysterious atmosphere. A recurring element in their watched films is non-linear storytelling—featuring flashbacks, fragmented sequences, and multiple perspectives—that adds complexity and depth to the plot, suggesting an appreciation for sophisticated, thought-provoking cinema. They are drawn to stories centered on personal growth, hidden secrets, and intricate relationships, whether set in historical periods, high school nostalgia, or modern-day tension. Overall, their taste leans toward mature, introspective films with rich emotional layers, strong visual storytelling, and a focus on psychological depth rather than action or spectacle.",
+    "original_genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      7,
+      12,
+      15
+    ],
+    "num_user_movies": 15,
+    "n_samples_per_genre": 5,
+    "additions": [
+      {
+        "added_genre": "Action",
+        "added_genre_idx": 0,
+        "sampled_movie_ids": [
+          "58180",
+          "66941",
+          "92032",
+          "119027",
+          "128944"
+        ],
+        "edited_summary": "The user has a strong preference for emotionally intense, character-driven narratives across genres like thriller, drama, psychological suspense, and action, often with a dark or mysterious atmosphere. A recurring element in their watched films is non-linear storytelling—featuring flashbacks, fragmented sequences, and multiple perspectives—that adds complexity and depth to the plot, suggesting an appreciation for sophisticated, thought-provoking cinema. They are drawn to stories centered on personal growth, hidden secrets, and intricate relationships, whether set in historical periods, high school nostalgia, or modern-day tension. While they value psychological depth, they also enjoy the high-stakes intensity of action sequences, from gritty crime dramas with violent confrontations and secretive meetings to adrenaline-fueled narratives featuring motorcycle chases and physical altercations. This appreciation extends to tense, suspenseful thrillers where quick cuts and dramatic plot twists keep the viewer guessing, as well as serious historical tales of sailors in uniform engaged in crucial, life-or-death conversations. Overall, their taste leans toward mature, introspective films with rich emotional layers, strong visual storytelling, and a focus on psychological depth that is frequently punctuated by high-octane spectacle and fast-paced, dynamic pacing.",
+        "expected_genre_indices": [
+          0,
+          7,
+          12,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "3672": {
+    "original_summary": "The user shows a strong preference for high-energy, visually dynamic films across genres like action, adventure, and thriller, often with intense, suspenseful atmospheres and fast-paced storytelling. They are drawn to non-linear narratives, fragmented timelines, and unpredictable pacing, which suggest an appreciation for complex, immersive experiences that keep viewers engaged through tension and surprise. Recurring themes include survival, personal struggle, redemption, and the breakdown of order—evident in post-apocalyptic, historical, and war-driven stories—while also enjoying fantastical or surreal elements, particularly in animated or comedic adventures. Overall, the user favors films that blend spectacle with emotional depth, whether through heroic epics, dark dramas, or genre-bending thrillers with a touch of absurdity or horror.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      8,
+      10,
+      15,
+      16
+    ],
+    "num_user_movies": 12,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Romance",
+        "added_genre_idx": 13,
+        "sampled_movie_ids": [
+          "130986",
+          "99731",
+          "97042"
+        ],
+        "edited_summary": "The user shows a strong preference for high-energy, visually dynamic films across genres like action, adventure, and thriller, often with intense, suspenseful atmospheres and fast-paced storytelling. They are drawn to non-linear narratives, fragmented timelines, and unpredictable pacing, which suggest an appreciation for complex, immersive experiences that keep viewers engaged through tension and surprise. Recurring themes include survival, personal struggle, redemption, and the breakdown of order—evident in post-apocalyptic, historical, and war-driven stories—while also enjoying fantastical or surreal elements, particularly in animated or comedic adventures. This appreciation for the surreal extends to their taste in romance, where they favor lighthearted, whimsical stories featuring quirky characters and unconventional narratives that offer a playful, imaginative take on love and friendship. Overall, the user favors films that blend spectacle with emotional depth, whether through heroic epics, dark dramas, genre-bending thrillers with a touch of absurdity or horror, or feel-good romantic comedies that balance high-stakes drama with moments of genuine connection.",
+        "expected_genre_indices": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          10,
+          13,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Romance",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "835": {
+    "original_summary": "The user has a clear preference for emotionally rich, character-driven dramas and thrillers, often blending suspense with deep personal and moral conflicts. Recurring elements include non-linear storytelling, multiple perspectives, and fragmented timelines, which suggest an appreciation for complex, layered narratives that unfold gradually through flashbacks and interconnected storylines. The atmosphere consistently leans toward tense, somber, or mysterious tones, with a focus on psychological depth, family dynamics, and hidden truths, though occasional heartwarming or festive moments (like in the Christmas comedy) indicate an openness to emotional contrast and warmth. Overall, the user enjoys mature, thought-provoking films that prioritize character development, moral ambiguity, and atmospheric tension across genres like crime, legal drama, sci-fi thriller, and musical drama.",
+    "original_genres": [
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Musical",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      4,
+      5,
+      7,
+      11,
+      14,
+      15
+    ],
+    "num_user_movies": 11,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Adventure",
+        "added_genre_idx": 1,
+        "sampled_movie_ids": [
+          "26763",
+          "117462",
+          "25979"
+        ],
+        "edited_summary": "The user has a clear preference for emotionally rich, character-driven dramas and thrillers, often blending suspense with deep personal and moral conflicts. Recurring elements include non-linear storytelling, multiple perspectives, and fragmented timelines, which suggest an appreciation for complex, layered narratives that unfold gradually through flashbacks and interconnected storylines. The atmosphere consistently leans toward tense, somber, or mysterious tones, with a focus on psychological depth, family dynamics, and hidden truths, though occasional heartwarming or festive moments (like in the Christmas comedy) indicate an openness to emotional contrast and warmth. This appreciation for intensity extends to adventure films, where the user enjoys action-packed historical dramas featuring strong female protagonists navigating danger and intrigue, as well as suspenseful thrillers defined by rapid cuts, dramatic music, and high-stakes urgency. Overall, the user enjoys mature, thought-provoking films that prioritize character development, moral ambiguity, and atmospheric tension across genres like crime, legal drama, sci-fi thriller, musical drama, and adventure.",
+        "expected_genre_indices": [
+          1,
+          4,
+          5,
+          7,
+          11,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Adventure",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Musical",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "359": {
+    "original_summary": "The user has a strong preference for animated adventures with vibrant, imaginative visuals and family-friendly appeal, often blending humor, music, and themes of courage, growth, and connection. They are drawn to films with dynamic atmospheres—ranging from whimsical and playful to awe-inspiring and adventurous—suggesting an appreciation for storytelling that stimulates wonder and emotional engagement. There’s a clear interest in genre-blending narratives, particularly those that mix fantasy, mystery, and suspense, including psychological thrillers, supernatural elements, and non-linear storytelling, indicating a taste for complexity and intrigue. Overall, the user enjoys films that balance entertainment with deeper themes, appealing to both younger audiences and adults, especially those that combine imaginative worlds with emotional depth and stylistic flair.",
+    "original_genres": [
+      "Adventure",
+      "Animation",
+      "Children",
+      "Comedy",
+      "Fantasy",
+      "Horror",
+      "Musical",
+      "Mystery",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      10,
+      11,
+      12,
+      15
+    ],
+    "num_user_movies": 9,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Romance",
+        "added_genre_idx": 13,
+        "sampled_movie_ids": [
+          "109983",
+          "104954",
+          "101692"
+        ],
+        "edited_summary": "The user has a strong preference for animated adventures with vibrant, imaginative visuals and family-friendly appeal, often blending humor, music, and themes of courage, growth, and connection. They are drawn to films with dynamic atmospheres—ranging from whimsical and playful to awe-inspiring and adventurous—suggesting an appreciation for storytelling that stimulates wonder and emotional engagement. There's a clear interest in genre-blending narratives, particularly those that mix fantasy, mystery, and suspense, including psychological thrillers, supernatural elements, and non-linear storytelling, indicating a taste for complexity and intrigue. This appreciation for narrative depth extends to romance, where they enjoy both satirical, campy tales with fast-paced, absurd humor and exaggerated performances, as well as intimate, character-driven dramas that explore deep emotional journeys and internal struggles within tense, slow-paced relationships. They also gravitate toward emotionally charged romantic narratives set in historical contexts, featuring swift shifts between characters and settings that create a sense of urgency and conflict. Overall, the user enjoys films that balance entertainment with deeper themes, appealing to both younger audiences and adults, especially those that combine imaginative worlds with emotional depth and stylistic flair.",
+        "expected_genre_indices": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "expected_genre_names": [
+          "Adventure",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Fantasy",
+          "Horror",
+          "Musical",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "759": {
+    "original_summary": "The user has a strong preference for character-driven narratives across genres like drama, thriller, and historical epics, often favoring complex, emotionally resonant stories with psychological depth. A recurring theme is the use of non-linear storytelling—employing flashbacks, fragmented timelines, and juxtaposed moments—to build suspense, emotional impact, and narrative complexity. The atmosphere in their preferred films tends to be tense, immersive, and often atmospheric, ranging from the gritty realism of war and survival to the eerie unease of psychological suspense. They are drawn to mature, adult-oriented stories that blend intensity with emotional or thematic depth, whether through historical settings, psychological tension, or subtle visual symbolism.",
+    "original_genres": [
+      "Drama",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      7,
+      15,
+      16
+    ],
+    "num_user_movies": 8,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Mystery",
+        "added_genre_idx": 12,
+        "sampled_movie_ids": [
+          "89126",
+          "32952",
+          "110242"
+        ],
+        "edited_summary": "The user has a strong preference for character-driven narratives across genres like drama, thriller, historical epics, and mystery, often favoring complex, emotionally resonant stories with psychological depth. A recurring theme is the use of non-linear storytelling—employing flashbacks, fragmented timelines, and juxtaposed moments—to build suspense, emotional impact, and narrative complexity, often mirroring the urgency and intricate plotting found in classic suspense films. The atmosphere in their preferred films tends to be tense, immersive, and often atmospheric, ranging from the gritty realism of war and survival to the eerie unease of psychological suspense and the dark, fear-inducing tension of supernatural or masked-figure thrillers. They are drawn to mature, adult-oriented stories that blend intensity with emotional or thematic depth, whether through historical settings, psychological tension, subtle visual symbolism, or the driving force of a complex mystery that relies on dark visuals, eerie music, and character development to unravel a non-linear narrative.",
+        "expected_genre_indices": [
+          7,
+          12,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Drama",
+          "Mystery",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "1164": {
+    "original_summary": "The user appears to enjoy a diverse range of genres, with a clear appreciation for both heartwarming, family-oriented stories and high-octane, suspense-driven thrillers. They are drawn to films with strong atmospheres—whether serene and comforting in animated family films or tense and adrenaline-fueled in sci-fi and action thrillers—suggesting a preference for immersive, emotionally engaging experiences. Recurring narrative styles include fast pacing, plot-driven storytelling, and high-stakes scenarios, indicating an interest in dynamic, visually stimulating content. Overall, their taste blends emotional warmth with excitement and danger, favoring movies that balance engaging characters with thrilling momentum across genres.",
+    "original_genres": [
+      "Action",
+      "Animation",
+      "Children",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      2,
+      3,
+      14,
+      15
+    ],
+    "num_user_movies": 3,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Western",
+        "added_genre_idx": 17,
+        "sampled_movie_ids": [
+          "65930",
+          "49494",
+          "122096"
+        ],
+        "edited_summary": "The user appears to enjoy a diverse range of genres, with a clear appreciation for both heartwarming, family-oriented stories and high-octane, suspense-driven thrillers. They are drawn to films with strong atmospheres—whether serene and comforting in animated family films, tense and adrenaline-fueled in sci-fi and action thrillers, or gritty and adventurous in Westerns set against rugged landscapes. This preference for immersive, emotionally engaging experiences extends to narratives that focus on the hero's journey, personal struggles, and the dramatic challenges of a bygone era, often depicted through black and white visuals or fast-paced, unpredictable action. Recurring narrative styles include fast pacing, plot-driven storytelling, and high-stakes scenarios, indicating an interest in dynamic, visually stimulating content that balances engaging character arcs with thrilling momentum. Overall, their taste blends emotional warmth with excitement and danger, favoring movies that deliver intense conflict and historical drama across genres, from classic cattle drives to modern suspense.",
+        "expected_genre_indices": [
+          0,
+          2,
+          3,
+          14,
+          15,
+          17
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Animation",
+          "Children",
+          "Sci-Fi",
+          "Thriller",
+          "Western"
+        ]
+      }
+    ]
+  },
+  "1034": {
+    "original_summary": "The user has a strong preference for action-packed, visually dynamic films across genres like sci-fi, adventure, and thriller, with a particular affinity for high-stakes narratives featuring intense pacing, suspense, and futuristic or post-apocalyptic settings. While many of the movies lean toward adult audiences with their tense atmospheres and complex plots, there's also a consistent appreciation for family-friendly animated adventures—especially those blending humor, imagination, and vibrant visuals—suggesting a taste for content that appeals to both children and adults. Recurring themes include exploration (underwater, post-apocalyptic, or interstellar), heroism, and the bond between characters—whether human, animal, or robotic—often framed within imaginative worlds. Overall, the user enjoys stories that balance thrilling spectacle with emotional depth, whether through fast-paced action or whimsical creativity.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Children",
+      "Comedy",
+      "Fantasy",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8,
+      14,
+      15
+    ],
+    "num_user_movies": 8,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Western",
+        "added_genre_idx": 17,
+        "sampled_movie_ids": [
+          "65696",
+          "92029",
+          "63141"
+        ],
+        "edited_summary": "The user has a strong preference for action-packed, visually dynamic films across genres like sci-fi, adventure, thriller, and Western, with a particular affinity for high-stakes narratives featuring intense pacing, suspense, and settings that range from futuristic or post-apocalyptic landscapes to the rugged, untamed frontier. While many of the movies lean toward adult audiences with their tense atmospheres and complex plots, there's also a consistent appreciation for family-friendly animated adventures—especially those blending humor, imagination, and vibrant visuals—suggesting a taste for content that appeals to both children and adults. Recurring themes include exploration (underwater, post-apocalyptic, interstellar, or across the American West), heroism, and the bond between characters—whether human, animal, or robotic—often framed within imaginative worlds or gritty, linear journeys of survival. The user enjoys stories that balance thrilling spectacle with emotional depth, whether through fast-paced action, whimsical creativity, or dramatic confrontations set against rustic, horseback-chase-filled backdrops.",
+        "expected_genre_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8,
+          14,
+          15,
+          17
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi",
+          "Thriller",
+          "Western"
+        ]
+      }
+    ]
+  },
+  "173": {
+    "original_summary": "The user has a strong preference for high-octane, action-driven films across genres such as historical drama, science fiction, military thrillers, and crime suspense, often blending intense action with complex narratives. Their taste leans toward tense, suspenseful atmospheres characterized by fast pacing, non-linear storytelling, quick cuts, and high-stakes scenarios, suggesting an appreciation for films that keep viewers on edge. Recurring themes include survival, moral ambiguity, strategic decision-making, and the psychological depth of characters under pressure, evident in both espionage and space-based adventures. They are drawn to visually striking, adrenaline-fueled experiences—whether set in ancient battlefields, futuristic space stations, or gritty urban environments—indicating a love for immersive, plot-driven thrillers with layered storytelling and dramatic tension.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Crime",
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      5,
+      7,
+      14,
+      15
+    ],
+    "num_user_movies": 14,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Film-Noir",
+        "added_genre_idx": 9,
+        "sampled_movie_ids": [
+          "69674",
+          "111285",
+          "32952"
+        ],
+        "edited_summary": "The user has a strong preference for high-octane, action-driven films across genres such as historical drama, science fiction, military thrillers, crime suspense, and film-noir, often blending intense action with complex narratives. Their taste leans toward tense, suspenseful atmospheres characterized by fast pacing, non-linear storytelling, quick cuts, and high-stakes scenarios, suggesting an appreciation for films that keep viewers on edge. Recurring themes include survival, moral ambiguity, strategic decision-making, and the psychological depth of characters under pressure, evident in both espionage and space-based adventures, as well as in the dark, memory-driven mysteries of classic crime thrillers. They are drawn to visually striking, adrenaline-fueled experiences—whether set in ancient battlefields, futuristic space stations, gritty urban environments, or shadowy, vintage settings defined by black-and-white aesthetics and dramatic tension—indicating a love for immersive, plot-driven thrillers with layered storytelling, dramatic tension, and a focus on unraveling hidden truths through character interactions and plot twists.",
+        "expected_genre_indices": [
+          0,
+          1,
+          5,
+          7,
+          9,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Crime",
+          "Drama",
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "2390": {
+    "original_summary": "The user has a strong preference for complex, character-driven narratives across a wide range of genres, with a clear inclination toward stories that blend emotional depth with suspense, mystery, or high stakes. Recurring themes include personal growth, relationships, loss, and identity, often explored through non-linear storytelling, flashbacks, and multiple perspectives that create layered, unpredictable plots. The user is drawn to intense atmospheres—whether dark and suspenseful, nostalgic and contemplative, or epic and dramatic—spanning genres like thriller, crime, historical drama, sci-fi, and Westerns, with a particular interest in films that combine action with introspection. While they enjoy family-friendly animated adventures and lighthearted rom-coms, their core taste leans toward mature, visually striking, and emotionally resonant films that prioritize narrative complexity, psychological depth, and atmospheric tension.",
+    "original_genres": [
+      "Action",
+      "Animation",
+      "Children",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Romance",
+      "Sci-Fi",
+      "Thriller",
+      "Western"
+    ],
+    "original_genre_indices": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      7,
+      12,
+      13,
+      14,
+      15,
+      17
+    ],
+    "num_user_movies": 65,
+    "n_samples_per_genre": 5,
+    "additions": [
+      {
+        "added_genre": "War",
+        "added_genre_idx": 16,
+        "sampled_movie_ids": [
+          "107912",
+          "97884",
+          "111370",
+          "110696",
+          "42943"
+        ],
+        "edited_summary": "The user has a strong preference for complex, character-driven narratives across a wide range of genres, with a clear inclination toward stories that blend emotional depth with suspense, mystery, or high stakes. Recurring themes include personal growth, relationships, loss, and identity, often explored through non-linear storytelling, flashbacks, and multiple perspectives that create layered, unpredictable plots. The user is drawn to intense atmospheres—whether dark and suspenseful, nostalgic and contemplative, or epic and dramatic—spanning genres like thriller, crime, historical drama, sci-fi, Westerns, and War. This includes a particular affinity for gritty, military-focused narratives that utilize rapid cuts and flashes of violence to convey urgency, as well as historical conflicts set in European cities or revolutionary periods that balance high-stakes combat with intimate personal stories. They appreciate the tension of dimly lit, foreboding environments and the emotional resonance of wartime love stories woven through different time periods. While they enjoy family-friendly animated adventures and lighthearted rom-coms, their core taste leans toward mature, visually striking, and emotionally resonant films that prioritize narrative complexity, psychological depth, and atmospheric tension, often combining action with introspection.",
+        "expected_genre_indices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Mystery",
+          "Romance",
+          "Sci-Fi",
+          "Thriller",
+          "War",
+          "Western"
+        ]
+      }
+    ]
+  },
+  "3527": {
+    "original_summary": "The user has a strong preference for high-octane, suspenseful narratives across genres like thriller, action, and drama, often characterized by fast-paced editing, intense atmospheres, and high-stakes situations. They enjoy films that blend genres—such as horror-comedy or romantic comedy with mystery—suggesting an appreciation for creative twists and tonal contrasts that keep stories unpredictable and engaging. Recurring themes include personal struggle, emotional depth, and complex character arcs, particularly in sports dramas and character-driven stories. Overall, the user leans toward adult-oriented, emotionally resonant entertainment with a mix of adrenaline, suspense, and nuanced storytelling.",
+    "original_genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Romance",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      4,
+      7,
+      10,
+      12,
+      13,
+      15
+    ],
+    "num_user_movies": 7,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Fantasy",
+        "added_genre_idx": 8,
+        "sampled_movie_ids": [
+          "103322",
+          "121247",
+          "110255"
+        ],
+        "edited_summary": "The user has a strong preference for high-octane, suspenseful narratives across genres like thriller, action, drama, and fantasy, often characterized by fast-paced editing, intense atmospheres, and high-stakes situations. They enjoy films that blend genres—such as horror-comedy, romantic comedy with mystery, or fantasy infused with psychological tension—suggesting an appreciation for creative twists and tonal contrasts that keep stories unpredictable and engaging. Recurring themes include personal struggle, emotional depth, and complex character arcs, particularly in sports dramas, character-driven stories, and narratives featuring supernatural or demonic forces within dark, mysterious settings. The user is drawn to slow-burning, deliberate storytelling that builds tension through subtle visual cues and non-linear plot structures, as well as scenes of confrontation and urgency hinting at intricate, multi-layered plots. Overall, the user leans toward adult-oriented, emotionally resonant entertainment with a mix of adrenaline, suspense, nuanced storytelling, and the atmospheric intensity of complex fantasy worlds.",
+        "expected_genre_indices": [
+          0,
+          4,
+          7,
+          8,
+          10,
+          12,
+          13,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "4697": {
+    "original_summary": "The user has a strong preference for genre-blending, high-tension narratives that combine emotional depth with intense action or suspense. They are drawn to films with non-linear storytelling, particularly those that use flashbacks and multiple timelines to explore complex characters and moral dilemmas, as seen in the recurring drama and thriller elements across their watched movies. Their taste leans heavily toward science fiction and action-adventure genres, especially those featuring space exploration, survival, dystopian worlds, and high-stakes missions, often emphasizing themes of courage, sacrifice, and human resilience. Additionally, they appreciate sophisticated, character-driven stories—whether in historical dramas, psychological thrillers, or darkly comedic narratives—suggesting a preference for films that balance gripping visuals with meaningful emotional and intellectual engagement.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      4,
+      7,
+      14,
+      15
+    ],
+    "num_user_movies": 14,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Romance",
+        "added_genre_idx": 13,
+        "sampled_movie_ids": [
+          "98344",
+          "126510",
+          "45527"
+        ],
+        "edited_summary": "The user has a strong preference for genre-blending, high-tension narratives that combine emotional depth with intense action or suspense. They are drawn to films with non-linear storytelling, particularly those that use flashbacks and multiple timelines to explore complex characters and moral dilemmas, as seen in the recurring drama and thriller elements across their watched movies. Their taste leans heavily toward science fiction and action-adventure genres, especially those featuring space exploration, survival, dystopian worlds, and high-stakes missions, often emphasizing themes of courage, sacrifice, and human resilience. Additionally, they appreciate sophisticated, character-driven stories—whether in historical dramas, psychological thrillers, or darkly comedic narratives—suggesting a preference for films that balance gripping visuals with meaningful emotional and intellectual engagement. This appreciation extends to romance, where they enjoy both the nostalgic, linear love stories of classic Hollywood musicals that focus on emotional growth, and the intense, non-linear dramas that weave through different timelines to depict passionate conversations and complex relationships. They are particularly drawn to romantic narratives that blend coming-of-age elements with personal reflection, offering a mix of family, friendship, and love that appeals to their desire for layered, character-driven plots.",
+        "expected_genre_indices": [
+          0,
+          1,
+          4,
+          7,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Drama",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "3906": {
+    "original_summary": "The user has a strong preference for intense, suspenseful thrillers and high-stakes narratives across genres like crime, sci-fi, and action-adventure, often set in dark, foreboding atmospheres that heighten tension. Recurring elements include non-linear storytelling, multiple perspectives, and complex character arcs that converge in dramatic, unpredictable ways, suggesting an appreciation for layered, intellectually engaging plots. Themes of survival, moral ambiguity, and psychological depth are prominent, whether in military missions, space exploration, or political intrigue. The user is drawn to visually dynamic, fast-paced films with strong emotional undercurrents, blending spectacle with character-driven drama—especially in genres that merge action with mystery, supernatural elements, or epic stakes.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Crime",
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      5,
+      7,
+      10,
+      12,
+      14,
+      15,
+      16
+    ],
+    "num_user_movies": 13,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Romance",
+        "added_genre_idx": 13,
+        "sampled_movie_ids": [
+          "110486",
+          "98613",
+          "88513"
+        ],
+        "edited_summary": "The user has a strong preference for intense, suspenseful thrillers and high-stakes narratives across genres like crime, sci-fi, and action-adventure, often set in dark, foreboding atmospheres that heighten tension. Recurring elements include non-linear storytelling, multiple perspectives, and complex character arcs that converge in dramatic, unpredictable ways, suggesting an appreciation for layered, intellectually engaging plots. Themes of survival, moral ambiguity, and psychological depth are prominent, whether in military missions, space exploration, or political intrigue. This appreciation for complexity extends to Romance, where the user is drawn to classic dramas featuring tense, mysterious atmospheres filled with danger and intrigue, often utilizing non-linear narratives with flashbacks to reveal hidden secrets and courtroom-style revelations. They also enjoy romantic spectacles that blend musical or dance elements with grandeur, focusing on lively, celebratory journeys driven by a central figure surrounded by an enthusiastic ensemble. The user is drawn to visually dynamic, fast-paced films with strong emotional undercurrents, blending spectacle with character-driven drama—especially in genres that merge action with mystery, supernatural elements, or epic stakes, as well as those that balance vintage cinematic tension with communal joy and deep emotional resonance.",
+        "expected_genre_indices": [
+          0,
+          1,
+          5,
+          7,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Crime",
+          "Drama",
+          "Horror",
+          "Mystery",
+          "Romance",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "2173": {
+    "original_summary": "The user has a strong preference for intense, character-driven narratives across genres like crime, thriller, action, and historical drama, often set in gritty or high-stakes environments. They are drawn to films with complex, non-linear storytelling that employs flashbacks, quick cuts, and multiple perspectives to deepen emotional and psychological layers. The recurring themes include personal transformation, moral ambiguity, and high-pressure decision-making, often within contexts of political intrigue, military operations, or cultural conflict. Overall, the user enjoys mature, suspenseful films that blend dramatic tension with rich character development and layered plots.",
+    "original_genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      5,
+      7,
+      15,
+      16
+    ],
+    "num_user_movies": 4,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Comedy",
+        "added_genre_idx": 4,
+        "sampled_movie_ids": [
+          "116807",
+          "69811",
+          "122199"
+        ],
+        "edited_summary": "The user has a strong preference for intense, character-driven narratives across genres like crime, thriller, action, historical drama, and comedy, often set in gritty or high-stakes environments. They are drawn to films with complex, non-linear storytelling that employs flashbacks, quick cuts, and multiple perspectives to deepen emotional and psychological layers. While they favor mature, suspenseful films that blend dramatic tension with rich character development, they also appreciate comedic narratives that range from lively, chaotic fast-paced adventures filled with parties, fights, and high-speed chases to dark, surreal tales blending horror and absurdity with themes of death and despair. Additionally, they enjoy suspenseful, action-packed comedies that mirror classic film noir, featuring high-stakes detective work and dramatic confrontations that keep the viewer on edge. The recurring themes include personal transformation, moral ambiguity, and high-pressure decision-making, often within contexts of political intrigue, military operations, or cultural conflict, as well as unexpected twists and unconventional narrative styles that challenge the audience. Overall, the user enjoys a diverse cinematic experience that balances dramatic tension with humor, whether through the lens of young adult adventure or thought-provoking, complex adult narratives.",
+        "expected_genre_indices": [
+          0,
+          4,
+          5,
+          7,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "3844": {
+    "original_summary": "The user has a strong preference for high-octane, suspense-driven films, particularly within the action-thriller, sci-fi, and spy genres, favoring fast-paced narratives with intense atmospheres, rapid editing, and adrenaline-fueled sequences. They are drawn to stories that blend high stakes with complex storytelling, often featuring non-linear structures, flashbacks, and multiple converging plotlines that create urgency and mystery. There’s a recurring interest in survival, exploration, and technological or historical extremes—seen in post-apocalyptic settings, space missions, and epic historical dramas—suggesting an appreciation for both futuristic and period-specific worlds where characters face overwhelming challenges. While they enjoy visually stimulating and plot-heavy films, there’s also a subtle inclination toward emotional depth and character development, especially in moments of introspection or personal transformation, indicating a taste that balances spectacle with substance.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      7,
+      14,
+      15
+    ],
+    "num_user_movies": 21,
+    "n_samples_per_genre": 4,
+    "additions": [
+      {
+        "added_genre": "Romance",
+        "added_genre_idx": 13,
+        "sampled_movie_ids": [
+          "119147",
+          "109858",
+          "81859",
+          "114140"
+        ],
+        "edited_summary": "The user has a strong preference for high-octane, suspense-driven films, particularly within the action-thriller, sci-fi, and spy genres, favoring fast-paced narratives with intense atmospheres, rapid editing, and adrenaline-fueled sequences. They are drawn to stories that blend high stakes with complex storytelling, often featuring non-linear structures, flashbacks, and multiple converging plotlines that create urgency and mystery. There's a recurring interest in survival, exploration, and technological or historical extremes—seen in post-apocalyptic settings, space missions, and epic historical dramas—suggesting an appreciation for both futuristic and period-specific worlds where characters face overwhelming challenges. While they enjoy visually stimulating and plot-heavy films, there's also a subtle inclination toward emotional depth and character development, especially in moments of introspection or personal transformation, indicating a taste that balances spectacle with substance. This appreciation for character-driven narratives extends to the Romance genre, where they enjoy heartwarming stories set against festive, cozy backdrops that emphasize personal growth and family connections, as well as more suspenseful dramas exploring themes of love, betrayal, and deception through ambiguous dialogue and emotional tension. They also appreciate the lighthearted, witty banter and vibrant energy of musical romances, as well as the adventurous, action-packed pursuit of love found in historical Western settings, valuing films that weave these romantic elements into complex, engaging plots.",
+        "expected_genre_indices": [
+          0,
+          1,
+          7,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "301": {
+    "original_summary": "The user shows a strong preference for films that blend intense emotional storytelling with dynamic action, evident in their interest in both historical dramas with personal growth arcs and dark, gritty superhero tales. They are drawn to narratives with non-linear structures and fast-paced, suspenseful pacing, suggesting an appreciation for layered storytelling and cinematic urgency. There’s a clear enjoyment of character-driven plots, particularly those centered on personal development, relationships, and identity—seen in romantic comedies, coming-of-age stories, and quirky adventures. Overall, their taste leans toward genre hybrids that balance mood and momentum, combining emotional depth with stylistic flair across periods, tones, and settings.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      4,
+      7,
+      13,
+      15
+    ],
+    "num_user_movies": 5,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Mystery",
+        "added_genre_idx": 12,
+        "sampled_movie_ids": [
+          "119681",
+          "109362",
+          "70891"
+        ],
+        "edited_summary": "The user shows a strong preference for films that blend intense emotional storytelling with dynamic action, evident in their interest in both historical dramas with personal growth arcs and dark, gritty superhero tales. They are drawn to narratives with non-linear structures and fast-paced, suspenseful pacing, suggesting an appreciation for layered storytelling and cinematic urgency. This affinity extends to the mystery genre, where they enjoy dark, moody atmospheres filled with unease and tension, often featuring non-linear plots with flashbacks and multiple perspectives that keep them curious about character motivations. They are particularly drawn to the high-stakes intensity of thrillers involving dramatic confrontations and the eerie, suspenseful tone of stories that rely on quick cuts and a sense of urgency to build mystery. There's a clear enjoyment of character-driven plots, particularly those centered on personal development, relationships, and identity—seen in romantic comedies, coming-of-age stories, and quirky adventures. Overall, their taste leans toward genre hybrids that balance mood and momentum, combining emotional depth with stylistic flair across periods, tones, and settings.",
+        "expected_genre_indices": [
+          0,
+          1,
+          4,
+          7,
+          12,
+          13,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Drama",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "2499": {
+    "original_summary": "The user has a strong preference for films that blend high-stakes adventure with rich, imaginative world-building, particularly within the science fiction and fantasy genres. They are drawn to movies with intense, fast-paced narratives—evident in the emphasis on action, suspense, and emotional urgency—often set in visually striking or mysterious environments like underwater realms or futuristic landscapes. Recurring themes include exploration, personal transformation, and emotional depth, suggesting an appreciation for stories that balance external challenges with internal character journeys. Their taste leans toward visually spectacular, atmospheric films that engage both the intellect and emotions, appealing to audiences who enjoy suspense, discovery, and well-crafted plot twists.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      8,
+      14,
+      15
+    ],
+    "num_user_movies": 5,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Children",
+        "added_genre_idx": 3,
+        "sampled_movie_ids": [
+          "91960",
+          "131098",
+          "121596"
+        ],
+        "edited_summary": "The user has a strong preference for films that blend high-stakes adventure with rich, imaginative world-building, particularly within the science fiction, fantasy, and Children genres. They are drawn to movies with intense, fast-paced narratives—evident in the emphasis on action, suspense, and emotional urgency—often set in visually striking or mysterious environments like underwater realms, futuristic landscapes, or whimsical, enchanting settings filled with magic and wonder. Recurring themes include exploration, personal transformation, and emotional depth, suggesting an appreciation for stories that balance external challenges with internal character journeys, whether through traditional storytelling mixed with magical realism or dynamic, family-friendly tales featuring playful interactions and daring escapes. Their taste leans toward visually spectacular, atmospheric films that engage both the intellect and emotions, appealing to audiences who enjoy suspense, discovery, well-crafted plot twists, and the thrilling mix of humor and high-stakes chases found in action-packed sports dramas or underdog stories.",
+        "expected_genre_indices": [
+          0,
+          1,
+          3,
+          8,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Children",
+          "Fantasy",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "2813": {
+    "original_summary": "The user's movie preferences reveal a strong affinity for narratives that blend emotional depth with suspense, particularly within the thriller, drama, and psychological genres. They are drawn to complex, character-driven stories with non-linear storytelling, frequent use of flashbacks, and layered plots that challenge viewers to piece together mysteries—evident in recurring themes of moral ambiguity, identity, and hidden truths. While they enjoy intense, atmospheric films with dark tones and high stakes—especially crime dramas, psychological thrillers, and post-apocalyptic settings—they also appreciate lighter, family-friendly animated adventures that balance humor, wonder, and heartfelt themes. This duality suggests a taste for both intellectually engaging, adult-oriented narratives and imaginative, emotionally resonant stories suitable for younger audiences, often centered on growth, connection, and resilience.",
+    "original_genres": [
+      "Adventure",
+      "Animation",
+      "Children",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      14,
+      15
+    ],
+    "num_user_movies": 51,
+    "n_samples_per_genre": 6,
+    "additions": [
+      {
+        "added_genre": "War",
+        "added_genre_idx": 16,
+        "sampled_movie_ids": [
+          "113068",
+          "42943",
+          "90208",
+          "26028",
+          "115923",
+          "77451"
+        ],
+        "edited_summary": "The user's movie preferences reveal a strong affinity for narratives that blend emotional depth with suspense, particularly within the thriller, drama, psychological, and war genres. They are drawn to complex, character-driven stories with non-linear storytelling, frequent use of flashbacks, and layered plots that challenge viewers to piece together mysteries—evident in recurring themes of moral ambiguity, identity, and hidden truths. While they enjoy intense, atmospheric films with dark tones and high stakes—especially crime dramas, psychological thrillers, and post-apocalyptic settings—they are equally captivated by war films that depict the tension of combat, the gravity of historical conflict, and the personal stories of military personnel amidst revolution and battle. These preferences extend to narratives that mix fast-paced action sequences with slow-burning, character-driven tension, often utilizing black-and-white aesthetics or a mix of real-life footage and dramatized scenes to evoke deep emotional responses regarding family bonds and the human cost of war. They also appreciate lighter, family-friendly animated adventures that balance humor, wonder, and heartfelt themes. This duality suggests a taste for both intellectually engaging, adult-oriented narratives and imaginative, emotionally resonant stories suitable for younger audiences, often centered on growth, connection, and resilience.",
+        "expected_genre_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          14,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Adventure",
+          "Animation",
+          "Children",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "4273": {
+    "original_summary": "The user has a strong preference for high-octane, visually driven films, with a clear inclination toward science fiction, action-adventure, and thriller genres—particularly those featuring dystopian or futuristic settings, intense atmospheres, and fast-paced, plot-driven narratives. Recurring themes include survival, rebellion, technological dread, and moral ambiguity, often blended with elements of horror, psychological tension, or supernatural mystery. The user is drawn to complex, non-linear storytelling and atmospheric tension, favoring films that combine spectacle with intellectual or emotional depth, such as sci-fi epics with social commentary or suspenseful thrillers with fragmented, ambiguous narratives. While they enjoy some variety—ranging from historical dramas to lighthearted comedies—their core taste leans heavily toward dark, suspenseful, and imaginative stories that prioritize mood, pacing, and world-building over conventional romantic or comedic tones.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      4,
+      7,
+      10,
+      12,
+      14,
+      15
+    ],
+    "num_user_movies": 33,
+    "n_samples_per_genre": 4,
+    "additions": [
+      {
+        "added_genre": "Western",
+        "added_genre_idx": 17,
+        "sampled_movie_ids": [
+          "122373",
+          "120641",
+          "110240",
+          "107877"
+        ],
+        "edited_summary": "The user has a strong preference for high-octane, visually driven films, with a clear inclination toward science fiction, action-adventure, and thriller genres—particularly those featuring dystopian or futuristic settings, intense atmospheres, and fast-paced, plot-driven narratives. This taste extends to gritty Westerns set in the rugged terrain of the Wild West, where the user appreciates the clash between civilization and indigenous populations, the consequences of character choices, and the tense, unpredictable nature of survival in a chaotic, dangerous world. Recurring themes include survival, rebellion, technological dread, and moral ambiguity, often blended with elements of horror, psychological tension, or supernatural mystery. The user is drawn to complex, non-linear storytelling and atmospheric tension, favoring films that combine spectacle with intellectual or emotional depth, such as sci-fi epics with social commentary, suspenseful thrillers with fragmented, ambiguous narratives, or historical epics that mix dialogue-driven drama with intense action sequences. While they enjoy some variety—ranging from historical dramas to lighthearted comedies—their core taste leans heavily toward dark, suspenseful, and imaginative stories that prioritize mood, pacing, and world-building over conventional romantic or comedic tones.",
+        "expected_genre_indices": [
+          0,
+          1,
+          4,
+          7,
+          10,
+          12,
+          14,
+          15,
+          17
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Drama",
+          "Horror",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller",
+          "Western"
+        ]
+      }
+    ]
+  },
+  "3956": {
+    "original_summary": "The user has a strong preference for high-tension, character-driven narratives across genres like thriller, horror, and action, with a recurring emphasis on dark, suspenseful atmospheres and non-linear storytelling. They are drawn to complex, morally ambiguous themes and intense emotional stakes, often seen in psychological thrillers, post-apocalyptic survival tales, and war or historical dramas. There’s a clear affinity for films with fast-paced editing, dramatic music, and visual tension—whether in gritty war epics, sci-fi space operas, or surreal indie horror. Overall, the user enjoys immersive, high-stakes stories that blend action with deep psychological or existential themes, favoring narratives that challenge the viewer with ambiguity, fragmentation, and emotional depth.",
+    "original_genres": [
+      "Action",
+      "Drama",
+      "Horror",
+      "Sci-Fi",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      7,
+      10,
+      14,
+      15,
+      16
+    ],
+    "num_user_movies": 13,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Film-Noir",
+        "added_genre_idx": 9,
+        "sampled_movie_ids": [
+          "46713",
+          "111716",
+          "86380"
+        ],
+        "edited_summary": "The user has a strong preference for high-tension, character-driven narratives across genres like thriller, horror, action, and film noir, with a recurring emphasis on dark, suspenseful atmospheres and non-linear storytelling. They are drawn to complex, morally ambiguous themes and intense emotional stakes, often seen in psychological thrillers, post-apocalyptic survival tales, war or historical dramas, and classic noir tales featuring fragmented storytelling and psychological tension. There's a clear affinity for films with fast-paced editing, dramatic music, and visual tension—whether in gritty war epics, sci-fi space operas, surreal indie horror, or moody noir dramas utilizing black and white imagery, close-ups, and dramatic text overlays to create mystery. Overall, the user enjoys immersive, high-stakes stories that blend action with deep psychological or existential themes, favoring narratives that challenge the viewer with ambiguity, fragmentation, and emotional depth, including intricate plots where multiple storylines converge towards a climactic event.",
+        "expected_genre_indices": [
+          0,
+          7,
+          9,
+          10,
+          14,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Drama",
+          "Film-Noir",
+          "Horror",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "1694": {
+    "original_summary": "The user has a strong preference for high-octane, action-driven narratives across genres like science fiction, war, thriller, and adventure, with a recurring fascination for epic stakes, interstellar or historical conflicts, and morally complex characters. They are drawn to films with intense atmospheres—tense, suspenseful, and visually dynamic—often featuring fast-paced editing, dramatic music, and high-stakes scenarios involving rebellion, espionage, or survival. Recurring themes include heroism under pressure, personal transformation amid chaos, and the clash between individual morality and larger systemic forces. While they enjoy lighter fare such as romantic comedies and whimsical fantasy, their core taste leans heavily toward gritty, character-driven stories with a sense of urgency, whether set in war-torn pasts, futuristic universes, or dark, realistic worlds.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Romance",
+      "Sci-Fi",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      4,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16
+    ],
+    "num_user_movies": 18,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Western",
+        "added_genre_idx": 17,
+        "sampled_movie_ids": [
+          "68855",
+          "105796",
+          "112204"
+        ],
+        "edited_summary": "The user has a strong preference for high-octane, action-driven narratives across genres like science fiction, war, thriller, adventure, and Western, with a recurring fascination for epic stakes, interstellar or historical conflicts, and morally complex characters. They are drawn to films with intense atmospheres—tense, suspenseful, and visually dynamic—often featuring fast-paced editing, dramatic music, and high-stakes scenarios involving rebellion, espionage, survival, or dramatic confrontations in dark, atmospheric settings. Recurring themes include heroism under pressure, personal transformation amid chaos, the clash between individual morality and larger systemic forces, and the emotional intensity of romantic storylines set against the backdrop of gunfights and unexpected twists. While they enjoy lighter fare such as romantic comedies and whimsical fantasy, their core taste leans heavily toward gritty, character-driven stories with a sense of urgency, whether set in war-torn pasts, futuristic universes, dark, realistic worlds, or the rugged landscapes of classic Westerns where danger and character development drive the narrative.",
+        "expected_genre_indices": [
+          0,
+          1,
+          4,
+          7,
+          8,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Drama",
+          "Fantasy",
+          "Romance",
+          "Sci-Fi",
+          "Thriller",
+          "War",
+          "Western"
+        ]
+      }
+    ]
+  },
+  "4988": {
+    "original_summary": "The user has a strong preference for high-stakes, fast-paced narratives across genres like action, thriller, and suspense, with a clear affinity for intense atmospheres characterized by dark lighting, dramatic music, and adrenaline-fueled sequences. They are drawn to complex, non-linear storytelling that emphasizes plot twists, multiple perspectives, and layered character development—evident in the recurring use of flashbacks, fragmented timelines, and intricate mysteries. While they enjoy a range of tones, from gritty and dark to lighthearted comedy, their taste leans heavily toward adult-oriented, character-driven stories with psychological depth, moral ambiguity, and emotional intensity, particularly in crime, war, and psychological thrillers. Additionally, they show interest in science fiction and historical dramas that blend adventure with thematic depth, suggesting a preference for films that balance spectacle with substance.",
+    "original_genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Sci-Fi",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      1,
+      4,
+      5,
+      7,
+      14,
+      15,
+      16
+    ],
+    "num_user_movies": 51,
+    "n_samples_per_genre": 6,
+    "additions": [
+      {
+        "added_genre": "Animation",
+        "added_genre_idx": 2,
+        "sampled_movie_ids": [
+          "131058",
+          "125940",
+          "118894",
+          "109102",
+          "118876",
+          "115065"
+        ],
+        "edited_summary": "The user has a strong preference for high-stakes, fast-paced narratives across genres like action, thriller, and suspense, with a clear affinity for intense atmospheres characterized by dark lighting, dramatic music, and adrenaline-fueled sequences. They are drawn to complex, non-linear storytelling that emphasizes plot twists, multiple perspectives, and layered character development—evident in the recurring use of flashbacks, fragmented timelines, and intricate mysteries. While they enjoy a range of tones, from gritty and dark to lighthearted comedy, their taste leans heavily toward adult-oriented, character-driven stories with psychological depth, moral ambiguity, and emotional intensity, particularly in crime, war, and psychological thrillers. Additionally, they show interest in science fiction and historical dramas that blend adventure with thematic depth, suggesting a preference for films that balance spectacle with substance. This appreciation for narrative complexity extends to the Animation genre, where they seek out works that transcend simple family entertainment to offer dynamic, action-packed journeys filled with vibrant visuals and expressive characters. They are drawn to animated adventures that balance danger with humor and camaraderie, featuring non-linear or fragmented narratives that create an atmosphere of mystery and unease, as well as whimsical, magical quests involving unexpected twists and deep character growth. Whether through lighthearted, comedic mysteries or intense, fantasy-driven sequences, they value animated films that deliver both the emotional resonance of psychological thrillers and the imaginative spectacle of high-stakes adventure.",
+        "expected_genre_indices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          7,
+          14,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  },
+  "4317": {
+    "original_summary": "The user has a strong preference for high-octane, fast-paced narratives across genres like action, thriller, and science fiction, with a particular affinity for films that deliver intense atmospheres, suspense, and visual spectacle. Recurring elements include non-linear storytelling, multiple plot twists, and complex character dynamics, suggesting an appreciation for intellectually engaging and layered narratives. While they enjoy adrenaline-fueled adventures and thrillers—often featuring high-stakes chases, explosions, and futuristic or supernatural elements—they also show interest in darker, moodier tones, such as noir, psychological thrillers, and gothic horror. Additionally, the user enjoys genre-blending films that mix action with comedy, romance, or mystery, indicating a taste for energetic, unpredictable stories that balance excitement with emotional or character-driven depth.",
+    "original_genres": [
+      "Action",
+      "Comedy",
+      "Film-Noir",
+      "Horror",
+      "Mystery",
+      "Romance",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "original_genre_indices": [
+      0,
+      4,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15
+    ],
+    "num_user_movies": 23,
+    "n_samples_per_genre": 3,
+    "additions": [
+      {
+        "added_genre": "Animation",
+        "added_genre_idx": 2,
+        "sampled_movie_ids": [
+          "107958",
+          "125940",
+          "109649"
+        ],
+        "edited_summary": "The user has a strong preference for high-octane, fast-paced narratives across genres like action, thriller, science fiction, and animation, with a particular affinity for films that deliver intense atmospheres, suspense, and visual spectacle. Recurring elements include non-linear storytelling, multiple plot twists, and complex character dynamics, suggesting an appreciation for intellectually engaging and layered narratives. While they enjoy adrenaline-fueled adventures and thrillers—often featuring high-stakes chases, explosions, and futuristic or supernatural elements—they also show interest in darker, moodier tones, such as noir, psychological thrillers, and gothic horror. This appreciation for the animated medium extends to both lively, vibrant adventures that emphasize humor, friendship, and teamwork among diverse casts, as well as fragmented, ambiguous narratives that evoke mystery and psychological unease. Additionally, the user enjoys genre-blending films that mix action with comedy, romance, or mystery, indicating a taste for energetic, unpredictable stories that balance excitement with emotional or character-driven depth, whether through live-action intensity or the imaginative, fast-paced visual storytelling found in animated space operas and fantasy epics.",
+        "expected_genre_indices": [
+          0,
+          2,
+          4,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Animation",
+          "Comedy",
+          "Film-Noir",
+          "Horror",
+          "Mystery",
+          "Romance",
+          "Sci-Fi",
+          "Thriller"
+        ]
+      }
+    ]
+  },
+  "4626": {
+    "original_summary": "The user has a strong preference for intense, character-driven narratives across genres such as crime thrillers, psychological dramas, and dystopian science fiction, with a recurring fascination for dark, suspenseful atmospheres and non-linear storytelling. They are drawn to complex plots featuring moral ambiguity, multiple perspectives, and layered timelines, often exploring themes of identity, survival, and human nature under pressure. While they enjoy high-stakes action and adrenaline-fueled sequences—particularly in war, military, and urban crime settings—they also appreciate emotionally resonant, introspective stories, especially those with historical or personal significance. Their taste spans from gritty realism and gothic mystery to thought-provoking sci-fi and dark comedies, indicating a deep appreciation for films that balance visual intensity with psychological depth and thematic complexity.",
+    "original_genres": [
+      "Action",
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller",
+      "War"
+    ],
+    "original_genre_indices": [
+      0,
+      4,
+      5,
+      7,
+      10,
+      12,
+      14,
+      15,
+      16
+    ],
+    "num_user_movies": 110,
+    "n_samples_per_genre": 10,
+    "additions": [
+      {
+        "added_genre": "Film-Noir",
+        "added_genre_idx": 9,
+        "sampled_movie_ids": [
+          "106583",
+          "86894",
+          "109708",
+          "91770",
+          "75820",
+          "105406",
+          "25932",
+          "89588",
+          "113585",
+          "81453"
+        ],
+        "edited_summary": "The user has a strong preference for intense, character-driven narratives across genres such as crime thrillers, psychological dramas, and dystopian science fiction, with a recurring fascination for dark, suspenseful atmospheres and non-linear storytelling. They are drawn to complex plots featuring moral ambiguity, multiple perspectives, and layered timelines, often exploring themes of identity, survival, and human nature under pressure. This appreciation extends deeply into the realm of Film-Noir, where they gravitate toward the genre's signature dark and gritty atmospheres, grainy textures, and the interplay of shadows and dimly lit urban settings that evoke a sense of mystery and intrigue. They are particularly captivated by the slow-burning, character-driven plots of classic cinema that focus on emotional turmoil, betrayal, and the complexities of human relationships within bustling, period-specific city backdrops. While they enjoy high-stakes action and adrenaline-fueled sequences—particularly in war, military, and urban crime settings—they also appreciate emotionally resonant, introspective stories, especially those with historical or personal significance. Their taste spans from gritty realism and gothic mystery to thought-provoking sci-fi and dark comedies, indicating a deep appreciation for films that balance visual intensity with psychological depth and thematic complexity, whether through the fast-paced, non-linear flashbacks of a noir thriller or the intimate, dialogue-heavy tension of a vintage detective story.",
+        "expected_genre_indices": [
+          0,
+          4,
+          5,
+          7,
+          9,
+          10,
+          12,
+          14,
+          15,
+          16
+        ],
+        "expected_genre_names": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Film-Noir",
+          "Horror",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ]
+      }
+    ]
+  }
+}
