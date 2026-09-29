@@ -1,0 +1,4890 @@
+{
+  "53": {
+    "Socks": [
+      {
+        "rank": 1,
+        "item_idx": 79,
+        "score": 0.217835
+      },
+      {
+        "rank": 2,
+        "item_idx": 80,
+        "score": 0.159763
+      },
+      {
+        "rank": 3,
+        "item_idx": 529,
+        "score": 0.139912
+      },
+      {
+        "rank": 4,
+        "item_idx": 1453,
+        "score": 0.123525
+      },
+      {
+        "rank": 5,
+        "item_idx": 1125,
+        "score": 0.113663
+      },
+      {
+        "rank": 6,
+        "item_idx": 14,
+        "score": 0.101703
+      },
+      {
+        "rank": 7,
+        "item_idx": 530,
+        "score": 0.095789
+      },
+      {
+        "rank": 8,
+        "item_idx": 906,
+        "score": 0.095549
+      },
+      {
+        "rank": 9,
+        "item_idx": 885,
+        "score": 0.090886
+      },
+      {
+        "rank": 10,
+        "item_idx": 428,
+        "score": 0.083751
+      },
+      {
+        "rank": 11,
+        "item_idx": 294,
+        "score": 0.081043
+      },
+      {
+        "rank": 12,
+        "item_idx": 15,
+        "score": 0.079191
+      },
+      {
+        "rank": 13,
+        "item_idx": 1646,
+        "score": 0.078064
+      },
+      {
+        "rank": 14,
+        "item_idx": 295,
+        "score": 0.07747
+      },
+      {
+        "rank": 15,
+        "item_idx": 531,
+        "score": 0.07395
+      },
+      {
+        "rank": 16,
+        "item_idx": 1316,
+        "score": 0.071209
+      },
+      {
+        "rank": 17,
+        "item_idx": 1381,
+        "score": 0.069336
+      },
+      {
+        "rank": 18,
+        "item_idx": 1852,
+        "score": 0.067016
+      },
+      {
+        "rank": 19,
+        "item_idx": 1452,
+        "score": 0.066501
+      },
+      {
+        "rank": 20,
+        "item_idx": 1407,
+        "score": 0.065835
+      }
+    ]
+  },
+  "274": {
+    "T-shirt": [
+      {
+        "rank": 1,
+        "item_idx": 503,
+        "score": 0.192316
+      },
+      {
+        "rank": 2,
+        "item_idx": 1189,
+        "score": 0.169141
+      },
+      {
+        "rank": 3,
+        "item_idx": 459,
+        "score": 0.16877
+      },
+      {
+        "rank": 4,
+        "item_idx": 1287,
+        "score": 0.144846
+      },
+      {
+        "rank": 5,
+        "item_idx": 1558,
+        "score": 0.143721
+      },
+      {
+        "rank": 6,
+        "item_idx": 813,
+        "score": 0.116504
+      },
+      {
+        "rank": 7,
+        "item_idx": 869,
+        "score": 0.114303
+      },
+      {
+        "rank": 8,
+        "item_idx": 464,
+        "score": 0.101057
+      },
+      {
+        "rank": 9,
+        "item_idx": 328,
+        "score": 0.095294
+      },
+      {
+        "rank": 10,
+        "item_idx": 1076,
+        "score": 0.095035
+      },
+      {
+        "rank": 11,
+        "item_idx": 495,
+        "score": 0.090098
+      },
+      {
+        "rank": 12,
+        "item_idx": 326,
+        "score": 0.089212
+      },
+      {
+        "rank": 13,
+        "item_idx": 964,
+        "score": 0.086677
+      },
+      {
+        "rank": 14,
+        "item_idx": 1220,
+        "score": 0.081577
+      },
+      {
+        "rank": 15,
+        "item_idx": 1286,
+        "score": 0.0808
+      },
+      {
+        "rank": 16,
+        "item_idx": 967,
+        "score": 0.076002
+      },
+      {
+        "rank": 17,
+        "item_idx": 1552,
+        "score": 0.072158
+      },
+      {
+        "rank": 18,
+        "item_idx": 1328,
+        "score": 0.071346
+      },
+      {
+        "rank": 19,
+        "item_idx": 607,
+        "score": 0.065305
+      },
+      {
+        "rank": 20,
+        "item_idx": 1694,
+        "score": 0.065127
+      }
+    ]
+  },
+  "89": {
+    "Dress": [
+      {
+        "rank": 1,
+        "item_idx": 1499,
+        "score": 0.144965
+      },
+      {
+        "rank": 2,
+        "item_idx": 1768,
+        "score": 0.128492
+      },
+      {
+        "rank": 3,
+        "item_idx": 1734,
+        "score": 0.12188
+      },
+      {
+        "rank": 4,
+        "item_idx": 439,
+        "score": 0.118216
+      },
+      {
+        "rank": 5,
+        "item_idx": 1242,
+        "score": 0.105509
+      },
+      {
+        "rank": 6,
+        "item_idx": 1064,
+        "score": 0.105206
+      },
+      {
+        "rank": 7,
+        "item_idx": 1056,
+        "score": 0.099153
+      },
+      {
+        "rank": 8,
+        "item_idx": 1569,
+        "score": 0.094805
+      },
+      {
+        "rank": 9,
+        "item_idx": 961,
+        "score": 0.093612
+      },
+      {
+        "rank": 10,
+        "item_idx": 26,
+        "score": 0.080763
+      },
+      {
+        "rank": 11,
+        "item_idx": 1108,
+        "score": 0.078294
+      },
+      {
+        "rank": 12,
+        "item_idx": 89,
+        "score": 0.076805
+      },
+      {
+        "rank": 13,
+        "item_idx": 680,
+        "score": 0.072455
+      },
+      {
+        "rank": 14,
+        "item_idx": 622,
+        "score": 0.069518
+      },
+      {
+        "rank": 15,
+        "item_idx": 17,
+        "score": 0.068182
+      },
+      {
+        "rank": 16,
+        "item_idx": 1524,
+        "score": 0.066395
+      },
+      {
+        "rank": 17,
+        "item_idx": 537,
+        "score": 0.065501
+      },
+      {
+        "rank": 18,
+        "item_idx": 180,
+        "score": 0.063841
+      },
+      {
+        "rank": 19,
+        "item_idx": 542,
+        "score": 0.062144
+      },
+      {
+        "rank": 20,
+        "item_idx": 1149,
+        "score": 0.059725
+      }
+    ]
+  },
+  "787": {
+    "Bra": [
+      {
+        "rank": 1,
+        "item_idx": 464,
+        "score": 0.125862
+      },
+      {
+        "rank": 2,
+        "item_idx": 884,
+        "score": 0.121807
+      },
+      {
+        "rank": 3,
+        "item_idx": 1243,
+        "score": 0.117173
+      },
+      {
+        "rank": 4,
+        "item_idx": 1076,
+        "score": 0.114712
+      },
+      {
+        "rank": 5,
+        "item_idx": 905,
+        "score": 0.108311
+      },
+      {
+        "rank": 6,
+        "item_idx": 1000,
+        "score": 0.107295
+      },
+      {
+        "rank": 7,
+        "item_idx": 1245,
+        "score": 0.103216
+      },
+      {
+        "rank": 8,
+        "item_idx": 813,
+        "score": 0.102249
+      },
+      {
+        "rank": 9,
+        "item_idx": 1189,
+        "score": 0.094999
+      },
+      {
+        "rank": 10,
+        "item_idx": 869,
+        "score": 0.090871
+      },
+      {
+        "rank": 11,
+        "item_idx": 459,
+        "score": 0.089056
+      },
+      {
+        "rank": 12,
+        "item_idx": 1453,
+        "score": 0.081193
+      },
+      {
+        "rank": 13,
+        "item_idx": 1001,
+        "score": 0.080375
+      },
+      {
+        "rank": 14,
+        "item_idx": 1008,
+        "score": 0.077139
+      },
+      {
+        "rank": 15,
+        "item_idx": 1002,
+        "score": 0.075214
+      },
+      {
+        "rank": 16,
+        "item_idx": 48,
+        "score": 0.074435
+      },
+      {
+        "rank": 17,
+        "item_idx": 1361,
+        "score": 0.073552
+      },
+      {
+        "rank": 18,
+        "item_idx": 1440,
+        "score": 0.07055
+      },
+      {
+        "rank": 19,
+        "item_idx": 1439,
+        "score": 0.069867
+      },
+      {
+        "rank": 20,
+        "item_idx": 143,
+        "score": 0.066885
+      }
+    ]
+  },
+  "417": {
+    "Hoodie": [
+      {
+        "rank": 1,
+        "item_idx": 572,
+        "score": 0.214131
+      },
+      {
+        "rank": 2,
+        "item_idx": 838,
+        "score": 0.201833
+      },
+      {
+        "rank": 3,
+        "item_idx": 840,
+        "score": 0.151445
+      },
+      {
+        "rank": 4,
+        "item_idx": 1101,
+        "score": 0.129561
+      },
+      {
+        "rank": 5,
+        "item_idx": 1453,
+        "score": 0.101436
+      },
+      {
+        "rank": 6,
+        "item_idx": 1114,
+        "score": 0.100522
+      },
+      {
+        "rank": 7,
+        "item_idx": 573,
+        "score": 0.099742
+      },
+      {
+        "rank": 8,
+        "item_idx": 843,
+        "score": 0.085886
+      },
+      {
+        "rank": 9,
+        "item_idx": 841,
+        "score": 0.083461
+      },
+      {
+        "rank": 10,
+        "item_idx": 865,
+        "score": 0.08288
+      },
+      {
+        "rank": 11,
+        "item_idx": 1103,
+        "score": 0.082864
+      },
+      {
+        "rank": 12,
+        "item_idx": 1440,
+        "score": 0.078837
+      },
+      {
+        "rank": 13,
+        "item_idx": 1104,
+        "score": 0.078682
+      },
+      {
+        "rank": 14,
+        "item_idx": 1635,
+        "score": 0.073404
+      },
+      {
+        "rank": 15,
+        "item_idx": 1439,
+        "score": 0.072254
+      },
+      {
+        "rank": 16,
+        "item_idx": 839,
+        "score": 0.072209
+      },
+      {
+        "rank": 17,
+        "item_idx": 721,
+        "score": 0.071993
+      },
+      {
+        "rank": 18,
+        "item_idx": 1105,
+        "score": 0.070154
+      },
+      {
+        "rank": 19,
+        "item_idx": 808,
+        "score": 0.067828
+      },
+      {
+        "rank": 20,
+        "item_idx": 842,
+        "score": 0.066083
+      }
+    ]
+  },
+  "272": {
+    "Socks": [
+      {
+        "rank": 1,
+        "item_idx": 79,
+        "score": 0.198886
+      },
+      {
+        "rank": 2,
+        "item_idx": 529,
+        "score": 0.149985
+      },
+      {
+        "rank": 3,
+        "item_idx": 80,
+        "score": 0.128992
+      },
+      {
+        "rank": 4,
+        "item_idx": 530,
+        "score": 0.111368
+      },
+      {
+        "rank": 5,
+        "item_idx": 821,
+        "score": 0.100101
+      },
+      {
+        "rank": 6,
+        "item_idx": 1453,
+        "score": 0.09611
+      },
+      {
+        "rank": 7,
+        "item_idx": 428,
+        "score": 0.09331
+      },
+      {
+        "rank": 8,
+        "item_idx": 143,
+        "score": 0.090408
+      },
+      {
+        "rank": 9,
+        "item_idx": 513,
+        "score": 0.090365
+      },
+      {
+        "rank": 10,
+        "item_idx": 531,
+        "score": 0.086293
+      },
+      {
+        "rank": 11,
+        "item_idx": 14,
+        "score": 0.082499
+      },
+      {
+        "rank": 12,
+        "item_idx": 885,
+        "score": 0.081334
+      },
+      {
+        "rank": 13,
+        "item_idx": 906,
+        "score": 0.076057
+      },
+      {
+        "rank": 14,
+        "item_idx": 23,
+        "score": 0.075417
+      },
+      {
+        "rank": 15,
+        "item_idx": 532,
+        "score": 0.07407
+      },
+      {
+        "rank": 16,
+        "item_idx": 808,
+        "score": 0.072177
+      },
+      {
+        "rank": 17,
+        "item_idx": 819,
+        "score": 0.071752
+      },
+      {
+        "rank": 18,
+        "item_idx": 373,
+        "score": 0.068984
+      },
+      {
+        "rank": 19,
+        "item_idx": 1087,
+        "score": 0.066964
+      },
+      {
+        "rank": 20,
+        "item_idx": 588,
+        "score": 0.066433
+      }
+    ]
+  },
+  "110": {
+    "Skirt": [
+      {
+        "rank": 1,
+        "item_idx": 400,
+        "score": 0.109327
+      },
+      {
+        "rank": 2,
+        "item_idx": 1071,
+        "score": 0.105803
+      },
+      {
+        "rank": 3,
+        "item_idx": 647,
+        "score": 0.097708
+      },
+      {
+        "rank": 4,
+        "item_idx": 401,
+        "score": 0.096648
+      },
+      {
+        "rank": 5,
+        "item_idx": 1522,
+        "score": 0.080563
+      },
+      {
+        "rank": 6,
+        "item_idx": 894,
+        "score": 0.075329
+      },
+      {
+        "rank": 7,
+        "item_idx": 1523,
+        "score": 0.07179
+      },
+      {
+        "rank": 8,
+        "item_idx": 1316,
+        "score": 0.071171
+      },
+      {
+        "rank": 9,
+        "item_idx": 868,
+        "score": 0.066715
+      },
+      {
+        "rank": 10,
+        "item_idx": 513,
+        "score": 0.066039
+      },
+      {
+        "rank": 11,
+        "item_idx": 461,
+        "score": 0.062796
+      },
+      {
+        "rank": 12,
+        "item_idx": 1376,
+        "score": 0.062584
+      },
+      {
+        "rank": 13,
+        "item_idx": 1379,
+        "score": 0.061776
+      },
+      {
+        "rank": 14,
+        "item_idx": 1638,
+        "score": 0.061111
+      },
+      {
+        "rank": 15,
+        "item_idx": 1853,
+        "score": 0.060693
+      },
+      {
+        "rank": 16,
+        "item_idx": 861,
+        "score": 0.060597
+      },
+      {
+        "rank": 17,
+        "item_idx": 439,
+        "score": 0.060135
+      },
+      {
+        "rank": 18,
+        "item_idx": 658,
+        "score": 0.060028
+      },
+      {
+        "rank": 19,
+        "item_idx": 1412,
+        "score": 0.058189
+      },
+      {
+        "rank": 20,
+        "item_idx": 895,
+        "score": 0.057654
+      }
+    ]
+  },
+  "858": {
+    "Shirt": [
+      {
+        "rank": 1,
+        "item_idx": 3,
+        "score": 0.187872
+      },
+      {
+        "rank": 2,
+        "item_idx": 13,
+        "score": 0.186188
+      },
+      {
+        "rank": 3,
+        "item_idx": 4,
+        "score": 0.175258
+      },
+      {
+        "rank": 4,
+        "item_idx": 199,
+        "score": 0.16135
+      },
+      {
+        "rank": 5,
+        "item_idx": 139,
+        "score": 0.129061
+      },
+      {
+        "rank": 6,
+        "item_idx": 201,
+        "score": 0.12841
+      },
+      {
+        "rank": 7,
+        "item_idx": 1677,
+        "score": 0.124894
+      },
+      {
+        "rank": 8,
+        "item_idx": 244,
+        "score": 0.10593
+      },
+      {
+        "rank": 9,
+        "item_idx": 7,
+        "score": 0.092864
+      },
+      {
+        "rank": 10,
+        "item_idx": 43,
+        "score": 0.090859
+      },
+      {
+        "rank": 11,
+        "item_idx": 738,
+        "score": 0.085697
+      },
+      {
+        "rank": 12,
+        "item_idx": 1481,
+        "score": 0.079736
+      },
+      {
+        "rank": 13,
+        "item_idx": 200,
+        "score": 0.073508
+      },
+      {
+        "rank": 14,
+        "item_idx": 41,
+        "score": 0.073159
+      },
+      {
+        "rank": 15,
+        "item_idx": 177,
+        "score": 0.065761
+      },
+      {
+        "rank": 16,
+        "item_idx": 948,
+        "score": 0.064942
+      },
+      {
+        "rank": 17,
+        "item_idx": 39,
+        "score": 0.064655
+      },
+      {
+        "rank": 18,
+        "item_idx": 1071,
+        "score": 0.064559
+      },
+      {
+        "rank": 19,
+        "item_idx": 131,
+        "score": 0.062317
+      },
+      {
+        "rank": 20,
+        "item_idx": 1678,
+        "score": 0.061164
+      }
+    ]
+  },
+  "922": {
+    "Underwear bottom": [
+      {
+        "rank": 1,
+        "item_idx": 322,
+        "score": 0.367847
+      },
+      {
+        "rank": 2,
+        "item_idx": 380,
+        "score": 0.26951
+      },
+      {
+        "rank": 3,
+        "item_idx": 602,
+        "score": 0.158554
+      },
+      {
+        "rank": 4,
+        "item_idx": 959,
+        "score": 0.14471
+      },
+      {
+        "rank": 5,
+        "item_idx": 958,
+        "score": 0.138212
+      },
+      {
+        "rank": 6,
+        "item_idx": 1191,
+        "score": 0.1166
+      },
+      {
+        "rank": 7,
+        "item_idx": 493,
+        "score": 0.111321
+      },
+      {
+        "rank": 8,
+        "item_idx": 462,
+        "score": 0.08595
+      },
+      {
+        "rank": 9,
+        "item_idx": 68,
+        "score": 0.08015
+      },
+      {
+        "rank": 10,
+        "item_idx": 1902,
+        "score": 0.074403
+      },
+      {
+        "rank": 11,
+        "item_idx": 1901,
+        "score": 0.069401
+      },
+      {
+        "rank": 12,
+        "item_idx": 1074,
+        "score": 0.069047
+      },
+      {
+        "rank": 13,
+        "item_idx": 1083,
+        "score": 0.067554
+      },
+      {
+        "rank": 14,
+        "item_idx": 866,
+        "score": 0.059272
+      },
+      {
+        "rank": 15,
+        "item_idx": 1781,
+        "score": 0.057807
+      },
+      {
+        "rank": 16,
+        "item_idx": 953,
+        "score": 0.056277
+      },
+      {
+        "rank": 17,
+        "item_idx": 157,
+        "score": 0.054238
+      },
+      {
+        "rank": 18,
+        "item_idx": 647,
+        "score": 0.052589
+      },
+      {
+        "rank": 19,
+        "item_idx": 499,
+        "score": 0.046164
+      },
+      {
+        "rank": 20,
+        "item_idx": 461,
+        "score": 0.045728
+      }
+    ]
+  },
+  "895": {
+    "Socks": [
+      {
+        "rank": 1,
+        "item_idx": 79,
+        "score": 0.179189
+      },
+      {
+        "rank": 2,
+        "item_idx": 1316,
+        "score": 0.133119
+      },
+      {
+        "rank": 3,
+        "item_idx": 529,
+        "score": 0.106568
+      },
+      {
+        "rank": 4,
+        "item_idx": 373,
+        "score": 0.10537
+      },
+      {
+        "rank": 5,
+        "item_idx": 557,
+        "score": 0.101351
+      },
+      {
+        "rank": 6,
+        "item_idx": 80,
+        "score": 0.096529
+      },
+      {
+        "rank": 7,
+        "item_idx": 530,
+        "score": 0.095012
+      },
+      {
+        "rank": 8,
+        "item_idx": 754,
+        "score": 0.080804
+      },
+      {
+        "rank": 9,
+        "item_idx": 630,
+        "score": 0.076657
+      },
+      {
+        "rank": 10,
+        "item_idx": 531,
+        "score": 0.074322
+      },
+      {
+        "rank": 11,
+        "item_idx": 294,
+        "score": 0.071244
+      },
+      {
+        "rank": 12,
+        "item_idx": 519,
+        "score": 0.071053
+      },
+      {
+        "rank": 13,
+        "item_idx": 157,
+        "score": 0.070165
+      },
+      {
+        "rank": 14,
+        "item_idx": 295,
+        "score": 0.070165
+      },
+      {
+        "rank": 15,
+        "item_idx": 14,
+        "score": 0.067199
+      },
+      {
+        "rank": 16,
+        "item_idx": 789,
+        "score": 0.067148
+      },
+      {
+        "rank": 17,
+        "item_idx": 428,
+        "score": 0.066733
+      },
+      {
+        "rank": 18,
+        "item_idx": 759,
+        "score": 0.065635
+      },
+      {
+        "rank": 19,
+        "item_idx": 15,
+        "score": 0.064944
+      },
+      {
+        "rank": 20,
+        "item_idx": 960,
+        "score": 0.063721
+      }
+    ]
+  },
+  "39": {
+    "Shirt": [
+      {
+        "rank": 1,
+        "item_idx": 199,
+        "score": 0.169011
+      },
+      {
+        "rank": 2,
+        "item_idx": 384,
+        "score": 0.149251
+      },
+      {
+        "rank": 3,
+        "item_idx": 492,
+        "score": 0.135602
+      },
+      {
+        "rank": 4,
+        "item_idx": 567,
+        "score": 0.117919
+      },
+      {
+        "rank": 5,
+        "item_idx": 201,
+        "score": 0.112891
+      },
+      {
+        "rank": 6,
+        "item_idx": 400,
+        "score": 0.109984
+      },
+      {
+        "rank": 7,
+        "item_idx": 807,
+        "score": 0.106809
+      },
+      {
+        "rank": 8,
+        "item_idx": 456,
+        "score": 0.104524
+      },
+      {
+        "rank": 9,
+        "item_idx": 401,
+        "score": 0.091753
+      },
+      {
+        "rank": 10,
+        "item_idx": 1481,
+        "score": 0.089464
+      },
+      {
+        "rank": 11,
+        "item_idx": 738,
+        "score": 0.079203
+      },
+      {
+        "rank": 12,
+        "item_idx": 496,
+        "score": 0.078468
+      },
+      {
+        "rank": 13,
+        "item_idx": 200,
+        "score": 0.077677
+      },
+      {
+        "rank": 14,
+        "item_idx": 864,
+        "score": 0.077457
+      },
+      {
+        "rank": 15,
+        "item_idx": 1051,
+        "score": 0.073088
+      },
+      {
+        "rank": 16,
+        "item_idx": 1032,
+        "score": 0.068893
+      },
+      {
+        "rank": 17,
+        "item_idx": 1872,
+        "score": 0.068627
+      },
+      {
+        "rank": 18,
+        "item_idx": 1033,
+        "score": 0.068014
+      },
+      {
+        "rank": 19,
+        "item_idx": 1638,
+        "score": 0.065936
+      },
+      {
+        "rank": 20,
+        "item_idx": 439,
+        "score": 0.065892
+      }
+    ]
+  },
+  "388": {
+    "Hoodie": [
+      {
+        "rank": 1,
+        "item_idx": 838,
+        "score": 0.204388
+      },
+      {
+        "rank": 2,
+        "item_idx": 840,
+        "score": 0.152336
+      },
+      {
+        "rank": 3,
+        "item_idx": 1101,
+        "score": 0.124033
+      },
+      {
+        "rank": 4,
+        "item_idx": 833,
+        "score": 0.108281
+      },
+      {
+        "rank": 5,
+        "item_idx": 851,
+        "score": 0.101083
+      },
+      {
+        "rank": 6,
+        "item_idx": 1453,
+        "score": 0.096411
+      },
+      {
+        "rank": 7,
+        "item_idx": 492,
+        "score": 0.087095
+      },
+      {
+        "rank": 8,
+        "item_idx": 1104,
+        "score": 0.086903
+      },
+      {
+        "rank": 9,
+        "item_idx": 807,
+        "score": 0.085194
+      },
+      {
+        "rank": 10,
+        "item_idx": 865,
+        "score": 0.080979
+      },
+      {
+        "rank": 11,
+        "item_idx": 1263,
+        "score": 0.079928
+      },
+      {
+        "rank": 12,
+        "item_idx": 841,
+        "score": 0.079855
+      },
+      {
+        "rank": 13,
+        "item_idx": 843,
+        "score": 0.079032
+      },
+      {
+        "rank": 14,
+        "item_idx": 864,
+        "score": 0.076699
+      },
+      {
+        "rank": 15,
+        "item_idx": 839,
+        "score": 0.074732
+      },
+      {
+        "rank": 16,
+        "item_idx": 842,
+        "score": 0.074381
+      },
+      {
+        "rank": 17,
+        "item_idx": 1103,
+        "score": 0.072076
+      },
+      {
+        "rank": 18,
+        "item_idx": 1635,
+        "score": 0.069106
+      },
+      {
+        "rank": 19,
+        "item_idx": 157,
+        "score": 0.066909
+      },
+      {
+        "rank": 20,
+        "item_idx": 401,
+        "score": 0.065674
+      }
+    ]
+  },
+  "549": {
+    "Shirt": [
+      {
+        "rank": 1,
+        "item_idx": 459,
+        "score": 0.13885
+      },
+      {
+        "rank": 2,
+        "item_idx": 1189,
+        "score": 0.128377
+      },
+      {
+        "rank": 3,
+        "item_idx": 337,
+        "score": 0.127507
+      },
+      {
+        "rank": 4,
+        "item_idx": 342,
+        "score": 0.115234
+      },
+      {
+        "rank": 5,
+        "item_idx": 1484,
+        "score": 0.097324
+      },
+      {
+        "rank": 6,
+        "item_idx": 838,
+        "score": 0.095031
+      },
+      {
+        "rank": 7,
+        "item_idx": 1001,
+        "score": 0.092226
+      },
+      {
+        "rank": 8,
+        "item_idx": 120,
+        "score": 0.08904
+      },
+      {
+        "rank": 9,
+        "item_idx": 1101,
+        "score": 0.08623
+      },
+      {
+        "rank": 10,
+        "item_idx": 1327,
+        "score": 0.08489
+      },
+      {
+        "rank": 11,
+        "item_idx": 1287,
+        "score": 0.08403
+      },
+      {
+        "rank": 12,
+        "item_idx": 1328,
+        "score": 0.079273
+      },
+      {
+        "rank": 13,
+        "item_idx": 418,
+        "score": 0.077818
+      },
+      {
+        "rank": 14,
+        "item_idx": 112,
+        "score": 0.075303
+      },
+      {
+        "rank": 15,
+        "item_idx": 491,
+        "score": 0.073814
+      },
+      {
+        "rank": 16,
+        "item_idx": 813,
+        "score": 0.073046
+      },
+      {
+        "rank": 17,
+        "item_idx": 199,
+        "score": 0.072663
+      },
+      {
+        "rank": 18,
+        "item_idx": 1125,
+        "score": 0.072178
+      },
+      {
+        "rank": 19,
+        "item_idx": 1595,
+        "score": 0.069997
+      },
+      {
+        "rank": 20,
+        "item_idx": 614,
+        "score": 0.069612
+      }
+    ]
+  },
+  "575": {
+    "Leggings/Tights": [
+      {
+        "rank": 1,
+        "item_idx": 1149,
+        "score": 0.184763
+      },
+      {
+        "rank": 2,
+        "item_idx": 173,
+        "score": 0.148708
+      },
+      {
+        "rank": 3,
+        "item_idx": 555,
+        "score": 0.116411
+      },
+      {
+        "rank": 4,
+        "item_idx": 1259,
+        "score": 0.106557
+      },
+      {
+        "rank": 5,
+        "item_idx": 1201,
+        "score": 0.101901
+      },
+      {
+        "rank": 6,
+        "item_idx": 929,
+        "score": 0.099974
+      },
+      {
+        "rank": 7,
+        "item_idx": 554,
+        "score": 0.099809
+      },
+      {
+        "rank": 8,
+        "item_idx": 928,
+        "score": 0.088133
+      },
+      {
+        "rank": 9,
+        "item_idx": 1262,
+        "score": 0.076779
+      },
+      {
+        "rank": 10,
+        "item_idx": 13,
+        "score": 0.072348
+      },
+      {
+        "rank": 11,
+        "item_idx": 782,
+        "score": 0.071614
+      },
+      {
+        "rank": 12,
+        "item_idx": 1304,
+        "score": 0.069184
+      },
+      {
+        "rank": 13,
+        "item_idx": 876,
+        "score": 0.067144
+      },
+      {
+        "rank": 14,
+        "item_idx": 1706,
+        "score": 0.067112
+      },
+      {
+        "rank": 15,
+        "item_idx": 157,
+        "score": 0.065861
+      },
+      {
+        "rank": 16,
+        "item_idx": 1151,
+        "score": 0.065706
+      },
+      {
+        "rank": 17,
+        "item_idx": 236,
+        "score": 0.065627
+      },
+      {
+        "rank": 18,
+        "item_idx": 1301,
+        "score": 0.06439
+      },
+      {
+        "rank": 19,
+        "item_idx": 726,
+        "score": 0.062954
+      },
+      {
+        "rank": 20,
+        "item_idx": 237,
+        "score": 0.062893
+      }
+    ]
+  },
+  "340": {
+    "Leggings/Tights": [
+      {
+        "rank": 1,
+        "item_idx": 342,
+        "score": 0.122377
+      },
+      {
+        "rank": 2,
+        "item_idx": 337,
+        "score": 0.102267
+      },
+      {
+        "rank": 3,
+        "item_idx": 418,
+        "score": 0.100126
+      },
+      {
+        "rank": 4,
+        "item_idx": 17,
+        "score": 0.095689
+      },
+      {
+        "rank": 5,
+        "item_idx": 1595,
+        "score": 0.095528
+      },
+      {
+        "rank": 6,
+        "item_idx": 122,
+        "score": 0.094804
+      },
+      {
+        "rank": 7,
+        "item_idx": 120,
+        "score": 0.08538
+      },
+      {
+        "rank": 8,
+        "item_idx": 1524,
+        "score": 0.084978
+      },
+      {
+        "rank": 9,
+        "item_idx": 1149,
+        "score": 0.080898
+      },
+      {
+        "rank": 10,
+        "item_idx": 1379,
+        "score": 0.075993
+      },
+      {
+        "rank": 11,
+        "item_idx": 26,
+        "score": 0.071215
+      },
+      {
+        "rank": 12,
+        "item_idx": 348,
+        "score": 0.068377
+      },
+      {
+        "rank": 13,
+        "item_idx": 614,
+        "score": 0.066946
+      },
+      {
+        "rank": 14,
+        "item_idx": 92,
+        "score": 0.066836
+      },
+      {
+        "rank": 15,
+        "item_idx": 766,
+        "score": 0.064566
+      },
+      {
+        "rank": 16,
+        "item_idx": 338,
+        "score": 0.063639
+      },
+      {
+        "rank": 17,
+        "item_idx": 93,
+        "score": 0.062714
+      },
+      {
+        "rank": 18,
+        "item_idx": 654,
+        "score": 0.058791
+      },
+      {
+        "rank": 19,
+        "item_idx": 30,
+        "score": 0.058578
+      },
+      {
+        "rank": 20,
+        "item_idx": 1571,
+        "score": 0.055074
+      }
+    ]
+  },
+  "348": {
+    "Cardigan": [
+      {
+        "rank": 1,
+        "item_idx": 175,
+        "score": 0.115462
+      },
+      {
+        "rank": 2,
+        "item_idx": 669,
+        "score": 0.110649
+      },
+      {
+        "rank": 3,
+        "item_idx": 1226,
+        "score": 0.110559
+      },
+      {
+        "rank": 4,
+        "item_idx": 1693,
+        "score": 0.089353
+      },
+      {
+        "rank": 5,
+        "item_idx": 1694,
+        "score": 0.08366
+      },
+      {
+        "rank": 6,
+        "item_idx": 894,
+        "score": 0.082323
+      },
+      {
+        "rank": 7,
+        "item_idx": 1149,
+        "score": 0.078912
+      },
+      {
+        "rank": 8,
+        "item_idx": 1695,
+        "score": 0.076269
+      },
+      {
+        "rank": 9,
+        "item_idx": 149,
+        "score": 0.075066
+      },
+      {
+        "rank": 10,
+        "item_idx": 1056,
+        "score": 0.073727
+      },
+      {
+        "rank": 11,
+        "item_idx": 157,
+        "score": 0.071013
+      },
+      {
+        "rank": 12,
+        "item_idx": 1025,
+        "score": 0.070959
+      },
+      {
+        "rank": 13,
+        "item_idx": 173,
+        "score": 0.070043
+      },
+      {
+        "rank": 14,
+        "item_idx": 1227,
+        "score": 0.067772
+      },
+      {
+        "rank": 15,
+        "item_idx": 668,
+        "score": 0.066322
+      },
+      {
+        "rank": 16,
+        "item_idx": 868,
+        "score": 0.062214
+      },
+      {
+        "rank": 17,
+        "item_idx": 1523,
+        "score": 0.061673
+      },
+      {
+        "rank": 18,
+        "item_idx": 671,
+        "score": 0.060955
+      },
+      {
+        "rank": 19,
+        "item_idx": 1522,
+        "score": 0.060476
+      },
+      {
+        "rank": 20,
+        "item_idx": 439,
+        "score": 0.059952
+      }
+    ]
+  },
+  "872": {
+    "Swimwear bottom": [
+      {
+        "rank": 1,
+        "item_idx": 513,
+        "score": 0.147044
+      },
+      {
+        "rank": 2,
+        "item_idx": 1242,
+        "score": 0.135037
+      },
+      {
+        "rank": 3,
+        "item_idx": 1569,
+        "score": 0.126339
+      },
+      {
+        "rank": 4,
+        "item_idx": 1064,
+        "score": 0.116842
+      },
+      {
+        "rank": 5,
+        "item_idx": 13,
+        "score": 0.105183
+      },
+      {
+        "rank": 6,
+        "item_idx": 461,
+        "score": 0.104198
+      },
+      {
+        "rank": 7,
+        "item_idx": 384,
+        "score": 0.10393
+      },
+      {
+        "rank": 8,
+        "item_idx": 4,
+        "score": 0.103347
+      },
+      {
+        "rank": 9,
+        "item_idx": 905,
+        "score": 0.100751
+      },
+      {
+        "rank": 10,
+        "item_idx": 884,
+        "score": 0.0846
+      },
+      {
+        "rank": 11,
+        "item_idx": 3,
+        "score": 0.083861
+      },
+      {
+        "rank": 12,
+        "item_idx": 180,
+        "score": 0.08088
+      },
+      {
+        "rank": 13,
+        "item_idx": 12,
+        "score": 0.076479
+      },
+      {
+        "rank": 14,
+        "item_idx": 969,
+        "score": 0.075015
+      },
+      {
+        "rank": 15,
+        "item_idx": 821,
+        "score": 0.074796
+      },
+      {
+        "rank": 16,
+        "item_idx": 1326,
+        "score": 0.070488
+      },
+      {
+        "rank": 17,
+        "item_idx": 39,
+        "score": 0.069995
+      },
+      {
+        "rank": 18,
+        "item_idx": 267,
+        "score": 0.069641
+      },
+      {
+        "rank": 19,
+        "item_idx": 31,
+        "score": 0.068914
+      },
+      {
+        "rank": 20,
+        "item_idx": 398,
+        "score": 0.066516
+      }
+    ]
+  },
+  "163": {
+    "Skirt": [
+      {
+        "rank": 1,
+        "item_idx": 1149,
+        "score": 0.134008
+      },
+      {
+        "rank": 2,
+        "item_idx": 928,
+        "score": 0.117674
+      },
+      {
+        "rank": 3,
+        "item_idx": 173,
+        "score": 0.117379
+      },
+      {
+        "rank": 4,
+        "item_idx": 929,
+        "score": 0.113344
+      },
+      {
+        "rank": 5,
+        "item_idx": 1201,
+        "score": 0.093376
+      },
+      {
+        "rank": 6,
+        "item_idx": 1627,
+        "score": 0.089259
+      },
+      {
+        "rank": 7,
+        "item_idx": 1304,
+        "score": 0.077471
+      },
+      {
+        "rank": 8,
+        "item_idx": 1707,
+        "score": 0.075762
+      },
+      {
+        "rank": 9,
+        "item_idx": 1375,
+        "score": 0.074466
+      },
+      {
+        "rank": 10,
+        "item_idx": 1199,
+        "score": 0.073073
+      },
+      {
+        "rank": 11,
+        "item_idx": 1151,
+        "score": 0.071021
+      },
+      {
+        "rank": 12,
+        "item_idx": 658,
+        "score": 0.06734
+      },
+      {
+        "rank": 13,
+        "item_idx": 1198,
+        "score": 0.066222
+      },
+      {
+        "rank": 14,
+        "item_idx": 1879,
+        "score": 0.065974
+      },
+      {
+        "rank": 15,
+        "item_idx": 17,
+        "score": 0.065678
+      },
+      {
+        "rank": 16,
+        "item_idx": 1706,
+        "score": 0.065058
+      },
+      {
+        "rank": 17,
+        "item_idx": 1527,
+        "score": 0.063663
+      },
+      {
+        "rank": 18,
+        "item_idx": 1628,
+        "score": 0.062362
+      },
+      {
+        "rank": 19,
+        "item_idx": 723,
+        "score": 0.061828
+      },
+      {
+        "rank": 20,
+        "item_idx": 529,
+        "score": 0.061487
+      }
+    ]
+  },
+  "138": {
+    "Underwear Tights": [
+      {
+        "rank": 1,
+        "item_idx": 67,
+        "score": 0.151388
+      },
+      {
+        "rank": 2,
+        "item_idx": 13,
+        "score": 0.138938
+      },
+      {
+        "rank": 3,
+        "item_idx": 4,
+        "score": 0.123207
+      },
+      {
+        "rank": 4,
+        "item_idx": 602,
+        "score": 0.115649
+      },
+      {
+        "rank": 5,
+        "item_idx": 3,
+        "score": 0.11382
+      },
+      {
+        "rank": 6,
+        "item_idx": 12,
+        "score": 0.095279
+      },
+      {
+        "rank": 7,
+        "item_idx": 39,
+        "score": 0.094493
+      },
+      {
+        "rank": 8,
+        "item_idx": 1316,
+        "score": 0.088244
+      },
+      {
+        "rank": 9,
+        "item_idx": 139,
+        "score": 0.085327
+      },
+      {
+        "rank": 10,
+        "item_idx": 1191,
+        "score": 0.084931
+      },
+      {
+        "rank": 11,
+        "item_idx": 1723,
+        "score": 0.078026
+      },
+      {
+        "rank": 12,
+        "item_idx": 157,
+        "score": 0.077895
+      },
+      {
+        "rank": 13,
+        "item_idx": 1725,
+        "score": 0.071528
+      },
+      {
+        "rank": 14,
+        "item_idx": 1183,
+        "score": 0.069528
+      },
+      {
+        "rank": 15,
+        "item_idx": 959,
+        "score": 0.067063
+      },
+      {
+        "rank": 16,
+        "item_idx": 53,
+        "score": 0.066911
+      },
+      {
+        "rank": 17,
+        "item_idx": 31,
+        "score": 0.065055
+      },
+      {
+        "rank": 18,
+        "item_idx": 958,
+        "score": 0.064648
+      },
+      {
+        "rank": 19,
+        "item_idx": 497,
+        "score": 0.063314
+      },
+      {
+        "rank": 20,
+        "item_idx": 267,
+        "score": 0.062843
+      }
+    ]
+  },
+  "345": {
+    "Bikini top": [
+      {
+        "rank": 1,
+        "item_idx": 572,
+        "score": 0.112537
+      },
+      {
+        "rank": 2,
+        "item_idx": 13,
+        "score": 0.112454
+      },
+      {
+        "rank": 3,
+        "item_idx": 67,
+        "score": 0.110893
+      },
+      {
+        "rank": 4,
+        "item_idx": 884,
+        "score": 0.103844
+      },
+      {
+        "rank": 5,
+        "item_idx": 173,
+        "score": 0.103402
+      },
+      {
+        "rank": 6,
+        "item_idx": 3,
+        "score": 0.093778
+      },
+      {
+        "rank": 7,
+        "item_idx": 1114,
+        "score": 0.092951
+      },
+      {
+        "rank": 8,
+        "item_idx": 1264,
+        "score": 0.088587
+      },
+      {
+        "rank": 9,
+        "item_idx": 865,
+        "score": 0.086564
+      },
+      {
+        "rank": 10,
+        "item_idx": 1723,
+        "score": 0.086558
+      },
+      {
+        "rank": 11,
+        "item_idx": 492,
+        "score": 0.083728
+      },
+      {
+        "rank": 12,
+        "item_idx": 1867,
+        "score": 0.08328
+      },
+      {
+        "rank": 13,
+        "item_idx": 1149,
+        "score": 0.081147
+      },
+      {
+        "rank": 14,
+        "item_idx": 905,
+        "score": 0.080821
+      },
+      {
+        "rank": 15,
+        "item_idx": 1361,
+        "score": 0.080336
+      },
+      {
+        "rank": 16,
+        "item_idx": 496,
+        "score": 0.079893
+      },
+      {
+        "rank": 17,
+        "item_idx": 1662,
+        "score": 0.077889
+      },
+      {
+        "rank": 18,
+        "item_idx": 1725,
+        "score": 0.077397
+      },
+      {
+        "rank": 19,
+        "item_idx": 1881,
+        "score": 0.07633
+      },
+      {
+        "rank": 20,
+        "item_idx": 4,
+        "score": 0.075371
+      }
+    ]
+  },
+  "574": {
+    "Bikini top": [
+      {
+        "rank": 1,
+        "item_idx": 1823,
+        "score": 0.262987
+      },
+      {
+        "rank": 2,
+        "item_idx": 1820,
+        "score": 0.251938
+      },
+      {
+        "rank": 3,
+        "item_idx": 1435,
+        "score": 0.180635
+      },
+      {
+        "rank": 4,
+        "item_idx": 1436,
+        "score": 0.174251
+      },
+      {
+        "rank": 5,
+        "item_idx": 1420,
+        "score": 0.154845
+      },
+      {
+        "rank": 6,
+        "item_idx": 492,
+        "score": 0.111497
+      },
+      {
+        "rank": 7,
+        "item_idx": 1630,
+        "score": 0.09694
+      },
+      {
+        "rank": 8,
+        "item_idx": 503,
+        "score": 0.092431
+      },
+      {
+        "rank": 9,
+        "item_idx": 456,
+        "score": 0.087065
+      },
+      {
+        "rank": 10,
+        "item_idx": 496,
+        "score": 0.082641
+      },
+      {
+        "rank": 11,
+        "item_idx": 389,
+        "score": 0.081927
+      },
+      {
+        "rank": 12,
+        "item_idx": 67,
+        "score": 0.081464
+      },
+      {
+        "rank": 13,
+        "item_idx": 868,
+        "score": 0.077868
+      },
+      {
+        "rank": 14,
+        "item_idx": 69,
+        "score": 0.077571
+      },
+      {
+        "rank": 15,
+        "item_idx": 985,
+        "score": 0.07299
+      },
+      {
+        "rank": 16,
+        "item_idx": 143,
+        "score": 0.071363
+      },
+      {
+        "rank": 17,
+        "item_idx": 807,
+        "score": 0.071105
+      },
+      {
+        "rank": 18,
+        "item_idx": 379,
+        "score": 0.070432
+      },
+      {
+        "rank": 19,
+        "item_idx": 1264,
+        "score": 0.069827
+      },
+      {
+        "rank": 20,
+        "item_idx": 1053,
+        "score": 0.066096
+      }
+    ]
+  },
+  "718": {
+    "Swimwear bottom": [
+      {
+        "rank": 1,
+        "item_idx": 963,
+        "score": 0.153169
+      },
+      {
+        "rank": 2,
+        "item_idx": 1453,
+        "score": 0.149652
+      },
+      {
+        "rank": 3,
+        "item_idx": 966,
+        "score": 0.145665
+      },
+      {
+        "rank": 4,
+        "item_idx": 439,
+        "score": 0.127932
+      },
+      {
+        "rank": 5,
+        "item_idx": 513,
+        "score": 0.109854
+      },
+      {
+        "rank": 6,
+        "item_idx": 1452,
+        "score": 0.103167
+      },
+      {
+        "rank": 7,
+        "item_idx": 400,
+        "score": 0.1031
+      },
+      {
+        "rank": 8,
+        "item_idx": 1638,
+        "score": 0.097591
+      },
+      {
+        "rank": 9,
+        "item_idx": 838,
+        "score": 0.090866
+      },
+      {
+        "rank": 10,
+        "item_idx": 1101,
+        "score": 0.087867
+      },
+      {
+        "rank": 11,
+        "item_idx": 1376,
+        "score": 0.083192
+      },
+      {
+        "rank": 12,
+        "item_idx": 885,
+        "score": 0.083109
+      },
+      {
+        "rank": 13,
+        "item_idx": 840,
+        "score": 0.083058
+      },
+      {
+        "rank": 14,
+        "item_idx": 567,
+        "score": 0.0792
+      },
+      {
+        "rank": 15,
+        "item_idx": 647,
+        "score": 0.077632
+      },
+      {
+        "rank": 16,
+        "item_idx": 1639,
+        "score": 0.076806
+      },
+      {
+        "rank": 17,
+        "item_idx": 906,
+        "score": 0.07642
+      },
+      {
+        "rank": 18,
+        "item_idx": 401,
+        "score": 0.075732
+      },
+      {
+        "rank": 19,
+        "item_idx": 572,
+        "score": 0.075014
+      },
+      {
+        "rank": 20,
+        "item_idx": 884,
+        "score": 0.071292
+      }
+    ]
+  },
+  "251": {
+    "T-shirt": [
+      {
+        "rank": 1,
+        "item_idx": 492,
+        "score": 0.13618
+      },
+      {
+        "rank": 2,
+        "item_idx": 884,
+        "score": 0.129203
+      },
+      {
+        "rank": 3,
+        "item_idx": 807,
+        "score": 0.114718
+      },
+      {
+        "rank": 4,
+        "item_idx": 1694,
+        "score": 0.113106
+      },
+      {
+        "rank": 5,
+        "item_idx": 905,
+        "score": 0.110867
+      },
+      {
+        "rank": 6,
+        "item_idx": 1693,
+        "score": 0.106303
+      },
+      {
+        "rank": 7,
+        "item_idx": 1264,
+        "score": 0.094022
+      },
+      {
+        "rank": 8,
+        "item_idx": 456,
+        "score": 0.093568
+      },
+      {
+        "rank": 9,
+        "item_idx": 1695,
+        "score": 0.093354
+      },
+      {
+        "rank": 10,
+        "item_idx": 850,
+        "score": 0.091151
+      },
+      {
+        "rank": 11,
+        "item_idx": 864,
+        "score": 0.086696
+      },
+      {
+        "rank": 12,
+        "item_idx": 496,
+        "score": 0.084502
+      },
+      {
+        "rank": 13,
+        "item_idx": 491,
+        "score": 0.079851
+      },
+      {
+        "rank": 14,
+        "item_idx": 1379,
+        "score": 0.072183
+      },
+      {
+        "rank": 15,
+        "item_idx": 537,
+        "score": 0.071904
+      },
+      {
+        "rank": 16,
+        "item_idx": 865,
+        "score": 0.069453
+      },
+      {
+        "rank": 17,
+        "item_idx": 845,
+        "score": 0.066559
+      },
+      {
+        "rank": 18,
+        "item_idx": 1056,
+        "score": 0.064043
+      },
+      {
+        "rank": 19,
+        "item_idx": 418,
+        "score": 0.062904
+      },
+      {
+        "rank": 20,
+        "item_idx": 844,
+        "score": 0.059206
+      }
+    ]
+  },
+  "167": {
+    "Leggings/Tights": [
+      {
+        "rank": 1,
+        "item_idx": 139,
+        "score": 0.138797
+      },
+      {
+        "rank": 2,
+        "item_idx": 215,
+        "score": 0.138029
+      },
+      {
+        "rank": 3,
+        "item_idx": 1149,
+        "score": 0.135869
+      },
+      {
+        "rank": 4,
+        "item_idx": 1000,
+        "score": 0.116895
+      },
+      {
+        "rank": 5,
+        "item_idx": 492,
+        "score": 0.1071
+      },
+      {
+        "rank": 6,
+        "item_idx": 7,
+        "score": 0.106625
+      },
+      {
+        "rank": 7,
+        "item_idx": 426,
+        "score": 0.102848
+      },
+      {
+        "rank": 8,
+        "item_idx": 13,
+        "score": 0.101718
+      },
+      {
+        "rank": 9,
+        "item_idx": 244,
+        "score": 0.089937
+      },
+      {
+        "rank": 10,
+        "item_idx": 1677,
+        "score": 0.086468
+      },
+      {
+        "rank": 11,
+        "item_idx": 4,
+        "score": 0.083937
+      },
+      {
+        "rank": 12,
+        "item_idx": 187,
+        "score": 0.083675
+      },
+      {
+        "rank": 13,
+        "item_idx": 79,
+        "score": 0.081913
+      },
+      {
+        "rank": 14,
+        "item_idx": 1008,
+        "score": 0.08077
+      },
+      {
+        "rank": 15,
+        "item_idx": 1002,
+        "score": 0.07695
+      },
+      {
+        "rank": 16,
+        "item_idx": 67,
+        "score": 0.076714
+      },
+      {
+        "rank": 17,
+        "item_idx": 143,
+        "score": 0.075491
+      },
+      {
+        "rank": 18,
+        "item_idx": 112,
+        "score": 0.07545
+      },
+      {
+        "rank": 19,
+        "item_idx": 1001,
+        "score": 0.074914
+      },
+      {
+        "rank": 20,
+        "item_idx": 456,
+        "score": 0.073528
+      }
+    ]
+  },
+  "1": {
+    "Blazer": [
+      {
+        "rank": 1,
+        "item_idx": 681,
+        "score": 0.209581
+      },
+      {
+        "rank": 2,
+        "item_idx": 384,
+        "score": 0.207719
+      },
+      {
+        "rank": 3,
+        "item_idx": 373,
+        "score": 0.137819
+      },
+      {
+        "rank": 4,
+        "item_idx": 682,
+        "score": 0.133562
+      },
+      {
+        "rank": 5,
+        "item_idx": 173,
+        "score": 0.106127
+      },
+      {
+        "rank": 6,
+        "item_idx": 789,
+        "score": 0.09769
+      },
+      {
+        "rank": 7,
+        "item_idx": 1586,
+        "score": 0.090326
+      },
+      {
+        "rank": 8,
+        "item_idx": 618,
+        "score": 0.088543
+      },
+      {
+        "rank": 9,
+        "item_idx": 60,
+        "score": 0.087995
+      },
+      {
+        "rank": 10,
+        "item_idx": 754,
+        "score": 0.084743
+      },
+      {
+        "rank": 11,
+        "item_idx": 385,
+        "score": 0.081081
+      },
+      {
+        "rank": 12,
+        "item_idx": 374,
+        "score": 0.080676
+      },
+      {
+        "rank": 13,
+        "item_idx": 1585,
+        "score": 0.076313
+      },
+      {
+        "rank": 14,
+        "item_idx": 552,
+        "score": 0.069386
+      },
+      {
+        "rank": 15,
+        "item_idx": 381,
+        "score": 0.068734
+      },
+      {
+        "rank": 16,
+        "item_idx": 387,
+        "score": 0.064708
+      },
+      {
+        "rank": 17,
+        "item_idx": 619,
+        "score": 0.059114
+      },
+      {
+        "rank": 18,
+        "item_idx": 563,
+        "score": 0.058324
+      },
+      {
+        "rank": 19,
+        "item_idx": 759,
+        "score": 0.057476
+      },
+      {
+        "rank": 20,
+        "item_idx": 1193,
+        "score": 0.05718
+      }
+    ]
+  },
+  "927": {
+    "Blazer": [
+      {
+        "rank": 1,
+        "item_idx": 384,
+        "score": 0.214892
+      },
+      {
+        "rank": 2,
+        "item_idx": 112,
+        "score": 0.115861
+      },
+      {
+        "rank": 3,
+        "item_idx": 347,
+        "score": 0.108226
+      },
+      {
+        "rank": 4,
+        "item_idx": 17,
+        "score": 0.102541
+      },
+      {
+        "rank": 5,
+        "item_idx": 1000,
+        "score": 0.099017
+      },
+      {
+        "rank": 6,
+        "item_idx": 618,
+        "score": 0.097077
+      },
+      {
+        "rank": 7,
+        "item_idx": 1586,
+        "score": 0.094868
+      },
+      {
+        "rank": 8,
+        "item_idx": 1524,
+        "score": 0.093612
+      },
+      {
+        "rank": 9,
+        "item_idx": 833,
+        "score": 0.085411
+      },
+      {
+        "rank": 10,
+        "item_idx": 337,
+        "score": 0.075697
+      },
+      {
+        "rank": 11,
+        "item_idx": 619,
+        "score": 0.075521
+      },
+      {
+        "rank": 12,
+        "item_idx": 1805,
+        "score": 0.075473
+      },
+      {
+        "rank": 13,
+        "item_idx": 381,
+        "score": 0.074837
+      },
+      {
+        "rank": 14,
+        "item_idx": 385,
+        "score": 0.074074
+      },
+      {
+        "rank": 15,
+        "item_idx": 199,
+        "score": 0.0739
+      },
+      {
+        "rank": 16,
+        "item_idx": 120,
+        "score": 0.067572
+      },
+      {
+        "rank": 17,
+        "item_idx": 1149,
+        "score": 0.063147
+      },
+      {
+        "rank": 18,
+        "item_idx": 201,
+        "score": 0.06304
+      },
+      {
+        "rank": 19,
+        "item_idx": 283,
+        "score": 0.062519
+      },
+      {
+        "rank": 20,
+        "item_idx": 1481,
+        "score": 0.060015
+      }
+    ]
+  },
+  "446": {
+    "Leggings/Tights": [
+      {
+        "rank": 1,
+        "item_idx": 1149,
+        "score": 0.150005
+      },
+      {
+        "rank": 2,
+        "item_idx": 439,
+        "score": 0.138496
+      },
+      {
+        "rank": 3,
+        "item_idx": 1453,
+        "score": 0.108952
+      },
+      {
+        "rank": 4,
+        "item_idx": 669,
+        "score": 0.104439
+      },
+      {
+        "rank": 5,
+        "item_idx": 173,
+        "score": 0.092924
+      },
+      {
+        "rank": 6,
+        "item_idx": 400,
+        "score": 0.082553
+      },
+      {
+        "rank": 7,
+        "item_idx": 13,
+        "score": 0.077391
+      },
+      {
+        "rank": 8,
+        "item_idx": 337,
+        "score": 0.076479
+      },
+      {
+        "rank": 9,
+        "item_idx": 851,
+        "score": 0.075759
+      },
+      {
+        "rank": 10,
+        "item_idx": 1834,
+        "score": 0.073551
+      },
+      {
+        "rank": 11,
+        "item_idx": 467,
+        "score": 0.073509
+      },
+      {
+        "rank": 12,
+        "item_idx": 1452,
+        "score": 0.072738
+      },
+      {
+        "rank": 13,
+        "item_idx": 1707,
+        "score": 0.072485
+      },
+      {
+        "rank": 14,
+        "item_idx": 779,
+        "score": 0.071917
+      },
+      {
+        "rank": 15,
+        "item_idx": 668,
+        "score": 0.069203
+      },
+      {
+        "rank": 16,
+        "item_idx": 1263,
+        "score": 0.068993
+      },
+      {
+        "rank": 17,
+        "item_idx": 1832,
+        "score": 0.06894
+      },
+      {
+        "rank": 18,
+        "item_idx": 675,
+        "score": 0.068841
+      },
+      {
+        "rank": 19,
+        "item_idx": 3,
+        "score": 0.067668
+      },
+      {
+        "rank": 20,
+        "item_idx": 140,
+        "score": 0.067536
+      }
+    ]
+  },
+  "792": {
+    "Shorts": [
+      {
+        "rank": 1,
+        "item_idx": 513,
+        "score": 0.131663
+      },
+      {
+        "rank": 2,
+        "item_idx": 491,
+        "score": 0.122109
+      },
+      {
+        "rank": 3,
+        "item_idx": 647,
+        "score": 0.102035
+      },
+      {
+        "rank": 4,
+        "item_idx": 461,
+        "score": 0.08151
+      },
+      {
+        "rank": 5,
+        "item_idx": 457,
+        "score": 0.07533
+      },
+      {
+        "rank": 6,
+        "item_idx": 456,
+        "score": 0.075047
+      },
+      {
+        "rank": 7,
+        "item_idx": 294,
+        "score": 0.073492
+      },
+      {
+        "rank": 8,
+        "item_idx": 865,
+        "score": 0.073114
+      },
+      {
+        "rank": 9,
+        "item_idx": 48,
+        "score": 0.072862
+      },
+      {
+        "rank": 10,
+        "item_idx": 514,
+        "score": 0.069156
+      },
+      {
+        "rank": 11,
+        "item_idx": 398,
+        "score": 0.066189
+      },
+      {
+        "rank": 12,
+        "item_idx": 1286,
+        "score": 0.064987
+      },
+      {
+        "rank": 13,
+        "item_idx": 1316,
+        "score": 0.06467
+      },
+      {
+        "rank": 14,
+        "item_idx": 808,
+        "score": 0.064409
+      },
+      {
+        "rank": 15,
+        "item_idx": 492,
+        "score": 0.061823
+      },
+      {
+        "rank": 16,
+        "item_idx": 821,
+        "score": 0.061641
+      },
+      {
+        "rank": 17,
+        "item_idx": 46,
+        "score": 0.061019
+      },
+      {
+        "rank": 18,
+        "item_idx": 502,
+        "score": 0.060304
+      },
+      {
+        "rank": 19,
+        "item_idx": 1181,
+        "score": 0.058019
+      },
+      {
+        "rank": 20,
+        "item_idx": 454,
+        "score": 0.054091
+      }
+    ]
+  },
+  "899": {
+    "Shirt": [
+      {
+        "rank": 1,
+        "item_idx": 503,
+        "score": 0.147375
+      },
+      {
+        "rank": 2,
+        "item_idx": 199,
+        "score": 0.122629
+      },
+      {
+        "rank": 3,
+        "item_idx": 1558,
+        "score": 0.106376
+      },
+      {
+        "rank": 4,
+        "item_idx": 555,
+        "score": 0.100714
+      },
+      {
+        "rank": 5,
+        "item_idx": 647,
+        "score": 0.096278
+      },
+      {
+        "rank": 6,
+        "item_idx": 964,
+        "score": 0.092227
+      },
+      {
+        "rank": 7,
+        "item_idx": 1259,
+        "score": 0.08967
+      },
+      {
+        "rank": 8,
+        "item_idx": 967,
+        "score": 0.084672
+      },
+      {
+        "rank": 9,
+        "item_idx": 328,
+        "score": 0.079635
+      },
+      {
+        "rank": 10,
+        "item_idx": 1481,
+        "score": 0.074204
+      },
+      {
+        "rank": 11,
+        "item_idx": 495,
+        "score": 0.072373
+      },
+      {
+        "rank": 12,
+        "item_idx": 326,
+        "score": 0.070625
+      },
+      {
+        "rank": 13,
+        "item_idx": 492,
+        "score": 0.070066
+      },
+      {
+        "rank": 14,
+        "item_idx": 1262,
+        "score": 0.069663
+      },
+      {
+        "rank": 15,
+        "item_idx": 237,
+        "score": 0.065098
+      },
+      {
+        "rank": 16,
+        "item_idx": 807,
+        "score": 0.06442
+      },
+      {
+        "rank": 17,
+        "item_idx": 738,
+        "score": 0.064276
+      },
+      {
+        "rank": 18,
+        "item_idx": 201,
+        "score": 0.062601
+      },
+      {
+        "rank": 19,
+        "item_idx": 554,
+        "score": 0.062117
+      },
+      {
+        "rank": 20,
+        "item_idx": 945,
+        "score": 0.062076
+      }
+    ]
+  },
+  "611": {
+    "Blazer": [
+      {
+        "rank": 1,
+        "item_idx": 384,
+        "score": 0.169681
+      },
+      {
+        "rank": 2,
+        "item_idx": 342,
+        "score": 0.09324
+      },
+      {
+        "rank": 3,
+        "item_idx": 1586,
+        "score": 0.088736
+      },
+      {
+        "rank": 4,
+        "item_idx": 618,
+        "score": 0.079082
+      },
+      {
+        "rank": 5,
+        "item_idx": 669,
+        "score": 0.078758
+      },
+      {
+        "rank": 6,
+        "item_idx": 385,
+        "score": 0.078307
+      },
+      {
+        "rank": 7,
+        "item_idx": 929,
+        "score": 0.077521
+      },
+      {
+        "rank": 8,
+        "item_idx": 337,
+        "score": 0.07432
+      },
+      {
+        "rank": 9,
+        "item_idx": 619,
+        "score": 0.073585
+      },
+      {
+        "rank": 10,
+        "item_idx": 418,
+        "score": 0.072785
+      },
+      {
+        "rank": 11,
+        "item_idx": 348,
+        "score": 0.069291
+      },
+      {
+        "rank": 12,
+        "item_idx": 1585,
+        "score": 0.066582
+      },
+      {
+        "rank": 13,
+        "item_idx": 381,
+        "score": 0.06627
+      },
+      {
+        "rank": 14,
+        "item_idx": 1595,
+        "score": 0.059538
+      },
+      {
+        "rank": 15,
+        "item_idx": 122,
+        "score": 0.058536
+      },
+      {
+        "rank": 16,
+        "item_idx": 419,
+        "score": 0.056558
+      },
+      {
+        "rank": 17,
+        "item_idx": 1379,
+        "score": 0.055249
+      },
+      {
+        "rank": 18,
+        "item_idx": 1125,
+        "score": 0.054417
+      },
+      {
+        "rank": 19,
+        "item_idx": 1584,
+        "score": 0.054315
+      },
+      {
+        "rank": 20,
+        "item_idx": 1805,
+        "score": 0.053699
+      }
+    ]
+  },
+  "386": {
+    "Swimwear bottom": [
+      {
+        "rank": 1,
+        "item_idx": 1490,
+        "score": 0.196745
+      },
+      {
+        "rank": 2,
+        "item_idx": 711,
+        "score": 0.161458
+      },
+      {
+        "rank": 3,
+        "item_idx": 1499,
+        "score": 0.161081
+      },
+      {
+        "rank": 4,
+        "item_idx": 1734,
+        "score": 0.134664
+      },
+      {
+        "rank": 5,
+        "item_idx": 496,
+        "score": 0.130425
+      },
+      {
+        "rank": 6,
+        "item_idx": 868,
+        "score": 0.124795
+      },
+      {
+        "rank": 7,
+        "item_idx": 1489,
+        "score": 0.111583
+      },
+      {
+        "rank": 8,
+        "item_idx": 503,
+        "score": 0.111321
+      },
+      {
+        "rank": 9,
+        "item_idx": 492,
+        "score": 0.110891
+      },
+      {
+        "rank": 10,
+        "item_idx": 812,
+        "score": 0.109788
+      },
+      {
+        "rank": 11,
+        "item_idx": 906,
+        "score": 0.10627
+      },
+      {
+        "rank": 12,
+        "item_idx": 961,
+        "score": 0.105807
+      },
+      {
+        "rank": 13,
+        "item_idx": 885,
+        "score": 0.102226
+      },
+      {
+        "rank": 14,
+        "item_idx": 456,
+        "score": 0.092088
+      },
+      {
+        "rank": 15,
+        "item_idx": 1053,
+        "score": 0.089302
+      },
+      {
+        "rank": 16,
+        "item_idx": 1558,
+        "score": 0.087817
+      },
+      {
+        "rank": 17,
+        "item_idx": 1051,
+        "score": 0.086371
+      },
+      {
+        "rank": 18,
+        "item_idx": 1557,
+        "score": 0.084831
+      },
+      {
+        "rank": 19,
+        "item_idx": 1000,
+        "score": 0.084628
+      },
+      {
+        "rank": 20,
+        "item_idx": 807,
+        "score": 0.081428
+      }
+    ]
+  },
+  "71": {
+    "Dress": [
+      {
+        "rank": 1,
+        "item_idx": 821,
+        "score": 0.147412
+      },
+      {
+        "rank": 2,
+        "item_idx": 819,
+        "score": 0.132932
+      },
+      {
+        "rank": 3,
+        "item_idx": 1453,
+        "score": 0.11865
+      },
+      {
+        "rank": 4,
+        "item_idx": 851,
+        "score": 0.114894
+      },
+      {
+        "rank": 5,
+        "item_idx": 885,
+        "score": 0.107579
+      },
+      {
+        "rank": 6,
+        "item_idx": 1263,
+        "score": 0.097246
+      },
+      {
+        "rank": 7,
+        "item_idx": 884,
+        "score": 0.096856
+      },
+      {
+        "rank": 8,
+        "item_idx": 881,
+        "score": 0.095986
+      },
+      {
+        "rank": 9,
+        "item_idx": 906,
+        "score": 0.091741
+      },
+      {
+        "rank": 10,
+        "item_idx": 1264,
+        "score": 0.089606
+      },
+      {
+        "rank": 11,
+        "item_idx": 905,
+        "score": 0.087684
+      },
+      {
+        "rank": 12,
+        "item_idx": 513,
+        "score": 0.082125
+      },
+      {
+        "rank": 13,
+        "item_idx": 882,
+        "score": 0.081114
+      },
+      {
+        "rank": 14,
+        "item_idx": 555,
+        "score": 0.076792
+      },
+      {
+        "rank": 15,
+        "item_idx": 467,
+        "score": 0.074922
+      },
+      {
+        "rank": 16,
+        "item_idx": 157,
+        "score": 0.073755
+      },
+      {
+        "rank": 17,
+        "item_idx": 1099,
+        "score": 0.073392
+      },
+      {
+        "rank": 18,
+        "item_idx": 1417,
+        "score": 0.073185
+      },
+      {
+        "rank": 19,
+        "item_idx": 70,
+        "score": 0.072814
+      },
+      {
+        "rank": 20,
+        "item_idx": 850,
+        "score": 0.072583
+      }
+    ]
+  },
+  "6": {
+    "Underwear Tights": [
+      {
+        "rank": 1,
+        "item_idx": 337,
+        "score": 0.117288
+      },
+      {
+        "rank": 2,
+        "item_idx": 1000,
+        "score": 0.11568
+      },
+      {
+        "rank": 3,
+        "item_idx": 13,
+        "score": 0.11344
+      },
+      {
+        "rank": 4,
+        "item_idx": 4,
+        "score": 0.097808
+      },
+      {
+        "rank": 5,
+        "item_idx": 439,
+        "score": 0.089773
+      },
+      {
+        "rank": 6,
+        "item_idx": 39,
+        "score": 0.08951
+      },
+      {
+        "rank": 7,
+        "item_idx": 1002,
+        "score": 0.087019
+      },
+      {
+        "rank": 8,
+        "item_idx": 3,
+        "score": 0.086919
+      },
+      {
+        "rank": 9,
+        "item_idx": 779,
+        "score": 0.083421
+      },
+      {
+        "rank": 10,
+        "item_idx": 139,
+        "score": 0.075109
+      },
+      {
+        "rank": 11,
+        "item_idx": 669,
+        "score": 0.074223
+      },
+      {
+        "rank": 12,
+        "item_idx": 140,
+        "score": 0.072796
+      },
+      {
+        "rank": 13,
+        "item_idx": 283,
+        "score": 0.072754
+      },
+      {
+        "rank": 14,
+        "item_idx": 53,
+        "score": 0.07059
+      },
+      {
+        "rank": 15,
+        "item_idx": 552,
+        "score": 0.069993
+      },
+      {
+        "rank": 16,
+        "item_idx": 342,
+        "score": 0.069963
+      },
+      {
+        "rank": 17,
+        "item_idx": 1622,
+        "score": 0.069263
+      },
+      {
+        "rank": 18,
+        "item_idx": 267,
+        "score": 0.069154
+      },
+      {
+        "rank": 19,
+        "item_idx": 12,
+        "score": 0.068738
+      },
+      {
+        "rank": 20,
+        "item_idx": 1071,
+        "score": 0.06655
+      }
+    ]
+  },
+  "749": {
+    "T-shirt": [
+      {
+        "rank": 1,
+        "item_idx": 963,
+        "score": 0.235224
+      },
+      {
+        "rank": 2,
+        "item_idx": 966,
+        "score": 0.219575
+      },
+      {
+        "rank": 3,
+        "item_idx": 1571,
+        "score": 0.084293
+      },
+      {
+        "rank": 4,
+        "item_idx": 912,
+        "score": 0.07988
+      },
+      {
+        "rank": 5,
+        "item_idx": 300,
+        "score": 0.079157
+      },
+      {
+        "rank": 6,
+        "item_idx": 297,
+        "score": 0.077717
+      },
+      {
+        "rank": 7,
+        "item_idx": 1538,
+        "score": 0.07703
+      },
+      {
+        "rank": 8,
+        "item_idx": 1570,
+        "score": 0.074355
+      },
+      {
+        "rank": 9,
+        "item_idx": 298,
+        "score": 0.074264
+      },
+      {
+        "rank": 10,
+        "item_idx": 1122,
+        "score": 0.071292
+      },
+      {
+        "rank": 11,
+        "item_idx": 496,
+        "score": 0.071167
+      },
+      {
+        "rank": 12,
+        "item_idx": 1694,
+        "score": 0.066136
+      },
+      {
+        "rank": 13,
+        "item_idx": 902,
+        "score": 0.065172
+      },
+      {
+        "rank": 14,
+        "item_idx": 1522,
+        "score": 0.06429
+      },
+      {
+        "rank": 15,
+        "item_idx": 1125,
+        "score": 0.063775
+      },
+      {
+        "rank": 16,
+        "item_idx": 279,
+        "score": 0.061286
+      },
+      {
+        "rank": 17,
+        "item_idx": 1376,
+        "score": 0.061076
+      },
+      {
+        "rank": 18,
+        "item_idx": 539,
+        "score": 0.060467
+      },
+      {
+        "rank": 19,
+        "item_idx": 900,
+        "score": 0.060147
+      },
+      {
+        "rank": 20,
+        "item_idx": 1051,
+        "score": 0.058973
+      }
+    ]
+  },
+  "459": {
+    "Top": [
+      {
+        "rank": 1,
+        "item_idx": 474,
+        "score": 0.350353
+      },
+      {
+        "rank": 2,
+        "item_idx": 77,
+        "score": 0.179809
+      },
+      {
+        "rank": 3,
+        "item_idx": 1071,
+        "score": 0.101999
+      },
+      {
+        "rank": 4,
+        "item_idx": 337,
+        "score": 0.100377
+      },
+      {
+        "rank": 5,
+        "item_idx": 418,
+        "score": 0.091019
+      },
+      {
+        "rank": 6,
+        "item_idx": 1164,
+        "score": 0.086852
+      },
+      {
+        "rank": 7,
+        "item_idx": 830,
+        "score": 0.075649
+      },
+      {
+        "rank": 8,
+        "item_idx": 994,
+        "score": 0.070165
+      },
+      {
+        "rank": 9,
+        "item_idx": 1062,
+        "score": 0.066265
+      },
+      {
+        "rank": 10,
+        "item_idx": 1595,
+        "score": 0.06574
+      },
+      {
+        "rank": 11,
+        "item_idx": 1303,
+        "score": 0.064979
+      },
+      {
+        "rank": 12,
+        "item_idx": 1095,
+        "score": 0.062783
+      },
+      {
+        "rank": 13,
+        "item_idx": 726,
+        "score": 0.060942
+      },
+      {
+        "rank": 14,
+        "item_idx": 1530,
+        "score": 0.059686
+      },
+      {
+        "rank": 15,
+        "item_idx": 1379,
+        "score": 0.058271
+      },
+      {
+        "rank": 16,
+        "item_idx": 560,
+        "score": 0.057338
+      },
+      {
+        "rank": 17,
+        "item_idx": 699,
+        "score": 0.05706
+      },
+      {
+        "rank": 18,
+        "item_idx": 342,
+        "score": 0.055971
+      },
+      {
+        "rank": 19,
+        "item_idx": 1008,
+        "score": 0.055864
+      },
+      {
+        "rank": 20,
+        "item_idx": 733,
+        "score": 0.053867
+      }
+    ]
+  },
+  "104": {
+    "Blazer": [
+      {
+        "rank": 1,
+        "item_idx": 67,
+        "score": 0.246462
+      },
+      {
+        "rank": 2,
+        "item_idx": 384,
+        "score": 0.18765
+      },
+      {
+        "rank": 3,
+        "item_idx": 968,
+        "score": 0.116977
+      },
+      {
+        "rank": 4,
+        "item_idx": 969,
+        "score": 0.116493
+      },
+      {
+        "rank": 5,
+        "item_idx": 199,
+        "score": 0.105861
+      },
+      {
+        "rank": 6,
+        "item_idx": 1183,
+        "score": 0.09579
+      },
+      {
+        "rank": 7,
+        "item_idx": 1586,
+        "score": 0.082237
+      },
+      {
+        "rank": 8,
+        "item_idx": 468,
+        "score": 0.081889
+      },
+      {
+        "rank": 9,
+        "item_idx": 618,
+        "score": 0.079439
+      },
+      {
+        "rank": 10,
+        "item_idx": 342,
+        "score": 0.073353
+      },
+      {
+        "rank": 11,
+        "item_idx": 534,
+        "score": 0.070184
+      },
+      {
+        "rank": 12,
+        "item_idx": 69,
+        "score": 0.069108
+      },
+      {
+        "rank": 13,
+        "item_idx": 154,
+        "score": 0.068423
+      },
+      {
+        "rank": 14,
+        "item_idx": 779,
+        "score": 0.06837
+      },
+      {
+        "rank": 15,
+        "item_idx": 821,
+        "score": 0.06604
+      },
+      {
+        "rank": 16,
+        "item_idx": 1805,
+        "score": 0.064833
+      },
+      {
+        "rank": 17,
+        "item_idx": 819,
+        "score": 0.064661
+      },
+      {
+        "rank": 18,
+        "item_idx": 726,
+        "score": 0.064486
+      },
+      {
+        "rank": 19,
+        "item_idx": 630,
+        "score": 0.062064
+      },
+      {
+        "rank": 20,
+        "item_idx": 381,
+        "score": 0.06191
+      }
+    ]
+  },
+  "44": {
+    "Top": [
+      {
+        "rank": 1,
+        "item_idx": 418,
+        "score": 0.160929
+      },
+      {
+        "rank": 2,
+        "item_idx": 1595,
+        "score": 0.105335
+      },
+      {
+        "rank": 3,
+        "item_idx": 1379,
+        "score": 0.101069
+      },
+      {
+        "rank": 4,
+        "item_idx": 120,
+        "score": 0.091409
+      },
+      {
+        "rank": 5,
+        "item_idx": 419,
+        "score": 0.08924
+      },
+      {
+        "rank": 6,
+        "item_idx": 337,
+        "score": 0.087104
+      },
+      {
+        "rank": 7,
+        "item_idx": 1743,
+        "score": 0.080884
+      },
+      {
+        "rank": 8,
+        "item_idx": 920,
+        "score": 0.076689
+      },
+      {
+        "rank": 9,
+        "item_idx": 420,
+        "score": 0.074657
+      },
+      {
+        "rank": 10,
+        "item_idx": 1600,
+        "score": 0.072799
+      },
+      {
+        "rank": 11,
+        "item_idx": 614,
+        "score": 0.072619
+      },
+      {
+        "rank": 12,
+        "item_idx": 1147,
+        "score": 0.067345
+      },
+      {
+        "rank": 13,
+        "item_idx": 1406,
+        "score": 0.066734
+      },
+      {
+        "rank": 14,
+        "item_idx": 485,
+        "score": 0.065872
+      },
+      {
+        "rank": 15,
+        "item_idx": 922,
+        "score": 0.062596
+      },
+      {
+        "rank": 16,
+        "item_idx": 1043,
+        "score": 0.061608
+      },
+      {
+        "rank": 17,
+        "item_idx": 409,
+        "score": 0.060213
+      },
+      {
+        "rank": 18,
+        "item_idx": 473,
+        "score": 0.057901
+      },
+      {
+        "rank": 19,
+        "item_idx": 291,
+        "score": 0.057583
+      },
+      {
+        "rank": 20,
+        "item_idx": 935,
+        "score": 0.056562
+      }
+    ]
+  },
+  "683": {
+    "Shorts": [
+      {
+        "rank": 1,
+        "item_idx": 462,
+        "score": 0.20533
+      },
+      {
+        "rank": 2,
+        "item_idx": 1074,
+        "score": 0.173677
+      },
+      {
+        "rank": 3,
+        "item_idx": 884,
+        "score": 0.154624
+      },
+      {
+        "rank": 4,
+        "item_idx": 905,
+        "score": 0.153069
+      },
+      {
+        "rank": 5,
+        "item_idx": 67,
+        "score": 0.146854
+      },
+      {
+        "rank": 6,
+        "item_idx": 1286,
+        "score": 0.114897
+      },
+      {
+        "rank": 7,
+        "item_idx": 466,
+        "score": 0.11464
+      },
+      {
+        "rank": 8,
+        "item_idx": 464,
+        "score": 0.111154
+      },
+      {
+        "rank": 9,
+        "item_idx": 501,
+        "score": 0.104883
+      },
+      {
+        "rank": 10,
+        "item_idx": 1287,
+        "score": 0.101576
+      },
+      {
+        "rank": 11,
+        "item_idx": 647,
+        "score": 0.100594
+      },
+      {
+        "rank": 12,
+        "item_idx": 1076,
+        "score": 0.096239
+      },
+      {
+        "rank": 13,
+        "item_idx": 1235,
+        "score": 0.086303
+      },
+      {
+        "rank": 14,
+        "item_idx": 461,
+        "score": 0.075009
+      },
+      {
+        "rank": 15,
+        "item_idx": 1264,
+        "score": 0.072426
+      },
+      {
+        "rank": 16,
+        "item_idx": 1361,
+        "score": 0.071996
+      },
+      {
+        "rank": 17,
+        "item_idx": 813,
+        "score": 0.071982
+      },
+      {
+        "rank": 18,
+        "item_idx": 1285,
+        "score": 0.068899
+      },
+      {
+        "rank": 19,
+        "item_idx": 1189,
+        "score": 0.067833
+      },
+      {
+        "rank": 20,
+        "item_idx": 269,
+        "score": 0.065784
+      }
+    ]
+  },
+  "145": {
+    "Skirt": [
+      {
+        "rank": 1,
+        "item_idx": 244,
+        "score": 0.178851
+      },
+      {
+        "rank": 2,
+        "item_idx": 1149,
+        "score": 0.14028
+      },
+      {
+        "rank": 3,
+        "item_idx": 1677,
+        "score": 0.124473
+      },
+      {
+        "rank": 4,
+        "item_idx": 173,
+        "score": 0.114606
+      },
+      {
+        "rank": 5,
+        "item_idx": 721,
+        "score": 0.097573
+      },
+      {
+        "rank": 6,
+        "item_idx": 1199,
+        "score": 0.085114
+      },
+      {
+        "rank": 7,
+        "item_idx": 17,
+        "score": 0.083461
+      },
+      {
+        "rank": 8,
+        "item_idx": 177,
+        "score": 0.080496
+      },
+      {
+        "rank": 9,
+        "item_idx": 1678,
+        "score": 0.074104
+      },
+      {
+        "rank": 10,
+        "item_idx": 861,
+        "score": 0.068862
+      },
+      {
+        "rank": 11,
+        "item_idx": 1446,
+        "score": 0.068646
+      },
+      {
+        "rank": 12,
+        "item_idx": 1524,
+        "score": 0.068195
+      },
+      {
+        "rank": 13,
+        "item_idx": 246,
+        "score": 0.065654
+      },
+      {
+        "rank": 14,
+        "item_idx": 1447,
+        "score": 0.063714
+      },
+      {
+        "rank": 15,
+        "item_idx": 1201,
+        "score": 0.062254
+      },
+      {
+        "rank": 16,
+        "item_idx": 658,
+        "score": 0.060994
+      },
+      {
+        "rank": 17,
+        "item_idx": 18,
+        "score": 0.060773
+      },
+      {
+        "rank": 18,
+        "item_idx": 1550,
+        "score": 0.06
+      },
+      {
+        "rank": 19,
+        "item_idx": 659,
+        "score": 0.059305
+      },
+      {
+        "rank": 20,
+        "item_idx": 445,
+        "score": 0.058782
+      }
+    ]
+  },
+  "129": {
+    "Bra": [
+      {
+        "rank": 1,
+        "item_idx": 1695,
+        "score": 0.154908
+      },
+      {
+        "rank": 2,
+        "item_idx": 1694,
+        "score": 0.153516
+      },
+      {
+        "rank": 3,
+        "item_idx": 1693,
+        "score": 0.153509
+      },
+      {
+        "rank": 4,
+        "item_idx": 721,
+        "score": 0.098024
+      },
+      {
+        "rank": 5,
+        "item_idx": 1056,
+        "score": 0.093553
+      },
+      {
+        "rank": 6,
+        "item_idx": 1696,
+        "score": 0.086684
+      },
+      {
+        "rank": 7,
+        "item_idx": 48,
+        "score": 0.083075
+      },
+      {
+        "rank": 8,
+        "item_idx": 1453,
+        "score": 0.080002
+      },
+      {
+        "rank": 9,
+        "item_idx": 1446,
+        "score": 0.079584
+      },
+      {
+        "rank": 10,
+        "item_idx": 1834,
+        "score": 0.076929
+      },
+      {
+        "rank": 11,
+        "item_idx": 1807,
+        "score": 0.07652
+      },
+      {
+        "rank": 12,
+        "item_idx": 1447,
+        "score": 0.068393
+      },
+      {
+        "rank": 13,
+        "item_idx": 845,
+        "score": 0.067951
+      },
+      {
+        "rank": 14,
+        "item_idx": 1697,
+        "score": 0.067481
+      },
+      {
+        "rank": 15,
+        "item_idx": 18,
+        "score": 0.063807
+      },
+      {
+        "rank": 16,
+        "item_idx": 1854,
+        "score": 0.062957
+      },
+      {
+        "rank": 17,
+        "item_idx": 844,
+        "score": 0.062618
+      },
+      {
+        "rank": 18,
+        "item_idx": 46,
+        "score": 0.06217
+      },
+      {
+        "rank": 19,
+        "item_idx": 196,
+        "score": 0.061992
+      },
+      {
+        "rank": 20,
+        "item_idx": 1195,
+        "score": 0.061387
+      }
+    ]
+  },
+  "809": {
+    "Leggings/Tights": [
+      {
+        "rank": 1,
+        "item_idx": 1149,
+        "score": 0.169731
+      },
+      {
+        "rank": 2,
+        "item_idx": 418,
+        "score": 0.160492
+      },
+      {
+        "rank": 3,
+        "item_idx": 1595,
+        "score": 0.143374
+      },
+      {
+        "rank": 4,
+        "item_idx": 1379,
+        "score": 0.118013
+      },
+      {
+        "rank": 5,
+        "item_idx": 1677,
+        "score": 0.107975
+      },
+      {
+        "rank": 6,
+        "item_idx": 244,
+        "score": 0.103623
+      },
+      {
+        "rank": 7,
+        "item_idx": 173,
+        "score": 0.099322
+      },
+      {
+        "rank": 8,
+        "item_idx": 17,
+        "score": 0.09227
+      },
+      {
+        "rank": 9,
+        "item_idx": 26,
+        "score": 0.080346
+      },
+      {
+        "rank": 10,
+        "item_idx": 1524,
+        "score": 0.075021
+      },
+      {
+        "rank": 11,
+        "item_idx": 643,
+        "score": 0.069629
+      },
+      {
+        "rank": 12,
+        "item_idx": 1056,
+        "score": 0.067664
+      },
+      {
+        "rank": 13,
+        "item_idx": 1201,
+        "score": 0.066147
+      },
+      {
+        "rank": 14,
+        "item_idx": 721,
+        "score": 0.064752
+      },
+      {
+        "rank": 15,
+        "item_idx": 13,
+        "score": 0.061574
+      },
+      {
+        "rank": 16,
+        "item_idx": 922,
+        "score": 0.059532
+      },
+      {
+        "rank": 17,
+        "item_idx": 421,
+        "score": 0.059064
+      },
+      {
+        "rank": 18,
+        "item_idx": 1695,
+        "score": 0.058537
+      },
+      {
+        "rank": 19,
+        "item_idx": 1643,
+        "score": 0.057566
+      },
+      {
+        "rank": 20,
+        "item_idx": 1406,
+        "score": 0.05715
+      }
+    ]
+  },
+  "928": {
+    "Shirt": [
+      {
+        "rank": 1,
+        "item_idx": 963,
+        "score": 0.300639
+      },
+      {
+        "rank": 2,
+        "item_idx": 966,
+        "score": 0.288469
+      },
+      {
+        "rank": 3,
+        "item_idx": 884,
+        "score": 0.179519
+      },
+      {
+        "rank": 4,
+        "item_idx": 905,
+        "score": 0.153953
+      },
+      {
+        "rank": 5,
+        "item_idx": 885,
+        "score": 0.135148
+      },
+      {
+        "rank": 6,
+        "item_idx": 906,
+        "score": 0.131687
+      },
+      {
+        "rank": 7,
+        "item_idx": 199,
+        "score": 0.082371
+      },
+      {
+        "rank": 8,
+        "item_idx": 962,
+        "score": 0.076503
+      },
+      {
+        "rank": 9,
+        "item_idx": 269,
+        "score": 0.067775
+      },
+      {
+        "rank": 10,
+        "item_idx": 526,
+        "score": 0.065831
+      },
+      {
+        "rank": 11,
+        "item_idx": 1361,
+        "score": 0.064452
+      },
+      {
+        "rank": 12,
+        "item_idx": 554,
+        "score": 0.063111
+      },
+      {
+        "rank": 13,
+        "item_idx": 1914,
+        "score": 0.061191
+      },
+      {
+        "rank": 14,
+        "item_idx": 865,
+        "score": 0.060323
+      },
+      {
+        "rank": 15,
+        "item_idx": 1264,
+        "score": 0.060316
+      },
+      {
+        "rank": 16,
+        "item_idx": 201,
+        "score": 0.060181
+      },
+      {
+        "rank": 17,
+        "item_idx": 1418,
+        "score": 0.058511
+      },
+      {
+        "rank": 18,
+        "item_idx": 497,
+        "score": 0.058145
+      },
+      {
+        "rank": 19,
+        "item_idx": 1664,
+        "score": 0.058095
+      },
+      {
+        "rank": 20,
+        "item_idx": 1481,
+        "score": 0.057793
+      }
+    ]
+  },
+  "21": {
+    "Hair ties": [
+      {
+        "rank": 1,
+        "item_idx": 312,
+        "score": 0.249528
+      },
+      {
+        "rank": 2,
+        "item_idx": 67,
+        "score": 0.185257
+      },
+      {
+        "rank": 3,
+        "item_idx": 311,
+        "score": 0.184965
+      },
+      {
+        "rank": 4,
+        "item_idx": 884,
+        "score": 0.147493
+      },
+      {
+        "rank": 5,
+        "item_idx": 963,
+        "score": 0.142705
+      },
+      {
+        "rank": 6,
+        "item_idx": 966,
+        "score": 0.133932
+      },
+      {
+        "rank": 7,
+        "item_idx": 313,
+        "score": 0.118565
+      },
+      {
+        "rank": 8,
+        "item_idx": 905,
+        "score": 0.118514
+      },
+      {
+        "rank": 9,
+        "item_idx": 315,
+        "score": 0.111887
+      },
+      {
+        "rank": 10,
+        "item_idx": 1183,
+        "score": 0.092617
+      },
+      {
+        "rank": 11,
+        "item_idx": 492,
+        "score": 0.090084
+      },
+      {
+        "rank": 12,
+        "item_idx": 314,
+        "score": 0.086162
+      },
+      {
+        "rank": 13,
+        "item_idx": 968,
+        "score": 0.084641
+      },
+      {
+        "rank": 14,
+        "item_idx": 496,
+        "score": 0.081103
+      },
+      {
+        "rank": 15,
+        "item_idx": 71,
+        "score": 0.074229
+      },
+      {
+        "rank": 16,
+        "item_idx": 1264,
+        "score": 0.069828
+      },
+      {
+        "rank": 17,
+        "item_idx": 456,
+        "score": 0.067708
+      },
+      {
+        "rank": 18,
+        "item_idx": 1051,
+        "score": 0.066495
+      },
+      {
+        "rank": 19,
+        "item_idx": 491,
+        "score": 0.065269
+      },
+      {
+        "rank": 20,
+        "item_idx": 269,
+        "score": 0.063239
+      }
+    ]
+  },
+  "298": {
+    "Swimwear bottom": [
+      {
+        "rank": 1,
+        "item_idx": 157,
+        "score": 0.146846
+      },
+      {
+        "rank": 2,
+        "item_idx": 865,
+        "score": 0.139585
+      },
+      {
+        "rank": 3,
+        "item_idx": 721,
+        "score": 0.130743
+      },
+      {
+        "rank": 4,
+        "item_idx": 868,
+        "score": 0.127564
+      },
+      {
+        "rank": 5,
+        "item_idx": 658,
+        "score": 0.123448
+      },
+      {
+        "rank": 6,
+        "item_idx": 861,
+        "score": 0.122251
+      },
+      {
+        "rank": 7,
+        "item_idx": 461,
+        "score": 0.117728
+      },
+      {
+        "rank": 8,
+        "item_idx": 812,
+        "score": 0.117343
+      },
+      {
+        "rank": 9,
+        "item_idx": 1453,
+        "score": 0.111995
+      },
+      {
+        "rank": 10,
+        "item_idx": 1149,
+        "score": 0.107616
+      },
+      {
+        "rank": 11,
+        "item_idx": 808,
+        "score": 0.10672
+      },
+      {
+        "rank": 12,
+        "item_idx": 885,
+        "score": 0.096109
+      },
+      {
+        "rank": 13,
+        "item_idx": 659,
+        "score": 0.088114
+      },
+      {
+        "rank": 14,
+        "item_idx": 862,
+        "score": 0.083611
+      },
+      {
+        "rank": 15,
+        "item_idx": 67,
+        "score": 0.079495
+      },
+      {
+        "rank": 16,
+        "item_idx": 173,
+        "score": 0.07803
+      },
+      {
+        "rank": 17,
+        "item_idx": 1446,
+        "score": 0.078022
+      },
+      {
+        "rank": 18,
+        "item_idx": 1198,
+        "score": 0.077347
+      },
+      {
+        "rank": 19,
+        "item_idx": 906,
+        "score": 0.07316
+      },
+      {
+        "rank": 20,
+        "item_idx": 491,
+        "score": 0.071375
+      }
+    ]
+  },
+  "933": {
+    "Belt": [
+      {
+        "rank": 1,
+        "item_idx": 572,
+        "score": 0.212181
+      },
+      {
+        "rank": 2,
+        "item_idx": 573,
+        "score": 0.11894
+      },
+      {
+        "rank": 3,
+        "item_idx": 721,
+        "score": 0.115112
+      },
+      {
+        "rank": 4,
+        "item_idx": 199,
+        "score": 0.113699
+      },
+      {
+        "rank": 5,
+        "item_idx": 1114,
+        "score": 0.110432
+      },
+      {
+        "rank": 6,
+        "item_idx": 173,
+        "score": 0.099061
+      },
+      {
+        "rank": 7,
+        "item_idx": 1149,
+        "score": 0.093356
+      },
+      {
+        "rank": 8,
+        "item_idx": 201,
+        "score": 0.091867
+      },
+      {
+        "rank": 9,
+        "item_idx": 738,
+        "score": 0.085407
+      },
+      {
+        "rank": 10,
+        "item_idx": 1453,
+        "score": 0.083103
+      },
+      {
+        "rank": 11,
+        "item_idx": 1879,
+        "score": 0.082199
+      },
+      {
+        "rank": 12,
+        "item_idx": 143,
+        "score": 0.073508
+      },
+      {
+        "rank": 13,
+        "item_idx": 1481,
+        "score": 0.073025
+      },
+      {
+        "rank": 14,
+        "item_idx": 1707,
+        "score": 0.072427
+      },
+      {
+        "rank": 15,
+        "item_idx": 1304,
+        "score": 0.071439
+      },
+      {
+        "rank": 16,
+        "item_idx": 1427,
+        "score": 0.06854
+      },
+      {
+        "rank": 17,
+        "item_idx": 373,
+        "score": 0.065572
+      },
+      {
+        "rank": 18,
+        "item_idx": 1706,
+        "score": 0.065006
+      },
+      {
+        "rank": 19,
+        "item_idx": 18,
+        "score": 0.063961
+      },
+      {
+        "rank": 20,
+        "item_idx": 948,
+        "score": 0.063383
+      }
+    ]
+  },
+  "440": {
+    "Underwear Tights": [
+      {
+        "rank": 1,
+        "item_idx": 630,
+        "score": 0.135102
+      },
+      {
+        "rank": 2,
+        "item_idx": 13,
+        "score": 0.124975
+      },
+      {
+        "rank": 3,
+        "item_idx": 4,
+        "score": 0.123933
+      },
+      {
+        "rank": 4,
+        "item_idx": 1453,
+        "score": 0.119181
+      },
+      {
+        "rank": 5,
+        "item_idx": 3,
+        "score": 0.115106
+      },
+      {
+        "rank": 6,
+        "item_idx": 39,
+        "score": 0.10571
+      },
+      {
+        "rank": 7,
+        "item_idx": 12,
+        "score": 0.101367
+      },
+      {
+        "rank": 8,
+        "item_idx": 631,
+        "score": 0.101029
+      },
+      {
+        "rank": 9,
+        "item_idx": 53,
+        "score": 0.099103
+      },
+      {
+        "rank": 10,
+        "item_idx": 632,
+        "score": 0.094534
+      },
+      {
+        "rank": 11,
+        "item_idx": 1316,
+        "score": 0.09006
+      },
+      {
+        "rank": 12,
+        "item_idx": 267,
+        "score": 0.081302
+      },
+      {
+        "rank": 13,
+        "item_idx": 581,
+        "score": 0.078269
+      },
+      {
+        "rank": 14,
+        "item_idx": 31,
+        "score": 0.077117
+      },
+      {
+        "rank": 15,
+        "item_idx": 157,
+        "score": 0.075404
+      },
+      {
+        "rank": 16,
+        "item_idx": 139,
+        "score": 0.074714
+      },
+      {
+        "rank": 17,
+        "item_idx": 579,
+        "score": 0.074096
+      },
+      {
+        "rank": 18,
+        "item_idx": 168,
+        "score": 0.073799
+      },
+      {
+        "rank": 19,
+        "item_idx": 79,
+        "score": 0.070606
+      },
+      {
+        "rank": 20,
+        "item_idx": 143,
+        "score": 0.070402
+      }
+    ]
+  },
+  "587": {
+    "Leggings/Tights": [
+      {
+        "rank": 1,
+        "item_idx": 1149,
+        "score": 0.151042
+      },
+      {
+        "rank": 2,
+        "item_idx": 1694,
+        "score": 0.128483
+      },
+      {
+        "rank": 3,
+        "item_idx": 838,
+        "score": 0.127616
+      },
+      {
+        "rank": 4,
+        "item_idx": 1000,
+        "score": 0.123429
+      },
+      {
+        "rank": 5,
+        "item_idx": 1695,
+        "score": 0.123194
+      },
+      {
+        "rank": 6,
+        "item_idx": 384,
+        "score": 0.11599
+      },
+      {
+        "rank": 7,
+        "item_idx": 215,
+        "score": 0.109808
+      },
+      {
+        "rank": 8,
+        "item_idx": 840,
+        "score": 0.109801
+      },
+      {
+        "rank": 9,
+        "item_idx": 1056,
+        "score": 0.106287
+      },
+      {
+        "rank": 10,
+        "item_idx": 1693,
+        "score": 0.103919
+      },
+      {
+        "rank": 11,
+        "item_idx": 173,
+        "score": 0.093706
+      },
+      {
+        "rank": 12,
+        "item_idx": 426,
+        "score": 0.093423
+      },
+      {
+        "rank": 13,
+        "item_idx": 1101,
+        "score": 0.085075
+      },
+      {
+        "rank": 14,
+        "item_idx": 187,
+        "score": 0.083818
+      },
+      {
+        "rank": 15,
+        "item_idx": 845,
+        "score": 0.082766
+      },
+      {
+        "rank": 16,
+        "item_idx": 1001,
+        "score": 0.081435
+      },
+      {
+        "rank": 17,
+        "item_idx": 1707,
+        "score": 0.080417
+      },
+      {
+        "rank": 18,
+        "item_idx": 1201,
+        "score": 0.079833
+      },
+      {
+        "rank": 19,
+        "item_idx": 1706,
+        "score": 0.079788
+      },
+      {
+        "rank": 20,
+        "item_idx": 17,
+        "score": 0.076588
+      }
+    ]
+  }
+}

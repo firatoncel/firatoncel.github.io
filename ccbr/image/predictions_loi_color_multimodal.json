@@ -1,0 +1,5202 @@
+{
+  "53": {
+    "Blue": [
+      {
+        "rank": 1,
+        "item_idx": 1125,
+        "score": 0.178978
+      },
+      {
+        "rank": 2,
+        "item_idx": 885,
+        "score": 0.178177
+      },
+      {
+        "rank": 3,
+        "item_idx": 906,
+        "score": 0.177376
+      },
+      {
+        "rank": 4,
+        "item_idx": 1453,
+        "score": 0.147926
+      },
+      {
+        "rank": 5,
+        "item_idx": 868,
+        "score": 0.124596
+      },
+      {
+        "rank": 6,
+        "item_idx": 812,
+        "score": 0.113788
+      },
+      {
+        "rank": 7,
+        "item_idx": 1056,
+        "score": 0.086339
+      },
+      {
+        "rank": 8,
+        "item_idx": 647,
+        "score": 0.08598
+      },
+      {
+        "rank": 9,
+        "item_idx": 1316,
+        "score": 0.083586
+      },
+      {
+        "rank": 10,
+        "item_idx": 1060,
+        "score": 0.07883
+      },
+      {
+        "rank": 11,
+        "item_idx": 143,
+        "score": 0.075236
+      },
+      {
+        "rank": 12,
+        "item_idx": 1376,
+        "score": 0.072088
+      },
+      {
+        "rank": 13,
+        "item_idx": 1455,
+        "score": 0.071598
+      },
+      {
+        "rank": 14,
+        "item_idx": 1646,
+        "score": 0.070265
+      },
+      {
+        "rank": 15,
+        "item_idx": 295,
+        "score": 0.069981
+      },
+      {
+        "rank": 16,
+        "item_idx": 1452,
+        "score": 0.069386
+      },
+      {
+        "rank": 17,
+        "item_idx": 1105,
+        "score": 0.067647
+      },
+      {
+        "rank": 18,
+        "item_idx": 294,
+        "score": 0.066658
+      },
+      {
+        "rank": 19,
+        "item_idx": 1381,
+        "score": 0.064341
+      },
+      {
+        "rank": 20,
+        "item_idx": 1008,
+        "score": 0.064271
+      }
+    ]
+  },
+  "274": {
+    "Pink": [
+      {
+        "rank": 1,
+        "item_idx": 459,
+        "score": 0.179421
+      },
+      {
+        "rank": 2,
+        "item_idx": 1189,
+        "score": 0.178869
+      },
+      {
+        "rank": 3,
+        "item_idx": 503,
+        "score": 0.162029
+      },
+      {
+        "rank": 4,
+        "item_idx": 1287,
+        "score": 0.137997
+      },
+      {
+        "rank": 5,
+        "item_idx": 813,
+        "score": 0.12307
+      },
+      {
+        "rank": 6,
+        "item_idx": 1558,
+        "score": 0.122067
+      },
+      {
+        "rank": 7,
+        "item_idx": 869,
+        "score": 0.111072
+      },
+      {
+        "rank": 8,
+        "item_idx": 1125,
+        "score": 0.083197
+      },
+      {
+        "rank": 9,
+        "item_idx": 328,
+        "score": 0.079008
+      },
+      {
+        "rank": 10,
+        "item_idx": 1286,
+        "score": 0.078795
+      },
+      {
+        "rank": 11,
+        "item_idx": 464,
+        "score": 0.077587
+      },
+      {
+        "rank": 12,
+        "item_idx": 1220,
+        "score": 0.077348
+      },
+      {
+        "rank": 13,
+        "item_idx": 1552,
+        "score": 0.074435
+      },
+      {
+        "rank": 14,
+        "item_idx": 1076,
+        "score": 0.07186
+      },
+      {
+        "rank": 15,
+        "item_idx": 326,
+        "score": 0.070042
+      },
+      {
+        "rank": 16,
+        "item_idx": 495,
+        "score": 0.069392
+      },
+      {
+        "rank": 17,
+        "item_idx": 1328,
+        "score": 0.066023
+      },
+      {
+        "rank": 18,
+        "item_idx": 1071,
+        "score": 0.062776
+      },
+      {
+        "rank": 19,
+        "item_idx": 607,
+        "score": 0.061536
+      },
+      {
+        "rank": 20,
+        "item_idx": 1327,
+        "score": 0.059081
+      }
+    ]
+  },
+  "89": {
+    "Pink": [
+      {
+        "rank": 1,
+        "item_idx": 1499,
+        "score": 0.200265
+      },
+      {
+        "rank": 2,
+        "item_idx": 1125,
+        "score": 0.175436
+      },
+      {
+        "rank": 3,
+        "item_idx": 1734,
+        "score": 0.169965
+      },
+      {
+        "rank": 4,
+        "item_idx": 1768,
+        "score": 0.163051
+      },
+      {
+        "rank": 5,
+        "item_idx": 961,
+        "score": 0.131344
+      },
+      {
+        "rank": 6,
+        "item_idx": 439,
+        "score": 0.118804
+      },
+      {
+        "rank": 7,
+        "item_idx": 1056,
+        "score": 0.096519
+      },
+      {
+        "rank": 8,
+        "item_idx": 1242,
+        "score": 0.094004
+      },
+      {
+        "rank": 9,
+        "item_idx": 89,
+        "score": 0.089568
+      },
+      {
+        "rank": 10,
+        "item_idx": 373,
+        "score": 0.086801
+      },
+      {
+        "rank": 11,
+        "item_idx": 1064,
+        "score": 0.085233
+      },
+      {
+        "rank": 12,
+        "item_idx": 1569,
+        "score": 0.083034
+      },
+      {
+        "rank": 13,
+        "item_idx": 26,
+        "score": 0.078087
+      },
+      {
+        "rank": 14,
+        "item_idx": 1149,
+        "score": 0.076395
+      },
+      {
+        "rank": 15,
+        "item_idx": 766,
+        "score": 0.075341
+      },
+      {
+        "rank": 16,
+        "item_idx": 1060,
+        "score": 0.069947
+      },
+      {
+        "rank": 17,
+        "item_idx": 79,
+        "score": 0.069167
+      },
+      {
+        "rank": 18,
+        "item_idx": 90,
+        "score": 0.068865
+      },
+      {
+        "rank": 19,
+        "item_idx": 537,
+        "score": 0.068111
+      },
+      {
+        "rank": 20,
+        "item_idx": 680,
+        "score": 0.067654
+      }
+    ]
+  },
+  "787": {
+    "Blue": [
+      {
+        "rank": 1,
+        "item_idx": 464,
+        "score": 0.151621
+      },
+      {
+        "rank": 2,
+        "item_idx": 1076,
+        "score": 0.140112
+      },
+      {
+        "rank": 3,
+        "item_idx": 884,
+        "score": 0.125542
+      },
+      {
+        "rank": 4,
+        "item_idx": 905,
+        "score": 0.116492
+      },
+      {
+        "rank": 5,
+        "item_idx": 1189,
+        "score": 0.115742
+      },
+      {
+        "rank": 6,
+        "item_idx": 1243,
+        "score": 0.113372
+      },
+      {
+        "rank": 7,
+        "item_idx": 813,
+        "score": 0.112788
+      },
+      {
+        "rank": 8,
+        "item_idx": 459,
+        "score": 0.108873
+      },
+      {
+        "rank": 9,
+        "item_idx": 1001,
+        "score": 0.107849
+      },
+      {
+        "rank": 10,
+        "item_idx": 869,
+        "score": 0.107653
+      },
+      {
+        "rank": 11,
+        "item_idx": 1453,
+        "score": 0.103719
+      },
+      {
+        "rank": 12,
+        "item_idx": 1245,
+        "score": 0.102027
+      },
+      {
+        "rank": 13,
+        "item_idx": 1002,
+        "score": 0.093241
+      },
+      {
+        "rank": 14,
+        "item_idx": 1000,
+        "score": 0.091617
+      },
+      {
+        "rank": 15,
+        "item_idx": 1440,
+        "score": 0.084359
+      },
+      {
+        "rank": 16,
+        "item_idx": 1439,
+        "score": 0.084125
+      },
+      {
+        "rank": 17,
+        "item_idx": 1361,
+        "score": 0.077958
+      },
+      {
+        "rank": 18,
+        "item_idx": 1328,
+        "score": 0.065755
+      },
+      {
+        "rank": 19,
+        "item_idx": 537,
+        "score": 0.065314
+      },
+      {
+        "rank": 20,
+        "item_idx": 1138,
+        "score": 0.064894
+      }
+    ]
+  },
+  "417": {
+    "Red": [
+      {
+        "rank": 1,
+        "item_idx": 572,
+        "score": 0.205839
+      },
+      {
+        "rank": 2,
+        "item_idx": 1334,
+        "score": 0.189654
+      },
+      {
+        "rank": 3,
+        "item_idx": 1333,
+        "score": 0.184139
+      },
+      {
+        "rank": 4,
+        "item_idx": 492,
+        "score": 0.176017
+      },
+      {
+        "rank": 5,
+        "item_idx": 807,
+        "score": 0.150324
+      },
+      {
+        "rank": 6,
+        "item_idx": 1051,
+        "score": 0.148386
+      },
+      {
+        "rank": 7,
+        "item_idx": 1053,
+        "score": 0.141667
+      },
+      {
+        "rank": 8,
+        "item_idx": 456,
+        "score": 0.126447
+      },
+      {
+        "rank": 9,
+        "item_idx": 864,
+        "score": 0.105726
+      },
+      {
+        "rank": 10,
+        "item_idx": 1114,
+        "score": 0.102742
+      },
+      {
+        "rank": 11,
+        "item_idx": 721,
+        "score": 0.100066
+      },
+      {
+        "rank": 12,
+        "item_idx": 146,
+        "score": 0.097362
+      },
+      {
+        "rank": 13,
+        "item_idx": 573,
+        "score": 0.095212
+      },
+      {
+        "rank": 14,
+        "item_idx": 69,
+        "score": 0.087256
+      },
+      {
+        "rank": 15,
+        "item_idx": 496,
+        "score": 0.085581
+      },
+      {
+        "rank": 16,
+        "item_idx": 865,
+        "score": 0.080036
+      },
+      {
+        "rank": 17,
+        "item_idx": 555,
+        "score": 0.074894
+      },
+      {
+        "rank": 18,
+        "item_idx": 1259,
+        "score": 0.074436
+      },
+      {
+        "rank": 19,
+        "item_idx": 1638,
+        "score": 0.07358
+      },
+      {
+        "rank": 20,
+        "item_idx": 461,
+        "score": 0.072728
+      }
+    ]
+  },
+  "272": {
+    "Pink": [
+      {
+        "rank": 1,
+        "item_idx": 1420,
+        "score": 0.244847
+      },
+      {
+        "rank": 2,
+        "item_idx": 389,
+        "score": 0.155141
+      },
+      {
+        "rank": 3,
+        "item_idx": 1125,
+        "score": 0.149928
+      },
+      {
+        "rank": 4,
+        "item_idx": 1000,
+        "score": 0.14658
+      },
+      {
+        "rank": 5,
+        "item_idx": 985,
+        "score": 0.134479
+      },
+      {
+        "rank": 6,
+        "item_idx": 1453,
+        "score": 0.125093
+      },
+      {
+        "rank": 7,
+        "item_idx": 143,
+        "score": 0.106083
+      },
+      {
+        "rank": 8,
+        "item_idx": 588,
+        "score": 0.10077
+      },
+      {
+        "rank": 9,
+        "item_idx": 23,
+        "score": 0.077776
+      },
+      {
+        "rank": 10,
+        "item_idx": 513,
+        "score": 0.077691
+      },
+      {
+        "rank": 11,
+        "item_idx": 461,
+        "score": 0.077471
+      },
+      {
+        "rank": 12,
+        "item_idx": 1331,
+        "score": 0.075737
+      },
+      {
+        "rank": 13,
+        "item_idx": 885,
+        "score": 0.074665
+      },
+      {
+        "rank": 14,
+        "item_idx": 821,
+        "score": 0.074571
+      },
+      {
+        "rank": 15,
+        "item_idx": 373,
+        "score": 0.072089
+      },
+      {
+        "rank": 16,
+        "item_idx": 906,
+        "score": 0.071531
+      },
+      {
+        "rank": 17,
+        "item_idx": 1452,
+        "score": 0.07016
+      },
+      {
+        "rank": 18,
+        "item_idx": 1573,
+        "score": 0.069249
+      },
+      {
+        "rank": 19,
+        "item_idx": 1001,
+        "score": 0.068275
+      },
+      {
+        "rank": 20,
+        "item_idx": 1201,
+        "score": 0.067806
+      }
+    ]
+  },
+  "110": {
+    "Red": [
+      {
+        "rank": 1,
+        "item_idx": 492,
+        "score": 0.186566
+      },
+      {
+        "rank": 2,
+        "item_idx": 456,
+        "score": 0.149675
+      },
+      {
+        "rank": 3,
+        "item_idx": 807,
+        "score": 0.147542
+      },
+      {
+        "rank": 4,
+        "item_idx": 1729,
+        "score": 0.126026
+      },
+      {
+        "rank": 5,
+        "item_idx": 1051,
+        "score": 0.113436
+      },
+      {
+        "rank": 6,
+        "item_idx": 1053,
+        "score": 0.111894
+      },
+      {
+        "rank": 7,
+        "item_idx": 1360,
+        "score": 0.107201
+      },
+      {
+        "rank": 8,
+        "item_idx": 864,
+        "score": 0.103209
+      },
+      {
+        "rank": 9,
+        "item_idx": 496,
+        "score": 0.1021
+      },
+      {
+        "rank": 10,
+        "item_idx": 647,
+        "score": 0.083863
+      },
+      {
+        "rank": 11,
+        "item_idx": 888,
+        "score": 0.080924
+      },
+      {
+        "rank": 12,
+        "item_idx": 461,
+        "score": 0.079776
+      },
+      {
+        "rank": 13,
+        "item_idx": 1316,
+        "score": 0.076571
+      },
+      {
+        "rank": 14,
+        "item_idx": 1914,
+        "score": 0.070321
+      },
+      {
+        "rank": 15,
+        "item_idx": 1731,
+        "score": 0.070143
+      },
+      {
+        "rank": 16,
+        "item_idx": 69,
+        "score": 0.069423
+      },
+      {
+        "rank": 17,
+        "item_idx": 1557,
+        "score": 0.066997
+      },
+      {
+        "rank": 18,
+        "item_idx": 975,
+        "score": 0.066827
+      },
+      {
+        "rank": 19,
+        "item_idx": 400,
+        "score": 0.062481
+      },
+      {
+        "rank": 20,
+        "item_idx": 401,
+        "score": 0.062377
+      }
+    ]
+  },
+  "858": {
+    "Orange": [
+      {
+        "rank": 1,
+        "item_idx": 3,
+        "score": 0.174987
+      },
+      {
+        "rank": 2,
+        "item_idx": 963,
+        "score": 0.165177
+      },
+      {
+        "rank": 3,
+        "item_idx": 13,
+        "score": 0.163603
+      },
+      {
+        "rank": 4,
+        "item_idx": 4,
+        "score": 0.163517
+      },
+      {
+        "rank": 5,
+        "item_idx": 966,
+        "score": 0.156864
+      },
+      {
+        "rank": 6,
+        "item_idx": 439,
+        "score": 0.115388
+      },
+      {
+        "rank": 7,
+        "item_idx": 139,
+        "score": 0.100081
+      },
+      {
+        "rank": 8,
+        "item_idx": 912,
+        "score": 0.088086
+      },
+      {
+        "rank": 9,
+        "item_idx": 43,
+        "score": 0.085713
+      },
+      {
+        "rank": 10,
+        "item_idx": 669,
+        "score": 0.08336
+      },
+      {
+        "rank": 11,
+        "item_idx": 244,
+        "score": 0.082058
+      },
+      {
+        "rank": 12,
+        "item_idx": 779,
+        "score": 0.08199
+      },
+      {
+        "rank": 13,
+        "item_idx": 53,
+        "score": 0.078313
+      },
+      {
+        "rank": 14,
+        "item_idx": 39,
+        "score": 0.0765
+      },
+      {
+        "rank": 15,
+        "item_idx": 1677,
+        "score": 0.075341
+      },
+      {
+        "rank": 16,
+        "item_idx": 1585,
+        "score": 0.072567
+      },
+      {
+        "rank": 17,
+        "item_idx": 7,
+        "score": 0.070304
+      },
+      {
+        "rank": 18,
+        "item_idx": 267,
+        "score": 0.067447
+      },
+      {
+        "rank": 19,
+        "item_idx": 41,
+        "score": 0.063933
+      },
+      {
+        "rank": 20,
+        "item_idx": 23,
+        "score": 0.063797
+      }
+    ]
+  },
+  "922": {
+    "Beige": [
+      {
+        "rank": 1,
+        "item_idx": 322,
+        "score": 0.394905
+      },
+      {
+        "rank": 2,
+        "item_idx": 380,
+        "score": 0.290694
+      },
+      {
+        "rank": 3,
+        "item_idx": 602,
+        "score": 0.15778
+      },
+      {
+        "rank": 4,
+        "item_idx": 959,
+        "score": 0.136911
+      },
+      {
+        "rank": 5,
+        "item_idx": 958,
+        "score": 0.130235
+      },
+      {
+        "rank": 6,
+        "item_idx": 493,
+        "score": 0.122426
+      },
+      {
+        "rank": 7,
+        "item_idx": 1191,
+        "score": 0.120807
+      },
+      {
+        "rank": 8,
+        "item_idx": 68,
+        "score": 0.077491
+      },
+      {
+        "rank": 9,
+        "item_idx": 1902,
+        "score": 0.076831
+      },
+      {
+        "rank": 10,
+        "item_idx": 1901,
+        "score": 0.072674
+      },
+      {
+        "rank": 11,
+        "item_idx": 1083,
+        "score": 0.065933
+      },
+      {
+        "rank": 12,
+        "item_idx": 866,
+        "score": 0.06268
+      },
+      {
+        "rank": 13,
+        "item_idx": 462,
+        "score": 0.062533
+      },
+      {
+        "rank": 14,
+        "item_idx": 1781,
+        "score": 0.062115
+      },
+      {
+        "rank": 15,
+        "item_idx": 964,
+        "score": 0.054655
+      },
+      {
+        "rank": 16,
+        "item_idx": 499,
+        "score": 0.050234
+      },
+      {
+        "rank": 17,
+        "item_idx": 967,
+        "score": 0.048899
+      },
+      {
+        "rank": 18,
+        "item_idx": 1074,
+        "score": 0.048813
+      },
+      {
+        "rank": 19,
+        "item_idx": 379,
+        "score": 0.048775
+      },
+      {
+        "rank": 20,
+        "item_idx": 953,
+        "score": 0.048261
+      }
+    ]
+  },
+  "895": {
+    "Beige": [
+      {
+        "rank": 1,
+        "item_idx": 1316,
+        "score": 0.150528
+      },
+      {
+        "rank": 2,
+        "item_idx": 1047,
+        "score": 0.131992
+      },
+      {
+        "rank": 3,
+        "item_idx": 557,
+        "score": 0.114852
+      },
+      {
+        "rank": 4,
+        "item_idx": 373,
+        "score": 0.095924
+      },
+      {
+        "rank": 5,
+        "item_idx": 519,
+        "score": 0.085575
+      },
+      {
+        "rank": 6,
+        "item_idx": 630,
+        "score": 0.08515
+      },
+      {
+        "rank": 7,
+        "item_idx": 754,
+        "score": 0.079132
+      },
+      {
+        "rank": 8,
+        "item_idx": 721,
+        "score": 0.071782
+      },
+      {
+        "rank": 9,
+        "item_idx": 960,
+        "score": 0.069598
+      },
+      {
+        "rank": 10,
+        "item_idx": 631,
+        "score": 0.067842
+      },
+      {
+        "rank": 11,
+        "item_idx": 294,
+        "score": 0.067001
+      },
+      {
+        "rank": 12,
+        "item_idx": 295,
+        "score": 0.065825
+      },
+      {
+        "rank": 13,
+        "item_idx": 1312,
+        "score": 0.06461
+      },
+      {
+        "rank": 14,
+        "item_idx": 659,
+        "score": 0.064319
+      },
+      {
+        "rank": 15,
+        "item_idx": 1786,
+        "score": 0.064166
+      },
+      {
+        "rank": 16,
+        "item_idx": 789,
+        "score": 0.06128
+      },
+      {
+        "rank": 17,
+        "item_idx": 757,
+        "score": 0.058814
+      },
+      {
+        "rank": 18,
+        "item_idx": 556,
+        "score": 0.058163
+      },
+      {
+        "rank": 19,
+        "item_idx": 885,
+        "score": 0.056526
+      },
+      {
+        "rank": 20,
+        "item_idx": 632,
+        "score": 0.056271
+      }
+    ]
+  },
+  "39": {
+    "Yellow": [
+      {
+        "rank": 1,
+        "item_idx": 384,
+        "score": 0.148822
+      },
+      {
+        "rank": 2,
+        "item_idx": 492,
+        "score": 0.128852
+      },
+      {
+        "rank": 3,
+        "item_idx": 851,
+        "score": 0.111757
+      },
+      {
+        "rank": 4,
+        "item_idx": 567,
+        "score": 0.107299
+      },
+      {
+        "rank": 5,
+        "item_idx": 157,
+        "score": 0.105589
+      },
+      {
+        "rank": 6,
+        "item_idx": 807,
+        "score": 0.102363
+      },
+      {
+        "rank": 7,
+        "item_idx": 400,
+        "score": 0.10114
+      },
+      {
+        "rank": 8,
+        "item_idx": 864,
+        "score": 0.097468
+      },
+      {
+        "rank": 9,
+        "item_idx": 456,
+        "score": 0.096997
+      },
+      {
+        "rank": 10,
+        "item_idx": 401,
+        "score": 0.089678
+      },
+      {
+        "rank": 11,
+        "item_idx": 1263,
+        "score": 0.08702
+      },
+      {
+        "rank": 12,
+        "item_idx": 721,
+        "score": 0.077228
+      },
+      {
+        "rank": 13,
+        "item_idx": 1032,
+        "score": 0.07206
+      },
+      {
+        "rank": 14,
+        "item_idx": 426,
+        "score": 0.070338
+      },
+      {
+        "rank": 15,
+        "item_idx": 467,
+        "score": 0.070069
+      },
+      {
+        "rank": 16,
+        "item_idx": 805,
+        "score": 0.068441
+      },
+      {
+        "rank": 17,
+        "item_idx": 70,
+        "score": 0.067576
+      },
+      {
+        "rank": 18,
+        "item_idx": 1033,
+        "score": 0.067466
+      },
+      {
+        "rank": 19,
+        "item_idx": 1147,
+        "score": 0.067223
+      },
+      {
+        "rank": 20,
+        "item_idx": 1099,
+        "score": 0.06685
+      }
+    ]
+  },
+  "388": {
+    "Orange": [
+      {
+        "rank": 1,
+        "item_idx": 963,
+        "score": 0.126653
+      },
+      {
+        "rank": 2,
+        "item_idx": 966,
+        "score": 0.119152
+      },
+      {
+        "rank": 3,
+        "item_idx": 851,
+        "score": 0.104854
+      },
+      {
+        "rank": 4,
+        "item_idx": 492,
+        "score": 0.101403
+      },
+      {
+        "rank": 5,
+        "item_idx": 80,
+        "score": 0.089369
+      },
+      {
+        "rank": 6,
+        "item_idx": 807,
+        "score": 0.088794
+      },
+      {
+        "rank": 7,
+        "item_idx": 833,
+        "score": 0.084533
+      },
+      {
+        "rank": 8,
+        "item_idx": 864,
+        "score": 0.083964
+      },
+      {
+        "rank": 9,
+        "item_idx": 1263,
+        "score": 0.08151
+      },
+      {
+        "rank": 10,
+        "item_idx": 912,
+        "score": 0.077288
+      },
+      {
+        "rank": 11,
+        "item_idx": 79,
+        "score": 0.076077
+      },
+      {
+        "rank": 12,
+        "item_idx": 464,
+        "score": 0.071905
+      },
+      {
+        "rank": 13,
+        "item_idx": 885,
+        "score": 0.071644
+      },
+      {
+        "rank": 14,
+        "item_idx": 401,
+        "score": 0.070941
+      },
+      {
+        "rank": 15,
+        "item_idx": 374,
+        "score": 0.069245
+      },
+      {
+        "rank": 16,
+        "item_idx": 1453,
+        "score": 0.069066
+      },
+      {
+        "rank": 17,
+        "item_idx": 1051,
+        "score": 0.068792
+      },
+      {
+        "rank": 18,
+        "item_idx": 1376,
+        "score": 0.067945
+      },
+      {
+        "rank": 19,
+        "item_idx": 1076,
+        "score": 0.067712
+      },
+      {
+        "rank": 20,
+        "item_idx": 1243,
+        "score": 0.067643
+      }
+    ]
+  },
+  "549": {
+    "Orange": [
+      {
+        "rank": 1,
+        "item_idx": 337,
+        "score": 0.142456
+      },
+      {
+        "rank": 2,
+        "item_idx": 459,
+        "score": 0.108909
+      },
+      {
+        "rank": 3,
+        "item_idx": 963,
+        "score": 0.104755
+      },
+      {
+        "rank": 4,
+        "item_idx": 418,
+        "score": 0.104696
+      },
+      {
+        "rank": 5,
+        "item_idx": 1189,
+        "score": 0.098169
+      },
+      {
+        "rank": 6,
+        "item_idx": 966,
+        "score": 0.097523
+      },
+      {
+        "rank": 7,
+        "item_idx": 342,
+        "score": 0.094167
+      },
+      {
+        "rank": 8,
+        "item_idx": 464,
+        "score": 0.094085
+      },
+      {
+        "rank": 9,
+        "item_idx": 1595,
+        "score": 0.089572
+      },
+      {
+        "rank": 10,
+        "item_idx": 838,
+        "score": 0.089569
+      },
+      {
+        "rank": 11,
+        "item_idx": 120,
+        "score": 0.089284
+      },
+      {
+        "rank": 12,
+        "item_idx": 1076,
+        "score": 0.088291
+      },
+      {
+        "rank": 13,
+        "item_idx": 1125,
+        "score": 0.082468
+      },
+      {
+        "rank": 14,
+        "item_idx": 1287,
+        "score": 0.08097
+      },
+      {
+        "rank": 15,
+        "item_idx": 614,
+        "score": 0.077755
+      },
+      {
+        "rank": 16,
+        "item_idx": 1101,
+        "score": 0.076911
+      },
+      {
+        "rank": 17,
+        "item_idx": 1379,
+        "score": 0.076509
+      },
+      {
+        "rank": 18,
+        "item_idx": 1105,
+        "score": 0.075616
+      },
+      {
+        "rank": 19,
+        "item_idx": 1327,
+        "score": 0.073048
+      },
+      {
+        "rank": 20,
+        "item_idx": 797,
+        "score": 0.072079
+      }
+    ]
+  },
+  "575": {
+    "Yellow": [
+      {
+        "rank": 1,
+        "item_idx": 1071,
+        "score": 0.11093
+      },
+      {
+        "rank": 2,
+        "item_idx": 555,
+        "score": 0.10356
+      },
+      {
+        "rank": 3,
+        "item_idx": 851,
+        "score": 0.102602
+      },
+      {
+        "rank": 4,
+        "item_idx": 929,
+        "score": 0.098473
+      },
+      {
+        "rank": 5,
+        "item_idx": 1263,
+        "score": 0.089583
+      },
+      {
+        "rank": 6,
+        "item_idx": 554,
+        "score": 0.088759
+      },
+      {
+        "rank": 7,
+        "item_idx": 1259,
+        "score": 0.087937
+      },
+      {
+        "rank": 8,
+        "item_idx": 157,
+        "score": 0.08592
+      },
+      {
+        "rank": 9,
+        "item_idx": 1149,
+        "score": 0.078456
+      },
+      {
+        "rank": 10,
+        "item_idx": 721,
+        "score": 0.077199
+      },
+      {
+        "rank": 11,
+        "item_idx": 928,
+        "score": 0.076859
+      },
+      {
+        "rank": 12,
+        "item_idx": 79,
+        "score": 0.072341
+      },
+      {
+        "rank": 13,
+        "item_idx": 1412,
+        "score": 0.067508
+      },
+      {
+        "rank": 14,
+        "item_idx": 1147,
+        "score": 0.066821
+      },
+      {
+        "rank": 15,
+        "item_idx": 1099,
+        "score": 0.066606
+      },
+      {
+        "rank": 16,
+        "item_idx": 70,
+        "score": 0.065242
+      },
+      {
+        "rank": 17,
+        "item_idx": 1481,
+        "score": 0.062476
+      },
+      {
+        "rank": 18,
+        "item_idx": 1180,
+        "score": 0.061962
+      },
+      {
+        "rank": 19,
+        "item_idx": 173,
+        "score": 0.06082
+      },
+      {
+        "rank": 20,
+        "item_idx": 791,
+        "score": 0.05889
+      }
+    ]
+  },
+  "340": {
+    "Red": [
+      {
+        "rank": 1,
+        "item_idx": 492,
+        "score": 0.125934
+      },
+      {
+        "rank": 2,
+        "item_idx": 342,
+        "score": 0.124505
+      },
+      {
+        "rank": 3,
+        "item_idx": 122,
+        "score": 0.110088
+      },
+      {
+        "rank": 4,
+        "item_idx": 456,
+        "score": 0.109479
+      },
+      {
+        "rank": 5,
+        "item_idx": 337,
+        "score": 0.106557
+      },
+      {
+        "rank": 6,
+        "item_idx": 1382,
+        "score": 0.1017
+      },
+      {
+        "rank": 7,
+        "item_idx": 120,
+        "score": 0.101575
+      },
+      {
+        "rank": 8,
+        "item_idx": 766,
+        "score": 0.089998
+      },
+      {
+        "rank": 9,
+        "item_idx": 347,
+        "score": 0.089185
+      },
+      {
+        "rank": 10,
+        "item_idx": 807,
+        "score": 0.088406
+      },
+      {
+        "rank": 11,
+        "item_idx": 1644,
+        "score": 0.08705
+      },
+      {
+        "rank": 12,
+        "item_idx": 348,
+        "score": 0.085842
+      },
+      {
+        "rank": 13,
+        "item_idx": 614,
+        "score": 0.07842
+      },
+      {
+        "rank": 14,
+        "item_idx": 1801,
+        "score": 0.075087
+      },
+      {
+        "rank": 15,
+        "item_idx": 93,
+        "score": 0.074599
+      },
+      {
+        "rank": 16,
+        "item_idx": 1000,
+        "score": 0.072653
+      },
+      {
+        "rank": 17,
+        "item_idx": 92,
+        "score": 0.071938
+      },
+      {
+        "rank": 18,
+        "item_idx": 1379,
+        "score": 0.071675
+      },
+      {
+        "rank": 19,
+        "item_idx": 418,
+        "score": 0.07126
+      },
+      {
+        "rank": 20,
+        "item_idx": 338,
+        "score": 0.068609
+      }
+    ]
+  },
+  "348": {
+    "Red": [
+      {
+        "rank": 1,
+        "item_idx": 492,
+        "score": 0.115168
+      },
+      {
+        "rank": 2,
+        "item_idx": 555,
+        "score": 0.105164
+      },
+      {
+        "rank": 3,
+        "item_idx": 1149,
+        "score": 0.101343
+      },
+      {
+        "rank": 4,
+        "item_idx": 157,
+        "score": 0.095928
+      },
+      {
+        "rank": 5,
+        "item_idx": 175,
+        "score": 0.094559
+      },
+      {
+        "rank": 6,
+        "item_idx": 1051,
+        "score": 0.093909
+      },
+      {
+        "rank": 7,
+        "item_idx": 1226,
+        "score": 0.091179
+      },
+      {
+        "rank": 8,
+        "item_idx": 456,
+        "score": 0.091036
+      },
+      {
+        "rank": 9,
+        "item_idx": 807,
+        "score": 0.090481
+      },
+      {
+        "rank": 10,
+        "item_idx": 554,
+        "score": 0.083832
+      },
+      {
+        "rank": 11,
+        "item_idx": 1053,
+        "score": 0.081552
+      },
+      {
+        "rank": 12,
+        "item_idx": 1693,
+        "score": 0.078636
+      },
+      {
+        "rank": 13,
+        "item_idx": 894,
+        "score": 0.076537
+      },
+      {
+        "rank": 14,
+        "item_idx": 173,
+        "score": 0.075981
+      },
+      {
+        "rank": 15,
+        "item_idx": 1695,
+        "score": 0.072447
+      },
+      {
+        "rank": 16,
+        "item_idx": 1694,
+        "score": 0.069045
+      },
+      {
+        "rank": 17,
+        "item_idx": 237,
+        "score": 0.066022
+      },
+      {
+        "rank": 18,
+        "item_idx": 864,
+        "score": 0.063648
+      },
+      {
+        "rank": 19,
+        "item_idx": 1227,
+        "score": 0.061424
+      },
+      {
+        "rank": 20,
+        "item_idx": 1522,
+        "score": 0.060829
+      }
+    ]
+  },
+  "872": {
+    "Red": [
+      {
+        "rank": 1,
+        "item_idx": 492,
+        "score": 0.144127
+      },
+      {
+        "rank": 2,
+        "item_idx": 1242,
+        "score": 0.127954
+      },
+      {
+        "rank": 3,
+        "item_idx": 456,
+        "score": 0.125186
+      },
+      {
+        "rank": 4,
+        "item_idx": 807,
+        "score": 0.116993
+      },
+      {
+        "rank": 5,
+        "item_idx": 1569,
+        "score": 0.111721
+      },
+      {
+        "rank": 6,
+        "item_idx": 4,
+        "score": 0.108996
+      },
+      {
+        "rank": 7,
+        "item_idx": 1064,
+        "score": 0.106305
+      },
+      {
+        "rank": 8,
+        "item_idx": 1053,
+        "score": 0.10411
+      },
+      {
+        "rank": 9,
+        "item_idx": 496,
+        "score": 0.102688
+      },
+      {
+        "rank": 10,
+        "item_idx": 1051,
+        "score": 0.102081
+      },
+      {
+        "rank": 11,
+        "item_idx": 384,
+        "score": 0.088789
+      },
+      {
+        "rank": 12,
+        "item_idx": 13,
+        "score": 0.086282
+      },
+      {
+        "rank": 13,
+        "item_idx": 513,
+        "score": 0.083575
+      },
+      {
+        "rank": 14,
+        "item_idx": 3,
+        "score": 0.082583
+      },
+      {
+        "rank": 15,
+        "item_idx": 180,
+        "score": 0.075951
+      },
+      {
+        "rank": 16,
+        "item_idx": 864,
+        "score": 0.074266
+      },
+      {
+        "rank": 17,
+        "item_idx": 461,
+        "score": 0.070678
+      },
+      {
+        "rank": 18,
+        "item_idx": 888,
+        "score": 0.069669
+      },
+      {
+        "rank": 19,
+        "item_idx": 822,
+        "score": 0.069414
+      },
+      {
+        "rank": 20,
+        "item_idx": 31,
+        "score": 0.068809
+      }
+    ]
+  },
+  "163": {
+    "Grey": [
+      {
+        "rank": 1,
+        "item_idx": 1149,
+        "score": 0.126443
+      },
+      {
+        "rank": 2,
+        "item_idx": 173,
+        "score": 0.124215
+      },
+      {
+        "rank": 3,
+        "item_idx": 929,
+        "score": 0.116928
+      },
+      {
+        "rank": 4,
+        "item_idx": 1201,
+        "score": 0.105475
+      },
+      {
+        "rank": 5,
+        "item_idx": 928,
+        "score": 0.103942
+      },
+      {
+        "rank": 6,
+        "item_idx": 1707,
+        "score": 0.093082
+      },
+      {
+        "rank": 7,
+        "item_idx": 1304,
+        "score": 0.092435
+      },
+      {
+        "rank": 8,
+        "item_idx": 1375,
+        "score": 0.090655
+      },
+      {
+        "rank": 9,
+        "item_idx": 1627,
+        "score": 0.088823
+      },
+      {
+        "rank": 10,
+        "item_idx": 1151,
+        "score": 0.087123
+      },
+      {
+        "rank": 11,
+        "item_idx": 373,
+        "score": 0.083652
+      },
+      {
+        "rank": 12,
+        "item_idx": 67,
+        "score": 0.082471
+      },
+      {
+        "rank": 13,
+        "item_idx": 1376,
+        "score": 0.081672
+      },
+      {
+        "rank": 14,
+        "item_idx": 1706,
+        "score": 0.080295
+      },
+      {
+        "rank": 15,
+        "item_idx": 1527,
+        "score": 0.079753
+      },
+      {
+        "rank": 16,
+        "item_idx": 1427,
+        "score": 0.076646
+      },
+      {
+        "rank": 17,
+        "item_idx": 868,
+        "score": 0.074258
+      },
+      {
+        "rank": 18,
+        "item_idx": 789,
+        "score": 0.07176
+      },
+      {
+        "rank": 19,
+        "item_idx": 1879,
+        "score": 0.069456
+      },
+      {
+        "rank": 20,
+        "item_idx": 1628,
+        "score": 0.063946
+      }
+    ]
+  },
+  "138": {
+    "Yellow": [
+      {
+        "rank": 1,
+        "item_idx": 66,
+        "score": 0.206544
+      },
+      {
+        "rank": 2,
+        "item_idx": 67,
+        "score": 0.179072
+      },
+      {
+        "rank": 3,
+        "item_idx": 851,
+        "score": 0.12999
+      },
+      {
+        "rank": 4,
+        "item_idx": 1263,
+        "score": 0.112838
+      },
+      {
+        "rank": 5,
+        "item_idx": 1099,
+        "score": 0.10915
+      },
+      {
+        "rank": 6,
+        "item_idx": 70,
+        "score": 0.105723
+      },
+      {
+        "rank": 7,
+        "item_idx": 418,
+        "score": 0.097998
+      },
+      {
+        "rank": 8,
+        "item_idx": 968,
+        "score": 0.089335
+      },
+      {
+        "rank": 9,
+        "item_idx": 602,
+        "score": 0.087331
+      },
+      {
+        "rank": 10,
+        "item_idx": 1379,
+        "score": 0.086035
+      },
+      {
+        "rank": 11,
+        "item_idx": 1183,
+        "score": 0.08576
+      },
+      {
+        "rank": 12,
+        "item_idx": 1316,
+        "score": 0.085446
+      },
+      {
+        "rank": 13,
+        "item_idx": 721,
+        "score": 0.081835
+      },
+      {
+        "rank": 14,
+        "item_idx": 467,
+        "score": 0.080223
+      },
+      {
+        "rank": 15,
+        "item_idx": 1595,
+        "score": 0.079359
+      },
+      {
+        "rank": 16,
+        "item_idx": 384,
+        "score": 0.079012
+      },
+      {
+        "rank": 17,
+        "item_idx": 439,
+        "score": 0.074238
+      },
+      {
+        "rank": 18,
+        "item_idx": 706,
+        "score": 0.068333
+      },
+      {
+        "rank": 19,
+        "item_idx": 385,
+        "score": 0.06743
+      },
+      {
+        "rank": 20,
+        "item_idx": 1180,
+        "score": 0.066839
+      }
+    ]
+  },
+  "345": {
+    "Yellow": [
+      {
+        "rank": 1,
+        "item_idx": 13,
+        "score": 0.129961
+      },
+      {
+        "rank": 2,
+        "item_idx": 851,
+        "score": 0.125678
+      },
+      {
+        "rank": 3,
+        "item_idx": 884,
+        "score": 0.119682
+      },
+      {
+        "rank": 4,
+        "item_idx": 572,
+        "score": 0.108347
+      },
+      {
+        "rank": 5,
+        "item_idx": 905,
+        "score": 0.106243
+      },
+      {
+        "rank": 6,
+        "item_idx": 1263,
+        "score": 0.105711
+      },
+      {
+        "rank": 7,
+        "item_idx": 3,
+        "score": 0.104832
+      },
+      {
+        "rank": 8,
+        "item_idx": 4,
+        "score": 0.095103
+      },
+      {
+        "rank": 9,
+        "item_idx": 70,
+        "score": 0.094764
+      },
+      {
+        "rank": 10,
+        "item_idx": 1099,
+        "score": 0.093501
+      },
+      {
+        "rank": 11,
+        "item_idx": 1243,
+        "score": 0.089388
+      },
+      {
+        "rank": 12,
+        "item_idx": 467,
+        "score": 0.087179
+      },
+      {
+        "rank": 13,
+        "item_idx": 1245,
+        "score": 0.086827
+      },
+      {
+        "rank": 14,
+        "item_idx": 67,
+        "score": 0.084767
+      },
+      {
+        "rank": 15,
+        "item_idx": 247,
+        "score": 0.082495
+      },
+      {
+        "rank": 16,
+        "item_idx": 139,
+        "score": 0.081079
+      },
+      {
+        "rank": 17,
+        "item_idx": 1149,
+        "score": 0.081014
+      },
+      {
+        "rank": 18,
+        "item_idx": 173,
+        "score": 0.075095
+      },
+      {
+        "rank": 19,
+        "item_idx": 1180,
+        "score": 0.06768
+      },
+      {
+        "rank": 20,
+        "item_idx": 1114,
+        "score": 0.067517
+      }
+    ]
+  },
+  "574": {
+    "Grey": [
+      {
+        "rank": 1,
+        "item_idx": 1823,
+        "score": 0.266618
+      },
+      {
+        "rank": 2,
+        "item_idx": 1820,
+        "score": 0.256051
+      },
+      {
+        "rank": 3,
+        "item_idx": 1420,
+        "score": 0.202097
+      },
+      {
+        "rank": 4,
+        "item_idx": 1435,
+        "score": 0.180651
+      },
+      {
+        "rank": 5,
+        "item_idx": 1436,
+        "score": 0.175174
+      },
+      {
+        "rank": 6,
+        "item_idx": 389,
+        "score": 0.115339
+      },
+      {
+        "rank": 7,
+        "item_idx": 1630,
+        "score": 0.110338
+      },
+      {
+        "rank": 8,
+        "item_idx": 985,
+        "score": 0.098488
+      },
+      {
+        "rank": 9,
+        "item_idx": 492,
+        "score": 0.090492
+      },
+      {
+        "rank": 10,
+        "item_idx": 894,
+        "score": 0.084529
+      },
+      {
+        "rank": 11,
+        "item_idx": 456,
+        "score": 0.078113
+      },
+      {
+        "rank": 12,
+        "item_idx": 143,
+        "score": 0.077244
+      },
+      {
+        "rank": 13,
+        "item_idx": 1135,
+        "score": 0.072768
+      },
+      {
+        "rank": 14,
+        "item_idx": 1334,
+        "score": 0.068525
+      },
+      {
+        "rank": 15,
+        "item_idx": 379,
+        "score": 0.067478
+      },
+      {
+        "rank": 16,
+        "item_idx": 895,
+        "score": 0.064215
+      },
+      {
+        "rank": 17,
+        "item_idx": 69,
+        "score": 0.063735
+      },
+      {
+        "rank": 18,
+        "item_idx": 1659,
+        "score": 0.060531
+      },
+      {
+        "rank": 19,
+        "item_idx": 144,
+        "score": 0.060189
+      },
+      {
+        "rank": 20,
+        "item_idx": 503,
+        "score": 0.059733
+      }
+    ]
+  },
+  "341": {
+    "Yellow": [
+      {
+        "rank": 1,
+        "item_idx": 1412,
+        "score": 0.198758
+      },
+      {
+        "rank": 2,
+        "item_idx": 704,
+        "score": 0.122346
+      },
+      {
+        "rank": 3,
+        "item_idx": 1199,
+        "score": 0.121362
+      },
+      {
+        "rank": 4,
+        "item_idx": 1071,
+        "score": 0.121252
+      },
+      {
+        "rank": 5,
+        "item_idx": 1550,
+        "score": 0.111968
+      },
+      {
+        "rank": 6,
+        "item_idx": 418,
+        "score": 0.096381
+      },
+      {
+        "rank": 7,
+        "item_idx": 699,
+        "score": 0.08989
+      },
+      {
+        "rank": 8,
+        "item_idx": 1379,
+        "score": 0.089254
+      },
+      {
+        "rank": 9,
+        "item_idx": 527,
+        "score": 0.086641
+      },
+      {
+        "rank": 10,
+        "item_idx": 487,
+        "score": 0.082858
+      },
+      {
+        "rank": 11,
+        "item_idx": 851,
+        "score": 0.08046
+      },
+      {
+        "rank": 12,
+        "item_idx": 766,
+        "score": 0.075169
+      },
+      {
+        "rank": 13,
+        "item_idx": 1263,
+        "score": 0.07028
+      },
+      {
+        "rank": 14,
+        "item_idx": 1595,
+        "score": 0.068613
+      },
+      {
+        "rank": 15,
+        "item_idx": 861,
+        "score": 0.067077
+      },
+      {
+        "rank": 16,
+        "item_idx": 1374,
+        "score": 0.066268
+      },
+      {
+        "rank": 17,
+        "item_idx": 1125,
+        "score": 0.063869
+      },
+      {
+        "rank": 18,
+        "item_idx": 700,
+        "score": 0.061865
+      },
+      {
+        "rank": 19,
+        "item_idx": 297,
+        "score": 0.061521
+      },
+      {
+        "rank": 20,
+        "item_idx": 647,
+        "score": 0.061159
+      }
+    ]
+  },
+  "718": {
+    "Grey": [
+      {
+        "rank": 1,
+        "item_idx": 1453,
+        "score": 0.186693
+      },
+      {
+        "rank": 2,
+        "item_idx": 963,
+        "score": 0.130886
+      },
+      {
+        "rank": 3,
+        "item_idx": 439,
+        "score": 0.130763
+      },
+      {
+        "rank": 4,
+        "item_idx": 966,
+        "score": 0.12429
+      },
+      {
+        "rank": 5,
+        "item_idx": 1452,
+        "score": 0.116161
+      },
+      {
+        "rank": 6,
+        "item_idx": 400,
+        "score": 0.09638
+      },
+      {
+        "rank": 7,
+        "item_idx": 588,
+        "score": 0.093743
+      },
+      {
+        "rank": 8,
+        "item_idx": 567,
+        "score": 0.085915
+      },
+      {
+        "rank": 9,
+        "item_idx": 1638,
+        "score": 0.084494
+      },
+      {
+        "rank": 10,
+        "item_idx": 838,
+        "score": 0.082734
+      },
+      {
+        "rank": 11,
+        "item_idx": 1101,
+        "score": 0.078745
+      },
+      {
+        "rank": 12,
+        "item_idx": 401,
+        "score": 0.075109
+      },
+      {
+        "rank": 13,
+        "item_idx": 840,
+        "score": 0.072357
+      },
+      {
+        "rank": 14,
+        "item_idx": 1639,
+        "score": 0.069416
+      },
+      {
+        "rank": 15,
+        "item_idx": 669,
+        "score": 0.067135
+      },
+      {
+        "rank": 16,
+        "item_idx": 425,
+        "score": 0.06691
+      },
+      {
+        "rank": 17,
+        "item_idx": 1105,
+        "score": 0.066494
+      },
+      {
+        "rank": 18,
+        "item_idx": 1376,
+        "score": 0.065699
+      },
+      {
+        "rank": 19,
+        "item_idx": 872,
+        "score": 0.064441
+      },
+      {
+        "rank": 20,
+        "item_idx": 1571,
+        "score": 0.062484
+      }
+    ]
+  },
+  "251": {
+    "Grey": [
+      {
+        "rank": 1,
+        "item_idx": 492,
+        "score": 0.151714
+      },
+      {
+        "rank": 2,
+        "item_idx": 884,
+        "score": 0.127442
+      },
+      {
+        "rank": 3,
+        "item_idx": 807,
+        "score": 0.123177
+      },
+      {
+        "rank": 4,
+        "item_idx": 456,
+        "score": 0.105904
+      },
+      {
+        "rank": 5,
+        "item_idx": 905,
+        "score": 0.10344
+      },
+      {
+        "rank": 6,
+        "item_idx": 1264,
+        "score": 0.094592
+      },
+      {
+        "rank": 7,
+        "item_idx": 850,
+        "score": 0.093205
+      },
+      {
+        "rank": 8,
+        "item_idx": 864,
+        "score": 0.092756
+      },
+      {
+        "rank": 9,
+        "item_idx": 1693,
+        "score": 0.090667
+      },
+      {
+        "rank": 10,
+        "item_idx": 1694,
+        "score": 0.089774
+      },
+      {
+        "rank": 11,
+        "item_idx": 1695,
+        "score": 0.088618
+      },
+      {
+        "rank": 12,
+        "item_idx": 496,
+        "score": 0.084797
+      },
+      {
+        "rank": 13,
+        "item_idx": 1379,
+        "score": 0.083796
+      },
+      {
+        "rank": 14,
+        "item_idx": 491,
+        "score": 0.08072
+      },
+      {
+        "rank": 15,
+        "item_idx": 1051,
+        "score": 0.070044
+      },
+      {
+        "rank": 16,
+        "item_idx": 537,
+        "score": 0.06965
+      },
+      {
+        "rank": 17,
+        "item_idx": 1053,
+        "score": 0.069121
+      },
+      {
+        "rank": 18,
+        "item_idx": 865,
+        "score": 0.067592
+      },
+      {
+        "rank": 19,
+        "item_idx": 1453,
+        "score": 0.063696
+      },
+      {
+        "rank": 20,
+        "item_idx": 1595,
+        "score": 0.063647
+      }
+    ]
+  },
+  "167": {
+    "White": [
+      {
+        "rank": 1,
+        "item_idx": 1000,
+        "score": 0.173314
+      },
+      {
+        "rank": 2,
+        "item_idx": 1001,
+        "score": 0.168878
+      },
+      {
+        "rank": 3,
+        "item_idx": 80,
+        "score": 0.160775
+      },
+      {
+        "rank": 4,
+        "item_idx": 1008,
+        "score": 0.132256
+      },
+      {
+        "rank": 5,
+        "item_idx": 79,
+        "score": 0.125411
+      },
+      {
+        "rank": 6,
+        "item_idx": 215,
+        "score": 0.112272
+      },
+      {
+        "rank": 7,
+        "item_idx": 1002,
+        "score": 0.110041
+      },
+      {
+        "rank": 8,
+        "item_idx": 67,
+        "score": 0.092373
+      },
+      {
+        "rank": 9,
+        "item_idx": 244,
+        "score": 0.09006
+      },
+      {
+        "rank": 10,
+        "item_idx": 139,
+        "score": 0.088671
+      },
+      {
+        "rank": 11,
+        "item_idx": 426,
+        "score": 0.087008
+      },
+      {
+        "rank": 12,
+        "item_idx": 347,
+        "score": 0.08607
+      },
+      {
+        "rank": 13,
+        "item_idx": 492,
+        "score": 0.084279
+      },
+      {
+        "rank": 14,
+        "item_idx": 337,
+        "score": 0.083843
+      },
+      {
+        "rank": 15,
+        "item_idx": 375,
+        "score": 0.079222
+      },
+      {
+        "rank": 16,
+        "item_idx": 14,
+        "score": 0.079006
+      },
+      {
+        "rank": 17,
+        "item_idx": 1004,
+        "score": 0.07786
+      },
+      {
+        "rank": 18,
+        "item_idx": 1677,
+        "score": 0.077409
+      },
+      {
+        "rank": 19,
+        "item_idx": 112,
+        "score": 0.076815
+      },
+      {
+        "rank": 20,
+        "item_idx": 1459,
+        "score": 0.076072
+      }
+    ]
+  },
+  "1": {
+    "White": [
+      {
+        "rank": 1,
+        "item_idx": 681,
+        "score": 0.178884
+      },
+      {
+        "rank": 2,
+        "item_idx": 173,
+        "score": 0.14677
+      },
+      {
+        "rank": 3,
+        "item_idx": 373,
+        "score": 0.145328
+      },
+      {
+        "rank": 4,
+        "item_idx": 682,
+        "score": 0.108384
+      },
+      {
+        "rank": 5,
+        "item_idx": 789,
+        "score": 0.099548
+      },
+      {
+        "rank": 6,
+        "item_idx": 60,
+        "score": 0.079051
+      },
+      {
+        "rank": 7,
+        "item_idx": 754,
+        "score": 0.078866
+      },
+      {
+        "rank": 8,
+        "item_idx": 375,
+        "score": 0.078533
+      },
+      {
+        "rank": 9,
+        "item_idx": 374,
+        "score": 0.078223
+      },
+      {
+        "rank": 10,
+        "item_idx": 401,
+        "score": 0.069217
+      },
+      {
+        "rank": 11,
+        "item_idx": 400,
+        "score": 0.069043
+      },
+      {
+        "rank": 12,
+        "item_idx": 418,
+        "score": 0.068152
+      },
+      {
+        "rank": 13,
+        "item_idx": 1427,
+        "score": 0.067831
+      },
+      {
+        "rank": 14,
+        "item_idx": 1304,
+        "score": 0.066489
+      },
+      {
+        "rank": 15,
+        "item_idx": 647,
+        "score": 0.065697
+      },
+      {
+        "rank": 16,
+        "item_idx": 1201,
+        "score": 0.064879
+      },
+      {
+        "rank": 17,
+        "item_idx": 1275,
+        "score": 0.062086
+      },
+      {
+        "rank": 18,
+        "item_idx": 122,
+        "score": 0.060117
+      },
+      {
+        "rank": 19,
+        "item_idx": 786,
+        "score": 0.058408
+      },
+      {
+        "rank": 20,
+        "item_idx": 67,
+        "score": 0.057968
+      }
+    ]
+  },
+  "927": {
+    "Pink": [
+      {
+        "rank": 1,
+        "item_idx": 1125,
+        "score": 0.126307
+      },
+      {
+        "rank": 2,
+        "item_idx": 1000,
+        "score": 0.116439
+      },
+      {
+        "rank": 3,
+        "item_idx": 347,
+        "score": 0.109935
+      },
+      {
+        "rank": 4,
+        "item_idx": 17,
+        "score": 0.10448
+      },
+      {
+        "rank": 5,
+        "item_idx": 112,
+        "score": 0.09925
+      },
+      {
+        "rank": 6,
+        "item_idx": 1484,
+        "score": 0.096718
+      },
+      {
+        "rank": 7,
+        "item_idx": 1524,
+        "score": 0.095091
+      },
+      {
+        "rank": 8,
+        "item_idx": 337,
+        "score": 0.085984
+      },
+      {
+        "rank": 9,
+        "item_idx": 374,
+        "score": 0.077455
+      },
+      {
+        "rank": 10,
+        "item_idx": 1453,
+        "score": 0.076748
+      },
+      {
+        "rank": 11,
+        "item_idx": 833,
+        "score": 0.074411
+      },
+      {
+        "rank": 12,
+        "item_idx": 199,
+        "score": 0.074091
+      },
+      {
+        "rank": 13,
+        "item_idx": 342,
+        "score": 0.073137
+      },
+      {
+        "rank": 14,
+        "item_idx": 1060,
+        "score": 0.071287
+      },
+      {
+        "rank": 15,
+        "item_idx": 1595,
+        "score": 0.07038
+      },
+      {
+        "rank": 16,
+        "item_idx": 1056,
+        "score": 0.069889
+      },
+      {
+        "rank": 17,
+        "item_idx": 418,
+        "score": 0.066806
+      },
+      {
+        "rank": 18,
+        "item_idx": 1482,
+        "score": 0.065928
+      },
+      {
+        "rank": 19,
+        "item_idx": 120,
+        "score": 0.062298
+      },
+      {
+        "rank": 20,
+        "item_idx": 283,
+        "score": 0.061955
+      }
+    ]
+  },
+  "446": {
+    "Orange": [
+      {
+        "rank": 1,
+        "item_idx": 439,
+        "score": 0.138146
+      },
+      {
+        "rank": 2,
+        "item_idx": 669,
+        "score": 0.108679
+      },
+      {
+        "rank": 3,
+        "item_idx": 963,
+        "score": 0.105474
+      },
+      {
+        "rank": 4,
+        "item_idx": 1453,
+        "score": 0.101351
+      },
+      {
+        "rank": 5,
+        "item_idx": 966,
+        "score": 0.099556
+      },
+      {
+        "rank": 6,
+        "item_idx": 1000,
+        "score": 0.09106
+      },
+      {
+        "rank": 7,
+        "item_idx": 384,
+        "score": 0.089375
+      },
+      {
+        "rank": 8,
+        "item_idx": 467,
+        "score": 0.087403
+      },
+      {
+        "rank": 9,
+        "item_idx": 1834,
+        "score": 0.081449
+      },
+      {
+        "rank": 10,
+        "item_idx": 851,
+        "score": 0.079351
+      },
+      {
+        "rank": 11,
+        "item_idx": 668,
+        "score": 0.078764
+      },
+      {
+        "rank": 12,
+        "item_idx": 779,
+        "score": 0.077981
+      },
+      {
+        "rank": 13,
+        "item_idx": 1832,
+        "score": 0.077181
+      },
+      {
+        "rank": 14,
+        "item_idx": 675,
+        "score": 0.072993
+      },
+      {
+        "rank": 15,
+        "item_idx": 1263,
+        "score": 0.070107
+      },
+      {
+        "rank": 16,
+        "item_idx": 347,
+        "score": 0.069189
+      },
+      {
+        "rank": 17,
+        "item_idx": 894,
+        "score": 0.069182
+      },
+      {
+        "rank": 18,
+        "item_idx": 671,
+        "score": 0.068445
+      },
+      {
+        "rank": 19,
+        "item_idx": 1845,
+        "score": 0.066664
+      },
+      {
+        "rank": 20,
+        "item_idx": 1001,
+        "score": 0.066105
+      }
+    ]
+  },
+  "792": {
+    "Pink": [
+      {
+        "rank": 1,
+        "item_idx": 1125,
+        "score": 0.144577
+      },
+      {
+        "rank": 2,
+        "item_idx": 513,
+        "score": 0.13491
+      },
+      {
+        "rank": 3,
+        "item_idx": 491,
+        "score": 0.131601
+      },
+      {
+        "rank": 4,
+        "item_idx": 461,
+        "score": 0.093366
+      },
+      {
+        "rank": 5,
+        "item_idx": 48,
+        "score": 0.09008
+      },
+      {
+        "rank": 6,
+        "item_idx": 865,
+        "score": 0.084713
+      },
+      {
+        "rank": 7,
+        "item_idx": 1484,
+        "score": 0.084115
+      },
+      {
+        "rank": 8,
+        "item_idx": 457,
+        "score": 0.083377
+      },
+      {
+        "rank": 9,
+        "item_idx": 456,
+        "score": 0.075382
+      },
+      {
+        "rank": 10,
+        "item_idx": 514,
+        "score": 0.073018
+      },
+      {
+        "rank": 11,
+        "item_idx": 1914,
+        "score": 0.07086
+      },
+      {
+        "rank": 12,
+        "item_idx": 46,
+        "score": 0.065759
+      },
+      {
+        "rank": 13,
+        "item_idx": 398,
+        "score": 0.063853
+      },
+      {
+        "rank": 14,
+        "item_idx": 1181,
+        "score": 0.062105
+      },
+      {
+        "rank": 15,
+        "item_idx": 1182,
+        "score": 0.059773
+      },
+      {
+        "rank": 16,
+        "item_idx": 496,
+        "score": 0.059739
+      },
+      {
+        "rank": 17,
+        "item_idx": 79,
+        "score": 0.059479
+      },
+      {
+        "rank": 18,
+        "item_idx": 502,
+        "score": 0.059338
+      },
+      {
+        "rank": 19,
+        "item_idx": 492,
+        "score": 0.058477
+      },
+      {
+        "rank": 20,
+        "item_idx": 906,
+        "score": 0.058113
+      }
+    ]
+  },
+  "899": {
+    "Orange": [
+      {
+        "rank": 1,
+        "item_idx": 1249,
+        "score": 0.172971
+      },
+      {
+        "rank": 2,
+        "item_idx": 1250,
+        "score": 0.159203
+      },
+      {
+        "rank": 3,
+        "item_idx": 1259,
+        "score": 0.142465
+      },
+      {
+        "rank": 4,
+        "item_idx": 555,
+        "score": 0.139375
+      },
+      {
+        "rank": 5,
+        "item_idx": 503,
+        "score": 0.130008
+      },
+      {
+        "rank": 6,
+        "item_idx": 1262,
+        "score": 0.093814
+      },
+      {
+        "rank": 7,
+        "item_idx": 1558,
+        "score": 0.091281
+      },
+      {
+        "rank": 8,
+        "item_idx": 237,
+        "score": 0.083846
+      },
+      {
+        "rank": 9,
+        "item_idx": 647,
+        "score": 0.081773
+      },
+      {
+        "rank": 10,
+        "item_idx": 963,
+        "score": 0.079408
+      },
+      {
+        "rank": 11,
+        "item_idx": 235,
+        "score": 0.077718
+      },
+      {
+        "rank": 12,
+        "item_idx": 328,
+        "score": 0.076738
+      },
+      {
+        "rank": 13,
+        "item_idx": 966,
+        "score": 0.072205
+      },
+      {
+        "rank": 14,
+        "item_idx": 554,
+        "score": 0.071874
+      },
+      {
+        "rank": 15,
+        "item_idx": 326,
+        "score": 0.06908
+      },
+      {
+        "rank": 16,
+        "item_idx": 1235,
+        "score": 0.066573
+      },
+      {
+        "rank": 17,
+        "item_idx": 135,
+        "score": 0.065575
+      },
+      {
+        "rank": 18,
+        "item_idx": 236,
+        "score": 0.06329
+      },
+      {
+        "rank": 19,
+        "item_idx": 964,
+        "score": 0.063283
+      },
+      {
+        "rank": 20,
+        "item_idx": 945,
+        "score": 0.062493
+      }
+    ]
+  },
+  "611": {
+    "Yellow": [
+      {
+        "rank": 1,
+        "item_idx": 418,
+        "score": 0.116765
+      },
+      {
+        "rank": 2,
+        "item_idx": 1595,
+        "score": 0.093086
+      },
+      {
+        "rank": 3,
+        "item_idx": 1125,
+        "score": 0.08671
+      },
+      {
+        "rank": 4,
+        "item_idx": 337,
+        "score": 0.079723
+      },
+      {
+        "rank": 5,
+        "item_idx": 120,
+        "score": 0.078157
+      },
+      {
+        "rank": 6,
+        "item_idx": 614,
+        "score": 0.068353
+      },
+      {
+        "rank": 7,
+        "item_idx": 669,
+        "score": 0.064827
+      },
+      {
+        "rank": 8,
+        "item_idx": 348,
+        "score": 0.063562
+      },
+      {
+        "rank": 9,
+        "item_idx": 1379,
+        "score": 0.063525
+      },
+      {
+        "rank": 10,
+        "item_idx": 1126,
+        "score": 0.063273
+      },
+      {
+        "rank": 11,
+        "item_idx": 342,
+        "score": 0.062412
+      },
+      {
+        "rank": 12,
+        "item_idx": 1407,
+        "score": 0.061914
+      },
+      {
+        "rank": 13,
+        "item_idx": 419,
+        "score": 0.061833
+      },
+      {
+        "rank": 14,
+        "item_idx": 122,
+        "score": 0.060748
+      },
+      {
+        "rank": 15,
+        "item_idx": 247,
+        "score": 0.060071
+      },
+      {
+        "rank": 16,
+        "item_idx": 338,
+        "score": 0.058288
+      },
+      {
+        "rank": 17,
+        "item_idx": 990,
+        "score": 0.058034
+      },
+      {
+        "rank": 18,
+        "item_idx": 922,
+        "score": 0.057871
+      },
+      {
+        "rank": 19,
+        "item_idx": 1472,
+        "score": 0.057273
+      },
+      {
+        "rank": 20,
+        "item_idx": 439,
+        "score": 0.053999
+      }
+    ]
+  },
+  "386": {
+    "Yellow": [
+      {
+        "rank": 1,
+        "item_idx": 1490,
+        "score": 0.192673
+      },
+      {
+        "rank": 2,
+        "item_idx": 711,
+        "score": 0.160357
+      },
+      {
+        "rank": 3,
+        "item_idx": 1499,
+        "score": 0.123397
+      },
+      {
+        "rank": 4,
+        "item_idx": 885,
+        "score": 0.122276
+      },
+      {
+        "rank": 5,
+        "item_idx": 906,
+        "score": 0.118368
+      },
+      {
+        "rank": 6,
+        "item_idx": 503,
+        "score": 0.117729
+      },
+      {
+        "rank": 7,
+        "item_idx": 1489,
+        "score": 0.116643
+      },
+      {
+        "rank": 8,
+        "item_idx": 1001,
+        "score": 0.109241
+      },
+      {
+        "rank": 9,
+        "item_idx": 496,
+        "score": 0.105169
+      },
+      {
+        "rank": 10,
+        "item_idx": 1734,
+        "score": 0.104902
+      },
+      {
+        "rank": 11,
+        "item_idx": 1558,
+        "score": 0.095992
+      },
+      {
+        "rank": 12,
+        "item_idx": 1053,
+        "score": 0.095435
+      },
+      {
+        "rank": 13,
+        "item_idx": 868,
+        "score": 0.095102
+      },
+      {
+        "rank": 14,
+        "item_idx": 492,
+        "score": 0.08689
+      },
+      {
+        "rank": 15,
+        "item_idx": 1051,
+        "score": 0.086682
+      },
+      {
+        "rank": 16,
+        "item_idx": 961,
+        "score": 0.086294
+      },
+      {
+        "rank": 17,
+        "item_idx": 555,
+        "score": 0.08375
+      },
+      {
+        "rank": 18,
+        "item_idx": 456,
+        "score": 0.078361
+      },
+      {
+        "rank": 19,
+        "item_idx": 812,
+        "score": 0.078298
+      },
+      {
+        "rank": 20,
+        "item_idx": 1557,
+        "score": 0.074116
+      }
+    ]
+  },
+  "71": {
+    "Blue": [
+      {
+        "rank": 1,
+        "item_idx": 821,
+        "score": 0.166792
+      },
+      {
+        "rank": 2,
+        "item_idx": 819,
+        "score": 0.14351
+      },
+      {
+        "rank": 3,
+        "item_idx": 1453,
+        "score": 0.13712
+      },
+      {
+        "rank": 4,
+        "item_idx": 851,
+        "score": 0.11156
+      },
+      {
+        "rank": 5,
+        "item_idx": 807,
+        "score": 0.102606
+      },
+      {
+        "rank": 6,
+        "item_idx": 881,
+        "score": 0.099582
+      },
+      {
+        "rank": 7,
+        "item_idx": 865,
+        "score": 0.096551
+      },
+      {
+        "rank": 8,
+        "item_idx": 492,
+        "score": 0.092871
+      },
+      {
+        "rank": 9,
+        "item_idx": 1263,
+        "score": 0.09128
+      },
+      {
+        "rank": 10,
+        "item_idx": 1051,
+        "score": 0.089905
+      },
+      {
+        "rank": 11,
+        "item_idx": 1099,
+        "score": 0.086638
+      },
+      {
+        "rank": 12,
+        "item_idx": 70,
+        "score": 0.085908
+      },
+      {
+        "rank": 13,
+        "item_idx": 1417,
+        "score": 0.08155
+      },
+      {
+        "rank": 14,
+        "item_idx": 157,
+        "score": 0.080615
+      },
+      {
+        "rank": 15,
+        "item_idx": 864,
+        "score": 0.08023
+      },
+      {
+        "rank": 16,
+        "item_idx": 467,
+        "score": 0.079088
+      },
+      {
+        "rank": 17,
+        "item_idx": 1452,
+        "score": 0.078032
+      },
+      {
+        "rank": 18,
+        "item_idx": 885,
+        "score": 0.076288
+      },
+      {
+        "rank": 19,
+        "item_idx": 1418,
+        "score": 0.075903
+      },
+      {
+        "rank": 20,
+        "item_idx": 1264,
+        "score": 0.074811
+      }
+    ]
+  },
+  "6": {
+    "Grey": [
+      {
+        "rank": 1,
+        "item_idx": 337,
+        "score": 0.13126
+      },
+      {
+        "rank": 2,
+        "item_idx": 342,
+        "score": 0.095933
+      },
+      {
+        "rank": 3,
+        "item_idx": 572,
+        "score": 0.09399
+      },
+      {
+        "rank": 4,
+        "item_idx": 1008,
+        "score": 0.093224
+      },
+      {
+        "rank": 5,
+        "item_idx": 552,
+        "score": 0.092299
+      },
+      {
+        "rank": 6,
+        "item_idx": 439,
+        "score": 0.091344
+      },
+      {
+        "rank": 7,
+        "item_idx": 283,
+        "score": 0.088668
+      },
+      {
+        "rank": 8,
+        "item_idx": 289,
+        "score": 0.088622
+      },
+      {
+        "rank": 9,
+        "item_idx": 669,
+        "score": 0.082163
+      },
+      {
+        "rank": 10,
+        "item_idx": 779,
+        "score": 0.07809
+      },
+      {
+        "rank": 11,
+        "item_idx": 400,
+        "score": 0.076782
+      },
+      {
+        "rank": 12,
+        "item_idx": 567,
+        "score": 0.075786
+      },
+      {
+        "rank": 13,
+        "item_idx": 563,
+        "score": 0.073283
+      },
+      {
+        "rank": 14,
+        "item_idx": 140,
+        "score": 0.070791
+      },
+      {
+        "rank": 15,
+        "item_idx": 671,
+        "score": 0.069751
+      },
+      {
+        "rank": 16,
+        "item_idx": 1622,
+        "score": 0.069678
+      },
+      {
+        "rank": 17,
+        "item_idx": 1000,
+        "score": 0.068598
+      },
+      {
+        "rank": 18,
+        "item_idx": 674,
+        "score": 0.065628
+      },
+      {
+        "rank": 19,
+        "item_idx": 348,
+        "score": 0.064641
+      },
+      {
+        "rank": 20,
+        "item_idx": 1002,
+        "score": 0.062732
+      }
+    ]
+  },
+  "323": {
+    "Red": [
+      {
+        "rank": 1,
+        "item_idx": 572,
+        "score": 0.182481
+      },
+      {
+        "rank": 2,
+        "item_idx": 1662,
+        "score": 0.131726
+      },
+      {
+        "rank": 3,
+        "item_idx": 1664,
+        "score": 0.127639
+      },
+      {
+        "rank": 4,
+        "item_idx": 1729,
+        "score": 0.109628
+      },
+      {
+        "rank": 5,
+        "item_idx": 492,
+        "score": 0.102135
+      },
+      {
+        "rank": 6,
+        "item_idx": 1051,
+        "score": 0.101078
+      },
+      {
+        "rank": 7,
+        "item_idx": 1316,
+        "score": 0.097417
+      },
+      {
+        "rank": 8,
+        "item_idx": 1114,
+        "score": 0.095806
+      },
+      {
+        "rank": 9,
+        "item_idx": 1053,
+        "score": 0.09554
+      },
+      {
+        "rank": 10,
+        "item_idx": 573,
+        "score": 0.095336
+      },
+      {
+        "rank": 11,
+        "item_idx": 1360,
+        "score": 0.094457
+      },
+      {
+        "rank": 12,
+        "item_idx": 439,
+        "score": 0.091572
+      },
+      {
+        "rank": 13,
+        "item_idx": 807,
+        "score": 0.082257
+      },
+      {
+        "rank": 14,
+        "item_idx": 497,
+        "score": 0.076766
+      },
+      {
+        "rank": 15,
+        "item_idx": 1638,
+        "score": 0.07518
+      },
+      {
+        "rank": 16,
+        "item_idx": 69,
+        "score": 0.075019
+      },
+      {
+        "rank": 17,
+        "item_idx": 905,
+        "score": 0.074794
+      },
+      {
+        "rank": 18,
+        "item_idx": 721,
+        "score": 0.070664
+      },
+      {
+        "rank": 19,
+        "item_idx": 884,
+        "score": 0.070348
+      },
+      {
+        "rank": 20,
+        "item_idx": 456,
+        "score": 0.070269
+      }
+    ]
+  },
+  "749": {
+    "Red": [
+      {
+        "rank": 1,
+        "item_idx": 492,
+        "score": 0.168939
+      },
+      {
+        "rank": 2,
+        "item_idx": 963,
+        "score": 0.162627
+      },
+      {
+        "rank": 3,
+        "item_idx": 1051,
+        "score": 0.153308
+      },
+      {
+        "rank": 4,
+        "item_idx": 1053,
+        "score": 0.150389
+      },
+      {
+        "rank": 5,
+        "item_idx": 966,
+        "score": 0.144461
+      },
+      {
+        "rank": 6,
+        "item_idx": 456,
+        "score": 0.137466
+      },
+      {
+        "rank": 7,
+        "item_idx": 496,
+        "score": 0.128723
+      },
+      {
+        "rank": 8,
+        "item_idx": 807,
+        "score": 0.117321
+      },
+      {
+        "rank": 9,
+        "item_idx": 1557,
+        "score": 0.094716
+      },
+      {
+        "rank": 10,
+        "item_idx": 864,
+        "score": 0.09074
+      },
+      {
+        "rank": 11,
+        "item_idx": 912,
+        "score": 0.088569
+      },
+      {
+        "rank": 12,
+        "item_idx": 1125,
+        "score": 0.086437
+      },
+      {
+        "rank": 13,
+        "item_idx": 1376,
+        "score": 0.084089
+      },
+      {
+        "rank": 14,
+        "item_idx": 766,
+        "score": 0.080006
+      },
+      {
+        "rank": 15,
+        "item_idx": 143,
+        "score": 0.069442
+      },
+      {
+        "rank": 16,
+        "item_idx": 852,
+        "score": 0.066257
+      },
+      {
+        "rank": 17,
+        "item_idx": 888,
+        "score": 0.063898
+      },
+      {
+        "rank": 18,
+        "item_idx": 69,
+        "score": 0.062221
+      },
+      {
+        "rank": 19,
+        "item_idx": 279,
+        "score": 0.060386
+      },
+      {
+        "rank": 20,
+        "item_idx": 1538,
+        "score": 0.060015
+      }
+    ]
+  },
+  "459": {
+    "Yellow": [
+      {
+        "rank": 1,
+        "item_idx": 474,
+        "score": 0.335227
+      },
+      {
+        "rank": 2,
+        "item_idx": 77,
+        "score": 0.175181
+      },
+      {
+        "rank": 3,
+        "item_idx": 1164,
+        "score": 0.089088
+      },
+      {
+        "rank": 4,
+        "item_idx": 1071,
+        "score": 0.084239
+      },
+      {
+        "rank": 5,
+        "item_idx": 681,
+        "score": 0.083986
+      },
+      {
+        "rank": 6,
+        "item_idx": 1062,
+        "score": 0.079755
+      },
+      {
+        "rank": 7,
+        "item_idx": 830,
+        "score": 0.079427
+      },
+      {
+        "rank": 8,
+        "item_idx": 342,
+        "score": 0.074416
+      },
+      {
+        "rank": 9,
+        "item_idx": 120,
+        "score": 0.070612
+      },
+      {
+        "rank": 10,
+        "item_idx": 1303,
+        "score": 0.069711
+      },
+      {
+        "rank": 11,
+        "item_idx": 1095,
+        "score": 0.067987
+      },
+      {
+        "rank": 12,
+        "item_idx": 1530,
+        "score": 0.065912
+      },
+      {
+        "rank": 13,
+        "item_idx": 560,
+        "score": 0.065665
+      },
+      {
+        "rank": 14,
+        "item_idx": 1243,
+        "score": 0.063312
+      },
+      {
+        "rank": 15,
+        "item_idx": 1245,
+        "score": 0.062232
+      },
+      {
+        "rank": 16,
+        "item_idx": 851,
+        "score": 0.061209
+      },
+      {
+        "rank": 17,
+        "item_idx": 824,
+        "score": 0.060497
+      },
+      {
+        "rank": 18,
+        "item_idx": 1096,
+        "score": 0.058668
+      },
+      {
+        "rank": 19,
+        "item_idx": 337,
+        "score": 0.058475
+      },
+      {
+        "rank": 20,
+        "item_idx": 994,
+        "score": 0.057784
+      }
+    ]
+  },
+  "104": {
+    "Yellow": [
+      {
+        "rank": 1,
+        "item_idx": 474,
+        "score": 0.227549
+      },
+      {
+        "rank": 2,
+        "item_idx": 67,
+        "score": 0.177571
+      },
+      {
+        "rank": 3,
+        "item_idx": 77,
+        "score": 0.160118
+      },
+      {
+        "rank": 4,
+        "item_idx": 1429,
+        "score": 0.147818
+      },
+      {
+        "rank": 5,
+        "item_idx": 851,
+        "score": 0.132051
+      },
+      {
+        "rank": 6,
+        "item_idx": 1263,
+        "score": 0.109931
+      },
+      {
+        "rank": 7,
+        "item_idx": 439,
+        "score": 0.106769
+      },
+      {
+        "rank": 8,
+        "item_idx": 793,
+        "score": 0.098983
+      },
+      {
+        "rank": 9,
+        "item_idx": 199,
+        "score": 0.096652
+      },
+      {
+        "rank": 10,
+        "item_idx": 838,
+        "score": 0.094366
+      },
+      {
+        "rank": 11,
+        "item_idx": 1099,
+        "score": 0.094192
+      },
+      {
+        "rank": 12,
+        "item_idx": 70,
+        "score": 0.091793
+      },
+      {
+        "rank": 13,
+        "item_idx": 593,
+        "score": 0.084979
+      },
+      {
+        "rank": 14,
+        "item_idx": 630,
+        "score": 0.082445
+      },
+      {
+        "rank": 15,
+        "item_idx": 969,
+        "score": 0.08202
+      },
+      {
+        "rank": 16,
+        "item_idx": 726,
+        "score": 0.081404
+      },
+      {
+        "rank": 17,
+        "item_idx": 1180,
+        "score": 0.078308
+      },
+      {
+        "rank": 18,
+        "item_idx": 1002,
+        "score": 0.073291
+      },
+      {
+        "rank": 19,
+        "item_idx": 968,
+        "score": 0.071795
+      },
+      {
+        "rank": 20,
+        "item_idx": 1183,
+        "score": 0.07164
+      }
+    ]
+  },
+  "44": {
+    "Orange": [
+      {
+        "rank": 1,
+        "item_idx": 963,
+        "score": 0.219937
+      },
+      {
+        "rank": 2,
+        "item_idx": 966,
+        "score": 0.212312
+      },
+      {
+        "rank": 3,
+        "item_idx": 418,
+        "score": 0.148751
+      },
+      {
+        "rank": 4,
+        "item_idx": 1429,
+        "score": 0.130375
+      },
+      {
+        "rank": 5,
+        "item_idx": 120,
+        "score": 0.095893
+      },
+      {
+        "rank": 6,
+        "item_idx": 1595,
+        "score": 0.092151
+      },
+      {
+        "rank": 7,
+        "item_idx": 1379,
+        "score": 0.089262
+      },
+      {
+        "rank": 8,
+        "item_idx": 793,
+        "score": 0.086085
+      },
+      {
+        "rank": 9,
+        "item_idx": 337,
+        "score": 0.085929
+      },
+      {
+        "rank": 10,
+        "item_idx": 419,
+        "score": 0.082261
+      },
+      {
+        "rank": 11,
+        "item_idx": 838,
+        "score": 0.076871
+      },
+      {
+        "rank": 12,
+        "item_idx": 593,
+        "score": 0.075815
+      },
+      {
+        "rank": 13,
+        "item_idx": 485,
+        "score": 0.068652
+      },
+      {
+        "rank": 14,
+        "item_idx": 845,
+        "score": 0.067785
+      },
+      {
+        "rank": 15,
+        "item_idx": 420,
+        "score": 0.066443
+      },
+      {
+        "rank": 16,
+        "item_idx": 912,
+        "score": 0.065493
+      },
+      {
+        "rank": 17,
+        "item_idx": 840,
+        "score": 0.065194
+      },
+      {
+        "rank": 18,
+        "item_idx": 920,
+        "score": 0.063881
+      },
+      {
+        "rank": 19,
+        "item_idx": 1743,
+        "score": 0.063764
+      },
+      {
+        "rank": 20,
+        "item_idx": 614,
+        "score": 0.062576
+      }
+    ]
+  },
+  "94": {
+    "Orange": [
+      {
+        "rank": 1,
+        "item_idx": 963,
+        "score": 0.196474
+      },
+      {
+        "rank": 2,
+        "item_idx": 966,
+        "score": 0.184218
+      },
+      {
+        "rank": 3,
+        "item_idx": 14,
+        "score": 0.172093
+      },
+      {
+        "rank": 4,
+        "item_idx": 80,
+        "score": 0.162445
+      },
+      {
+        "rank": 5,
+        "item_idx": 15,
+        "score": 0.152744
+      },
+      {
+        "rank": 6,
+        "item_idx": 492,
+        "score": 0.146491
+      },
+      {
+        "rank": 7,
+        "item_idx": 1000,
+        "score": 0.135317
+      },
+      {
+        "rank": 8,
+        "item_idx": 1001,
+        "score": 0.115581
+      },
+      {
+        "rank": 9,
+        "item_idx": 456,
+        "score": 0.107973
+      },
+      {
+        "rank": 10,
+        "item_idx": 496,
+        "score": 0.104788
+      },
+      {
+        "rank": 11,
+        "item_idx": 1051,
+        "score": 0.104684
+      },
+      {
+        "rank": 12,
+        "item_idx": 807,
+        "score": 0.102702
+      },
+      {
+        "rank": 13,
+        "item_idx": 1053,
+        "score": 0.098469
+      },
+      {
+        "rank": 14,
+        "item_idx": 864,
+        "score": 0.090598
+      },
+      {
+        "rank": 15,
+        "item_idx": 79,
+        "score": 0.086656
+      },
+      {
+        "rank": 16,
+        "item_idx": 143,
+        "score": 0.076672
+      },
+      {
+        "rank": 17,
+        "item_idx": 721,
+        "score": 0.075723
+      },
+      {
+        "rank": 18,
+        "item_idx": 16,
+        "score": 0.071977
+      },
+      {
+        "rank": 19,
+        "item_idx": 1002,
+        "score": 0.069804
+      },
+      {
+        "rank": 20,
+        "item_idx": 1557,
+        "score": 0.068166
+      }
+    ]
+  },
+  "683": {
+    "Red": [
+      {
+        "rank": 1,
+        "item_idx": 492,
+        "score": 0.194502
+      },
+      {
+        "rank": 2,
+        "item_idx": 462,
+        "score": 0.145821
+      },
+      {
+        "rank": 3,
+        "item_idx": 807,
+        "score": 0.14554
+      },
+      {
+        "rank": 4,
+        "item_idx": 456,
+        "score": 0.138806
+      },
+      {
+        "rank": 5,
+        "item_idx": 67,
+        "score": 0.126836
+      },
+      {
+        "rank": 6,
+        "item_idx": 1074,
+        "score": 0.122831
+      },
+      {
+        "rank": 7,
+        "item_idx": 69,
+        "score": 0.114577
+      },
+      {
+        "rank": 8,
+        "item_idx": 864,
+        "score": 0.102936
+      },
+      {
+        "rank": 9,
+        "item_idx": 1051,
+        "score": 0.100634
+      },
+      {
+        "rank": 10,
+        "item_idx": 1053,
+        "score": 0.099438
+      },
+      {
+        "rank": 11,
+        "item_idx": 1264,
+        "score": 0.095585
+      },
+      {
+        "rank": 12,
+        "item_idx": 1189,
+        "score": 0.091857
+      },
+      {
+        "rank": 13,
+        "item_idx": 459,
+        "score": 0.091133
+      },
+      {
+        "rank": 14,
+        "item_idx": 884,
+        "score": 0.080973
+      },
+      {
+        "rank": 15,
+        "item_idx": 813,
+        "score": 0.079848
+      },
+      {
+        "rank": 16,
+        "item_idx": 905,
+        "score": 0.079691
+      },
+      {
+        "rank": 17,
+        "item_idx": 850,
+        "score": 0.079562
+      },
+      {
+        "rank": 18,
+        "item_idx": 155,
+        "score": 0.077796
+      },
+      {
+        "rank": 19,
+        "item_idx": 869,
+        "score": 0.076775
+      },
+      {
+        "rank": 20,
+        "item_idx": 464,
+        "score": 0.074577
+      }
+    ]
+  },
+  "145": {
+    "Orange": [
+      {
+        "rank": 1,
+        "item_idx": 963,
+        "score": 0.19832
+      },
+      {
+        "rank": 2,
+        "item_idx": 966,
+        "score": 0.190814
+      },
+      {
+        "rank": 3,
+        "item_idx": 244,
+        "score": 0.175759
+      },
+      {
+        "rank": 4,
+        "item_idx": 79,
+        "score": 0.114704
+      },
+      {
+        "rank": 5,
+        "item_idx": 1677,
+        "score": 0.112442
+      },
+      {
+        "rank": 6,
+        "item_idx": 721,
+        "score": 0.111516
+      },
+      {
+        "rank": 7,
+        "item_idx": 529,
+        "score": 0.1113
+      },
+      {
+        "rank": 8,
+        "item_idx": 173,
+        "score": 0.100446
+      },
+      {
+        "rank": 9,
+        "item_idx": 1149,
+        "score": 0.095122
+      },
+      {
+        "rank": 10,
+        "item_idx": 530,
+        "score": 0.094714
+      },
+      {
+        "rank": 11,
+        "item_idx": 1201,
+        "score": 0.078983
+      },
+      {
+        "rank": 12,
+        "item_idx": 1446,
+        "score": 0.072401
+      },
+      {
+        "rank": 13,
+        "item_idx": 18,
+        "score": 0.069013
+      },
+      {
+        "rank": 14,
+        "item_idx": 531,
+        "score": 0.068512
+      },
+      {
+        "rank": 15,
+        "item_idx": 1447,
+        "score": 0.066974
+      },
+      {
+        "rank": 16,
+        "item_idx": 1585,
+        "score": 0.064141
+      },
+      {
+        "rank": 17,
+        "item_idx": 17,
+        "score": 0.062166
+      },
+      {
+        "rank": 18,
+        "item_idx": 245,
+        "score": 0.059452
+      },
+      {
+        "rank": 19,
+        "item_idx": 1678,
+        "score": 0.058924
+      },
+      {
+        "rank": 20,
+        "item_idx": 912,
+        "score": 0.058793
+      }
+    ]
+  },
+  "129": {
+    "Red": [
+      {
+        "rank": 1,
+        "item_idx": 721,
+        "score": 0.122713
+      },
+      {
+        "rank": 2,
+        "item_idx": 1695,
+        "score": 0.105835
+      },
+      {
+        "rank": 3,
+        "item_idx": 1693,
+        "score": 0.100443
+      },
+      {
+        "rank": 4,
+        "item_idx": 492,
+        "score": 0.100335
+      },
+      {
+        "rank": 5,
+        "item_idx": 1694,
+        "score": 0.097221
+      },
+      {
+        "rank": 6,
+        "item_idx": 1834,
+        "score": 0.085308
+      },
+      {
+        "rank": 7,
+        "item_idx": 807,
+        "score": 0.082019
+      },
+      {
+        "rank": 8,
+        "item_idx": 456,
+        "score": 0.076485
+      },
+      {
+        "rank": 9,
+        "item_idx": 1056,
+        "score": 0.075747
+      },
+      {
+        "rank": 10,
+        "item_idx": 1053,
+        "score": 0.074717
+      },
+      {
+        "rank": 11,
+        "item_idx": 1453,
+        "score": 0.074697
+      },
+      {
+        "rank": 12,
+        "item_idx": 1051,
+        "score": 0.073291
+      },
+      {
+        "rank": 13,
+        "item_idx": 1446,
+        "score": 0.070917
+      },
+      {
+        "rank": 14,
+        "item_idx": 1447,
+        "score": 0.068258
+      },
+      {
+        "rank": 15,
+        "item_idx": 1696,
+        "score": 0.067211
+      },
+      {
+        "rank": 16,
+        "item_idx": 1832,
+        "score": 0.066963
+      },
+      {
+        "rank": 17,
+        "item_idx": 845,
+        "score": 0.064105
+      },
+      {
+        "rank": 18,
+        "item_idx": 1854,
+        "score": 0.063482
+      },
+      {
+        "rank": 19,
+        "item_idx": 1845,
+        "score": 0.060974
+      },
+      {
+        "rank": 20,
+        "item_idx": 864,
+        "score": 0.059338
+      }
+    ]
+  },
+  "809": {
+    "Pink": [
+      {
+        "rank": 1,
+        "item_idx": 1677,
+        "score": 0.14946
+      },
+      {
+        "rank": 2,
+        "item_idx": 244,
+        "score": 0.147212
+      },
+      {
+        "rank": 3,
+        "item_idx": 418,
+        "score": 0.140746
+      },
+      {
+        "rank": 4,
+        "item_idx": 1125,
+        "score": 0.134316
+      },
+      {
+        "rank": 5,
+        "item_idx": 1595,
+        "score": 0.131142
+      },
+      {
+        "rank": 6,
+        "item_idx": 1379,
+        "score": 0.122131
+      },
+      {
+        "rank": 7,
+        "item_idx": 766,
+        "score": 0.103175
+      },
+      {
+        "rank": 8,
+        "item_idx": 439,
+        "score": 0.097786
+      },
+      {
+        "rank": 9,
+        "item_idx": 1484,
+        "score": 0.092383
+      },
+      {
+        "rank": 10,
+        "item_idx": 276,
+        "score": 0.08588
+      },
+      {
+        "rank": 11,
+        "item_idx": 177,
+        "score": 0.082502
+      },
+      {
+        "rank": 12,
+        "item_idx": 1678,
+        "score": 0.071936
+      },
+      {
+        "rank": 13,
+        "item_idx": 468,
+        "score": 0.069272
+      },
+      {
+        "rank": 14,
+        "item_idx": 384,
+        "score": 0.069184
+      },
+      {
+        "rank": 15,
+        "item_idx": 721,
+        "score": 0.068577
+      },
+      {
+        "rank": 16,
+        "item_idx": 1695,
+        "score": 0.06838
+      },
+      {
+        "rank": 17,
+        "item_idx": 1105,
+        "score": 0.068234
+      },
+      {
+        "rank": 18,
+        "item_idx": 922,
+        "score": 0.068025
+      },
+      {
+        "rank": 19,
+        "item_idx": 1570,
+        "score": 0.063499
+      },
+      {
+        "rank": 20,
+        "item_idx": 246,
+        "score": 0.06124
+      }
+    ]
+  },
+  "928": {
+    "Red": [
+      {
+        "rank": 1,
+        "item_idx": 963,
+        "score": 0.266025
+      },
+      {
+        "rank": 2,
+        "item_idx": 966,
+        "score": 0.25509
+      },
+      {
+        "rank": 3,
+        "item_idx": 884,
+        "score": 0.173444
+      },
+      {
+        "rank": 4,
+        "item_idx": 905,
+        "score": 0.153576
+      },
+      {
+        "rank": 5,
+        "item_idx": 885,
+        "score": 0.104475
+      },
+      {
+        "rank": 6,
+        "item_idx": 555,
+        "score": 0.103372
+      },
+      {
+        "rank": 7,
+        "item_idx": 906,
+        "score": 0.09995
+      },
+      {
+        "rank": 8,
+        "item_idx": 492,
+        "score": 0.093233
+      },
+      {
+        "rank": 9,
+        "item_idx": 1264,
+        "score": 0.088427
+      },
+      {
+        "rank": 10,
+        "item_idx": 807,
+        "score": 0.083227
+      },
+      {
+        "rank": 11,
+        "item_idx": 850,
+        "score": 0.083022
+      },
+      {
+        "rank": 12,
+        "item_idx": 554,
+        "score": 0.076217
+      },
+      {
+        "rank": 13,
+        "item_idx": 1051,
+        "score": 0.073739
+      },
+      {
+        "rank": 14,
+        "item_idx": 864,
+        "score": 0.070832
+      },
+      {
+        "rank": 15,
+        "item_idx": 1418,
+        "score": 0.068383
+      },
+      {
+        "rank": 16,
+        "item_idx": 962,
+        "score": 0.067915
+      },
+      {
+        "rank": 17,
+        "item_idx": 269,
+        "score": 0.067127
+      },
+      {
+        "rank": 18,
+        "item_idx": 496,
+        "score": 0.065722
+      },
+      {
+        "rank": 19,
+        "item_idx": 157,
+        "score": 0.062603
+      },
+      {
+        "rank": 20,
+        "item_idx": 1053,
+        "score": 0.062469
+      }
+    ]
+  },
+  "21": {
+    "Blue": [
+      {
+        "rank": 1,
+        "item_idx": 884,
+        "score": 0.218593
+      },
+      {
+        "rank": 2,
+        "item_idx": 67,
+        "score": 0.211916
+      },
+      {
+        "rank": 3,
+        "item_idx": 963,
+        "score": 0.187483
+      },
+      {
+        "rank": 4,
+        "item_idx": 966,
+        "score": 0.177304
+      },
+      {
+        "rank": 5,
+        "item_idx": 905,
+        "score": 0.162331
+      },
+      {
+        "rank": 6,
+        "item_idx": 1183,
+        "score": 0.111813
+      },
+      {
+        "rank": 7,
+        "item_idx": 143,
+        "score": 0.096665
+      },
+      {
+        "rank": 8,
+        "item_idx": 968,
+        "score": 0.092537
+      },
+      {
+        "rank": 9,
+        "item_idx": 602,
+        "score": 0.087485
+      },
+      {
+        "rank": 10,
+        "item_idx": 269,
+        "score": 0.084747
+      },
+      {
+        "rank": 11,
+        "item_idx": 496,
+        "score": 0.081343
+      },
+      {
+        "rank": 12,
+        "item_idx": 89,
+        "score": 0.080302
+      },
+      {
+        "rank": 13,
+        "item_idx": 1723,
+        "score": 0.079774
+      },
+      {
+        "rank": 14,
+        "item_idx": 71,
+        "score": 0.077477
+      },
+      {
+        "rank": 15,
+        "item_idx": 1125,
+        "score": 0.07673
+      },
+      {
+        "rank": 16,
+        "item_idx": 526,
+        "score": 0.076034
+      },
+      {
+        "rank": 17,
+        "item_idx": 492,
+        "score": 0.074862
+      },
+      {
+        "rank": 18,
+        "item_idx": 1361,
+        "score": 0.072953
+      },
+      {
+        "rank": 19,
+        "item_idx": 1867,
+        "score": 0.072272
+      },
+      {
+        "rank": 20,
+        "item_idx": 1725,
+        "score": 0.071788
+      }
+    ]
+  },
+  "298": {
+    "Yellow": [
+      {
+        "rank": 1,
+        "item_idx": 721,
+        "score": 0.144857
+      },
+      {
+        "rank": 2,
+        "item_idx": 157,
+        "score": 0.138106
+      },
+      {
+        "rank": 3,
+        "item_idx": 1453,
+        "score": 0.121075
+      },
+      {
+        "rank": 4,
+        "item_idx": 658,
+        "score": 0.116701
+      },
+      {
+        "rank": 5,
+        "item_idx": 861,
+        "score": 0.111615
+      },
+      {
+        "rank": 6,
+        "item_idx": 79,
+        "score": 0.100982
+      },
+      {
+        "rank": 7,
+        "item_idx": 865,
+        "score": 0.091003
+      },
+      {
+        "rank": 8,
+        "item_idx": 1149,
+        "score": 0.090394
+      },
+      {
+        "rank": 9,
+        "item_idx": 1446,
+        "score": 0.085641
+      },
+      {
+        "rank": 10,
+        "item_idx": 659,
+        "score": 0.082829
+      },
+      {
+        "rank": 11,
+        "item_idx": 491,
+        "score": 0.079574
+      },
+      {
+        "rank": 12,
+        "item_idx": 862,
+        "score": 0.078453
+      },
+      {
+        "rank": 13,
+        "item_idx": 1198,
+        "score": 0.077296
+      },
+      {
+        "rank": 14,
+        "item_idx": 868,
+        "score": 0.076807
+      },
+      {
+        "rank": 15,
+        "item_idx": 812,
+        "score": 0.074745
+      },
+      {
+        "rank": 16,
+        "item_idx": 461,
+        "score": 0.072441
+      },
+      {
+        "rank": 17,
+        "item_idx": 374,
+        "score": 0.070531
+      },
+      {
+        "rank": 18,
+        "item_idx": 1199,
+        "score": 0.070038
+      },
+      {
+        "rank": 19,
+        "item_idx": 1376,
+        "score": 0.069122
+      },
+      {
+        "rank": 20,
+        "item_idx": 705,
+        "score": 0.065704
+      }
+    ]
+  },
+  "933": {
+    "Pink": [
+      {
+        "rank": 1,
+        "item_idx": 572,
+        "score": 0.214755
+      },
+      {
+        "rank": 2,
+        "item_idx": 1114,
+        "score": 0.137893
+      },
+      {
+        "rank": 3,
+        "item_idx": 199,
+        "score": 0.119076
+      },
+      {
+        "rank": 4,
+        "item_idx": 573,
+        "score": 0.11723
+      },
+      {
+        "rank": 5,
+        "item_idx": 1484,
+        "score": 0.102707
+      },
+      {
+        "rank": 6,
+        "item_idx": 1149,
+        "score": 0.097407
+      },
+      {
+        "rank": 7,
+        "item_idx": 201,
+        "score": 0.089223
+      },
+      {
+        "rank": 8,
+        "item_idx": 1125,
+        "score": 0.085185
+      },
+      {
+        "rank": 9,
+        "item_idx": 1453,
+        "score": 0.084884
+      },
+      {
+        "rank": 10,
+        "item_idx": 173,
+        "score": 0.08017
+      },
+      {
+        "rank": 11,
+        "item_idx": 485,
+        "score": 0.078297
+      },
+      {
+        "rank": 12,
+        "item_idx": 1427,
+        "score": 0.077895
+      },
+      {
+        "rank": 13,
+        "item_idx": 1743,
+        "score": 0.076978
+      },
+      {
+        "rank": 14,
+        "item_idx": 1481,
+        "score": 0.07634
+      },
+      {
+        "rank": 15,
+        "item_idx": 80,
+        "score": 0.075667
+      },
+      {
+        "rank": 16,
+        "item_idx": 1879,
+        "score": 0.073727
+      },
+      {
+        "rank": 17,
+        "item_idx": 738,
+        "score": 0.073497
+      },
+      {
+        "rank": 18,
+        "item_idx": 1304,
+        "score": 0.069972
+      },
+      {
+        "rank": 19,
+        "item_idx": 48,
+        "score": 0.069512
+      },
+      {
+        "rank": 20,
+        "item_idx": 948,
+        "score": 0.066253
+      }
+    ]
+  },
+  "440": {
+    "Blue": [
+      {
+        "rank": 1,
+        "item_idx": 157,
+        "score": 0.156733
+      },
+      {
+        "rank": 2,
+        "item_idx": 630,
+        "score": 0.128712
+      },
+      {
+        "rank": 3,
+        "item_idx": 1453,
+        "score": 0.128298
+      },
+      {
+        "rank": 4,
+        "item_idx": 1316,
+        "score": 0.120058
+      },
+      {
+        "rank": 5,
+        "item_idx": 79,
+        "score": 0.112329
+      },
+      {
+        "rank": 6,
+        "item_idx": 143,
+        "score": 0.100239
+      },
+      {
+        "rank": 7,
+        "item_idx": 1147,
+        "score": 0.096257
+      },
+      {
+        "rank": 8,
+        "item_idx": 631,
+        "score": 0.096081
+      },
+      {
+        "rank": 9,
+        "item_idx": 632,
+        "score": 0.084669
+      },
+      {
+        "rank": 10,
+        "item_idx": 557,
+        "score": 0.083205
+      },
+      {
+        "rank": 11,
+        "item_idx": 168,
+        "score": 0.078184
+      },
+      {
+        "rank": 12,
+        "item_idx": 142,
+        "score": 0.077734
+      },
+      {
+        "rank": 13,
+        "item_idx": 572,
+        "score": 0.07175
+      },
+      {
+        "rank": 14,
+        "item_idx": 1148,
+        "score": 0.07161
+      },
+      {
+        "rank": 15,
+        "item_idx": 294,
+        "score": 0.070748
+      },
+      {
+        "rank": 16,
+        "item_idx": 1368,
+        "score": 0.069771
+      },
+      {
+        "rank": 17,
+        "item_idx": 169,
+        "score": 0.06488
+      },
+      {
+        "rank": 18,
+        "item_idx": 162,
+        "score": 0.064186
+      },
+      {
+        "rank": 19,
+        "item_idx": 581,
+        "score": 0.064183
+      },
+      {
+        "rank": 20,
+        "item_idx": 865,
+        "score": 0.061341
+      }
+    ]
+  },
+  "587": {
+    "Blue": [
+      {
+        "rank": 1,
+        "item_idx": 384,
+        "score": 0.137182
+      },
+      {
+        "rank": 2,
+        "item_idx": 1001,
+        "score": 0.120305
+      },
+      {
+        "rank": 3,
+        "item_idx": 838,
+        "score": 0.112629
+      },
+      {
+        "rank": 4,
+        "item_idx": 215,
+        "score": 0.108197
+      },
+      {
+        "rank": 5,
+        "item_idx": 1056,
+        "score": 0.106894
+      },
+      {
+        "rank": 6,
+        "item_idx": 1694,
+        "score": 0.103641
+      },
+      {
+        "rank": 7,
+        "item_idx": 426,
+        "score": 0.092687
+      },
+      {
+        "rank": 8,
+        "item_idx": 1101,
+        "score": 0.091646
+      },
+      {
+        "rank": 9,
+        "item_idx": 199,
+        "score": 0.091531
+      },
+      {
+        "rank": 10,
+        "item_idx": 1695,
+        "score": 0.090031
+      },
+      {
+        "rank": 11,
+        "item_idx": 297,
+        "score": 0.086743
+      },
+      {
+        "rank": 12,
+        "item_idx": 187,
+        "score": 0.086072
+      },
+      {
+        "rank": 13,
+        "item_idx": 840,
+        "score": 0.085528
+      },
+      {
+        "rank": 14,
+        "item_idx": 201,
+        "score": 0.080593
+      },
+      {
+        "rank": 15,
+        "item_idx": 845,
+        "score": 0.073021
+      },
+      {
+        "rank": 16,
+        "item_idx": 79,
+        "score": 0.07262
+      },
+      {
+        "rank": 17,
+        "item_idx": 1693,
+        "score": 0.07238
+      },
+      {
+        "rank": 18,
+        "item_idx": 775,
+        "score": 0.07001
+      },
+      {
+        "rank": 19,
+        "item_idx": 1002,
+        "score": 0.069412
+      },
+      {
+        "rank": 20,
+        "item_idx": 1149,
+        "score": 0.067672
+      }
+    ]
+  }
+}

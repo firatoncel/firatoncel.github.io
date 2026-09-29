@@ -1,0 +1,2753 @@
+{
+  "53": {
+    "original_summary": "The user has a strong preference for minimalist, elevated basics with a focus on high-quality fabrics and clean, tailored silhouettes. Their wardrobe leans heavily on neutral and earth-toned palettes—particularly black, grey, white, olive green, and dusty pink—paired with subtle texture through ribbed knits, denim, and houndstooth patterns. They favor versatile, modern pieces like high-waisted shorts, slim-fit trousers, and relaxed yet structured dresses, often blending casual comfort with a touch of sophistication. The recurring use of ribbed knits, seamless construction, and understated details suggests an appreciation for effortless, wearable style with a contemporary, slightly androgynous edge.",
+    "original_category_indices": [
+      12,
+      34,
+      40,
+      46
+    ],
+    "original_category_names": [
+      "Dress",
+      "Shorts",
+      "Sweater",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Socks",
+        "added_category_idx": 38,
+        "n_samples_requested": 8,
+        "sampled_item_ids": [
+          520427006,
+          608776025,
+          679709002,
+          719544003,
+          877961009,
+          667411023,
+          619506001,
+          706268014
+        ],
+        "sampled_item_image_paths": [
+          "052/0520427006.jpg",
+          "060/0608776025.jpg",
+          "067/0679709002.jpg",
+          "071/0719544003.jpg",
+          "087/0877961009.jpg",
+          "066/0667411023.jpg",
+          "061/0619506001.jpg",
+          "070/0706268014.jpg"
+        ],
+        "edited_summary": "The user has a strong preference for minimalist, elevated basics with a focus on high-quality fabrics and clean, tailored silhouettes. Their wardrobe leans heavily on neutral and earth-toned palettes—particularly black, grey, white, olive green, and dusty pink—paired with subtle texture through ribbed knits, denim, and houndstooth patterns. They favor versatile, modern pieces like high-waisted shorts, slim-fit trousers, and relaxed yet structured dresses, often blending casual comfort with a touch of sophistication. This commitment to a streamlined aesthetic extends to their sock selection, where they opt for clean, tailored finishes in smooth stretch fabrics that complement their straight-leg trousers, alongside functional choices like shaftless styles and heavy wool options for added texture. The recurring use of ribbed knits, seamless construction, and understated details suggests an appreciation for effortless, wearable style with a contemporary, slightly androgynous edge.",
+        "expected_category_indices": [
+          12,
+          34,
+          38,
+          40,
+          46
+        ],
+        "expected_category_names": [
+          "Dress",
+          "Shorts",
+          "Socks",
+          "Sweater",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "274": {
+    "original_summary": "The user has a strong affinity for black as a foundational color, often pairing it with bold prints like zebra, polka dots, and floral patterns, suggesting a love for high-contrast, statement-making pieces. Their style blends relaxed, oversized silhouettes—seen in sweaters, tops, and skirts—with structured, tailored elements such as the windowpane check trousers and wrap dress, indicating a balance between comfort and sophistication. They favor textured fabrics and intricate details like ruching, pleating, belts, and bow accents, which add visual interest and dimension. Overall, the user’s fashion sense leans toward a curated, eclectic mix of bohemian flair, modern minimalism, and playful sophistication, with a focus on both form and function across swimwear, separates, and dresses.",
+    "original_category_indices": [
+      2,
+      12,
+      35,
+      40,
+      41,
+      45,
+      46
+    ],
+    "original_category_names": [
+      "Belt",
+      "Dress",
+      "Skirt",
+      "Sweater",
+      "Swimsuit",
+      "Top",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "T-shirt",
+        "added_category_idx": 44,
+        "n_samples_requested": 3,
+        "sampled_item_ids": [
+          688341004,
+          696429001,
+          694131003
+        ],
+        "sampled_item_image_paths": [
+          "068/0688341004.jpg",
+          "069/0696429001.jpg",
+          "069/0694131003.jpg"
+        ],
+        "edited_summary": "The user has a strong affinity for black as a foundational color, often pairing it with bold prints like zebra, polka dots, and floral patterns, suggesting a love for high-contrast, statement-making pieces. Their style blends relaxed, oversized silhouettes—seen in sweaters, tops, and skirts—with structured, tailored elements such as the windowpane check trousers and wrap dress, indicating a balance between comfort and sophistication. This equilibrium extends to their T-shirt choices, where they favor clean, tailored finishes in smooth stretch fabrics that offer a sleek, straight-leg silhouette with subtle side seam detailing, mirroring the precision of their trousers. They favor textured fabrics and intricate details like ruching, pleating, belts, and bow accents, which add visual interest and dimension. Overall, the user's fashion sense leans toward a curated, eclectic mix of bohemian flair, modern minimalism, and playful sophistication, with a focus on both form and function across swimwear, separates, dresses, and T-shirts.",
+        "expected_category_indices": [
+          2,
+          12,
+          35,
+          40,
+          41,
+          44,
+          45,
+          46
+        ],
+        "expected_category_names": [
+          "Belt",
+          "Dress",
+          "Skirt",
+          "Sweater",
+          "Swimsuit",
+          "T-shirt",
+          "Top",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "89": {
+    "original_summary": "The user gravitates toward a minimalist, modern aesthetic with a strong emphasis on black and white color palettes, often incorporating subtle textures and patterns like polka dots, leopard print, and fine ribbing. Their style blends relaxed, oversized silhouettes with structured elements—such as tailored trousers, classic denim jackets, and cropped cardigans—creating a balanced mix of casual ease and intentional polish. They favor high-quality, form-fitting basics like ribbed knits, biker shorts, and stretch leggings, often highlighted with distinctive details like yellow side stripes or metallic sequins for a touch of edge. Overall, their wardrobe reflects a contemporary, effortless sophistication with a focus on layering, clean lines, and versatile, timeless pieces.",
+    "original_category_indices": [
+      9,
+      20,
+      22,
+      34,
+      40,
+      46
+    ],
+    "original_category_names": [
+      "Cardigan",
+      "Jacket",
+      "Leggings/Tights",
+      "Shorts",
+      "Sweater",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Dress",
+        "added_category_idx": 12,
+        "n_samples_requested": 8,
+        "sampled_item_ids": [
+          522918039,
+          859399001,
+          708702001,
+          651300002,
+          678224001,
+          744918002,
+          637569001,
+          839673001
+        ],
+        "sampled_item_image_paths": [
+          "052/0522918039.jpg",
+          "085/0859399001.jpg",
+          "070/0708702001.jpg",
+          "065/0651300002.jpg",
+          "067/0678224001.jpg",
+          "074/0744918002.jpg",
+          "063/0637569001.jpg",
+          "083/0839673001.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a minimalist, modern aesthetic with a strong emphasis on black and white color palettes, often incorporating subtle textures and patterns like polka dots, leopard print, and fine ribbing. Their style blends relaxed, oversized silhouettes with structured elements—such as tailored trousers, classic denim jackets, cropped cardigans, and sleek dresses made of smooth stretch fabric featuring a straight-leg silhouette, subtle side seam detailing, and a clean, tailored finish—creating a balanced mix of casual ease and intentional polish. They favor high-quality, form-fitting basics like ribbed knits, biker shorts, and stretch leggings, often highlighted with distinctive details like yellow side stripes or metallic sequins for a touch of edge. Overall, their wardrobe reflects a contemporary, effortless sophistication with a focus on layering, clean lines, and versatile, timeless pieces.",
+        "expected_category_indices": [
+          9,
+          12,
+          20,
+          22,
+          34,
+          40,
+          46
+        ],
+        "expected_category_names": [
+          "Cardigan",
+          "Dress",
+          "Jacket",
+          "Leggings/Tights",
+          "Shorts",
+          "Sweater",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "787": {
+    "original_summary": "The user leans toward a bold, eclectic style that blends playful patterns with sleek, minimalist silhouettes. They favor high-contrast prints—such as leopard, zebra, and floral—on both swimwear and tops, often paired with solid black or neutral-toned basics like black tees and denim, creating a balanced, fashion-forward look. Their preference for form-fitting, tailored pieces like slim-fit jeans, thong swim bottoms, and cropped tops suggests an appreciation for body-conscious cuts and modern tailoring. Overall, their style is confident and expressive, combining statement prints with clean lines and versatile denim staples for a cohesive, contemporary wardrobe.",
+    "original_category_indices": [
+      41,
+      42,
+      44,
+      45,
+      46,
+      49
+    ],
+    "original_category_names": [
+      "Swimsuit",
+      "Swimwear bottom",
+      "T-shirt",
+      "Top",
+      "Trousers",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Bra",
+        "added_category_idx": 8,
+        "n_samples_requested": 8,
+        "sampled_item_ids": [
+          547367006,
+          705368001,
+          767687002,
+          623059001,
+          855706004,
+          701472004,
+          820308002,
+          699570003
+        ],
+        "sampled_item_image_paths": [
+          "054/0547367006.jpg",
+          "070/0705368001.jpg",
+          "076/0767687002.jpg",
+          "062/0623059001.jpg",
+          "085/0855706004.jpg",
+          "070/0701472004.jpg",
+          "082/0820308002.jpg",
+          "069/0699570003.jpg"
+        ],
+        "edited_summary": "The user leans toward a bold, eclectic style that blends playful patterns with sleek, minimalist silhouettes. They favor high-contrast prints—such as leopard, zebra, and floral—on both swimwear and tops, often paired with solid black or neutral-toned basics like black tees and denim, creating a balanced, fashion-forward look. Their preference for form-fitting, tailored pieces like slim-fit jeans, thong swim bottoms, and cropped tops suggests an appreciation for body-conscious cuts and modern tailoring, a sensibility that extends to their choice of bras, which often feature clean, tailored finishes and smooth stretch fabrics in straight-leg or streamlined silhouettes. Overall, their style is confident and expressive, combining statement prints with clean lines and versatile denim staples for a cohesive, contemporary wardrobe.",
+        "expected_category_indices": [
+          8,
+          41,
+          42,
+          44,
+          45,
+          46,
+          49
+        ],
+        "expected_category_names": [
+          "Bra",
+          "Swimsuit",
+          "Swimwear bottom",
+          "T-shirt",
+          "Top",
+          "Trousers",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "417": {
+    "original_summary": "The user gravitates toward a sophisticated, minimalist aesthetic with a strong emphasis on clean lines, high-quality fabrics, and versatile layering pieces. Their wardrobe blends structured outerwear—like the oversized black blazer and tailored swimsuits—with soft, feminine details such as lace trim, ruffles, and delicate straps, creating a balance between edgy and romantic. They favor neutral tones (black, gray, beige) with occasional pops of color and pattern in swimwear and lingerie, suggesting a preference for timeless basics with subtle个性. The inclusion of luxurious materials like silk, ribbed knits, and pebbled leather, along with a curated selection of undergarments and accessories, indicates a focus on both comfort and elevated, intentional style.",
+    "original_category_indices": [
+      4,
+      41,
+      48,
+      49
+    ],
+    "original_category_names": [
+      "Blazer",
+      "Swimsuit",
+      "Underwear body",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Hoodie",
+        "added_category_idx": 19,
+        "n_samples_requested": 10,
+        "sampled_item_ids": [
+          902407003,
+          691187001,
+          697649005,
+          754275004,
+          669216002,
+          557248025,
+          714909001,
+          456163009,
+          734461002,
+          754697019
+        ],
+        "sampled_item_image_paths": [
+          "090/0902407003.jpg",
+          "069/0691187001.jpg",
+          "069/0697649005.jpg",
+          "075/0754275004.jpg",
+          "066/0669216002.jpg",
+          "055/0557248025.jpg",
+          "071/0714909001.jpg",
+          "045/0456163009.jpg",
+          "073/0734461002.jpg",
+          "075/0754697019.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a sophisticated, minimalist aesthetic with a strong emphasis on clean lines, high-quality fabrics, and versatile layering pieces. Their wardrobe blends structured outerwear—like the oversized black blazer and tailored swimsuits—with soft, feminine details such as lace trim, ruffles, and delicate straps, creating a balance between edgy and romantic. They favor neutral tones (black, gray, beige) with occasional pops of color and pattern in swimwear and lingerie, suggesting a preference for timeless basics with subtle individuality. The inclusion of luxurious materials like silk, ribbed knits, and pebbled leather, along with a curated selection of undergarments and accessories, indicates a focus on both comfort and elevated, intentional style. This commitment to refined comfort extends to their hoodie collection, where they favor pieces with a clean, tailored finish and subtle side seam detailing. These hoodies, often crafted from smooth stretch fabric, feature a straight-leg silhouette that complements their high-waisted trousers, offering a seamless blend of relaxed ease and structured precision within their everyday rotation.",
+        "expected_category_indices": [
+          4,
+          19,
+          41,
+          48,
+          49
+        ],
+        "expected_category_names": [
+          "Blazer",
+          "Hoodie",
+          "Swimsuit",
+          "Underwear body",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "272": {
+    "original_summary": "The user has a strong preference for minimalist, form-fitting silhouettes with a focus on clean lines and high-quality knits, favoring black, white, and neutral tones across their wardrobe. They gravitate toward versatile, elevated basics—such as ribbed T-shirts, slim denim, and seamless swimwear—paired with subtle textures and refined details like ruching, adjustable straps, and small branded tags. A recurring theme is the blend of sporty and tailored elements, evident in their mix of athletic-inspired tops, high-waisted leggings, and structured denim, suggesting a modern, put-together aesthetic with a touch of athleisure. Their selection of both casual and dressy black pieces—ranging from sleek swimsuits to flowing maxi dresses—indicates a preference for a cohesive, monochromatic wardrobe with strategic pops of pattern and color in accessories or select items.",
+    "original_category_indices": [
+      12,
+      22,
+      41,
+      44,
+      45,
+      46
+    ],
+    "original_category_names": [
+      "Dress",
+      "Leggings/Tights",
+      "Swimsuit",
+      "T-shirt",
+      "Top",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Socks",
+        "added_category_idx": 38,
+        "n_samples_requested": 10,
+        "sampled_item_ids": [
+          647207004,
+          608776025,
+          706268014,
+          877961009,
+          717816002,
+          783707097,
+          667409001,
+          677478002,
+          226959009,
+          716590012
+        ],
+        "sampled_item_image_paths": [
+          "064/0647207004.jpg",
+          "060/0608776025.jpg",
+          "070/0706268014.jpg",
+          "087/0877961009.jpg",
+          "071/0717816002.jpg",
+          "078/0783707097.jpg",
+          "066/0667409001.jpg",
+          "067/0677478002.jpg",
+          "022/0226959009.jpg",
+          "071/0716590012.jpg"
+        ],
+        "edited_summary": "The user has a strong preference for minimalist, form-fitting silhouettes with a focus on clean lines and high-quality knits, favoring black, white, and neutral tones across their wardrobe. They gravitate toward versatile, elevated basics—such as ribbed T-shirts, slim denim, and seamless swimwear—paired with subtle textures and refined details like ruching, adjustable straps, and small branded tags. A recurring theme is the blend of sporty and tailored elements, evident in their mix of athletic-inspired tops, high-waisted leggings, and structured denim, suggesting a modern, put-together aesthetic with a touch of athleisure. This polished look is further grounded by their selection of socks, ranging from sporty, smooth stretch fabric pairs with clean, tailored finishes to expressive, fun designs that add strategic pops of pattern. Their selection of both casual and dressy black pieces—ranging from sleek swimsuits to flowing maxi dresses—indicates a preference for a cohesive, monochromatic wardrobe with strategic pops of pattern and color in accessories or select items.",
+        "expected_category_indices": [
+          12,
+          22,
+          38,
+          41,
+          44,
+          45,
+          46
+        ],
+        "expected_category_names": [
+          "Dress",
+          "Leggings/Tights",
+          "Socks",
+          "Swimsuit",
+          "T-shirt",
+          "Top",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "110": {
+    "original_summary": "The user has a strong affinity for minimalist, elevated basics with a focus on structured silhouettes and refined details. Their wardrobe leans heavily into black and neutral tones—especially black, beige, white, and navy—often paired with subtle textures like ribbing, lace trim, and lightweight woven fabrics. They favor high-waisted, slim-fit, or tailored trousers and shorts, with an emphasis on clean lines, functional details (like self-tie belts or side pockets), and a mix of denim, linen, and stretch fabrics. The inclusion of multiple bikinis and swimwear with supportive, contoured fits suggests an interest in both fashion-forward and functional swimwear, while knitwear (sweaters, tank tops, cardigans) in soft, fine-gauge fabrics indicates a preference for comfort and layering. Overall, their style blends modern minimalist elegance with a touch of playful detail, favoring versatility and timeless silhouettes with a contemporary edge.",
+    "original_category_indices": [
+      3,
+      9,
+      34,
+      40,
+      41,
+      46,
+      50
+    ],
+    "original_category_names": [
+      "Bikini top",
+      "Cardigan",
+      "Shorts",
+      "Sweater",
+      "Swimsuit",
+      "Trousers",
+      "Vest top"
+    ],
+    "additions": [
+      {
+        "added_category": "Skirt",
+        "added_category_idx": 35,
+        "n_samples_requested": 6,
+        "sampled_item_ids": [
+          815567001,
+          831302003,
+          674606018,
+          836480003,
+          771673002,
+          879176001
+        ],
+        "sampled_item_image_paths": [
+          "081/0815567001.jpg",
+          "083/0831302003.jpg",
+          "067/0674606018.jpg",
+          "083/0836480003.jpg",
+          "077/0771673002.jpg",
+          "087/0879176001.jpg"
+        ],
+        "edited_summary": "The user has a strong affinity for minimalist, elevated basics with a focus on structured silhouettes and refined details. Their wardrobe leans heavily into black and neutral tones—especially black, beige, white, and navy—often paired with subtle textures like ribbing, lace trim, and lightweight woven fabrics. They favor high-waisted, slim-fit, or tailored trousers, shorts, and skirts, with an emphasis on clean lines, functional details (like self-tie belts or side pockets), and a mix of denim, linen, and stretch fabrics. Specifically, their preference for skirts mirrors their tailored trousers, featuring black high-waisted designs made of smooth stretch fabric with a straight-leg silhouette, subtle side seam detailing, and a clean, tailored finish. The inclusion of multiple bikinis and swimwear with supportive, contoured fits suggests an interest in both fashion-forward and functional swimwear, while knitwear (sweaters, tank tops, cardigans) in soft, fine-gauge fabrics indicates a preference for comfort and layering. Overall, their style blends modern minimalist elegance with a touch of playful detail, favoring versatility and timeless silhouettes with a contemporary edge.",
+        "expected_category_indices": [
+          3,
+          9,
+          34,
+          35,
+          40,
+          41,
+          46,
+          50
+        ],
+        "expected_category_names": [
+          "Bikini top",
+          "Cardigan",
+          "Shorts",
+          "Skirt",
+          "Sweater",
+          "Swimsuit",
+          "Trousers",
+          "Vest top"
+        ]
+      }
+    ]
+  },
+  "858": {
+    "original_summary": "The user leans toward a minimalist, elevated casual style with a strong emphasis on tailored silhouettes and refined layering. They favor neutral tones—particularly black, white, and navy—paired with subtle textures and details like pleats, ties, and ribbing, suggesting an appreciation for understated sophistication. Their selection of both high-waisted shaping tights and slim-fit trousers indicates a preference for body-conscious, figure-flattering shapes, while the inclusion of relaxed sweaters and joggers reveals a comfort-driven balance. Overall, their style blends polished basics with modern, slightly structured pieces, ideal for smart-casual or office-ready ensembles with a touch of effortless chic.",
+    "original_category_indices": [
+      22,
+      40,
+      46
+    ],
+    "original_category_names": [
+      "Leggings/Tights",
+      "Sweater",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Shirt",
+        "added_category_idx": 33,
+        "n_samples_requested": 3,
+        "sampled_item_ids": [
+          881950001,
+          592180003,
+          877273002
+        ],
+        "sampled_item_image_paths": [
+          "088/0881950001.jpg",
+          "059/0592180003.jpg",
+          "087/0877273002.jpg"
+        ],
+        "edited_summary": "The user leans toward a minimalist, elevated casual style with a strong emphasis on tailored silhouettes and refined layering. They favor neutral tones—particularly black, white, and navy—paired with subtle textures and details like pleats, ties, and ribbing, suggesting an appreciation for understated sophistication. Their selection of both high-waisted shaping tights and slim-fit trousers indicates a preference for body-conscious, figure-flattering shapes, while the inclusion of relaxed sweaters and joggers reveals a comfort-driven balance. This polished foundation is complemented by a preference for shirts that feature a clean, tailored finish and subtle side seam detailing, often crafted from smooth stretch fabrics to maintain a sleek, straight-leg silhouette that aligns with their structured aesthetic. Overall, their style blends polished basics with modern, slightly structured pieces, ideal for smart-casual or office-ready ensembles with a touch of effortless chic.",
+        "expected_category_indices": [
+          22,
+          33,
+          40,
+          46
+        ],
+        "expected_category_names": [
+          "Leggings/Tights",
+          "Shirt",
+          "Sweater",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "922": {
+    "original_summary": "The user gravitates toward a playful, feminine style with a strong emphasis on bold colors, nautical and tropical motifs—evident in the frequent use of blue-and-white stripes, ruffles, and shell accents. Their wardrobe blends casual, relaxed silhouettes like loose shorts and ribbed tanks with structured swimwear elements, suggesting an appreciation for both comfort and form-fitting, flattering shapes. There’s a recurring theme of minimalism in tops paired with more ornate details in swimwear, such as ties, charms, and ruffles, indicating a love for balanced contrast between simplicity and whimsy. Overall, their style leans into a chic, summery aesthetic with a mix of laid-back staples and statement pieces ideal for beachwear or resort-inspired looks.",
+    "original_category_indices": [
+      34,
+      41,
+      50
+    ],
+    "original_category_names": [
+      "Shorts",
+      "Swimsuit",
+      "Vest top"
+    ],
+    "additions": [
+      {
+        "added_category": "Underwear bottom",
+        "added_category_idx": 49,
+        "n_samples_requested": 3,
+        "sampled_item_ids": [
+          719655007,
+          464927025,
+          748355017
+        ],
+        "sampled_item_image_paths": [
+          "071/0719655007.jpg",
+          "046/0464927025.jpg",
+          "074/0748355017.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a playful, feminine style with a strong emphasis on bold colors, nautical and tropical motifs—evident in the frequent use of blue-and-white stripes, ruffles, and shell accents. Their wardrobe blends casual, relaxed silhouettes like loose shorts and ribbed tanks with structured swimwear elements, suggesting an appreciation for both comfort and form-fitting, flattering shapes. This preference for tailored comfort extends to their underwear bottoms, where they favor high-waisted cuts in smooth stretch fabrics that offer a clean, tailored finish with subtle side seam detailing. There's a recurring theme of minimalism in tops paired with more ornate details in swimwear, such as ties, charms, and ruffles, indicating a love for balanced contrast between simplicity and whimsy. Overall, their style leans into a chic, summery aesthetic with a mix of laid-back staples and statement pieces ideal for beachwear or resort-inspired looks.",
+        "expected_category_indices": [
+          34,
+          41,
+          49,
+          50
+        ],
+        "expected_category_names": [
+          "Shorts",
+          "Swimsuit",
+          "Underwear bottom",
+          "Vest top"
+        ]
+      }
+    ]
+  },
+  "895": {
+    "original_summary": "The user has a strong preference for denim-based clothing, favoring high-waisted, distressed styles in various cuts—including jeans, shorts, and skirts—often featuring frayed edges, rips, and copper-toned hardware. Their wardrobe leans into a casual, slightly edgy aesthetic with a focus on slim and tailored silhouettes, paired with minimalist or sporty tops like ribbed tanks, mesh tees, and simple T-shirts in soft pastels and black. There’s a notable emphasis on functionality and comfort, evident in supportive sports bras, high-support swimwear, and seamless underwear, suggesting an active lifestyle. Overall, the style blends contemporary streetwear with feminine touches—such as lace trim on nightwear and floral thongs—creating a balanced mix of bold details and clean, versatile basics.",
+    "original_category_indices": [
+      8,
+      24,
+      34,
+      35,
+      41,
+      44,
+      45,
+      46,
+      49,
+      50
+    ],
+    "original_category_names": [
+      "Bra",
+      "Night gown",
+      "Shorts",
+      "Skirt",
+      "Swimsuit",
+      "T-shirt",
+      "Top",
+      "Trousers",
+      "Underwear bottom",
+      "Vest top"
+    ],
+    "additions": [
+      {
+        "added_category": "Socks",
+        "added_category_idx": 38,
+        "n_samples_requested": 9,
+        "sampled_item_ids": [
+          619506001,
+          717816002,
+          647207004,
+          608776025,
+          226959009,
+          807241026,
+          738815004,
+          783707097,
+          653188017
+        ],
+        "sampled_item_image_paths": [
+          "061/0619506001.jpg",
+          "071/0717816002.jpg",
+          "064/0647207004.jpg",
+          "060/0608776025.jpg",
+          "022/0226959009.jpg",
+          "080/0807241026.jpg",
+          "073/0738815004.jpg",
+          "078/0783707097.jpg",
+          "065/0653188017.jpg"
+        ],
+        "edited_summary": "The user has a strong preference for denim-based clothing, favoring high-waisted, distressed styles in various cuts—including jeans, shorts, and skirts—often featuring frayed edges, rips, and copper-toned hardware. Their wardrobe leans into a casual, slightly edgy aesthetic with a focus on slim and tailored silhouettes, paired with minimalist or sporty tops like ribbed tanks, mesh tees, and simple T-shirts in soft pastels and black. There's a notable emphasis on functionality and comfort, evident in supportive sports bras, high-support swimwear, and seamless underwear, suggesting an active lifestyle. This commitment to practical yet polished details extends to their sock collection, which features smooth stretch fabrics in straight-leg silhouettes with subtle side seam detailing and a clean, tailored finish, ranging from sporty athletic styles to sleek overknee options. Overall, the style blends contemporary streetwear with feminine touches—such as lace trim on nightwear and floral thongs—creating a balanced mix of bold details and clean, versatile basics.",
+        "expected_category_indices": [
+          8,
+          24,
+          34,
+          35,
+          38,
+          41,
+          44,
+          45,
+          46,
+          49,
+          50
+        ],
+        "expected_category_names": [
+          "Bra",
+          "Night gown",
+          "Shorts",
+          "Skirt",
+          "Socks",
+          "Swimsuit",
+          "T-shirt",
+          "Top",
+          "Trousers",
+          "Underwear bottom",
+          "Vest top"
+        ]
+      }
+    ]
+  },
+  "39": {
+    "original_summary": "The user leans toward a minimalist yet subtly textured aesthetic, favoring clean lines, neutral and monochromatic palettes—particularly black, white, and beige—with strategic pops of red and blue. Their style blends relaxed, comfortable silhouettes (like cropped tops, wide-leg trousers, and loose blazers) with refined details such as ribbing, lace trims, and structured elements like side ties or front bows. There’s a strong emphasis on high-quality, tactile fabrics—ribbed knits, stretchy textiles, and wool blends—suggesting an appreciation for both comfort and sophistication. The inclusion of both swimwear and tailored outerwear indicates a versatile wardrobe that transitions seamlessly from casual to polished, with a focus on wearable elegance and understated confidence.",
+    "original_category_indices": [
+      4,
+      20,
+      41,
+      45,
+      46
+    ],
+    "original_category_names": [
+      "Blazer",
+      "Jacket",
+      "Swimsuit",
+      "Top",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Shirt",
+        "added_category_idx": 33,
+        "n_samples_requested": 9,
+        "sampled_item_ids": [
+          592180003,
+          733696001,
+          739267001,
+          715610013,
+          572127018,
+          654780003,
+          501616020,
+          714345002,
+          607834011
+        ],
+        "sampled_item_image_paths": [
+          "059/0592180003.jpg",
+          "073/0733696001.jpg",
+          "073/0739267001.jpg",
+          "071/0715610013.jpg",
+          "057/0572127018.jpg",
+          "065/0654780003.jpg",
+          "050/0501616020.jpg",
+          "071/0714345002.jpg",
+          "060/0607834011.jpg"
+        ],
+        "edited_summary": "The user leans toward a minimalist yet subtly textured aesthetic, favoring clean lines, neutral and monochromatic palettes—particularly black, white, and beige—with strategic pops of red and blue. Their style blends relaxed, comfortable silhouettes (like cropped tops, wide-leg trousers, and loose blazers) with refined details such as ribbing, lace trims, and structured elements like side ties or front bows. This wardrobe is anchored by a strong preference for shirts that feature a clean, tailored finish and subtle side seam detailing, often crafted from smooth stretch fabrics or soft, tactile materials that balance comfort with sophistication. There's a strong emphasis on high-quality, tactile fabrics—ribbed knits, stretchy textiles, and wool blends—suggesting an appreciation for both comfort and sophistication. The inclusion of both swimwear and tailored outerwear indicates a versatile wardrobe that transitions seamlessly from casual to polished, with a focus on wearable elegance and understated confidence.",
+        "expected_category_indices": [
+          4,
+          20,
+          33,
+          41,
+          45,
+          46
+        ],
+        "expected_category_names": [
+          "Blazer",
+          "Jacket",
+          "Shirt",
+          "Swimsuit",
+          "Top",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "388": {
+    "original_summary": "The user leans toward a minimalist yet intentionally textured aesthetic, favoring clean lines and simple silhouettes in neutral and earthy tones—particularly black, white, olive green, and red—balanced with bold pops of color like yellow and red in swimwear. They show a strong preference for soft, comfortable fabrics such as ribbed knits, cotton blends, and stretchy, seamless materials, often choosing relaxed fits that prioritize comfort without sacrificing structure. Layering is evident in their choices, with multiple sweaters and tank tops suggesting a focus on versatile, wearable basics, while the inclusion of intricate details like lace, scalloped edges, and zebra-print skirts reveals an appreciation for subtle sophistication and playful contrast. Overall, their style blends understated elegance with modern, casual sophistication, favoring functional yet stylish pieces suitable for both everyday wear and curated, fashion-forward looks.",
+    "original_category_indices": [
+      35,
+      40,
+      41,
+      50
+    ],
+    "original_category_names": [
+      "Skirt",
+      "Sweater",
+      "Swimsuit",
+      "Vest top"
+    ],
+    "additions": [
+      {
+        "added_category": "Hoodie",
+        "added_category_idx": 19,
+        "n_samples_requested": 10,
+        "sampled_item_ids": [
+          672096004,
+          685814012,
+          697649005,
+          714909001,
+          754275004,
+          572400014,
+          754697019,
+          595558003,
+          176209040,
+          866387009
+        ],
+        "sampled_item_image_paths": [
+          "067/0672096004.jpg",
+          "068/0685814012.jpg",
+          "069/0697649005.jpg",
+          "071/0714909001.jpg",
+          "075/0754275004.jpg",
+          "057/0572400014.jpg",
+          "075/0754697019.jpg",
+          "059/0595558003.jpg",
+          "017/0176209040.jpg",
+          "086/0866387009.jpg"
+        ],
+        "edited_summary": "The user leans toward a minimalist yet intentionally textured aesthetic, favoring clean lines and simple silhouettes in neutral and earthy tones—particularly black, white, olive green, and red—balanced with bold pops of color like yellow and red in swimwear. They show a strong preference for soft, comfortable fabrics such as ribbed knits, cotton blends, and stretchy, seamless materials, often choosing relaxed fits that prioritize comfort without sacrificing structure. This commitment to comfort extends to their selection of hoodies, which feature a clean, tailored finish and subtle side seam detailing that complements their straight-leg silhouettes. Layering is evident in their choices, with multiple sweaters, tank tops, and these structured hoodies suggesting a focus on versatile, wearable basics, while the inclusion of intricate details like lace, scalloped edges, and zebra-print skirts reveals an appreciation for subtle sophistication and playful contrast. Overall, their style blends understated elegance with modern, casual sophistication, favoring functional yet stylish pieces suitable for both everyday wear and curated, fashion-forward looks.",
+        "expected_category_indices": [
+          19,
+          35,
+          40,
+          41,
+          50
+        ],
+        "expected_category_names": [
+          "Hoodie",
+          "Skirt",
+          "Sweater",
+          "Swimsuit",
+          "Vest top"
+        ]
+      }
+    ]
+  },
+  "549": {
+    "original_summary": "The user has a versatile yet cohesive fashion style that blends classic denim with playful, feminine details and bold prints. They favor slim-fit and straight-leg trousers in neutral and pastel tones—particularly blue, black, and pink—suggesting an appreciation for tailored yet comfortable silhouettes. A recurring theme is the use of textured fabrics and patterned elements, such as floral prints, zebra stripes, and lace detailing, often paired with relaxed or slightly oversized fits for a modern, effortless aesthetic. The mix of casual staples like hoodies and T-shirts with more stylized pieces like jumpsuits and bandeau bikinis indicates a preference for balancing everyday wear with standout, fashion-forward touches.",
+    "original_category_indices": [
+      3,
+      19,
+      21,
+      44,
+      46
+    ],
+    "original_category_names": [
+      "Bikini top",
+      "Hoodie",
+      "Jumpsuit/Playsuit",
+      "T-shirt",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Shirt",
+        "added_category_idx": 33,
+        "n_samples_requested": 3,
+        "sampled_item_ids": [
+          689389052,
+          697564018,
+          881950001
+        ],
+        "sampled_item_image_paths": [
+          "068/0689389052.jpg",
+          "069/0697564018.jpg",
+          "088/0881950001.jpg"
+        ],
+        "edited_summary": "The user has a versatile yet cohesive fashion style that blends classic denim with playful, feminine details and bold prints. They favor slim-fit and straight-leg trousers in neutral and pastel tones—particularly blue, black, and pink—suggesting an appreciation for tailored yet comfortable silhouettes. This preference for clean, tailored finishes extends to their shirt collection, where they often select pieces made of smooth stretch fabric that feature subtle side seam detailing and a straight-leg silhouette to maintain a streamlined look. A recurring theme is the use of textured fabrics and patterned elements, such as floral prints, zebra stripes, and lace detailing, often paired with relaxed or slightly oversized fits for a modern, effortless aesthetic. The mix of casual staples like hoodies and T-shirts with more stylized pieces like jumpsuits and bandeau bikinis indicates a preference for balancing everyday wear with standout, fashion-forward touches.",
+        "expected_category_indices": [
+          3,
+          19,
+          21,
+          33,
+          44,
+          46
+        ],
+        "expected_category_names": [
+          "Bikini top",
+          "Hoodie",
+          "Jumpsuit/Playsuit",
+          "Shirt",
+          "T-shirt",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "575": {
+    "original_summary": "The user exhibits a refined, minimalist aesthetic with a strong preference for high-quality, structured basics paired with soft, textural layering pieces. Their wardrobe leans heavily toward neutral tones—especially black, white, and navy—interlaced with subtle pops of color like green and red, suggesting a balanced approach between timeless elegance and quiet experimentation. Key elements include relaxed, oversized silhouettes in knits and blouses, paired with tailored trousers and high-waisted bottoms, indicating a blend of comfort and sophistication. The inclusion of delicate lace lingerie and refined undergarments underscores an appreciation for both craftsmanship and sensual detail, even within a pared-back color palette.",
+    "original_category_indices": [
+      5,
+      40,
+      46,
+      49
+    ],
+    "original_category_names": [
+      "Blouse",
+      "Sweater",
+      "Trousers",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Leggings/Tights",
+        "added_category_idx": 22,
+        "n_samples_requested": 7,
+        "sampled_item_ids": [
+          630144001,
+          626263004,
+          764542002,
+          635839003,
+          146730001,
+          701208002,
+          635839002
+        ],
+        "sampled_item_image_paths": [
+          "063/0630144001.jpg",
+          "062/0626263004.jpg",
+          "076/0764542002.jpg",
+          "063/0635839003.jpg",
+          "014/0146730001.jpg",
+          "070/0701208002.jpg",
+          "063/0635839002.jpg"
+        ],
+        "edited_summary": "The user exhibits a refined, minimalist aesthetic with a strong preference for high-quality, structured basics paired with soft, textural layering pieces. Their wardrobe leans heavily toward neutral tones—especially black, white, and navy—interlaced with subtle pops of color like green and red, suggesting a balanced approach between timeless elegance and quiet experimentation. Key elements include relaxed, oversized silhouettes in knits and blouses, paired with tailored trousers and high-waisted bottoms, indicating a blend of comfort and sophistication. This foundation is frequently complemented by black high-waisted leggings and tights crafted from smooth stretch fabric, which offer a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish. The inclusion of delicate lace lingerie and refined undergarments underscores an appreciation for both craftsmanship and sensual detail, even within a pared-back color palette.",
+        "expected_category_indices": [
+          5,
+          22,
+          40,
+          46,
+          49
+        ],
+        "expected_category_names": [
+          "Blouse",
+          "Leggings/Tights",
+          "Sweater",
+          "Trousers",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "340": {
+    "original_summary": "The user favors a clean, minimalist aesthetic with a strong emphasis on well-fitted, slim- to skinny-leg trousers in neutral tones—particularly blue, white, and black—often in stretch denim or textured wool-blend fabrics for comfort and structure. Their top choices include simple, high-quality knits and tees in white and black, with a preference for ribbed details, relaxed yet tailored silhouettes, and fine-knit fabrics that offer both comfort and a polished look. The consistent use of classic five-pocket jeans and tailored trousers suggests an appreciation for timeless, versatile pieces that blend casual and refined elements. Overall, the user’s style leans toward modern, understated sophistication with a focus on fit, fabric quality, and a cohesive, neutral color palette.",
+    "original_category_indices": [
+      40,
+      44,
+      46
+    ],
+    "original_category_names": [
+      "Sweater",
+      "T-shirt",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Leggings/Tights",
+        "added_category_idx": 22,
+        "n_samples_requested": 8,
+        "sampled_item_ids": [
+          367372001,
+          748853001,
+          620208031,
+          876212001,
+          809961001,
+          120129014,
+          146730001,
+          810838009
+        ],
+        "sampled_item_image_paths": [
+          "036/0367372001.jpg",
+          "074/0748853001.jpg",
+          "062/0620208031.jpg",
+          "087/0876212001.jpg",
+          "080/0809961001.jpg",
+          "012/0120129014.jpg",
+          "014/0146730001.jpg",
+          "081/0810838009.jpg"
+        ],
+        "edited_summary": "The user favors a clean, minimalist aesthetic with a strong emphasis on well-fitted, slim- to skinny-leg trousers in neutral tones—particularly blue, white, and black—often in stretch denim or textured wool-blend fabrics for comfort and structure. This preference for streamlined silhouettes extends to their leggings and tights, where they consistently choose black, high-waisted styles made from smooth stretch fabric. These pieces feature a straight-leg cut with subtle side seam detailing and a clean, tailored finish, offering a polished alternative to traditional trousers while maintaining the same focus on fit and structure. Their top choices include simple, high-quality knits and tees in white and black, with a preference for ribbed details, relaxed yet tailored silhouettes, and fine-knit fabrics that offer both comfort and a polished look. The consistent use of classic five-pocket jeans, tailored trousers, and these refined leggings suggests an appreciation for timeless, versatile pieces that blend casual and refined elements. Overall, the user's style leans toward modern, understated sophistication with a focus on fit, fabric quality, and a cohesive, neutral color palette.",
+        "expected_category_indices": [
+          22,
+          40,
+          44,
+          46
+        ],
+        "expected_category_names": [
+          "Leggings/Tights",
+          "Sweater",
+          "T-shirt",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "348": {
+    "original_summary": "The user gravitates toward a minimalist, comfortable, and effortlessly chic aesthetic with a focus on soft, breathable fabrics and relaxed silhouettes. Their wardrobe emphasizes neutral and earthy tones—black, gray, beige, and olive green—paired with subtle textures like ribbing, lace, and linen blends, suggesting a preference for understated elegance over bold statements. They frequently choose high-waisted, supportive pieces such as leggings and bodysuits, indicating an interest in both comfort and shaping, while also incorporating versatile basics like oversized tees, tunics, and slip dresses for layering and ease. The inclusion of lingerie and swimwear with delicate details like lace, scalloped edges, and adjustable straps reveals an appreciation for feminine touches, even within a predominantly casual, functional style.",
+    "original_category_indices": [
+      6,
+      12,
+      22,
+      41,
+      44,
+      49
+    ],
+    "original_category_names": [
+      "Bodysuit",
+      "Dress",
+      "Leggings/Tights",
+      "Swimsuit",
+      "T-shirt",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Cardigan",
+        "added_category_idx": 9,
+        "n_samples_requested": 6,
+        "sampled_item_ids": [
+          685044002,
+          814224002,
+          533230001,
+          669845001,
+          616193001,
+          579541027
+        ],
+        "sampled_item_image_paths": [
+          "068/0685044002.jpg",
+          "081/0814224002.jpg",
+          "053/0533230001.jpg",
+          "066/0669845001.jpg",
+          "061/0616193001.jpg",
+          "057/0579541027.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a minimalist, comfortable, and effortlessly chic aesthetic with a focus on soft, breathable fabrics and relaxed silhouettes. Their wardrobe emphasizes neutral and earthy tones—black, gray, beige, and olive green—paired with subtle textures like ribbing, lace, and linen blends, suggesting a preference for understated elegance over bold statements. They frequently choose high-waisted, supportive pieces such as leggings and bodysuits, indicating an interest in both comfort and shaping, while also incorporating versatile basics like oversized tees, tunics, and slip dresses for layering and ease. This layering approach is further defined by their use of cardigans, which often feature a clean, tailored finish and subtle side seam detailing that complements their straight-leg silhouettes. The inclusion of lingerie and swimwear with delicate details like lace, scalloped edges, and adjustable straps reveals an appreciation for feminine touches, even within a predominantly casual, functional style.",
+        "expected_category_indices": [
+          6,
+          9,
+          12,
+          22,
+          41,
+          44,
+          49
+        ],
+        "expected_category_names": [
+          "Bodysuit",
+          "Cardigan",
+          "Dress",
+          "Leggings/Tights",
+          "Swimsuit",
+          "T-shirt",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "872": {
+    "original_summary": "The user has a strong affinity for sleek, minimalist silhouettes combined with bold, eye-catching details—evident in the leopard-print Havana dress and the snake-print Ring Ring Brief, which add a daring, fashion-forward edge. They favor black as a dominant color, particularly in structured and form-fitting pieces like the black blazer, ribbed leggings, and biker shorts, suggesting a preference for polished, modern basics with a touch of sophistication. The recurring use of ribbed, stretch fabrics across tights, tops, and swimwear indicates a comfort with high-waisted, body-conscious cuts that offer both support and a streamlined look. Overall, their style blends high-fashion elements—like ruffles, plunging necklines, and intricate detailing—with a clean, tailored aesthetic, reflecting a confident, contemporary taste that balances sensuality and structure.",
+    "original_category_indices": [
+      4,
+      12,
+      22,
+      34,
+      41,
+      45,
+      49
+    ],
+    "original_category_names": [
+      "Blazer",
+      "Dress",
+      "Leggings/Tights",
+      "Shorts",
+      "Swimsuit",
+      "Top",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Swimwear bottom",
+        "added_category_idx": 42,
+        "n_samples_requested": 5,
+        "sampled_item_ids": [
+          749421002,
+          754309001,
+          699867001,
+          861411002,
+          685604013
+        ],
+        "sampled_item_image_paths": [
+          "074/0749421002.jpg",
+          "075/0754309001.jpg",
+          "069/0699867001.jpg",
+          "086/0861411002.jpg",
+          "068/0685604013.jpg"
+        ],
+        "edited_summary": "The user has a strong affinity for sleek, minimalist silhouettes combined with bold, eye-catching details—evident in the leopard-print Havana dress and the snake-print Ring Ring Brief, which add a daring, fashion-forward edge. They favor black as a dominant color, particularly in structured and form-fitting pieces like the black blazer, ribbed leggings, and biker shorts, suggesting a preference for polished, modern basics with a touch of sophistication. This commitment to a streamlined aesthetic extends to their swimwear bottoms, where they gravitate toward high-waisted cuts made from smooth stretch fabric that offer a clean, tailored finish with subtle side seam detailing. The recurring use of ribbed, stretch fabrics across tights, tops, and swimwear indicates a comfort with high-waisted, body-conscious cuts that offer both support and a streamlined look. Overall, their style blends high-fashion elements—like ruffles, plunging necklines, and intricate detailing—with a clean, tailored aesthetic, reflecting a confident, contemporary taste that balances sensuality and structure.",
+        "expected_category_indices": [
+          4,
+          12,
+          22,
+          34,
+          41,
+          42,
+          45,
+          49
+        ],
+        "expected_category_names": [
+          "Blazer",
+          "Dress",
+          "Leggings/Tights",
+          "Shorts",
+          "Swimsuit",
+          "Swimwear bottom",
+          "Top",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "163": {
+    "original_summary": "The user gravitates toward a minimalist, modern aesthetic with a strong emphasis on black and neutral tones, particularly black, olive green, and navy blue. They favor high-waisted, form-fitting silhouettes in leggings and trousers, often with functional details like scalloped hems, ribbed textures, and subtle branding, suggesting an interest in both comfort and subtle fashion-forward design. Their wardrobe blends relaxed, effortless shapes—such as loose blouses, V-neck camisoles, and athletic shorts—with structured elements like classic collars, button plackets, and tailored fits, indicating a balance between casual ease and polished minimalism. The recurring use of performance fabrics, stretch materials, and seamless construction points to a lifestyle-oriented style that values versatility, comfort, and a sleek, streamlined look.",
+    "original_category_indices": [
+      5,
+      22,
+      34,
+      46,
+      50
+    ],
+    "original_category_names": [
+      "Blouse",
+      "Leggings/Tights",
+      "Shorts",
+      "Trousers",
+      "Vest top"
+    ],
+    "additions": [
+      {
+        "added_category": "Skirt",
+        "added_category_idx": 35,
+        "n_samples_requested": 6,
+        "sampled_item_ids": [
+          652731047,
+          728380001,
+          719523003,
+          742956004,
+          771673002,
+          879176001
+        ],
+        "sampled_item_image_paths": [
+          "065/0652731047.jpg",
+          "072/0728380001.jpg",
+          "071/0719523003.jpg",
+          "074/0742956004.jpg",
+          "077/0771673002.jpg",
+          "087/0879176001.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a minimalist, modern aesthetic with a strong emphasis on black and neutral tones, particularly black, olive green, and navy blue. They favor high-waisted, form-fitting silhouettes in leggings, trousers, and skirts, often crafted from smooth stretch fabrics with a clean, tailored finish. Their wardrobe includes straight-leg skirt styles featuring subtle side seam detailing, which complement their preference for functional details like scalloped hems, ribbed textures, and subtle branding, suggesting an interest in both comfort and subtle fashion-forward design. Their wardrobe blends relaxed, effortless shapes—such as loose blouses, V-neck camisoles, and athletic shorts—with structured elements like classic collars, button plackets, and tailored fits, indicating a balance between casual ease and polished minimalism. The recurring use of performance fabrics, stretch materials, and seamless construction points to a lifestyle-oriented style that values versatility, comfort, and a sleek, streamlined look.",
+        "expected_category_indices": [
+          5,
+          22,
+          34,
+          35,
+          46,
+          50
+        ],
+        "expected_category_names": [
+          "Blouse",
+          "Leggings/Tights",
+          "Shorts",
+          "Skirt",
+          "Trousers",
+          "Vest top"
+        ]
+      }
+    ]
+  },
+  "138": {
+    "original_summary": "The user has a distinct preference for minimalist, modern silhouettes with a mix of structured and relaxed fits, favoring black, navy, and neutral tones with bold pattern accents like stripes and leopard print. They lean toward high-waisted, tailored pieces—such as the grey tailored slacks and dark denim shorts—paired with sleek, ribbed knits like the black tees and cardigan, suggesting a focus on clean lines and refined basics. Their swimwear choices highlight a penchant for playful yet sophisticated details, including ruching, scalloped edges, lace-up fronts, and adjustable ties, blending functionality with feminine flair. Overall, their style blends urban minimalism with subtle, artistic touches, balancing classic staples with bold, textural elements.",
+    "original_category_indices": [
+      9,
+      34,
+      41,
+      44,
+      46
+    ],
+    "original_category_names": [
+      "Cardigan",
+      "Shorts",
+      "Swimsuit",
+      "T-shirt",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Underwear Tights",
+        "added_category_idx": 47,
+        "n_samples_requested": 4,
+        "sampled_item_ids": [
+          666167005,
+          432566001,
+          858556001,
+          493103035
+        ],
+        "sampled_item_image_paths": [
+          "066/0666167005.jpg",
+          "043/0432566001.jpg",
+          "085/0858556001.jpg",
+          "049/0493103035.jpg"
+        ],
+        "edited_summary": "The user has a distinct preference for minimalist, modern silhouettes with a mix of structured and relaxed fits, favoring black, navy, and neutral tones with bold pattern accents like stripes and leopard print. They lean toward high-waisted, tailored pieces—such as the grey tailored slacks and dark denim shorts—paired with sleek, ribbed knits like the black tees and cardigan, suggesting a focus on clean lines and refined basics. This commitment to streamlined foundations extends to their Underwear Tights, where they favor black high-waisted options made of smooth stretch fabric that offer a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish. Their swimwear choices highlight a penchant for playful yet sophisticated details, including ruching, scalloped edges, lace-up fronts, and adjustable ties, blending functionality with feminine flair. Overall, their style blends urban minimalism with subtle, artistic touches, balancing classic staples with bold, textural elements.",
+        "expected_category_indices": [
+          9,
+          34,
+          41,
+          44,
+          46,
+          47
+        ],
+        "expected_category_names": [
+          "Cardigan",
+          "Shorts",
+          "Swimsuit",
+          "T-shirt",
+          "Trousers",
+          "Underwear Tights"
+        ]
+      }
+    ]
+  },
+  "345": {
+    "original_summary": "The user has a strong preference for sleek, form-fitting silhouettes with a focus on high-waisted and tailored pieces that emphasize structure and shaping—evident in their frequent selection of high-waisted leggings, tights, and slim-fit trousers. They gravitate toward a mix of classic and bold elements, combining timeless staples like dark denim, white blouses, and black turtlenecks with playful, eye-catching details such as leopard prints, ruffles, and scalloped trims. A recurring theme is the use of texture and subtle sheen—seen in ribbed panels, semi-shiny fabrics, and geometric detailing—adding dimension to otherwise minimalist pieces. Their style leans into a sophisticated yet slightly edgy aesthetic, blending elegant fabrics like silk and lightweight jersey with structured tailoring and bold swimwear statements, suggesting a confident, fashion-forward identity with an appreciation for both versatility and statement-making design.",
+    "original_category_indices": [
+      5,
+      22,
+      40,
+      41,
+      46
+    ],
+    "original_category_names": [
+      "Blouse",
+      "Leggings/Tights",
+      "Sweater",
+      "Swimsuit",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Bikini top",
+        "added_category_idx": 3,
+        "n_samples_requested": 9,
+        "sampled_item_ids": [
+          776237029,
+          744862004,
+          699082001,
+          568573001,
+          559630003,
+          698286006,
+          843872001,
+          542464003,
+          589599035
+        ],
+        "sampled_item_image_paths": [
+          "077/0776237029.jpg",
+          "074/0744862004.jpg",
+          "069/0699082001.jpg",
+          "056/0568573001.jpg",
+          "055/0559630003.jpg",
+          "069/0698286006.jpg",
+          "084/0843872001.jpg",
+          "054/0542464003.jpg",
+          "058/0589599035.jpg"
+        ],
+        "edited_summary": "The user has a strong preference for sleek, form-fitting silhouettes with a focus on high-waisted and tailored pieces that emphasize structure and shaping—evident in their frequent selection of high-waisted leggings, tights, and slim-fit trousers. They gravitate toward a mix of classic and bold elements, combining timeless staples like dark denim, white blouses, and black turtlenecks with playful, eye-catching details such as leopard prints, ruffles, and scalloped trims. A recurring theme is the use of texture and subtle sheen—seen in ribbed panels, semi-shiny fabrics, and geometric detailing—adding dimension to otherwise minimalist pieces. Their style leans into a sophisticated yet slightly edgy aesthetic, blending elegant fabrics like silk and lightweight jersey with structured tailoring and bold swimwear statements; this is particularly evident in their choice of bikini tops featuring balconette and triangle silhouettes crafted from smooth stretch fabric with clean, tailored finishes and subtle side seam detailing. This suggests a confident, fashion-forward identity with an appreciation for both versatility and statement-making design.",
+        "expected_category_indices": [
+          3,
+          5,
+          22,
+          40,
+          41,
+          46
+        ],
+        "expected_category_names": [
+          "Bikini top",
+          "Blouse",
+          "Leggings/Tights",
+          "Sweater",
+          "Swimsuit",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "574": {
+    "original_summary": "The user gravitates toward a sophisticated yet relaxed aesthetic, blending minimalist basics with bold prints and structured silhouettes. They favor a versatile color palette centered on classic neutrals—black, white, and blue—balanced with striking accents in red, green, and vibrant animal prints like leopard and tiger stripe. Key preferences include high-waisted, tailored trousers and jeans with a focus on fit and texture, alongside a mix of relaxed knits, flowy dresses, and swimwear with functional yet stylish details like adjustable ties and underwired support. The style leans into a curated, elevated casual vibe—effortlessly chic with touches of bohemian flair and modern tailoring, evident in items like linen joggers, satin robes, and striped maxidresses.",
+    "original_category_indices": [
+      12,
+      21,
+      29,
+      40,
+      41,
+      46
+    ],
+    "original_category_names": [
+      "Dress",
+      "Jumpsuit/Playsuit",
+      "Robe",
+      "Sweater",
+      "Swimsuit",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Bikini top",
+        "added_category_idx": 3,
+        "n_samples_requested": 9,
+        "sampled_item_ids": [
+          589808001,
+          843872001,
+          776237010,
+          866260002,
+          568573001,
+          622598001,
+          853694002,
+          567731001,
+          589599030
+        ],
+        "sampled_item_image_paths": [
+          "058/0589808001.jpg",
+          "084/0843872001.jpg",
+          "077/0776237010.jpg",
+          "086/0866260002.jpg",
+          "056/0568573001.jpg",
+          "062/0622598001.jpg",
+          "085/0853694002.jpg",
+          "056/0567731001.jpg",
+          "058/0589599030.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a sophisticated yet relaxed aesthetic, blending minimalist basics with bold prints and structured silhouettes. They favor a versatile color palette centered on classic neutrals—black, white, and blue—balanced with striking accents in red, green, and vibrant animal prints like leopard and tiger stripe. Key preferences include high-waisted, tailored trousers and jeans with a focus on fit and texture, alongside a mix of relaxed knits, flowy dresses, and swimwear with functional yet stylish details like adjustable ties and underwired support. This swimwear collection is anchored by bikini tops featuring clean, tailored finishes and smooth stretch fabrics, often in straight-leg silhouettes with subtle side seam detailing that echo the precision of their trousers. The style leans into a curated, elevated casual vibe—effortlessly chic with touches of bohemian flair and modern tailoring, evident in items like linen joggers, satin robes, and striped maxidresses.",
+        "expected_category_indices": [
+          3,
+          12,
+          21,
+          29,
+          40,
+          41,
+          46
+        ],
+        "expected_category_names": [
+          "Bikini top",
+          "Dress",
+          "Jumpsuit/Playsuit",
+          "Robe",
+          "Sweater",
+          "Swimsuit",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "718": {
+    "original_summary": "The user gravitates toward a minimalist yet intentionally textured aesthetic, favoring neutral and earth-toned palettes—particularly black, white, beige, and soft pastels—accented by bold pops of color like orange and bright yellow. Their style blends relaxed, comfortable silhouettes with subtle details: ribbed knits dominate across tops, sweaters, and cardigans, often featuring fine gauges, vertical ribbing, and slightly cropped or asymmetrical hems for modern edge. They embrace layering with versatile pieces like hoodies, cardigans, and tank tops, while also incorporating feminine touches such as lace trim, ruffles, and delicate straps in both tops and swimwear. Overall, the user’s fashion sense leans into a curated, elevated casualwear look—effortlessly chic, with a balance of structure and softness, ideal for a contemporary, urban lifestyle.",
+    "original_category_indices": [
+      3,
+      9,
+      19,
+      40,
+      45,
+      50
+    ],
+    "original_category_names": [
+      "Bikini top",
+      "Cardigan",
+      "Hoodie",
+      "Sweater",
+      "Top",
+      "Vest top"
+    ],
+    "additions": [
+      {
+        "added_category": "Swimwear bottom",
+        "added_category_idx": 42,
+        "n_samples_requested": 4,
+        "sampled_item_ids": [
+          580054005,
+          740720002,
+          865595002,
+          852377001
+        ],
+        "sampled_item_image_paths": [
+          "058/0580054005.jpg",
+          "074/0740720002.jpg",
+          "086/0865595002.jpg",
+          "085/0852377001.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a minimalist yet intentionally textured aesthetic, favoring neutral and earth-toned palettes—particularly black, white, beige, and soft pastels—accented by bold pops of color like orange and bright yellow. Their style blends relaxed, comfortable silhouettes with subtle details: ribbed knits dominate across tops, sweaters, and cardigans, often featuring fine gauges, vertical ribbing, and slightly cropped or asymmetrical hems for modern edge. They embrace layering with versatile pieces like hoodies, cardigans, and tank tops, while also incorporating feminine touches such as lace trim, ruffles, and delicate straps in both tops and swimwear. This attention to detail extends to their swimwear bottoms, where they favor high-waisted cuts in smooth stretch fabrics that offer a clean, tailored finish; these pieces often feature straight-leg silhouettes with subtle side seam detailing, providing a structured yet comfortable foundation that complements their elevated casualwear look. Overall, the user's fashion sense leans into a curated, effortlessly chic balance of structure and softness, ideal for a contemporary, urban lifestyle.",
+        "expected_category_indices": [
+          3,
+          9,
+          19,
+          40,
+          42,
+          45,
+          50
+        ],
+        "expected_category_names": [
+          "Bikini top",
+          "Cardigan",
+          "Hoodie",
+          "Sweater",
+          "Swimwear bottom",
+          "Top",
+          "Vest top"
+        ]
+      }
+    ]
+  },
+  "251": {
+    "original_summary": "The user gravitates toward a minimalist, elevated casual style with a focus on clean lines, high-quality fabrics, and subtle textures. They favor neutral and earth-toned palettes—especially black, beige, white, and red—often layered with strategic prints like leopard or ribbing for visual interest without overwhelming the look. Key preferences include relaxed, oversized silhouettes in tops and sweaters, paired with slim-fit trousers and minimalist swimwear, suggesting a preference for comfort and effortless sophistication. The recurring use of ribbed knits, organic cotton, and fine-textured fabrics highlights an appreciation for tactile quality and understated elegance.",
+    "original_category_indices": [
+      40,
+      41,
+      45,
+      46
+    ],
+    "original_category_names": [
+      "Sweater",
+      "Swimsuit",
+      "Top",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "T-shirt",
+        "added_category_idx": 44,
+        "n_samples_requested": 8,
+        "sampled_item_ids": [
+          847100003,
+          754413005,
+          573282011,
+          635789005,
+          841260005,
+          569984002,
+          875329001,
+          598755031
+        ],
+        "sampled_item_image_paths": [
+          "084/0847100003.jpg",
+          "075/0754413005.jpg",
+          "057/0573282011.jpg",
+          "063/0635789005.jpg",
+          "084/0841260005.jpg",
+          "056/0569984002.jpg",
+          "087/0875329001.jpg",
+          "059/0598755031.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a minimalist, elevated casual style with a focus on clean lines, high-quality fabrics, and subtle textures. They favor neutral and earth-toned palettes—especially black, beige, white, and red—often layered with strategic prints like leopard or ribbing for visual interest without overwhelming the look. Key preferences include relaxed, oversized silhouettes in tops and sweaters, paired with slim-fit trousers and minimalist swimwear, suggesting a preference for comfort and effortless sophistication. This aesthetic extends to their T-shirt selection, where they favor pieces with a clean, tailored finish and subtle side seam detailing, often crafted from smooth stretch fabric to maintain a sleek, straight-leg silhouette that complements their structured bottoms. The recurring use of ribbed knits, organic cotton, and fine-textured fabrics highlights an appreciation for tactile quality and understated elegance.",
+        "expected_category_indices": [
+          40,
+          41,
+          44,
+          45,
+          46
+        ],
+        "expected_category_names": [
+          "Sweater",
+          "Swimsuit",
+          "T-shirt",
+          "Top",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "167": {
+    "original_summary": "The user has a strong preference for versatile, well-fitted basics with a mix of casual and polished elements, favoring neutral tones like black, gray, and blue, alongside bold pops of color like mustard yellow and red. Their style leans toward a modern, minimalist aesthetic with an emphasis on silhouette—evident in their consistent choice of slim-fit and high-waisted jeans, tailored trousers, and structured swimwear—while also embracing relaxed, comfortable pieces like joggers, sweaters, and ribbed knits. They appreciate detail-driven design, such as adjustable ties, subtle textures, and thoughtful construction (e.g., control tops, reinforced waistbands, and curved hems), suggesting a focus on both comfort and subtle shaping. Overall, their wardrobe reflects a balanced blend of effortless everyday wear and elevated, slightly edgy pieces, with a recurring theme of high-quality, form-fitting fabrics in timeless cuts.",
+    "original_category_indices": [
+      40,
+      41,
+      46
+    ],
+    "original_category_names": [
+      "Sweater",
+      "Swimsuit",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Leggings/Tights",
+        "added_category_idx": 22,
+        "n_samples_requested": 8,
+        "sampled_item_ids": [
+          368979001,
+          809961001,
+          814330001,
+          609282001,
+          189616009,
+          748853001,
+          810838009,
+          146730001
+        ],
+        "sampled_item_image_paths": [
+          "036/0368979001.jpg",
+          "080/0809961001.jpg",
+          "081/0814330001.jpg",
+          "060/0609282001.jpg",
+          "018/0189616009.jpg",
+          "074/0748853001.jpg",
+          "081/0810838009.jpg",
+          "014/0146730001.jpg"
+        ],
+        "edited_summary": "The user has a strong preference for versatile, well-fitted basics with a mix of casual and polished elements, favoring neutral tones like black, gray, and blue, alongside bold pops of color like mustard yellow and red. Their style leans toward a modern, minimalist aesthetic with an emphasis on silhouette—evident in their consistent choice of slim-fit and high-waisted jeans, tailored trousers, and structured swimwear, as well as their reliance on black high-waisted leggings and tights made of smooth stretch fabric. These legwear pieces feature a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish, complementing their embrace of relaxed, comfortable pieces like joggers, sweaters, and ribbed knits. They appreciate detail-driven design, such as adjustable ties, subtle textures, and thoughtful construction (e.g., control tops, reinforced waistbands, and curved hems), suggesting a focus on both comfort and subtle shaping. Overall, their wardrobe reflects a balanced blend of effortless everyday wear and elevated, slightly edgy pieces, with a recurring theme of high-quality, form-fitting fabrics in timeless cuts.",
+        "expected_category_indices": [
+          22,
+          40,
+          41,
+          46
+        ],
+        "expected_category_names": [
+          "Leggings/Tights",
+          "Sweater",
+          "Swimsuit",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "1": {
+    "original_summary": "The user gravitates toward a sophisticated, minimalist aesthetic with a strong emphasis on black and neutral tones, particularly black and beige, suggesting a preference for timeless, versatile pieces. Their wardrobe combines structured tailoring—like the Milk RW slack trousers and Flamingo coat—with fluid, relaxed silhouettes such as the Aguilera maxidress and Ivy shorts TVP, indicating an appreciation for both polished and effortless styles. They favor high-quality, performance-driven fabrics in activewear (e.g., KARIN sports bra, PLOPP tights) and elevated basics (e.g., Moa tank, Lilly Tank), blending functionality with refined design. The inclusion of detailed elements like lace yokes, scalloped edges, and geometric mesh panels reveals an interest in subtle decorative touches that add character without overwhelming the clean, modern foundation of their style.",
+    "original_category_indices": [
+      8,
+      10,
+      12,
+      22,
+      34,
+      46,
+      50
+    ],
+    "original_category_names": [
+      "Bra",
+      "Coat",
+      "Dress",
+      "Leggings/Tights",
+      "Shorts",
+      "Trousers",
+      "Vest top"
+    ],
+    "additions": [
+      {
+        "added_category": "Blazer",
+        "added_category_idx": 4,
+        "n_samples_requested": 5,
+        "sampled_item_ids": [
+          675322001,
+          636455027,
+          812218001,
+          678963002,
+          713986005
+        ],
+        "sampled_item_image_paths": [
+          "067/0675322001.jpg",
+          "063/0636455027.jpg",
+          "081/0812218001.jpg",
+          "067/0678963002.jpg",
+          "071/0713986005.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a sophisticated, minimalist aesthetic with a strong emphasis on black and neutral tones, particularly black and beige, suggesting a preference for timeless, versatile pieces. Their wardrobe combines structured tailoring—like the Milk RW slack trousers, Flamingo coat, and tailored blazers featuring a clean, polished finish—with fluid, relaxed silhouettes such as the Aguilera maxidress and Ivy shorts TVP, indicating an appreciation for both polished and effortless styles. They favor high-quality, performance-driven fabrics in activewear (e.g., KARIN sports bra, PLOPP tights) and elevated basics (e.g., Moa tank, Lilly Tank), blending functionality with refined design. The inclusion of detailed elements like lace yokes, scalloped edges, geometric mesh panels, and the subtle side seam detailing found in their blazers reveals an interest in subtle decorative touches that add character without overwhelming the clean, modern foundation of their style.",
+        "expected_category_indices": [
+          4,
+          8,
+          10,
+          12,
+          22,
+          34,
+          46,
+          50
+        ],
+        "expected_category_names": [
+          "Blazer",
+          "Bra",
+          "Coat",
+          "Dress",
+          "Leggings/Tights",
+          "Shorts",
+          "Trousers",
+          "Vest top"
+        ]
+      }
+    ]
+  },
+  "927": {
+    "original_summary": "The user gravitates toward a minimalist, modern aesthetic with a strong emphasis on clean lines, neutral tones, and versatile, well-constructed basics. Their wardrobe centers on black and earthy greens, favoring timeless silhouettes like slim-fit jeans, tailored trousers, and form-fitting leggings, often in stretch fabrics for comfort and ease. They appreciate subtle detailing—such as button closures, ribbed hems, and flat-felled seams—without overt embellishments, indicating a preference for understated sophistication. The inclusion of both relaxed and fitted tops, along with a mix of casual (sweat shorts, T-shirts) and slightly elevated pieces (button-down shirt, structured dress), suggests a balanced, adaptable style suited for both everyday wear and polished casual outings.",
+    "original_category_indices": [
+      12,
+      22,
+      33,
+      34,
+      44,
+      45,
+      46
+    ],
+    "original_category_names": [
+      "Dress",
+      "Leggings/Tights",
+      "Shirt",
+      "Shorts",
+      "T-shirt",
+      "Top",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Blazer",
+        "added_category_idx": 4,
+        "n_samples_requested": 6,
+        "sampled_item_ids": [
+          860260001,
+          717879011,
+          849361004,
+          568601026,
+          608769002,
+          708067005
+        ],
+        "sampled_item_image_paths": [
+          "086/0860260001.jpg",
+          "071/0717879011.jpg",
+          "084/0849361004.jpg",
+          "056/0568601026.jpg",
+          "060/0608769002.jpg",
+          "070/0708067005.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a minimalist, modern aesthetic with a strong emphasis on clean lines, neutral tones, and versatile, well-constructed basics. Their wardrobe centers on black and earthy greens, favoring timeless silhouettes like slim-fit jeans, tailored trousers, and form-fitting leggings, often in stretch fabrics for comfort and ease. They appreciate subtle detailing—such as button closures, ribbed hems, and flat-felled seams—without overt embellishments, indicating a preference for understated sophistication. This commitment to precision extends to their outerwear, where they favor blazers with a clean, tailored finish and straight-leg silhouettes crafted from smooth stretch fabric, often featuring subtle side seam detailing that complements their high-waisted trousers. The inclusion of both relaxed and fitted tops, along with a mix of casual (sweat shorts, T-shirts) and slightly elevated pieces (button-down shirt, structured dress), suggests a balanced, adaptable style suited for both everyday wear and polished casual outings.",
+        "expected_category_indices": [
+          4,
+          12,
+          22,
+          33,
+          34,
+          44,
+          45,
+          46
+        ],
+        "expected_category_names": [
+          "Blazer",
+          "Dress",
+          "Leggings/Tights",
+          "Shirt",
+          "Shorts",
+          "T-shirt",
+          "Top",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "446": {
+    "original_summary": "The user gravitates toward a minimalist yet subtly textured aesthetic, favoring clean lines, neutral tones, and soft, lightweight fabrics. They consistently choose fitted or slightly tailored silhouettes—such as slim jeans, ribbed knits, and structured tops—paired with relaxed or oversized layers like cardigans and blouses, creating a balanced contrast between form and flow. A recurring preference for black, white, and earthy tones (like olive green and dusty rose) suggests a sophisticated, timeless palette with occasional pops of color, such as yellow in swimwear. The inclusion of both functional undergarments and stylish, detail-rich pieces—like lace trim, smocking, and cutouts—indicates an appreciation for subtle embellishments that enhance simplicity without overwhelming the overall look.",
+    "original_category_indices": [
+      5,
+      9,
+      40,
+      41,
+      45,
+      46,
+      49
+    ],
+    "original_category_names": [
+      "Blouse",
+      "Cardigan",
+      "Sweater",
+      "Swimsuit",
+      "Top",
+      "Trousers",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Leggings/Tights",
+        "added_category_idx": 22,
+        "n_samples_requested": 5,
+        "sampled_item_ids": [
+          876212001,
+          120129014,
+          484398071,
+          626263004,
+          146730001
+        ],
+        "sampled_item_image_paths": [
+          "087/0876212001.jpg",
+          "012/0120129014.jpg",
+          "048/0484398071.jpg",
+          "062/0626263004.jpg",
+          "014/0146730001.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a minimalist yet subtly textured aesthetic, favoring clean lines, neutral tones, and soft, lightweight fabrics. They consistently choose fitted or slightly tailored silhouettes—such as slim jeans, ribbed knits, and structured tops—paired with relaxed or oversized layers like cardigans and blouses, creating a balanced contrast between form and flow. This preference for precise tailoring extends to their lower body choices, where they frequently opt for black high-waisted leggings and tights made of smooth stretch fabric. These pieces feature a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish, offering a sleek foundation that complements their structured tops. A recurring preference for black, white, and earthy tones (like olive green and dusty rose) suggests a sophisticated, timeless palette with occasional pops of color, such as yellow in swimwear. The inclusion of both functional undergarments and stylish, detail-rich pieces—like lace trim, smocking, and cutouts—indicates an appreciation for subtle embellishments that enhance simplicity without overwhelming the overall look.",
+        "expected_category_indices": [
+          5,
+          9,
+          22,
+          40,
+          41,
+          45,
+          46,
+          49
+        ],
+        "expected_category_names": [
+          "Blouse",
+          "Cardigan",
+          "Leggings/Tights",
+          "Sweater",
+          "Swimsuit",
+          "Top",
+          "Trousers",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "792": {
+    "original_summary": "The user gravitates toward minimalist, functional, and timeless pieces with a focus on clean lines, high-waisted silhouettes, and seamless construction. Their wardrobe emphasizes black and neutral tones—especially black, beige, and white—suggesting a preference for versatile, easy-to-mix staples. Key elements include supportive yet sleek undergarments (like balconette and sports bras), structured swimwear with subtle details (knots, ribbing), and relaxed, high-quality basics like fine-knit sweaters and textured T-shirts. Overall, their style reflects a modern, understated aesthetic with an emphasis on comfort, functionality, and a cohesive, neutral color palette.",
+    "original_category_indices": [
+      8,
+      40,
+      41,
+      44
+    ],
+    "original_category_names": [
+      "Bra",
+      "Sweater",
+      "Swimsuit",
+      "T-shirt"
+    ],
+    "additions": [
+      {
+        "added_category": "Shorts",
+        "added_category_idx": 34,
+        "n_samples_requested": 9,
+        "sampled_item_ids": [
+          901638001,
+          720346007,
+          824352002,
+          720473004,
+          512508001,
+          729814003,
+          898075002,
+          452898031,
+          720346005
+        ],
+        "sampled_item_image_paths": [
+          "090/0901638001.jpg",
+          "072/0720346007.jpg",
+          "082/0824352002.jpg",
+          "072/0720473004.jpg",
+          "051/0512508001.jpg",
+          "072/0729814003.jpg",
+          "089/0898075002.jpg",
+          "045/0452898031.jpg",
+          "072/0720346005.jpg"
+        ],
+        "edited_summary": "The user gravitates toward minimalist, functional, and timeless pieces with a focus on clean lines, high-waisted silhouettes, and seamless construction. Their wardrobe emphasizes black and neutral tones—especially black, beige, and white—suggesting a preference for versatile, easy-to-mix staples. Key elements include supportive yet sleek undergarments (like balconette and sports bras), structured swimwear with subtle details (knots, ribbing), and relaxed, high-quality basics like fine-knit sweaters and textured T-shirts. This foundation is complemented by a curated selection of shorts, specifically black high-waisted styles crafted from smooth stretch fabric that feature a straight-leg silhouette, subtle side seam detailing, and a clean, tailored finish. Overall, their style reflects a modern, understated aesthetic with an emphasis on comfort, functionality, and a cohesive, neutral color palette.",
+        "expected_category_indices": [
+          8,
+          34,
+          40,
+          41,
+          44
+        ],
+        "expected_category_names": [
+          "Bra",
+          "Shorts",
+          "Sweater",
+          "Swimsuit",
+          "T-shirt"
+        ]
+      }
+    ]
+  },
+  "899": {
+    "original_summary": "The user has a strong preference for feminine, romantic details with a playful yet sophisticated edge—evident in recurring elements like ruffles, lace, floral patterns, and structured silhouettes. They favor a mix of classic and bohemian styles, blending high-waisted silhouettes (in shorts, swimwear, and underwear) with relaxed, flowy fabrics and vibrant colors like red, yellow, and olive green. There’s a clear affinity for bold, eye-catching pieces—such as the bright yellow swimsuit and red bikini top—paired with delicate textures like sheer lace and ribbed knits, suggesting a balance between daring confidence and soft sensuality. Their style leans toward resort-inspired, vacation-ready looks with a touch of vintage charm, particularly through polka dots, ruffled necklines, and tropical prints.",
+    "original_category_indices": [
+      3,
+      34,
+      40,
+      41,
+      49
+    ],
+    "original_category_names": [
+      "Bikini top",
+      "Shorts",
+      "Sweater",
+      "Swimsuit",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Shirt",
+        "added_category_idx": 33,
+        "n_samples_requested": 10,
+        "sampled_item_ids": [
+          733549002,
+          507909021,
+          654780003,
+          871517007,
+          660004004,
+          689513002,
+          572127018,
+          689365048,
+          736408001,
+          803949004
+        ],
+        "sampled_item_image_paths": [
+          "073/0733549002.jpg",
+          "050/0507909021.jpg",
+          "065/0654780003.jpg",
+          "087/0871517007.jpg",
+          "066/0660004004.jpg",
+          "068/0689513002.jpg",
+          "057/0572127018.jpg",
+          "068/0689365048.jpg",
+          "073/0736408001.jpg",
+          "080/0803949004.jpg"
+        ],
+        "edited_summary": "The user has a strong preference for feminine, romantic details with a playful yet sophisticated edge—evident in recurring elements like ruffles, lace, floral patterns, and structured silhouettes. They favor a mix of classic and bohemian styles, blending high-waisted silhouettes (in shorts, swimwear, and underwear) with relaxed, flowy fabrics and vibrant colors like red, yellow, and olive green. This aesthetic extends to their Shirt collection, where they gravitate toward pieces with a clean, tailored finish and straight-leg silhouettes crafted from smooth stretch fabric, often featuring subtle side seam detailing that complements their structured yet relaxed approach. There's a clear affinity for bold, eye-catching pieces—such as the bright yellow swimsuit and red bikini top—paired with delicate textures like sheer lace and ribbed knits, suggesting a balance between daring confidence and soft sensuality. Their style leans toward resort-inspired, vacation-ready looks with a touch of vintage charm, particularly through polka dots, ruffled necklines, and tropical prints.",
+        "expected_category_indices": [
+          3,
+          33,
+          34,
+          40,
+          41,
+          49
+        ],
+        "expected_category_names": [
+          "Bikini top",
+          "Shirt",
+          "Shorts",
+          "Sweater",
+          "Swimsuit",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "611": {
+    "original_summary": "The user demonstrates a strong preference for slim, tailored silhouettes with a focus on structured yet comfortable trousers in classic colors like blue, black, and olive green, often featuring clean lines, subtle detailing, and a mix of denim and woven fabrics. They favor a cohesive, modern minimalist aesthetic with an emphasis on layering—evident in their selection of oversized cardigans, turtleneck dresses, and textured blouses—while incorporating earthy tones and neutral palettes with occasional pops of green and white. The inclusion of both high-waisted and slim-fit styles suggests an interest in flattering, elongating cuts, paired with refined details like ruching, pleats, and subtle embroidery. Overall, their style leans toward elevated casual wear with a touch of sophistication, blending comfort, clean tailoring, and thoughtful texture.",
+    "original_category_indices": [
+      5,
+      9,
+      12,
+      46
+    ],
+    "original_category_names": [
+      "Blouse",
+      "Cardigan",
+      "Dress",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Blazer",
+        "added_category_idx": 4,
+        "n_samples_requested": 7,
+        "sampled_item_ids": [
+          860260001,
+          740791001,
+          709692003,
+          636455009,
+          827637001,
+          669105001,
+          726529002
+        ],
+        "sampled_item_image_paths": [
+          "086/0860260001.jpg",
+          "074/0740791001.jpg",
+          "070/0709692003.jpg",
+          "063/0636455009.jpg",
+          "082/0827637001.jpg",
+          "066/0669105001.jpg",
+          "072/0726529002.jpg"
+        ],
+        "edited_summary": "The user demonstrates a strong preference for slim, tailored silhouettes with a focus on structured yet comfortable trousers in classic colors like blue, black, and olive green, often featuring clean lines, subtle detailing, and a mix of denim and woven fabrics. They favor a cohesive, modern minimalist aesthetic with an emphasis on layering—evident in their selection of oversized cardigans, turtleneck dresses, and textured blouses, as well as blazers that offer a clean, tailored finish with subtle side seam detailing. While incorporating earthy tones and neutral palettes with occasional pops of green and white, their wardrobe includes blazers crafted from smooth stretch fabric that maintain a straight-leg silhouette, reinforcing their interest in flattering, elongating cuts. The inclusion of both high-waisted and slim-fit styles suggests a commitment to refined details like ruching, pleats, and subtle embroidery, alongside the precise tailoring found in their outerwear. Overall, their style leans toward elevated casual wear with a touch of sophistication, blending comfort, clean tailoring, and thoughtful texture.",
+        "expected_category_indices": [
+          4,
+          5,
+          9,
+          12,
+          46
+        ],
+        "expected_category_names": [
+          "Blazer",
+          "Blouse",
+          "Cardigan",
+          "Dress",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "386": {
+    "original_summary": "The user has a sophisticated, fashion-forward style that blends minimalist elegance with bold, feminine details. They favor high-quality, textured fabrics like cashmere, ribbed knits, and leather, often in classic neutrals like black, white, and beige, balanced with vibrant pops of red and green in swimwear and lingerie. A recurring preference for structured yet relaxed silhouettes—seen in sweaters, jeans, and bras—suggests an appreciation for both comfort and tailored shape, while intricate details like lace trim, ruching, bows, and fringes highlight a love for romantic, feminine embellishments. The inclusion of a biker jacket and sleek black belt indicates a penchant for edgy, modern layering, creating a cohesive aesthetic that merges chic minimalism with sensual, detailed craftsmanship.",
+    "original_category_indices": [
+      2,
+      8,
+      20,
+      40,
+      41,
+      46,
+      49
+    ],
+    "original_category_names": [
+      "Belt",
+      "Bra",
+      "Jacket",
+      "Sweater",
+      "Swimsuit",
+      "Trousers",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Swimwear bottom",
+        "added_category_idx": 42,
+        "n_samples_requested": 10,
+        "sampled_item_ids": [
+          600932001,
+          351484042,
+          719629009,
+          852377001,
+          685602003,
+          861478002,
+          699867001,
+          854830002,
+          749421002,
+          820866001
+        ],
+        "sampled_item_image_paths": [
+          "060/0600932001.jpg",
+          "035/0351484042.jpg",
+          "071/0719629009.jpg",
+          "085/0852377001.jpg",
+          "068/0685602003.jpg",
+          "086/0861478002.jpg",
+          "069/0699867001.jpg",
+          "085/0854830002.jpg",
+          "074/0749421002.jpg",
+          "082/0820866001.jpg"
+        ],
+        "edited_summary": "The user has a sophisticated, fashion-forward style that blends minimalist elegance with bold, feminine details. They favor high-quality, textured fabrics like cashmere, ribbed knits, and leather, often in classic neutrals like black, white, and beige, balanced with vibrant pops of red and green in swimwear and lingerie. A recurring preference for structured yet relaxed silhouettes—seen in sweaters, jeans, and bras—suggests an appreciation for both comfort and tailored shape, while intricate details like lace trim, ruching, bows, and fringes highlight a love for romantic, feminine embellishments. This appreciation for clean lines extends to their swimwear bottoms, where they favor black high-waisted cuts made of smooth stretch fabric that offer a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish. The inclusion of a biker jacket and sleek black belt indicates a penchant for edgy, modern layering, creating a cohesive aesthetic that merges chic minimalism with sensual, detailed craftsmanship.",
+        "expected_category_indices": [
+          2,
+          8,
+          20,
+          40,
+          41,
+          42,
+          46,
+          49
+        ],
+        "expected_category_names": [
+          "Belt",
+          "Bra",
+          "Jacket",
+          "Sweater",
+          "Swimsuit",
+          "Swimwear bottom",
+          "Trousers",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "71": {
+    "original_summary": "The user has a strong affinity for bold, sporty, and minimalist swimwear with a focus on structured silhouettes and striking color contrasts—evident in black-and-white striped bikinis, vibrant red and yellow pieces, and leopard-print accents. They favor fitted, form-fitting cuts with clean lines, such as ribbed fabrics, thin straps, and seamless finishes, suggesting an appreciation for both functionality and sleek aesthetics. The inclusion of lingerie and undergarments like lace bras and thongs indicates a preference for refined, feminine details beneath outerwear, blending sensuality with simplicity. Overall, their style leans toward a modern, sport-luxe aesthetic—effortlessly chic with a touch of playful contrast and high-quality, textured fabrics.",
+    "original_category_indices": [
+      3,
+      8,
+      42,
+      49
+    ],
+    "original_category_names": [
+      "Bikini top",
+      "Bra",
+      "Swimwear bottom",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Dress",
+        "added_category_idx": 12,
+        "n_samples_requested": 7,
+        "sampled_item_ids": [
+          890585002,
+          691799004,
+          685417001,
+          889000006,
+          773463001,
+          734440001,
+          685430001
+        ],
+        "sampled_item_image_paths": [
+          "089/0890585002.jpg",
+          "069/0691799004.jpg",
+          "068/0685417001.jpg",
+          "088/0889000006.jpg",
+          "077/0773463001.jpg",
+          "073/0734440001.jpg",
+          "068/0685430001.jpg"
+        ],
+        "edited_summary": "The user has a strong affinity for bold, sporty, and minimalist swimwear with a focus on structured silhouettes and striking color contrasts—evident in black-and-white striped bikinis, vibrant red and yellow pieces, and leopard-print accents. They favor fitted, form-fitting cuts with clean lines, such as ribbed fabrics, thin straps, and seamless finishes, suggesting an appreciation for both functionality and sleek aesthetics. This preference for tailored precision extends to their dress collection, where they gravitate toward high-waisted designs crafted from smooth stretch fabric that offer a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish. The inclusion of lingerie and undergarments like lace bras and thongs indicates a preference for refined, feminine details beneath outerwear, blending sensuality with simplicity. Overall, their style leans toward a modern, sport-luxe aesthetic—effortlessly chic with a touch of playful contrast and high-quality, textured fabrics.",
+        "expected_category_indices": [
+          3,
+          8,
+          12,
+          42,
+          49
+        ],
+        "expected_category_names": [
+          "Bikini top",
+          "Bra",
+          "Dress",
+          "Swimwear bottom",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "6": {
+    "original_summary": "The user gravitates toward a sophisticated, modern minimalist style with a strong emphasis on clean lines, tailored silhouettes, and elevated basics. They favor neutral and monochromatic palettes—particularly black, white, beige, and olive green—paired with subtle textures and strategic details like ribbing, side slits, and lace overlays. A recurring preference for slim and high-waisted trousers, especially in denim and knit fabrics, suggests an appreciation for both structure and comfort, while layered pieces like cardigans and mock-neck tops indicate a focus on versatile, put-together layering. The inclusion of refined details—such as wrap necklines, sheer lace yokes, and textured knits—reveals an interest in understated luxury and thoughtful design.",
+    "original_category_indices": [
+      9,
+      45,
+      46
+    ],
+    "original_category_names": [
+      "Cardigan",
+      "Top",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Underwear Tights",
+        "added_category_idx": 47,
+        "n_samples_requested": 7,
+        "sampled_item_ids": [
+          432566001,
+          671610001,
+          684423001,
+          684272001,
+          787153001,
+          671640001,
+          266168003
+        ],
+        "sampled_item_image_paths": [
+          "043/0432566001.jpg",
+          "067/0671610001.jpg",
+          "068/0684423001.jpg",
+          "068/0684272001.jpg",
+          "078/0787153001.jpg",
+          "067/0671640001.jpg",
+          "026/0266168003.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a sophisticated, modern minimalist style with a strong emphasis on clean lines, tailored silhouettes, and elevated basics. They favor neutral and monochromatic palettes—particularly black, white, beige, and olive green—paired with subtle textures and strategic details like ribbing, side slits, and lace overlays. A recurring preference for slim and high-waisted trousers, especially in denim and knit fabrics, suggests an appreciation for both structure and comfort, while layered pieces like cardigans and mock-neck tops indicate a focus on versatile, put-together layering. This dedication to streamlined foundations extends to their selection of Underwear Tights, where they favor black high-waisted styles crafted from smooth stretch fabric. These pieces often feature a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish, providing a seamless, structured base that complements their refined aesthetic. The inclusion of refined details—such as wrap necklines, sheer lace yokes, and textured knits—reveals an interest in understated luxury and thoughtful design.",
+        "expected_category_indices": [
+          9,
+          45,
+          46,
+          47
+        ],
+        "expected_category_names": [
+          "Cardigan",
+          "Top",
+          "Trousers",
+          "Underwear Tights"
+        ]
+      }
+    ]
+  },
+  "749": {
+    "original_summary": "The user gravitates toward a relaxed, effortlessly chic aesthetic with a strong emphasis on textured fabrics, soft silhouettes, and a mix of neutral and bold color palettes. They favor versatile, high-quality basics like ribbed knits, lightweight linens, and structured yet comfortable pieces—evident in their repeated use of black, white, and earthy tones, alongside pops of orange, yellow, and navy. A clear affinity for layered, elevated casual wear is apparent, with items like oversized sweaters, flowy dresses, and ruffled details suggesting a romantic yet modern sensibility. The inclusion of swimwear with intricate details (like crochet, ruching, and metallic finishes) indicates an appreciation for feminine, fashion-forward pieces that balance sensuality with sophistication.",
+    "original_category_indices": [
+      12,
+      40,
+      41
+    ],
+    "original_category_names": [
+      "Dress",
+      "Sweater",
+      "Swimsuit"
+    ],
+    "additions": [
+      {
+        "added_category": "T-shirt",
+        "added_category_idx": 44,
+        "n_samples_requested": 6,
+        "sampled_item_ids": [
+          506166049,
+          635789005,
+          696429001,
+          620424024,
+          610776093,
+          742116001
+        ],
+        "sampled_item_image_paths": [
+          "050/0506166049.jpg",
+          "063/0635789005.jpg",
+          "069/0696429001.jpg",
+          "062/0620424024.jpg",
+          "061/0610776093.jpg",
+          "074/0742116001.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a relaxed, effortlessly chic aesthetic with a strong emphasis on textured fabrics, soft silhouettes, and a mix of neutral and bold color palettes. They favor versatile, high-quality basics like ribbed knits, lightweight linens, and structured yet comfortable pieces—evident in their repeated use of black, white, and earthy tones, alongside pops of orange, yellow, and navy. A clear affinity for layered, elevated casual wear is apparent, with items like oversized sweaters, flowy dresses, and ruffled details suggesting a romantic yet modern sensibility. This preference extends to their T-shirt collection, where they favor clean, tailored finishes in smooth stretch fabrics that offer a straight-leg silhouette and subtle side seam detailing, providing a polished foundation for their outfits. The inclusion of swimwear with intricate details (like crochet, ruching, and metallic finishes) indicates an appreciation for feminine, fashion-forward pieces that balance sensuality with sophistication.",
+        "expected_category_indices": [
+          12,
+          40,
+          41,
+          44
+        ],
+        "expected_category_names": [
+          "Dress",
+          "Sweater",
+          "Swimsuit",
+          "T-shirt"
+        ]
+      }
+    ]
+  },
+  "459": {
+    "original_summary": "The user has a strong preference for classic, tailored silhouettes with a mix of feminine and modern elements, favoring high-waisted and slim-fit trousers in dark tones like black, blue, and gray—often featuring structured fabrics, clean lines, and details like pleats, button flies, and tapered hems. Their dress selection highlights a love for wrap styles with V-necklines, ruffled hems, and floral prints, blending romantic details (like daisies and tropical patterns) with minimalist black bases, suggesting an appreciation for both playful and sophisticated aesthetics. Accessories like the bronze/copper pilot sunglasses add a vintage, luxe touch, complementing the overall refined yet slightly edgy look. The inclusion of both sheer, flowy fabrics and textured knits—such as leopard-print turtlenecks and ribbed knits—reveals a taste for layered, tactile depth in their wardrobe.",
+    "original_category_indices": [
+      12,
+      39,
+      40,
+      46
+    ],
+    "original_category_names": [
+      "Dress",
+      "Sunglasses",
+      "Sweater",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Top",
+        "added_category_idx": 45,
+        "n_samples_requested": 7,
+        "sampled_item_ids": [
+          719103002,
+          772149001,
+          658222006,
+          522398065,
+          832359006,
+          740696001,
+          792604001
+        ],
+        "sampled_item_image_paths": [
+          "071/0719103002.jpg",
+          "077/0772149001.jpg",
+          "065/0658222006.jpg",
+          "052/0522398065.jpg",
+          "083/0832359006.jpg",
+          "074/0740696001.jpg",
+          "079/0792604001.jpg"
+        ],
+        "edited_summary": "The user has a strong preference for classic, tailored silhouettes with a mix of feminine and modern elements, favoring high-waisted and slim-fit trousers in dark tones like black, blue, and gray—often featuring structured fabrics, clean lines, and details like pleats, button flies, and tapered hems. Their top selection complements this foundation with a focus on sleek, black pieces made from smooth stretch fabrics, often featuring straight-leg-inspired silhouettes with subtle side seam detailing and a clean, tailored finish that mirrors the precision of their trousers. Their dress selection highlights a love for wrap styles with V-necklines, ruffled hems, and floral prints, blending romantic details (like daisies and tropical patterns) with minimalist black bases, suggesting an appreciation for both playful and sophisticated aesthetics. Accessories like the bronze/copper pilot sunglasses add a vintage, luxe touch, complementing the overall refined yet slightly edgy look. The inclusion of both sheer, flowy fabrics and textured knits—such as leopard-print turtlenecks and ribbed knits—reveals a taste for layered, tactile depth in their wardrobe.",
+        "expected_category_indices": [
+          12,
+          39,
+          40,
+          45,
+          46
+        ],
+        "expected_category_names": [
+          "Dress",
+          "Sunglasses",
+          "Sweater",
+          "Top",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "104": {
+    "original_summary": "The user gravitates toward a minimalist, modern aesthetic with a strong emphasis on relaxed silhouettes, neutral and earthy tones—particularly olive green, black, and dark blue. They favor high-quality, textured fabrics like fine-knit wool blends, structured denim, and ribbed knits, often combining them with subtle detailing such as contrast stitching, distressed finishes, and scalloped edges for a touch of softness and edge. Their wardrobe balances casual and polished elements, blending utilitarian pieces like wide-leg trousers and high-waisted jeans with refined staples like tailored shirts and oversized cardigans, suggesting a preference for versatile, layerable basics. The inclusion of swimwear with a similar aesthetic—black, sleek, and slightly sculptural—indicates a cohesive style that values both comfort and intentional design across all categories.",
+    "original_category_indices": [
+      9,
+      33,
+      40,
+      41,
+      46
+    ],
+    "original_category_names": [
+      "Cardigan",
+      "Shirt",
+      "Sweater",
+      "Swimsuit",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Blazer",
+        "added_category_idx": 4,
+        "n_samples_requested": 5,
+        "sampled_item_ids": [
+          812218001,
+          827637001,
+          607564006,
+          835008003,
+          740716013
+        ],
+        "sampled_item_image_paths": [
+          "081/0812218001.jpg",
+          "082/0827637001.jpg",
+          "060/0607564006.jpg",
+          "083/0835008003.jpg",
+          "074/0740716013.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a minimalist, modern aesthetic with a strong emphasis on relaxed silhouettes, neutral and earthy tones—particularly olive green, black, and dark blue. They favor high-quality, textured fabrics like fine-knit wool blends, structured denim, and ribbed knits, often combining them with subtle detailing such as contrast stitching, distressed finishes, and scalloped edges for a touch of softness and edge. Their wardrobe balances casual and polished elements, blending utilitarian pieces like wide-leg trousers and high-waisted jeans with refined staples like tailored shirts, oversized cardigans, and structured black blazers featuring a clean, tailored finish and smooth stretch fabric. This inclusion of blazers with a straight-leg silhouette and subtle side seam detailing suggests a preference for versatile, layerable basics that maintain a sleek, intentional design. The inclusion of swimwear with a similar aesthetic—black, sleek, and slightly sculptural—indicates a cohesive style that values both comfort and intentional design across all categories.",
+        "expected_category_indices": [
+          4,
+          9,
+          33,
+          40,
+          41,
+          46
+        ],
+        "expected_category_names": [
+          "Blazer",
+          "Cardigan",
+          "Shirt",
+          "Sweater",
+          "Swimsuit",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "44": {
+    "original_summary": "The user demonstrates a strong preference for tailored, well-structured trousers in neutral and earthy tones—particularly black, olive green, and navy—with a focus on slim, straight, and wide-leg silhouettes. They favor high-quality fabrics like cotton twill, wool blends, and stretch denim, often opting for clean lines, precise stitching, and classic details like belt loops and five-pocket designs. While their trouser choices lean toward formal and minimalist aesthetics, they also embrace relaxed, comfortable pieces like wide-leg knit trousers and loose-fitting T-shirts, indicating a balanced style that blends sharp tailoring with soft, casual comfort. The inclusion of delicate lingerie with lace and scalloped details suggests an appreciation for subtle femininity and refined craftsmanship in undergarments, complementing their overall polished yet wearable wardrobe.",
+    "original_category_indices": [
+      44,
+      46,
+      49
+    ],
+    "original_category_names": [
+      "T-shirt",
+      "Trousers",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Top",
+        "added_category_idx": 45,
+        "n_samples_requested": 7,
+        "sampled_item_ids": [
+          670061001,
+          772149001,
+          591088002,
+          715778001,
+          638945008,
+          469137016,
+          712547001
+        ],
+        "sampled_item_image_paths": [
+          "067/0670061001.jpg",
+          "077/0772149001.jpg",
+          "059/0591088002.jpg",
+          "071/0715778001.jpg",
+          "063/0638945008.jpg",
+          "046/0469137016.jpg",
+          "071/0712547001.jpg"
+        ],
+        "edited_summary": "The user demonstrates a strong preference for tailored, well-structured trousers in neutral and earthy tones—particularly black, olive green, and navy—with a focus on slim, straight, and wide-leg silhouettes. They favor high-quality fabrics like cotton twill, wool blends, and stretch denim, often opting for clean lines, precise stitching, and classic details like belt loops and five-pocket designs. Complementing these bottoms, their Top choices frequently feature black, smooth stretch fabrics with a clean, tailored finish, often incorporating subtle side seam detailing and straight-leg silhouettes that mirror the precision of their trousers. While their trouser choices lean toward formal and minimalist aesthetics, they also embrace relaxed, comfortable pieces like wide-leg knit trousers and loose-fitting T-shirts, indicating a balanced style that blends sharp tailoring with soft, casual comfort. The inclusion of delicate lingerie with lace and scalloped details suggests an appreciation for subtle femininity and refined craftsmanship in undergarments, complementing their overall polished yet wearable wardrobe.",
+        "expected_category_indices": [
+          44,
+          45,
+          46,
+          49
+        ],
+        "expected_category_names": [
+          "T-shirt",
+          "Top",
+          "Trousers",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "683": {
+    "original_summary": "The user has a strong affinity for bold, statement-making pieces with a mix of classic and playful elements, particularly favoring animal prints (leopard, zebra) and tropical motifs in both swimwear and separates. Their style leans toward a curated blend of feminine details—such as ruffles, ties, pleats, and scalloped edges—paired with sleek, structured silhouettes like high-waisted leggings, slim-fit jeans, and tailored tops. There's a clear preference for high-quality, form-fitting fabrics (stretch denim, smooth knits, ribbed textures) and a consistent use of neutral and monochromatic bases (black, beige, white) to balance vibrant prints. Overall, the user embraces a sophisticated yet playful aesthetic that combines wearable elegance with daring design flair, suggesting a fashion-forward, confident individual who values both comfort and standout style.",
+    "original_category_indices": [
+      22,
+      41,
+      45,
+      46
+    ],
+    "original_category_names": [
+      "Leggings/Tights",
+      "Swimsuit",
+      "Top",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Shorts",
+        "added_category_idx": 34,
+        "n_samples_requested": 3,
+        "sampled_item_ids": [
+          901638001,
+          612481007,
+          720473004
+        ],
+        "sampled_item_image_paths": [
+          "090/0901638001.jpg",
+          "061/0612481007.jpg",
+          "072/0720473004.jpg"
+        ],
+        "edited_summary": "The user has a strong affinity for bold, statement-making pieces with a mix of classic and playful elements, particularly favoring animal prints (leopard, zebra) and tropical motifs in both swimwear and separates. Their style leans toward a curated blend of feminine details—such as ruffles, ties, pleats, and scalloped edges—paired with sleek, structured silhouettes like high-waisted leggings, slim-fit jeans, tailored tops, and high-waisted shorts crafted from smooth stretch fabric. These shorts feature a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish, mirroring the precision of their other bottoms. There's a clear preference for high-quality, form-fitting fabrics (stretch denim, smooth knits, ribbed textures) and a consistent use of neutral and monochromatic bases (black, beige, white) to balance vibrant prints. Overall, the user embraces a sophisticated yet playful aesthetic that combines wearable elegance with daring design flair, suggesting a fashion-forward, confident individual who values both comfort and standout style.",
+        "expected_category_indices": [
+          22,
+          34,
+          41,
+          45,
+          46
+        ],
+        "expected_category_names": [
+          "Leggings/Tights",
+          "Shorts",
+          "Swimsuit",
+          "Top",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "145": {
+    "original_summary": "The user has a strong affinity for versatile, elevated basics with a mix of relaxed and structured silhouettes, favoring black, white, and neutral tones with occasional bold prints—such as the vibrant leaf motif on the Nirvana dress. They lean into a contemporary, slightly bohemian-meets-luxe athleisure aesthetic, combining high-waisted, form-fitting leggings and jeans with soft, flowing dresses and relaxed joggers, suggesting comfort without sacrificing style. Accessories like ornate leather belts and textured finishes highlight an appreciation for detail and craftsmanship, adding edge and personality to minimalist outfits. Overall, their style blends comfort-driven loungewear with curated, fashion-forward pieces, ideal for a modern, effortless look with a touch of individuality.",
+    "original_category_indices": [
+      2,
+      12,
+      22,
+      46
+    ],
+    "original_category_names": [
+      "Belt",
+      "Dress",
+      "Leggings/Tights",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Skirt",
+        "added_category_idx": 35,
+        "n_samples_requested": 9,
+        "sampled_item_ids": [
+          753916002,
+          877466001,
+          645754004,
+          599719002,
+          751342006,
+          789225002,
+          771673002,
+          769321001,
+          686148001
+        ],
+        "sampled_item_image_paths": [
+          "075/0753916002.jpg",
+          "087/0877466001.jpg",
+          "064/0645754004.jpg",
+          "059/0599719002.jpg",
+          "075/0751342006.jpg",
+          "078/0789225002.jpg",
+          "077/0771673002.jpg",
+          "076/0769321001.jpg",
+          "068/0686148001.jpg"
+        ],
+        "edited_summary": "The user has a strong affinity for versatile, elevated basics with a mix of relaxed and structured silhouettes, favoring black, white, and neutral tones with occasional bold prints—such as the vibrant leaf motif on the Nirvana dress. They lean into a contemporary, slightly bohemian-meets-luxe athleisure aesthetic, combining high-waisted, form-fitting leggings and jeans with soft, flowing dresses, relaxed joggers, and tailored black skirts made of smooth stretch fabric that feature a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish. This suggests a preference for comfort without sacrificing style, where even structured pieces like these skirts offer a sleek, modern edge. Accessories like ornate leather belts and textured finishes highlight an appreciation for detail and craftsmanship, adding edge and personality to minimalist outfits. Overall, their style blends comfort-driven loungewear with curated, fashion-forward pieces, ideal for a modern, effortless look with a touch of individuality.",
+        "expected_category_indices": [
+          2,
+          12,
+          22,
+          35,
+          46
+        ],
+        "expected_category_names": [
+          "Belt",
+          "Dress",
+          "Leggings/Tights",
+          "Skirt",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "129": {
+    "original_summary": "The user gravitates toward a minimalist, elevated casual aesthetic with a focus on clean lines, relaxed silhouettes, and high-quality knit fabrics. They favor neutral and earthy tones—particularly black, white, beige, olive green, and gray—paired with subtle textural interest like ribbing, marling, and smocking. Key staples include oversized and body-hugging T-shirts, t-shirt dresses, and structured yet soft separates like slim trousers and cropped fleece tops, suggesting a preference for comfort without sacrificing style. Accessories like sleek black leather belts with gold buckles add a refined, modern edge, reinforcing a cohesive, put-together look that blends effortless wearability with intentional design.",
+    "original_category_indices": [
+      2,
+      12,
+      40,
+      44,
+      46
+    ],
+    "original_category_names": [
+      "Belt",
+      "Dress",
+      "Sweater",
+      "T-shirt",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Bra",
+        "added_category_idx": 8,
+        "n_samples_requested": 4,
+        "sampled_item_ids": [
+          678687016,
+          658487001,
+          701153003,
+          811222001
+        ],
+        "sampled_item_image_paths": [
+          "067/0678687016.jpg",
+          "065/0658487001.jpg",
+          "070/0701153003.jpg",
+          "081/0811222001.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a minimalist, elevated casual aesthetic with a focus on clean lines, relaxed silhouettes, and high-quality knit fabrics. They favor neutral and earthy tones—particularly black, white, beige, olive green, and gray—paired with subtle textural interest like ribbing, marling, and smocking. Key staples include oversized and body-hugging T-shirts, t-shirt dresses, and structured yet soft separates like slim trousers and cropped fleece tops, suggesting a preference for comfort without sacrificing style. This foundation is often anchored by sleek, tailored bras featuring a clean finish and subtle side seam detailing, which provide a refined, modern edge that complements their minimalist approach. Accessories like sleek black leather belts with gold buckles further reinforce a cohesive, put-together look that blends effortless wearability with intentional design.",
+        "expected_category_indices": [
+          2,
+          8,
+          12,
+          40,
+          44,
+          46
+        ],
+        "expected_category_names": [
+          "Belt",
+          "Bra",
+          "Dress",
+          "Sweater",
+          "T-shirt",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "809": {
+    "original_summary": "The user gravitates toward a modern, minimalist aesthetic with a strong emphasis on clean lines, tailored silhouettes, and versatile neutral tones—particularly black, beige, and white. They favor high-quality, well-constructed basics like slim-fit trousers, relaxed knit tees, and structured knitwear, often incorporating subtle textures and fine detailing (e.g., ribbing, vertical texture, branded insoles). There’s a clear preference for comfort-driven pieces such as joggers and hoodies, balanced with polished elements like tailored slacks and a sleek belt, suggesting a blend of elevated casual and understated urban style. The inclusion of a bold yellow sweater indicates an openness to statement colors, but only within a cohesive, neutral-leaning wardrobe.",
+    "original_category_indices": [
+      2,
+      19,
+      40,
+      44,
+      46
+    ],
+    "original_category_names": [
+      "Belt",
+      "Hoodie",
+      "Sweater",
+      "T-shirt",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Leggings/Tights",
+        "added_category_idx": 22,
+        "n_samples_requested": 10,
+        "sampled_item_ids": [
+          638899002,
+          120129014,
+          635839002,
+          748853001,
+          764542002,
+          627554004,
+          736877001,
+          894780001,
+          630144001,
+          368979001
+        ],
+        "sampled_item_image_paths": [
+          "063/0638899002.jpg",
+          "012/0120129014.jpg",
+          "063/0635839002.jpg",
+          "074/0748853001.jpg",
+          "076/0764542002.jpg",
+          "062/0627554004.jpg",
+          "073/0736877001.jpg",
+          "089/0894780001.jpg",
+          "063/0630144001.jpg",
+          "036/0368979001.jpg"
+        ],
+        "edited_summary": "The user gravitates toward a modern, minimalist aesthetic with a strong emphasis on clean lines, tailored silhouettes, and versatile neutral tones—particularly black, beige, and white. They favor high-quality, well-constructed basics like slim-fit trousers, relaxed knit tees, and structured knitwear, often incorporating subtle textures and fine detailing (e.g., ribbing, vertical texture, branded insoles). This preference extends to their legwear, where they frequently choose black high-waisted leggings and tights made of smooth stretch fabric; these pieces feature a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish that mirrors the precision of their trousers. There's a clear preference for comfort-driven pieces such as joggers and hoodies, balanced with polished elements like tailored slacks, a sleek belt, and these refined leggings, suggesting a blend of elevated casual and understated urban style. The inclusion of a bold yellow sweater indicates an openness to statement colors, but only within a cohesive, neutral-leaning wardrobe.",
+        "expected_category_indices": [
+          2,
+          19,
+          22,
+          40,
+          44,
+          46
+        ],
+        "expected_category_names": [
+          "Belt",
+          "Hoodie",
+          "Leggings/Tights",
+          "Sweater",
+          "T-shirt",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "928": {
+    "original_summary": "The user exhibits a preference for soft, textured fabrics such as ribbed knits, seamless stretch materials, and sheer or lace detailing, often combining comfort with a touch of sensuality. Their style leans toward a blend of minimalist basics—like white T-shirts and high-waisted swimwear—with bolder, eye-catching elements such as vibrant colors (orange, black, pink), leopard prints, and intricate lace or ruffled accents. There's a clear affinity for high-waisted and low-rise silhouettes across swimwear and underwear, suggesting an appreciation for both flattering, supportive cuts and playful, feminine details. Overall, the user’s fashion sense balances relaxed, effortless wearability with curated, slightly daring design elements, favoring a mix of sporty, bohemian, and sleek modern aesthetics.",
+    "original_category_indices": [
+      41,
+      44,
+      49
+    ],
+    "original_category_names": [
+      "Swimsuit",
+      "T-shirt",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Shirt",
+        "added_category_idx": 33,
+        "n_samples_requested": 10,
+        "sampled_item_ids": [
+          507909026,
+          675068003,
+          689513002,
+          689389052,
+          660004004,
+          697564018,
+          733696001,
+          654780003,
+          763708001,
+          733549002
+        ],
+        "sampled_item_image_paths": [
+          "050/0507909026.jpg",
+          "067/0675068003.jpg",
+          "068/0689513002.jpg",
+          "068/0689389052.jpg",
+          "066/0660004004.jpg",
+          "069/0697564018.jpg",
+          "073/0733696001.jpg",
+          "065/0654780003.jpg",
+          "076/0763708001.jpg",
+          "073/0733549002.jpg"
+        ],
+        "edited_summary": "The user exhibits a preference for soft, textured fabrics such as ribbed knits, seamless stretch materials, and sheer or lace detailing, often combining comfort with a touch of sensuality. Their style leans toward a blend of minimalist basics—like white T-shirts and high-waisted swimwear—with bolder, eye-catching elements such as vibrant colors (orange, black, pink), leopard prints, and intricate lace or ruffled accents. This aesthetic extends to their Shirt collection, where they favor pieces with a clean, tailored finish and subtle side seam detailing, often opting for straight-leg silhouettes crafted from smooth stretch fabrics that offer a sleek, modern look. There's a clear affinity for high-waisted and low-rise silhouettes across swimwear and underwear, suggesting an appreciation for both flattering, supportive cuts and playful, feminine details. Overall, the user's fashion sense balances relaxed, effortless wearability with curated, slightly daring design elements, favoring a mix of sporty, bohemian, and sleek modern aesthetics.",
+        "expected_category_indices": [
+          33,
+          41,
+          44,
+          49
+        ],
+        "expected_category_names": [
+          "Shirt",
+          "Swimsuit",
+          "T-shirt",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "21": {
+    "original_summary": "The user leans toward a bold, contemporary aesthetic with a strong emphasis on structured swimwear and versatile, high-impact basics. Their wardrobe highlights a recurring preference for black, leopard print, and vibrant pops of color like pink, orange, and red—often in playful, patterned or textured forms—suggesting a love for statement pieces with a sporty-chic edge. They favor fitted, tailored silhouettes in jeans and leggings, paired with relaxed or slightly oversized knits and T-shirts, indicating a balance between sleek structure and comfortable, effortless wear. The frequent use of ruching, scalloped edges, adjustable straps, and halter or bandeau styles in swimwear reveals an appreciation for detail-oriented design and functional yet fashionable pieces.",
+    "original_category_indices": [
+      3,
+      22,
+      40,
+      41,
+      44,
+      46
+    ],
+    "original_category_names": [
+      "Bikini top",
+      "Leggings/Tights",
+      "Sweater",
+      "Swimsuit",
+      "T-shirt",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Hair ties",
+        "added_category_idx": 15,
+        "n_samples_requested": 9,
+        "sampled_item_ids": [
+          742947002,
+          523490005,
+          523490007,
+          903374001,
+          556539023,
+          742947003,
+          556539027,
+          693682001
+        ],
+        "sampled_item_image_paths": [
+          "074/0742947002.jpg",
+          "052/0523490005.jpg",
+          "052/0523490007.jpg",
+          "090/0903374001.jpg",
+          "055/0556539023.jpg",
+          "074/0742947003.jpg",
+          "055/0556539027.jpg",
+          "069/0693682001.jpg"
+        ],
+        "edited_summary": "The user leans toward a bold, contemporary aesthetic with a strong emphasis on structured swimwear and versatile, high-impact basics. Their wardrobe highlights a recurring preference for black, leopard print, and vibrant pops of color like pink, orange, and red—often in playful, patterned or textured forms—suggesting a love for statement pieces with a sporty-chic edge. They favor fitted, tailored silhouettes in jeans and leggings, paired with relaxed or slightly oversized knits and T-shirts, indicating a balance between sleek structure and comfortable, effortless wear. This commitment to clean, tailored finishes extends to their accessories, where they frequently opt for hair ties in smooth stretch fabrics and soft velvet scrunchies that offer a polished, functional complement to their look. The frequent use of ruching, scalloped edges, adjustable straps, and halter or bandeau styles in swimwear reveals an appreciation for detail-oriented design and functional yet fashionable pieces.",
+        "expected_category_indices": [
+          3,
+          15,
+          22,
+          40,
+          41,
+          44,
+          46
+        ],
+        "expected_category_names": [
+          "Bikini top",
+          "Hair ties",
+          "Leggings/Tights",
+          "Sweater",
+          "Swimsuit",
+          "T-shirt",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "298": {
+    "original_summary": "The user has a strong preference for minimalist, form-fitting silhouettes with a focus on high-quality textures and subtle detailing. Their wardrobe leans heavily into neutral and monochromatic tones—especially black, gray, and beige—while incorporating strategic pops of color or pattern through accessories like the orange vest or blue denim skirt. Key staples include ribbed knits, high-waisted leggings, and denim mini skirts, suggesting an affinity for both athletic-inspired and casual-chic aesthetics. The inclusion of bikinis and underwear with refined details (like gold buckles, lace trim, and metallic buttons) indicates an appreciation for sleek, modern lingerie and swimwear that blends functionality with understated elegance.",
+    "original_category_indices": [
+      3,
+      22,
+      35,
+      40,
+      49,
+      50
+    ],
+    "original_category_names": [
+      "Bikini top",
+      "Leggings/Tights",
+      "Skirt",
+      "Sweater",
+      "Underwear bottom",
+      "Vest top"
+    ],
+    "additions": [
+      {
+        "added_category": "Swimwear bottom",
+        "added_category_idx": 42,
+        "n_samples_requested": 6,
+        "sampled_item_ids": [
+          820866001,
+          852377001,
+          736701002,
+          600932001,
+          865595002,
+          859236001
+        ],
+        "sampled_item_image_paths": [
+          "082/0820866001.jpg",
+          "085/0852377001.jpg",
+          "073/0736701002.jpg",
+          "060/0600932001.jpg",
+          "086/0865595002.jpg",
+          "085/0859236001.jpg"
+        ],
+        "edited_summary": "The user has a strong preference for minimalist, form-fitting silhouettes with a focus on high-quality textures and subtle detailing. Their wardrobe leans heavily into neutral and monochromatic tones—especially black, gray, and beige—while incorporating strategic pops of color or pattern through accessories like the orange vest or blue denim skirt. Key staples include ribbed knits, high-waisted leggings, and denim mini skirts, suggesting an affinity for both athletic-inspired and casual-chic aesthetics. The inclusion of bikinis and underwear with refined details (like gold buckles, lace trim, and metallic buttons) indicates an appreciation for sleek, modern lingerie and swimwear that blends functionality with understated elegance. This extends to their swimwear bottoms, which favor high-waisted cuts in smooth stretch fabrics with a clean, tailored finish and subtle side seam detailing, often featuring cheeky or Brazilian silhouettes that maintain a streamlined, modern look.",
+        "expected_category_indices": [
+          3,
+          22,
+          35,
+          40,
+          42,
+          49,
+          50
+        ],
+        "expected_category_names": [
+          "Bikini top",
+          "Leggings/Tights",
+          "Skirt",
+          "Sweater",
+          "Swimwear bottom",
+          "Underwear bottom",
+          "Vest top"
+        ]
+      }
+    ]
+  },
+  "933": {
+    "original_summary": "The user has a strong preference for minimalist, elevated basics with a focus on clean lines, high-quality fabrics, and thoughtful details. Their wardrobe leans toward neutral and monochromatic tones—particularly white, black, gray, and beige—paired with occasional bold accents like red and purple, suggesting a balanced mix of timeless elegance and subtle statement pieces. They favor versatile, well-structured silhouettes such as wide-leg trousers, high-waisted jeans, and tailored shirts, often combined with seamless or ribbed knitwear for a soft, modern aesthetic. The inclusion of both luxurious materials (silk, fine knits) and functional, performance-inspired pieces (high-waisted leggings, seamless bras) indicates an appreciation for comfort, form, and a refined, effortless lifestyle style.",
+    "original_category_indices": [
+      8,
+      22,
+      33,
+      40,
+      46
+    ],
+    "original_category_names": [
+      "Bra",
+      "Leggings/Tights",
+      "Shirt",
+      "Sweater",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Belt",
+        "added_category_idx": 2,
+        "n_samples_requested": 4,
+        "sampled_item_ids": [
+          860681001,
+          856992001,
+          907415001,
+          759482003
+        ],
+        "sampled_item_image_paths": [
+          "086/0860681001.jpg",
+          "085/0856992001.jpg",
+          "090/0907415001.jpg",
+          "075/0759482003.jpg"
+        ],
+        "edited_summary": "The user has a strong preference for minimalist, elevated basics with a focus on clean lines, high-quality fabrics, and thoughtful details. Their wardrobe leans toward neutral and monochromatic tones—particularly white, black, gray, and beige—paired with occasional bold accents like red and purple, suggesting a balanced mix of timeless elegance and subtle statement pieces. They favor versatile, well-structured silhouettes such as wide-leg trousers, high-waisted jeans, and tailored shirts, often combined with seamless or ribbed knitwear for a soft, modern aesthetic. This structured approach extends to their belt selection, where they gravitate toward pieces that complement high-waisted trousers made of smooth stretch fabric, featuring straight-leg silhouettes with subtle side seam detailing and a clean, tailored finish. The inclusion of both luxurious materials (silk, fine knits) and functional, performance-inspired pieces (high-waisted leggings, seamless bras) indicates an appreciation for comfort, form, and a refined, effortless lifestyle style.",
+        "expected_category_indices": [
+          2,
+          8,
+          22,
+          33,
+          40,
+          46
+        ],
+        "expected_category_names": [
+          "Belt",
+          "Bra",
+          "Leggings/Tights",
+          "Shirt",
+          "Sweater",
+          "Trousers"
+        ]
+      }
+    ]
+  },
+  "440": {
+    "original_summary": "The user exhibits a bold, eclectic style that blends vintage-inspired denim with modern, feminine silhouettes and playful prints. They favor a mix of high-contrast textures—like the leopard-print Havana dress and distressed denim—paired with sleek, minimalist basics such as black ribbed knits and seamless underwear, suggesting an appreciation for both statement pieces and understated essentials. A recurring theme is the fusion of edgy details (fraying, rips, drawstrings) with romantic elements (lace trim, floral prints, ruffles), indicating a love for juxtaposition and individuality. Their preference for black and neutral tones, especially in foundational items like tops, shorts, and underwear, points to a desire for versatility and a cohesive, wearable wardrobe with a touch of attitude.",
+    "original_category_indices": [
+      12,
+      34,
+      40,
+      45,
+      46,
+      49
+    ],
+    "original_category_names": [
+      "Dress",
+      "Shorts",
+      "Sweater",
+      "Top",
+      "Trousers",
+      "Underwear bottom"
+    ],
+    "additions": [
+      {
+        "added_category": "Underwear Tights",
+        "added_category_idx": 47,
+        "n_samples_requested": 3,
+        "sampled_item_ids": [
+          201219013,
+          432566001,
+          493103035
+        ],
+        "sampled_item_image_paths": [
+          "020/0201219013.jpg",
+          "043/0432566001.jpg",
+          "049/0493103035.jpg"
+        ],
+        "edited_summary": "The user exhibits a bold, eclectic style that blends vintage-inspired denim with modern, feminine silhouettes and playful prints. They favor a mix of high-contrast textures—like the leopard-print Havana dress and distressed denim—paired with sleek, minimalist basics such as black ribbed knits and seamless underwear, suggesting an appreciation for both statement pieces and understated essentials. A recurring theme is the fusion of edgy details (fraying, rips, drawstrings) with romantic elements (lace trim, floral prints, ruffles), indicating a love for juxtaposition and individuality. Their preference for black and neutral tones, especially in foundational items like tops, shorts, and underwear, points to a desire for versatility and a cohesive, wearable wardrobe with a touch of attitude. This foundation is further anchored by a reliance on black high-waisted tights made of smooth stretch fabric, which offer a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish to seamlessly bridge the gap between their edgy and romantic pieces.",
+        "expected_category_indices": [
+          12,
+          34,
+          40,
+          45,
+          46,
+          47,
+          49
+        ],
+        "expected_category_names": [
+          "Dress",
+          "Shorts",
+          "Sweater",
+          "Top",
+          "Trousers",
+          "Underwear Tights",
+          "Underwear bottom"
+        ]
+      }
+    ]
+  },
+  "587": {
+    "original_summary": "The user leans toward a minimalist, modern aesthetic with a strong emphasis on neutral and earth-toned palettes—predominantly black, white, beige, and olive green—balanced with occasional pops of mustard yellow. Their style centers on refined layering, combining structured pieces like the black blazer and tailored jeans with relaxed, oversized silhouettes such as the beige hoodie and oversized t-shirts, creating a balanced contrast between sharp tailoring and effortless comfort. They favor high-quality, textural fabrics like fine-knit stretch cotton, ribbed knits, and wool blends, often featuring subtle details like ribbed hems, branded tags, and clean seamwork. Overall, their wardrobe reflects a sophisticated, urban-chic sensibility—polished yet relaxed, with an eye for both functionality and understated elegance.",
+    "original_category_indices": [
+      4,
+      19,
+      44,
+      46
+    ],
+    "original_category_names": [
+      "Blazer",
+      "Hoodie",
+      "T-shirt",
+      "Trousers"
+    ],
+    "additions": [
+      {
+        "added_category": "Leggings/Tights",
+        "added_category_idx": 22,
+        "n_samples_requested": 6,
+        "sampled_item_ids": [
+          918892001,
+          786132004,
+          722681001,
+          368979001,
+          367372001,
+          894780001
+        ],
+        "sampled_item_image_paths": [
+          "091/0918892001.jpg",
+          "078/0786132004.jpg",
+          "072/0722681001.jpg",
+          "036/0368979001.jpg",
+          "036/0367372001.jpg",
+          "089/0894780001.jpg"
+        ],
+        "edited_summary": "The user leans toward a minimalist, modern aesthetic with a strong emphasis on neutral and earth-toned palettes—predominantly black, white, beige, and olive green—balanced with occasional pops of mustard yellow. Their style centers on refined layering, combining structured pieces like the black blazer and tailored jeans with relaxed, oversized silhouettes such as the beige hoodie and oversized t-shirts, creating a balanced contrast between sharp tailoring and effortless comfort. This versatility extends to their lower-body choices, where they frequently incorporate black high-waisted leggings and tights made of smooth stretch fabric; these pieces feature a straight-leg silhouette with subtle side seam detailing and a clean, tailored finish, offering a sleek alternative to denim while maintaining a polished look. They favor high-quality, textural fabrics like fine-knit stretch cotton, ribbed knits, and wool blends, often featuring subtle details like ribbed hems, branded tags, and clean seamwork. Overall, their wardrobe reflects a sophisticated, urban-chic sensibility—polished yet relaxed, with an eye for both functionality and understated elegance.",
+        "expected_category_indices": [
+          4,
+          19,
+          22,
+          44,
+          46
+        ],
+        "expected_category_names": [
+          "Blazer",
+          "Hoodie",
+          "Leggings/Tights",
+          "T-shirt",
+          "Trousers"
+        ]
+      }
+    ]
+  }
+}
